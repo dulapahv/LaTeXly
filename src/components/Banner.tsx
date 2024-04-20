@@ -13,28 +13,31 @@ const Banner = () => {
   return (
     <>
       {isVisible ? (
-        <div className="isolate flex items-center justify-center gap-x-3 border-b-1 bg-yellow-100 p-1.5">
-          <span className="text-sm">
-            LaTeXly is currently under development
-          </span>
-          <Button
-            href="https://github.com/dulapahv/LaTeXly"
-            as={Link}
-            showAnchorIcon
-            isExternal
-            size="sm"
-            radius="full"
-            className="h-6"
-          >
-            GitHub
-          </Button>
+        <div className="isolate flex justify-between border-b-1 bg-yellow-100 p-0.5">
+          <span aria-hidden="true"></span>
+          <div className="flex items-center gap-x-3">
+            <span className="text-sm">
+              LaTeXly is currently under development
+            </span>
+            <Button
+              href="https://github.com/dulapahv/LaTeXly"
+              as={Link}
+              showAnchorIcon
+              isExternal
+              size="sm"
+              radius="full"
+              className="h-6"
+            >
+              GitHub
+            </Button>
+          </div>
           <Button
             onPress={() => setIsVisible(false)}
             isIconOnly
             size="sm"
             radius="full"
             variant="light"
-            className="absolute right-1"
+            className=""
             aria-label="Close"
           >
             <IoClose className="text-base text-black" />
