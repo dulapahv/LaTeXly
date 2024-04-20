@@ -19,6 +19,7 @@ Most comprehensive online LaTeX equation editor with live preview and syntax hig
 - [ ] Prettify equation
 - [ ] Minify equation
 - [ ] Example equations (including Chemistry and Physics)
+- [ ] Light/Dark/System theme
 - [ ] More LaTeX customization
 
 ## Development
