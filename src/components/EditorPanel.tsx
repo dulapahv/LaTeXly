@@ -3,6 +3,7 @@
  *
  * References:
  * https://github.com/react-simple-code-editor/react-simple-code-editor
+ * https://github.com/react-simple-code-editor/react-simple-code-editor/blob/main/example/App.tsx
  * https://codesandbox.io/p/sandbox/react-simple-editor-linenumbers-wy240?file=%2Fsrc%2Findex.js
  */
 
