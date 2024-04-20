@@ -33,7 +33,7 @@ const EditorPanel = () => {
       .join('\n');
 
   return (
-    <div className="h-full overflow-y-auto [border-right-width:calc(2px*var(--tw-divide-x-reverse))]">
+    <div className="h-full overflow-y-auto border-r-1.5">
       <Editor
         placeholder="Enter a LaTeX equation... e.g. x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}"
         className="min-h-full font-mono text-sm sm:text-base"
