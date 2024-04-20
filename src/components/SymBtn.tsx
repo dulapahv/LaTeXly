@@ -9,9 +9,10 @@
 import { BlockMath, InlineMath } from 'react-katex';
 
 import { useEditor } from '@/context';
-import { Button } from '@nextui-org/react';
+import { Button, Tooltip } from '@nextui-org/react';
 
 interface SymBtnProps {
+  name: string;
   text: string;
   value: string;
   caretPosition?: number;
@@ -19,6 +20,7 @@ interface SymBtnProps {
 }
 
 const SymBtn = ({
+  name,
   text,
   value,
   caretPosition = value.length,
@@ -48,16 +50,27 @@ const SymBtn = ({
   };
 
   return (
-    <Button
-      onPress={() => handleInsert(text)}
-      className="text-base"
-      isIconOnly
-      size="sm"
-      variant="light"
-      aria-label={text}
+    <Tooltip
+      disableAnimation
+      closeDelay={0}
+      content={
+        <>
+          <span className="text-xs font-semibold">{name}</span>
+          <span className="text-xs">{text}</span>
+        </>
+      }
     >
-      {isBlockMath ? <BlockMath math={text} /> : <InlineMath math={text} />}
-    </Button>
+      <Button
+        onPress={() => handleInsert(value)}
+        className="text-base"
+        isIconOnly
+        size="sm"
+        variant="light"
+        aria-label={text}
+      >
+        {isBlockMath ? <BlockMath math={text} /> : <InlineMath math={text} />}
+      </Button>
+    </Tooltip>
   );
 };
 
