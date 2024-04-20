@@ -1,0 +1,161 @@
+{
+  "title": "AMS Arrows",
+  "displayLength": 6,
+  "symbols": [
+    {
+      "name": "DashLeftArrow",
+      "text": "\\dashleftarrow",
+      "value": "\\dashleftarrow "
+    },
+    {
+      "name": "DashRightArrow",
+      "text": "\\dashrightarrow",
+      "value": "\\dashrightarrow "
+    },
+    {
+      "name": "Multimap",
+      "text": "\\multimap",
+      "value": "\\multimap "
+    },
+    {
+      "name": "LeftLeftArrows",
+      "text": "\\leftleftarrows",
+      "value": "\\leftleftarrows "
+    },
+    {
+      "name": "RightRightArrows",
+      "text": "\\rightrightarrows",
+      "value": "\\rightrightarrows "
+    },
+    {
+      "name": "UpUpArrows",
+      "text": "\\upuparrows",
+      "value": "\\upuparrows "
+    },
+    {
+      "name": "LeftRightArrows",
+      "text": "\\leftrightarrows",
+      "value": "\\leftrightarrows "
+    },
+    {
+      "name": "RightLeftArrows",
+      "text": "\\rightleftarrows",
+      "value": "\\rightleftarrows "
+    },
+    {
+      "name": "DownDownArrows",
+      "text": "\\downdownarrows",
+      "value": "\\downdownarrows "
+    },
+    {
+      "name": "Lleftarrow",
+      "text": "\\Lleftarrow",
+      "value": "\\Lleftarrow "
+    },
+    {
+      "name": "Rrightarrow",
+      "text": "\\Rrightarrow",
+      "value": "\\Rrightarrow "
+    },
+    {
+      "name": "UpHarpoonLeft",
+      "text": "\\upharpoonleft",
+      "value": "\\upharpoonleft "
+    },
+    {
+      "name": "TwoHeadLeftArrow",
+      "text": "\\twoheadleftarrow",
+      "value": "\\twoheadleftarrow "
+    },
+    {
+      "name": "TwoHeadRightArrow",
+      "text": "\\twoheadrightarrow",
+      "value": "\\twoheadrightarrow "
+    },
+    {
+      "name": "UpHarpoonRight",
+      "text": "\\upharpoonright",
+      "value": "\\downharpoonleft "
+    },
+    {
+      "name": "LeftArrowTail",
+      "text": "\\leftarrowtail",
+      "value": "\\leftarrowtail "
+    },
+    {
+      "name": "RightArrowTail",
+      "text": "\\rightarrowtail",
+      "value": "\\rightarrowtail "
+    },
+    {
+      "name": "DownHarpoonLeft",
+      "text": "\\downharpoonleft",
+      "value": "\\downharpoonleft "
+    },
+    {
+      "name": "LeftRightHarpoons",
+      "text": "\\leftrightharpoons",
+      "value": "\\leftrightharpoons "
+    },
+    {
+      "name": "RightLeftHarpoons",
+      "text": "\\rightleftharpoons",
+      "value": "\\rightleftharpoons "
+    },
+    {
+      "name": "DownHarpoonRight",
+      "text": "\\downharpoonright",
+      "value": "\\upharpoonright "
+    },
+    {
+      "name": "Lsh",
+      "text": "\\Lsh",
+      "value": "\\Lsh "
+    },
+    {
+      "name": "Rsh",
+      "text": "\\Rsh",
+      "value": "\\Rsh "
+    },
+    {
+      "name": "RightSquigArrow",
+      "text": "\\rightsquigarrow",
+      "value": "\\rightsquigarrow "
+    },
+    {
+      "name": "LoopArrowLeft",
+      "text": "\\looparrowleft",
+      "value": "\\looparrowleft "
+    },
+    {
+      "name": "LoopArrowRight",
+      "text": "\\looparrowright",
+      "value": "\\looparrowright "
+    },
+    {
+      "name": "LeftRightSquigArrow",
+      "text": "\\leftrightsquigarrow",
+      "value": "\\leftrightsquigarrow "
+    },
+    {
+      "name": "CurveArrowLeft",
+      "text": "\\curvearrowleft",
+      "value": "\\curvearrowleft "
+    },
+    {
+      "name": "CurveArrowRight",
+      "text": "\\curvearrowright",
+      "value": "\\curvearrowright "
+    },
+    {
+      "name": "CircleArrowLeft",
+      "text": "\\circlearrowleft",
+      "value": "\\circlearrowleft "
+    },
+    {
+      "name": "CircleArrowRight",
+      "text": "\\circlearrowright",
+      "value": "\\circlearrowright "
+    }
+  ]
+}

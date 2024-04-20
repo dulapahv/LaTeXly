@@ -1,0 +1,26 @@
+{
+  "title": "AMS Delimiters",
+  "displayLength": 4,
+  "symbols": [
+    {
+      "name": "Upper Left Corner",
+      "text": "\\ulcorner",
+      "value": "\\ulcorner "
+    },
+    {
+      "name": "Upper Right Corner",
+      "text": "\\urcorner",
+      "value": "\\urcorner "
+    },
+    {
+      "name": "Lower Left Corner",
+      "text": "\\llcorner",
+      "value": "\\llcorner "
+    },
+    {
+      "name": "Lower Right Corner",
+      "text": "\\lrcorner",
+      "value": "\\lrcorner "
+    }
+  ]
+}

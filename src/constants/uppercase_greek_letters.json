@@ -1,0 +1,61 @@
+{
+  "title": "Uppercase Greek Letters",
+  "displayLength": 5,
+  "symbols": [
+    {
+      "name": "Gamma",
+      "text": "\\Gamma",
+      "value": "\\Gamma "
+    },
+    {
+      "name": "Lambda",
+      "text": "\\Lambda",
+      "value": "\\Lambda "
+    },
+    {
+      "name": "Sigma",
+      "text": "\\Sigma",
+      "value": "\\Sigma "
+    },
+    {
+      "name": "Psi",
+      "text": "\\Psi",
+      "value": "\\Psi "
+    },
+    {
+      "name": "Delta",
+      "text": "\\Delta",
+      "value": "\\Delta "
+    },
+    {
+      "name": "Xi",
+      "text": "\\Xi",
+      "value": "\\Xi "
+    },
+    {
+      "name": "Upsilon",
+      "text": "\\Upsilon",
+      "value": "\\Upsilon "
+    },
+    {
+      "name": "Omega",
+      "text": "\\Omega",
+      "value": "\\Omega "
+    },
+    {
+      "name": "Theta",
+      "text": "\\Theta",
+      "value": "\\Theta "
+    },
+    {
+      "name": "Pi",
+      "text": "\\Pi",
+      "value": "\\Pi "
+    },
+    {
+      "name": "Phi",
+      "text": "\\Phi",
+      "value": "\\Phi "
+    }
+  ]
+}

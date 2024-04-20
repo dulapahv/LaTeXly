@@ -1,0 +1,206 @@
+{
+  "title": "Binary Relations",
+  "displayLength": 6,
+  "symbols": [
+    {
+      "name": "Less Than",
+      "text": "\\lt",
+      "value": "\\lt "
+    },
+    {
+      "name": "Greater Than",
+      "text": "\\gt",
+      "value": "\\gt "
+    },
+    {
+      "name": "Equal",
+      "text": "=",
+      "value": "= "
+    },
+    {
+      "name": "Less Than or Equal",
+      "text": "\\le",
+      "value": "\\le "
+    },
+    {
+      "name": "Greater Than or Equal",
+      "text": "\\ge",
+      "value": "\\ge "
+    },
+    {
+      "name": "Equivalent",
+      "text": "\\equiv",
+      "value": "\\equiv "
+    },
+    {
+      "name": "Much Less Than",
+      "text": "\\ll",
+      "value": "\\ll "
+    },
+    {
+      "name": "Much Greater Than",
+      "text": "\\gg",
+      "value": "\\gg "
+    },
+    {
+      "name": "Dot Equals",
+      "text": "\\doteq",
+      "value": "\\doteq "
+    },
+    {
+      "name": "Precedes",
+      "text": "\\prec",
+      "value": "\\prec "
+    },
+    {
+      "name": "Succeeds",
+      "text": "\\succ",
+      "value": "\\succ "
+    },
+    {
+      "name": "Similar",
+      "text": "\\sim",
+      "value": "\\sim "
+    },
+    {
+      "name": "Precedes or Equal",
+      "text": "\\preceq",
+      "value": "\\preceq "
+    },
+    {
+      "name": "Succeeds or Equal",
+      "text": "\\succeq",
+      "value": "\\succeq "
+    },
+    {
+      "name": "Similar or Equal",
+      "text": "\\simeq",
+      "value": "\\simeq "
+    },
+    {
+      "name": "Subset",
+      "text": "\\subset",
+      "value": "\\subset "
+    },
+    {
+      "name": "Superset",
+      "text": "\\supset",
+      "value": "\\supset "
+    },
+    {
+      "name": "Approximately Equal",
+      "text": "\\approx",
+      "value": "\\approx "
+    },
+    {
+      "name": "Subset or Equal",
+      "text": "\\subseteq",
+      "value": "\\subseteq "
+    },
+    {
+      "name": "Superset or Equal",
+      "text": "\\supseteq",
+      "value": "\\supseteq "
+    },
+    {
+      "name": "Congruent",
+      "text": "\\cong",
+      "value": "\\cong "
+    },
+    {
+      "name": "Square Subset",
+      "text": "\\sqsubset",
+      "value": "\\sqsubset "
+    },
+    {
+      "name": "Square Superset",
+      "text": "\\sqsupset",
+      "value": "\\sqsupset "
+    },
+    {
+      "name": "Join",
+      "text": "\\Join",
+      "value": "\\Join "
+    },
+    {
+      "name": "Square Subset or Equal",
+      "text": "\\sqsubseteq",
+      "value": "\\sqsubseteq "
+    },
+    {
+      "name": "Square Superset or Equal",
+      "text": "\\sqsupseteq",
+      "value": "\\sqsupseteq "
+    },
+    {
+      "name": "Bowtie",
+      "text": "\\bowtie",
+      "value": "\\bowtie "
+    },
+    {
+      "name": "Element of",
+      "text": "\\in",
+      "value": "\\in "
+    },
+    {
+      "name": "Contains as Member",
+      "text": "\\ni",
+      "value": "\\ni "
+    },
+    {
+      "name": "Proportional To",
+      "text": "\\propto",
+      "value": "\\propto "
+    },
+    {
+      "name": "Right Tack",
+      "text": "\\vdash",
+      "value": "\\vdash "
+    },
+    {
+      "name": "Left Tack",
+      "text": "\\dashv",
+      "value": "\\dashv "
+    },
+    {
+      "name": "Models",
+      "text": "\\models",
+      "value": "\\models "
+    },
+    {
+      "name": "Divides",
+      "text": "\\mid",
+      "value": "\\mid "
+    },
+    {
+      "name": "Parallel To",
+      "text": "\\parallel",
+      "value": "\\parallel "
+    },
+    {
+      "name": "Perpendicular",
+      "text": "\\perp",
+      "value": "\\perp "
+    },
+    {
+      "name": "Smile",
+      "text": "\\smile",
+      "value": "\\smile "
+    },
+    {
+      "name": "Frown",
+      "text": "\\frown",
+      "value": "\\frown "
+    },
+    {
+      "name": "Almost Equal To",
+      "text": "\\asymp",
+      "value": "\\asymp "
+    },
+    {
+      "name": "Colon",
+      "text": ":",
+      "value": ": "
+    }
+  ]
+}

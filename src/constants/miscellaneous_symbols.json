@@ -1,0 +1,186 @@
+{
+  "title": "Miscellaneous Symbols",
+  "displayLength": 5,
+  "symbols": [
+    {
+      "name": "Dots",
+      "text": "\\dots",
+      "value": "\\dots "
+    },
+    {
+      "name": "Centered Dots",
+      "text": "\\cdots",
+      "value": "\\cdots "
+    },
+    {
+      "name": "Vertical Dots",
+      "text": "\\vdots",
+      "value": "\\vdots "
+    },
+    {
+      "name": "Diagonal Dots",
+      "text": "\\ddots",
+      "value": "\\ddots "
+    },
+    {
+      "name": "Planck's constant over 2 pi",
+      "text": "\\hbar",
+      "value": "\\hbar "
+    },
+    {
+      "name": "Dotless i",
+      "text": "\\imath",
+      "value": "\\imath "
+    },
+    {
+      "name": "Dotless j",
+      "text": "\\jmath",
+      "value": "\\jmath "
+    },
+    {
+      "name": "Script l",
+      "text": "\\ell",
+      "value": "\\ell "
+    },
+    {
+      "name": "Script R",
+      "text": "\\Re",
+      "value": "\\Re "
+    },
+    {
+      "name": "Script I",
+      "text": "\\Im",
+      "value": "\\Im "
+    },
+    {
+      "name": "Aleph",
+      "text": "\\aleph",
+      "value": "\\aleph "
+    },
+    {
+      "name": "Weierstrass p",
+      "text": "\\wp",
+      "value": "\\wp "
+    },
+    {
+      "name": "For all",
+      "text": "\\forall",
+      "value": "\\forall "
+    },
+    {
+      "name": "Exists",
+      "text": "\\exists",
+      "value": "\\exists "
+    },
+    {
+      "name": "Mho",
+      "text": "\\mho",
+      "value": "\\mho "
+    },
+    {
+      "name": "Partial",
+      "text": "\\partial",
+      "value": "\\partial "
+    },
+    {
+      "name": "Prime",
+      "text": "'",
+      "value": "' "
+    },
+    {
+      "name": "Prime",
+      "text": "\\prime",
+      "value": "\\prime "
+    },
+    {
+      "name": "Empty set",
+      "text": "\\emptyset",
+      "value": "\\emptyset "
+    },
+    {
+      "name": "Infinity",
+      "text": "\\infty",
+      "value": "\\infty "
+    },
+    {
+      "name": "Nabla",
+      "text": "\\nabla",
+      "value": "\\nabla "
+    },
+    {
+      "name": "Triangle",
+      "text": "\\triangle",
+      "value": "\\triangle "
+    },
+    {
+      "name": "Open Box",
+      "text": "\\Box",
+      "value": "\\Box "
+    },
+    {
+      "name": "Diamond",
+      "text": "\\Diamond",
+      "value": "\\Diamond "
+    },
+    {
+      "name": "Perpendicular",
+      "text": "\\bot",
+      "value": "\\bot "
+    },
+    {
+      "name": "Perpendicular",
+      "text": "\\top",
+      "value": "\\top "
+    },
+    {
+      "name": "Angle",
+      "text": "\\angle",
+      "value": "\\angle "
+    },
+    {
+      "name": "Square root",
+      "text": "\\surd",
+      "value": "\\surd "
+    },
+    {
+      "name": "Diamond suit",
+      "text": "\\diamondsuit",
+      "value": "\\diamondsuit "
+    },
+    {
+      "name": "Heart suit",
+      "text": "\\heartsuit",
+      "value": "\\heartsuit "
+    },
+    {
+      "name": "Club suit",
+      "text": "\\clubsuit",
+      "value": "\\clubsuit "
+    },
+    {
+      "name": "Spade suit",
+      "text": "\\spadesuit",
+      "value": "\\spadesuit "
+    },
+    {
+      "name": "Negation",
+      "text": "\\neg",
+      "value": "\\neg "
+    },
+    {
+      "name": "Flat",
+      "text": "\\flat",
+      "value": "\\flat "
+    },
+    {
+      "name": "Natural",
+      "text": "\\natural",
+      "value": "\\natural "
+    },
+    {
+      "name": "Sharp",
+      "text": "\\sharp",
+      "value": "\\sharp "
+    }
+  ]
+}
