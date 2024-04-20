@@ -37,7 +37,6 @@ const Banner = () => {
             size="sm"
             radius="full"
             variant="light"
-            className=""
             aria-label="Close"
           >
             <IoClose className="text-base text-black" />
