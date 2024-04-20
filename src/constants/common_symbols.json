@@ -177,7 +177,7 @@
     {
       "name": "Set Braces",
       "text": "\\{\\}",
-      "value": "\\{   \\}",
+      "value": "\\{  \\}",
       "caretPosition": 4
     },
     {
