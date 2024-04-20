@@ -14,7 +14,7 @@ export { default as ams_greek_and_hebrew } from './ams_greek_and_hebrew.json';
 export { default as ams_binary_relations } from './ams_binary_relations.json';
 export { default as ams_arrows } from './ams_arrows.json';
 
-export interface Symbols {
+export interface SymbolsGroup {
   title: string;
   displayLength: number;
   symbols: {

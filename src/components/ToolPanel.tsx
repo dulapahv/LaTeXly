@@ -25,14 +25,14 @@ import {
   math_mode_accents,
   miscellaneous_symbols,
   non_mathematical_symbols,
-  Symbols,
+  SymbolsGroup,
   uppercase_greek_letters,
 } from '@/constants';
 
-import { SymBtn } from '.';
+import { SymbolButton } from '.';
 
 const ToolPanel = () => {
-  const allSymbols: Symbols[] = [
+  const symbolsGroups: SymbolsGroup[] = [
     common_symbols,
     math_mode_accents,
     lowercase_greek_letters,
@@ -52,33 +52,37 @@ const ToolPanel = () => {
 
   return (
     <ScrollShadow className="flex h-full flex-row flex-wrap content-start overflow-y-scroll p-2 *:relative *:size-fit hover:[&>*:not(&_.group\/no-drawer)]:rounded-t-lg hover:[&>*:not(&_.group\/no-drawer)]:shadow-small [&>*:not(:last-child)]:border-r [&>div>div]:absolute [&>div>div]:z-10 [&>div>div]:hidden [&>div>div]:rounded-b-lg [&>div>div]:border-b-1 [&>div>div]:bg-white [&>div>div]:shadow-lg [&>div>p]:relative [&>div>p]:flex [&>div>p]:w-full [&>div>p]:justify-center [&>div>p]:[font-size:11px]">
-      {allSymbols.map((symbols) => (
+      {symbolsGroups.map((symbolsGroup) => (
         <div
-          key={symbols.title}
+          key={symbolsGroup.title}
           className={
-            symbols.symbols.length > symbols.displayLength
+            symbolsGroup.symbols.length > symbolsGroup.displayLength
               ? 'group'
               : 'group/no-drawer'
           }
         >
-          {symbols.symbols.slice(0, symbols.displayLength).map((symbol) => (
-            <SymBtn key={symbol.text} {...symbol} />
-          ))}
-          {symbols.symbols.length > symbols.displayLength ? (
+          {symbolsGroup.symbols
+            .slice(0, symbolsGroup.displayLength)
+            .map((symbol) => (
+              <SymbolButton key={symbol.text} {...symbol} />
+            ))}
+          {symbolsGroup.symbols.length > symbolsGroup.displayLength ? (
             <div
               className="group-hover:grid"
               style={{
-                gridTemplateColumns: `repeat(${symbols.displayLength}, minmax(0, 1fr));`,
+                gridTemplateColumns: `repeat(${symbolsGroup.displayLength}, minmax(0, 1fr));`,
               }}
             >
-              {symbols.symbols.slice(symbols.displayLength).map((symbol) => (
-                <SymBtn key={symbol.name} {...symbol} />
-              ))}
+              {symbolsGroup.symbols
+                .slice(symbolsGroup.displayLength)
+                .map((symbol) => (
+                  <SymbolButton key={symbol.name} {...symbol} />
+                ))}
             </div>
           ) : null}
           <p>
-            {symbols.title}
-            {symbols.symbols.length > symbols.displayLength ? (
+            {symbolsGroup.title}
+            {symbolsGroup.symbols.length > symbolsGroup.displayLength ? (
               <TbArrowDownRight className="absolute bottom-0.5 right-0" />
             ) : null}
           </p>

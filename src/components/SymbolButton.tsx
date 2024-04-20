@@ -11,7 +11,7 @@ import { BlockMath, InlineMath } from 'react-katex';
 import { useEditor } from '@/context';
 import { Button, Tooltip } from '@nextui-org/react';
 
-interface SymBtnProps {
+interface SymbolButtonProps {
   name: string;
   text: string;
   value: string;
@@ -19,13 +19,13 @@ interface SymBtnProps {
   isBlockMath?: boolean;
 }
 
-const SymBtn = ({
+const SymbolButton = ({
   name,
   text,
   value,
   caretPosition = value.length,
   isBlockMath = false,
-}: SymBtnProps) => {
+}: SymbolButtonProps) => {
   const { setEquation } = useEditor();
 
   const handleInsert = (value: string) => {
@@ -74,4 +74,4 @@ const SymBtn = ({
   );
 };
 
-export default SymBtn;
+export default SymbolButton;
