@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* @apply !outline outline-1 outline-red; */
+  @apply scroll-smooth;
+}
+
+::-webkit-scrollbar {
+  @apply size-2;
+}
+::-webkit-scrollbar-track-piece {
+  @apply rounded-full;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-[#a7a7a7] hover:bg-[#888888];
+}
