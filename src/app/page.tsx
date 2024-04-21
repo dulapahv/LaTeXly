@@ -17,17 +17,17 @@ import {
 } from '@/components';
 
 const Home = () => {
-  const LaTeXPanelRef = useRef<LaTeXPanelRef>(null);
+  const latexPanelRef = useRef<LaTeXPanelRef>(null);
 
   return (
     <NextUIProvider>
       <Banner />
       <div className="flex h-screen flex-col *:h-1/2">
         <div className="flex flex-row border-b-1.5 *:w-1/2">
-          <EditorPanel latexPanelRef={LaTeXPanelRef} />
+          <EditorPanel latexPanelRef={latexPanelRef} />
           <ToolPanel />
         </div>
-        <LaTeXPanel ref={LaTeXPanelRef} />
+        <LaTeXPanel ref={latexPanelRef} />
       </div>
       <Footer />
     </NextUIProvider>
