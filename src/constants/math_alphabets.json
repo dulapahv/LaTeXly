@@ -21,6 +21,12 @@
       "caretPosition": 8
     },
     {
+      "name": "BF",
+      "text": "\\mathbf{Ab}",
+      "value": "\\mathbf{}",
+      "caretPosition": 8
+    },
+    {
       "name": "CAL",
       "text": "\\mathcal{Ab}",
       "value": "\\mathcal{}",
