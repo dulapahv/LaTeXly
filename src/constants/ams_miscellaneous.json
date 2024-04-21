@@ -1,0 +1,136 @@
+{
+  "title": "AMS Miscellaneous",
+  "displayLength": 4,
+  "symbols": [
+    {
+      "name": "HBar",
+      "text": "\\hbar",
+      "value": "\\hbar "
+    },
+    {
+      "name": "HSlash",
+      "text": "\\hslash",
+      "value": "\\hslash "
+    },
+    {
+      "name": "Square",
+      "text": "\\square",
+      "value": "\\square "
+    },
+    {
+      "name": "BlackSquare",
+      "text": "\\blacksquare",
+      "value": "\\blacksquare "
+    },
+    {
+      "name": "VarTriangle",
+      "text": "\\vartriangle",
+      "value": "\\vartriangle "
+    },
+    {
+      "name": "TriangleDown",
+      "text": "\\triangledown",
+      "value": "\\triangledown "
+    },
+    {
+      "name": "BlackTriangle",
+      "text": "\\blacktriangle",
+      "value": "\\blacktriangle "
+    },
+    {
+      "name": "BlackTriangleDown",
+      "text": "\\blacktriangledown",
+      "value": "\\blacktriangledown "
+    },
+    {
+      "name": "Lozenge",
+      "text": "\\lozenge",
+      "value": "\\lozenge "
+    },
+    {
+      "name": "BlackLozenge",
+      "text": "\\blacklozenge",
+      "value": "\\blacklozenge "
+    },
+    {
+      "name": "Angle",
+      "text": "\\angle",
+      "value": "\\angle "
+    },
+    {
+      "name": "MeasuredAngle",
+      "text": "\\measuredangle",
+      "value": "\\measuredangle "
+    },
+    {
+      "name": "SphericalAngle",
+      "text": "\\sphericalangle",
+      "value": "\\sphericalangle "
+    },
+    {
+      "name": "DiagUp",
+      "text": "\\diagup",
+      "value": "\\diagup "
+    },
+    {
+      "name": "DiagDown",
+      "text": "\\diagdown",
+      "value": "\\diagdown "
+    },
+    {
+      "name": "Bbbk",
+      "text": "\\Bbbk",
+      "value": "\\Bbbk "
+    },
+    {
+      "name": "CircledS",
+      "text": "\\circledS",
+      "value": "\\circledS "
+    },
+    {
+      "name": "Complement",
+      "text": "\\complement",
+      "value": "\\complement "
+    },
+    {
+      "name": "Game",
+      "text": "\\Game",
+      "value": "\\Game "
+    },
+    {
+      "name": "BigStar",
+      "text": "\\bigstar",
+      "value": "\\bigstar "
+    },
+    {
+      "name": "BackPrime",
+      "text": "\\backprime",
+      "value": "\\backprime "
+    },
+    {
+      "name": "NExists",
+      "text": "\\nexists",
+      "value": "\\nexists "
+    },
+    {
+      "name": "Finv",
+      "text": "\\Finv",
+      "value": "\\Finv "
+    },
+    {
+      "name": "VarNothing",
+      "text": "\\varnothing",
+      "value": "\\varnothing "
+    },
+    {
+      "name": "Eth",
+      "text": "\\eth",
+      "value": "\\eth "
+    },
+    {
+      "name": "Mho",
+      "text": "\\mho",
+      "value": "\\mho "
+    }
+  ]
+}

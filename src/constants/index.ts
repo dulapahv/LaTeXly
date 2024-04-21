@@ -13,6 +13,10 @@ export { default as ams_delimiters } from './ams_delimiters.json';
 export { default as ams_greek_and_hebrew } from './ams_greek_and_hebrew.json';
 export { default as ams_binary_relations } from './ams_binary_relations.json';
 export { default as ams_arrows } from './ams_arrows.json';
+export { default as ams_negated_binary_relations_and_arrows } from './ams_negated_binary_relations_and_arrows.json';
+export { default as ams_binary_operators } from './ams_binary_operators.json';
+export { default as ams_miscellaneous } from './ams_miscellaneous.json';
+export { default as math_alphabets } from './math_alphabets.json';
 
 export interface SymbolsGroup {
   title: string;

@@ -1,0 +1,48 @@
+{
+  "title": "Math Alphabets",
+  "displayLength": 4,
+  "symbols": [
+    {
+      "name": "BB",
+      "text": "\\mathbb{AB}",
+      "value": "\\mathbb{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "RM",
+      "text": "\\mathrm{Ab}",
+      "value": "\\mathrm{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "IT",
+      "text": "\\mathit{Ab}",
+      "value": "\\mathit{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "CAL",
+      "text": "\\mathcal{Ab}",
+      "value": "\\mathcal{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "NORMAL",
+      "text": "\\mathnormal{Ab}",
+      "value": "\\mathnormal{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "SCR",
+      "text": "\\mathscr{Ab}",
+      "value": "\\mathscr{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "FRAK",
+      "text": "\\mathfrak{Ab}",
+      "value": "\\mathfrak{}",
+      "caretPosition": 10
+    }
+  ]
+}

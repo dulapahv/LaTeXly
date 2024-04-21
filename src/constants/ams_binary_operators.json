@@ -1,0 +1,121 @@
+{
+  "title": "AMS Binary Operators",
+  "displayLength": 5,
+  "symbols": [
+    {
+      "name": "DotPlus",
+      "text": "\\dotplus",
+      "value": "\\dotplus "
+    },
+    {
+      "name": "CenterDot",
+      "text": "\\centerdot",
+      "value": "\\centerdot "
+    },
+    {
+      "name": "Intercal",
+      "text": "\\intercal",
+      "value": "\\intercal "
+    },
+    {
+      "name": "LeftTimes",
+      "text": "\\ltimes",
+      "value": "\\ltimes "
+    },
+    {
+      "name": "RightTimes",
+      "text": "\\rtimes",
+      "value": "\\rtimes "
+    },
+    {
+      "name": "DivideOnTimes",
+      "text": "\\divideontimes",
+      "value": "\\divideontimes "
+    },
+    {
+      "name": "Cup",
+      "text": "\\Cup",
+      "value": "\\Cup "
+    },
+    {
+      "name": "Cap",
+      "text": "\\Cap",
+      "value": "\\Cap "
+    },
+    {
+      "name": "SmallSetMinus",
+      "text": "\\smallsetminus",
+      "value": "\\smallsetminus "
+    },
+    {
+      "name": "VeeBar",
+      "text": "\\veebar",
+      "value": "\\veebar "
+    },
+    {
+      "name": "BarWedge",
+      "text": "\\barwedge",
+      "value": "\\barwedge "
+    },
+    {
+      "name": "DoubleBarWedge",
+      "text": "\\doublebarwedge",
+      "value": "\\doublebarwedge "
+    },
+    {
+      "name": "BoxPlus",
+      "text": "\\boxplus",
+      "value": "\\boxplus "
+    },
+    {
+      "name": "BoxMinus",
+      "text": "\\boxminus",
+      "value": "\\boxminus "
+    },
+    {
+      "name": "BoxTimes",
+      "text": "\\boxtimes",
+      "value": "\\boxtimes "
+    },
+    {
+      "name": "BoxDot",
+      "text": "\\boxdot",
+      "value": "\\boxdot "
+    },
+    {
+      "name": "CircledDash",
+      "text": "\\circleddash",
+      "value": "\\circleddash "
+    },
+    {
+      "name": "CircledCircle",
+      "text": "\\circledcirc",
+      "value": "\\circledcirc "
+    },
+    {
+      "name": "CircledAsterisk",
+      "text": "\\circledast",
+      "value": "\\circledast "
+    },
+    {
+      "name": "LeftThreeTimes",
+      "text": "\\leftthreetimes",
+      "value": "\\leftthreetimes "
+    },
+    {
+      "name": "RightThreeTimes",
+      "text": "\\rightthreetimes",
+      "value": "\\rightthreetimes "
+    },
+    {
+      "name": "CurlyVee",
+      "text": "\\curlyvee",
+      "value": "\\curlyvee "
+    },
+    {
+      "name": "CurlyWedge",
+      "text": "\\curlywedge",
+      "value": "\\curlywedge "
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "title": "AMS Negated Binary Relations and Arrows",
+  "displayLength": 8,
+  "symbols": [
+    {
+      "name": "nless",
+      "text": "\\nless",
+      "value": "\\nless "
+    },
+    {
+      "name": "ngtr",
+      "text": "\\ngtr",
+      "value": "\\ngtr "
+    },
+    {
+      "name": "lneq",
+      "text": "\\lneq",
+      "value": "\\lneq "
+    },
+    {
+      "name": "gneq",
+      "text": "\\gneq",
+      "value": "\\gneq "
+    },
+    {
+      "name": "nleq",
+      "text": "\\nleq",
+      "value": "\\nleq "
+    },
+    {
+      "name": "ngeq",
+      "text": "\\ngeq",
+      "value": "\\ngeq "
+    },
+    {
+      "name": "nleqslant",
+      "text": "\\nleqslant",
+      "value": "\\nleqslant "
+    },
+    {
+      "name": "ngeqslant",
+      "text": "\\ngeqslant",
+      "value": "\\ngeqslant "
+    },
+    {
+      "name": "lneqq",
+      "text": "\\lneqq",
+      "value": "\\lneqq "
+    },
+    {
+      "name": "gneqq",
+      "text": "\\gneqq",
+      "value": "\\gneqq "
+    },
+    {
+      "name": "lvertneqq",
+      "text": "\\lvertneqq",
+      "value": "\\lvertneqq "
+    },
+    {
+      "name": "gvertneqq",
+      "text": "\\gvertneqq",
+      "value": "\\gvertneqq "
+    },
+    {
+      "name": "nleqq",
+      "text": "\\nleqq",
+      "value": "\\nleqq "
+    },
+    {
+      "name": "ngeqq",
+      "text": "\\ngeqq",
+      "value": "\\ngeqq "
+    },
+    {
+      "name": "lnsim",
+      "text": "\\lnsim",
+      "value": "\\lnsim "
+    },
+    {
+      "name": "gnsim",
+      "text": "\\gnsim",
+      "value": "\\gnsim "
+    },
+    {
+      "name": "lnapprox",
+      "text": "\\lnapprox",
+      "value": "\\lnapprox "
+    },
+    {
+      "name": "gnapprox",
+      "text": "\\gnapprox",
+      "value": "\\gnapprox "
+    },
+    {
+      "name": "nsubseteq",
+      "text": "\\nsubseteq",
+      "value": "\\nsubseteq "
+    },
+    {
+      "name": "nsupseteq",
+      "text": "\\nsupseteq",
+      "value": "\\nsupseteq "
+    },
+    {
+      "name": "nsubseteqq",
+      "text": "\\nsubseteqq",
+      "value": "\\nsubseteqq "
+    },
+    {
+      "name": "nsupseteqq",
+      "text": "\\nsupseteqq",
+      "value": "\\nsupseteqq "
+    },
+    {
+      "name": "subsetneq",
+      "text": "\\subsetneq",
+      "value": "\\subsetneq "
+    },
+    {
+      "name": "supsetneq",
+      "text": "\\supsetneq",
+      "value": "\\supsetneq "
+    },
+    {
+      "name": "subsetneqq",
+      "text": "\\subsetneqq",
+      "value": "\\subsetneqq "
+    },
+    {
+      "name": "supsetneqq",
+      "text": "\\supsetneqq",
+      "value": "\\supsetneqq "
+    },
+    {
+      "name": "varsubsetneq",
+      "text": "\\varsubsetneq",
+      "value": "\\varsubsetneq "
+    },
+    {
+      "name": "varsupsetneq",
+      "text": "\\varsupsetneq",
+      "value": "\\varsupsetneq "
+    },
+    {
+      "name": "varsubsetneqq",
+      "text": "\\varsubsetneqq",
+      "value": "\\varsubsetneqq "
+    },
+    {
+      "name": "varsupsetneqq",
+      "text": "\\varsupsetneqq",
+      "value": "\\varsupsetneqq "
+    },
+    {
+      "name": "nprec",
+      "text": "\\nprec",
+      "value": "\\nprec "
+    },
+    {
+      "name": "nsucc",
+      "text": "\\nsucc",
+      "value": "\\nsucc "
+    },
+    {
+      "name": "npreceq",
+      "text": "\\npreceq",
+      "value": "\\npreceq "
+    },
+    {
+      "name": "nsucceq",
+      "text": "\\nsucceq",
+      "value": "\\nsucceq "
+    },
+    {
+      "name": "precneqq",
+      "text": "\\precneqq",
+      "value": "\\precneqq "
+    },
+    {
+      "name": "succneqq",
+      "text": "\\succneqq",
+      "value": "\\succneqq "
+    },
+    {
+      "name": "precnsim",
+      "text": "\\precnsim",
+      "value": "\\precnsim "
+    },
+    {
+      "name": "succnsim",
+      "text": "\\succnsim",
+      "value": "\\succnsim "
+    },
+    {
+      "name": "precnapprox",
+      "text": "\\precnapprox",
+      "value": "\\precnapprox "
+    },
+    {
+      "name": "succnapprox",
+      "text": "\\succnapprox",
+      "value": "\\succnapprox "
+    },
+    {
+      "name": "nleftarrow",
+      "text": "\\nleftarrow",
+      "value": "\\nleftarrow "
+    },
+    {
+      "name": "nrightarrow",
+      "text": "\\nrightarrow",
+      "value": "\\nrightarrow "
+    },
+    {
+      "name": "nLeftarrow",
+      "text": "\\nLeftarrow",
+      "value": "\\nLeftarrow "
+    },
+    {
+      "name": "nRightarrow",
+      "text": "\\nRightarrow",
+      "value": "\\nRightarrow "
+    },
+    {
+      "name": "nleftrightarrow",
+      "text": "\\nleftrightarrow",
+      "value": "\\nleftrightarrow "
+    },
+    {
+      "name": "nLeftrightarrow",
+      "text": "\\nLeftrightarrow",
+      "value": "\\nLeftrightarrow "
+    },
+    {
+      "name": "ntriangleleft",
+      "text": "\\ntriangleleft",
+      "value": "\\ntriangleleft "
+    },
+    {
+      "name": "ntriangleright",
+      "text": "\\ntriangleright",
+      "value": "\\ntriangleright "
+    },
+    {
+      "name": "ntrianglelefteq",
+      "text": "\\ntrianglelefteq",
+      "value": "\\ntrianglelefteq "
+    },
+    {
+      "name": "ntrianglerighteq",
+      "text": "\\ntrianglerighteq",
+      "value": "\\ntrianglerighteq "
+    },
+    {
+      "name": "nmid",
+      "text": "\\nmid",
+      "value": "\\nmid "
+    },
+    {
+      "name": "nparallel",
+      "text": "\\nparallel",
+      "value": "\\nparallel "
+    },
+    {
+      "name": "nshortmid",
+      "text": "\\nshortmid",
+      "value": "\\nshortmid "
+    },
+    {
+      "name": "nshortparallel",
+      "text": "\\nshortparallel",
+      "value": "\\nshortparallel "
+    },
+    {
+      "name": "nsim",
+      "text": "\\nsim",
+      "value": "\\nsim "
+    },
+    {
+      "name": "ncong",
+      "text": "\\ncong",
+      "value": "\\ncong "
+    },
+    {
+      "name": "nvdash",
+      "text": "\\nvdash",
+      "value": "\\nvdash "
+    },
+    {
+      "name": "nvDash",
+      "text": "\\nvDash",
+      "value": "\\nvDash "
+    },
+    {
+      "name": "nVdash",
+      "text": "\\nVdash",
+      "value": "\\nVdash "
+    },
+    {
+      "name": "nVDash",
+      "text": "\\nVDash",
+      "value": "\\nVDash "
+    }
+  ]
+}

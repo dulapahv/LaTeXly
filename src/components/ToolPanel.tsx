@@ -10,9 +10,12 @@ import { ScrollShadow } from '@nextui-org/react';
 import { TbArrowDownRight } from 'react-icons/tb';
 import {
   ams_arrows,
+  ams_binary_operators,
   ams_binary_relations,
   ams_delimiters,
   ams_greek_and_hebrew,
+  ams_miscellaneous,
+  ams_negated_binary_relations_and_arrows,
   arrows,
   big_operators,
   binary_operators,
@@ -20,6 +23,7 @@ import {
   common_symbols,
   delimiters,
   lowercase_greek_letters,
+  math_alphabets,
   math_mode_accents,
   miscellaneous_symbols,
   non_mathematical_symbols,
@@ -46,6 +50,10 @@ const ToolPanel = () => {
     ams_greek_and_hebrew,
     ams_binary_relations,
     ams_arrows,
+    ams_negated_binary_relations_and_arrows,
+    ams_binary_operators,
+    ams_miscellaneous,
+    math_alphabets,
   ];
 
   return (
@@ -71,7 +79,7 @@ const ToolPanel = () => {
                 }}
               >
                 {symbols.slice(displayLength).map((symbol) => (
-                  <SymbolButton key={symbol.name} {...symbol} />
+                  <SymbolButton key={symbol.text} {...symbol} />
                 ))}
               </div>
             )}
