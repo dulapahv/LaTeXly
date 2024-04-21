@@ -26,7 +26,7 @@ const Banner = () => {
               isExternal
               size="sm"
               radius="full"
-              className="h-6"
+              className="h-6 gap-x-0.5"
             >
               GitHub
             </Button>
