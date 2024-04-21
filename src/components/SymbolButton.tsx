@@ -8,7 +8,6 @@
 
 import { BlockMath, InlineMath } from 'react-katex';
 
-import { useEditor } from '@/context';
 import { Button, Tooltip } from '@nextui-org/react';
 
 interface SymbolButtonProps {
@@ -26,8 +25,6 @@ const SymbolButton = ({
   caretPosition = value.length,
   isBlockMath = false,
 }: SymbolButtonProps) => {
-  const { setEquation } = useEditor();
-
   const handleInsert = (value: string) => {
     const editor = document.getElementById('editor') as HTMLTextAreaElement;
     if (!editor) return;
@@ -36,13 +33,16 @@ const SymbolButton = ({
 
     // Insert the symbol at the caret position
     const start = editor.selectionStart;
-    const end = editor.selectionEnd;
-    const textBefore = editor.value.substring(0, start);
-    const textAfter = editor.value.substring(end, editor.value.length);
+    // const end = editor.selectionEnd;
+    // const textBefore = editor.value.substring(0, start);
+    // const textAfter = editor.value.substring(end, editor.value.length);
 
     // Update the editor value
-    editor.value = textBefore + value + textAfter;
-    setEquation(editor.value);
+    // editor.value = textBefore + value + textAfter;
+    // setEquation(editor.value);
+
+    // Add value to the browser undo/redo stack
+    document.execCommand('insertText', false, value); // TODO: Change to non-deprecated method
 
     // Move the caret to the caretPosition
     editor.selectionStart = start + caretPosition;

@@ -4,26 +4,30 @@
 
 'use client';
 
+import { useRef } from 'react';
+
+import { NextUIProvider } from '@nextui-org/react';
 import {
   Banner,
   EditorPanel,
   Footer,
   LaTeXPanel,
+  LaTeXPanelRef,
   ToolPanel,
 } from '@/components';
 
-import { NextUIProvider } from '@nextui-org/react';
-
 const Home = () => {
+  const LaTeXPanelRef = useRef<LaTeXPanelRef>(null);
+
   return (
     <NextUIProvider>
       <Banner />
       <div className="flex h-screen flex-col *:h-1/2">
         <div className="flex flex-row border-b-1.5 *:w-1/2">
-          <EditorPanel />
+          <EditorPanel latexPanelRef={LaTeXPanelRef} />
           <ToolPanel />
         </div>
-        <LaTeXPanel />
+        <LaTeXPanel ref={LaTeXPanelRef} />
       </div>
       <Footer />
     </NextUIProvider>

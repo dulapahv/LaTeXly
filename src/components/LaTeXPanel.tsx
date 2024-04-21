@@ -6,11 +6,22 @@
  * https://katex.org/docs/options
  */
 
-import { BlockMath } from 'react-katex';
-import { useEditor } from '@/context';
+import { forwardRef, useImperativeHandle, useState } from 'react';
 
-const LaTeXPanel = () => {
-  const { equation } = useEditor();
+import { BlockMath } from 'react-katex';
+
+export interface LaTeXPanelRef {
+  setEquation: (value: string) => void;
+  // equation: string;
+}
+
+const LaTeXPanel = forwardRef<LaTeXPanelRef>((_, ref) => {
+  const [equation, setEquation] = useState('');
+
+  useImperativeHandle(ref, () => ({
+    setEquation,
+    // equation,
+  }));
 
   return (
     <div className="flex w-full flex-wrap items-center overflow-auto first:*:ml-auto last:*:mr-auto">
@@ -25,6 +36,6 @@ const LaTeXPanel = () => {
       </BlockMath>
     </div>
   );
-};
+});
 
 export default LaTeXPanel;

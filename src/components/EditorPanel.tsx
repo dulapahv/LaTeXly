@@ -7,23 +7,54 @@
  * https://codesandbox.io/p/sandbox/react-simple-editor-linenumbers-wy240?file=%2Fsrc%2Findex.js
  */
 
+import { KeyboardEvent, RefObject, useEffect, useState } from 'react';
+
 import Editor from 'react-simple-code-editor';
 import { Grammar, highlight, languages } from 'prismjs';
 
-import { useEditor } from '@/context';
+import { LaTeXPanelRef } from '@/components';
 
 import 'katex/dist/katex.min.css';
 import 'prismjs/themes/prism-coy.css';
 import 'prismjs/components/prism-latex';
 
-const EditorPanel = () => {
-  const { equation, setEquation } = useEditor();
+interface EditorPanelProps {
+  latexPanelRef: RefObject<LaTeXPanelRef>;
+}
 
-  const hightlightWithLineNumbers = (
+const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
+  const [equation, setEquation] = useState('');
+
+  useEffect(() => {
+    latexPanelRef.current?.setEquation(equation);
+  }, [equation]);
+
+  const insertCharacter = (char: string) => {
+    const editor = document.getElementById('editor') as HTMLTextAreaElement;
+    if (!editor) return;
+
+    const start = editor.selectionStart;
+    const end = editor.selectionEnd;
+    const textBefore = editor.value.substring(0, start);
+    const textAfter = editor.value.substring(end, editor.value.length);
+
+    editor.value = textBefore + char + textAfter;
+
+    editor.selectionStart = start;
+    editor.selectionEnd = start;
+  };
+
+  const onKeyDown = (e: KeyboardEvent<HTMLElement>) => {
+    if (e.key === '(' || e.key === '[' || e.key === '{') {
+      insertCharacter(e.key === '(' ? ')' : e.key === '[' ? ']' : '}');
+    }
+  };
+
+  const highlightWithLineNumbers = (
     text: string,
     grammar: Grammar,
     language: string
-  ): string =>
+  ) =>
     highlight(text, grammar, language)
       .split('\n')
       .map(
@@ -40,9 +71,10 @@ const EditorPanel = () => {
         preClassName="!pl-12 !outline-none"
         textareaClassName="!pl-12 !outline-none"
         value={equation}
-        onValueChange={(code) => setEquation(code)}
+        onKeyDown={onKeyDown}
+        onValueChange={setEquation}
         highlight={(code) =>
-          hightlightWithLineNumbers(code, languages.latex!, 'latex')
+          highlightWithLineNumbers(code, languages.latex!, 'latex')
         }
         padding={10}
         autoFocus
