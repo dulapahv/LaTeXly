@@ -4,7 +4,13 @@
 
 'use client';
 
-import { Banner, EditorPanel, LaTeXPanel, ToolPanel } from '@/components';
+import {
+  Banner,
+  EditorPanel,
+  Footer,
+  LaTeXPanel,
+  ToolPanel,
+} from '@/components';
 
 import { NextUIProvider } from '@nextui-org/react';
 
@@ -19,6 +25,7 @@ const Home = () => {
         </div>
         <LaTeXPanel />
       </div>
+      <Footer />
     </NextUIProvider>
   );
 };
