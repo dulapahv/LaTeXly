@@ -34,7 +34,7 @@ const EditorPanel = () => {
       .join('\n');
 
   const getRandomEquation = () => {
-    const randomIndex = Math.floor(Math.random() * sample_equations.length);
+    const randomIndex = new Date().getSeconds() % sample_equations.length;
     return sample_equations[randomIndex].latex;
   };
 
