@@ -14,7 +14,18 @@ const Footer = () => {
           dulapahv
         </Link>
       </div>
-      <span className="text-neutral-600">Ver: 3.0.1</span>
+      <span className="text-neutral-600">
+        Ver: 3.0.1 (
+        <Link
+          href="https://github.com/dulapahv/LaTeXly"
+          isExternal
+          showAnchorIcon
+          className="text-sm text-neutral-600"
+        >
+          GitHub
+        </Link>
+        )
+      </span>
     </div>
   );
 };
