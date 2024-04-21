@@ -124,13 +124,13 @@
     },
     {
       "name": "LesseqqGtr",
-      "text": "\\lesseqqgtr",
-      "value": "\\lesseqqgtr "
+      "text": "\\lesseqgtr",
+      "value": "\\lesseqgtr "
     },
     {
       "name": "GtreqqLess",
-      "text": "\\gtreqqless",
-      "value": "\\gtreqqless "
+      "text": "\\gtreqless",
+      "value": "\\gtreqless "
     },
     {
       "name": "ThickSim",
