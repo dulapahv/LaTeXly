@@ -22,6 +22,15 @@ interface EditorPanelProps {
   latexPanelRef: RefObject<LaTeXPanelRef>;
 }
 
+const bracketPairs: Record<string, string> = {
+  '(': ')',
+  '[': ']',
+  '{': '}',
+  '|': '|',
+  '/': '/',
+  '<': '>',
+};
+
 const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
   const [equation, setEquation] = useState('');
 
@@ -45,8 +54,36 @@ const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
   };
 
   const onKeyDown = (e: KeyboardEvent<HTMLElement>) => {
-    if (e.key === '(' || e.key === '[' || e.key === '{') {
-      insertCharacter(e.key === '(' ? ')' : e.key === '[' ? ']' : '}');
+    const editor = document.getElementById('editor') as HTMLTextAreaElement;
+    if (!editor) return;
+
+    const textBeforeCaret = equation.substring(0, editor.selectionStart);
+
+    if (e.key === '{') {
+      // \begin{ -> \begin{} \end{} - the last 'else' will handle the closing bracket for the first bracket
+      const pattern1 = textBeforeCaret.endsWith('\\begin');
+      if (pattern1) {
+        insertCharacter(` \\end{}`);
+      }
+
+      // \frac{ -> \frac{}{} - the last 'else' will handle the closing bracket for the first bracket
+      const pattern2 = textBeforeCaret.endsWith('\\frac');
+      if (pattern2) {
+        insertCharacter(`{}`);
+      }
+    }
+
+    if (Object.keys(bracketPairs).includes(e.key)) {
+      // \left( -> \left( \right)
+      const pattern3 = textBeforeCaret.endsWith('\\left');
+      if (pattern3) {
+        insertCharacter(` \\right${bracketPairs[e.key]}`);
+      } else {
+        // (), [], {}
+        insertCharacter(
+          e.key === '(' ? ')' : e.key === '[' ? ']' : e.key === '{' ? '}' : ''
+        );
+      }
     }
   };
 
