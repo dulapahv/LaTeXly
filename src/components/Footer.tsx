@@ -2,7 +2,7 @@ import { Link } from '@nextui-org/react';
 
 const Footer = () => {
   return (
-    <div className="fixed bottom-0 left-1 isolate text-xs">
+    <div className="absolute bottom-0 left-1 isolate text-xs">
       <div>
         <span className="text-neutral-600">With 💕 from </span>
         <Link
