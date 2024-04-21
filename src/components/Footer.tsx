@@ -4,23 +4,23 @@ const Footer = () => {
   return (
     <div className="fixed bottom-0 left-1 isolate text-xs">
       <div>
-        <span className="text-neutral-600">With 💕 from </span>
+        <span className="text-neutral-500">With 💕 from </span>
         <Link
           href="https://github.com/dulapahv"
           isExternal
           showAnchorIcon
-          className="text-xs text-neutral-600"
+          className="text-xs text-neutral-500"
         >
           dulapahv
         </Link>
       </div>
-      <span className="text-neutral-600">
-        Ver: 3.0.1 (
+      <span className="text-neutral-500">
+        LaTeXly 3.0.2 (
         <Link
           href="https://github.com/dulapahv/LaTeXly"
           isExternal
           showAnchorIcon
-          className="text-xs text-neutral-600"
+          className="text-xs text-neutral-500"
         >
           GitHub
         </Link>
