@@ -2,14 +2,14 @@ import { Link } from '@nextui-org/react';
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 isolate flex w-full justify-between px-1 text-sm">
+    <div className="fixed bottom-0 left-1 isolate text-xs">
       <div>
         <span className="text-neutral-600">With 💕 from </span>
         <Link
           href="https://github.com/dulapahv"
           isExternal
           showAnchorIcon
-          className="text-sm text-neutral-600"
+          className="text-xs text-neutral-600"
         >
           dulapahv
         </Link>
@@ -20,7 +20,7 @@ const Footer = () => {
           href="https://github.com/dulapahv/LaTeXly"
           isExternal
           showAnchorIcon
-          className="text-sm text-neutral-600"
+          className="text-xs text-neutral-600"
         >
           GitHub
         </Link>
