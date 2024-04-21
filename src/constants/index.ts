@@ -1,3 +1,4 @@
+export { default as sample_equations } from './sample_equations.json';
 export { default as common_symbols } from './common_symbols.json';
 export { default as math_mode_accents } from './math_mode_accents.json';
 export { default as lowercase_greek_letters } from './lowercase_greek_letters.json';

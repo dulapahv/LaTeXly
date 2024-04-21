@@ -11,6 +11,7 @@ import Editor from 'react-simple-code-editor';
 import { Grammar, highlight, languages } from 'prismjs';
 
 import { useEditor } from '@/context';
+import { sample_equations } from '@/constants';
 
 import 'katex/dist/katex.min.css';
 import 'prismjs/themes/prism-coy.css';
@@ -32,10 +33,15 @@ const EditorPanel = () => {
       )
       .join('\n');
 
+  const getRandomEquation = () => {
+    const randomIndex = Math.floor(Math.random() * sample_equations.length);
+    return sample_equations[randomIndex].latex;
+  };
+
   return (
     <div className="h-full overflow-y-auto border-r-1.5">
       <Editor
-        placeholder="Enter a LaTeX equation... e.g. x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}"
+        placeholder={`Enter a LaTeX equation... e.g. ${getRandomEquation()}`}
         className="min-h-full font-mono text-sm sm:text-base"
         preClassName="!pl-12 !outline-none"
         textareaClassName="!pl-12 !outline-none"
