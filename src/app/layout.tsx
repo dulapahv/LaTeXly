@@ -4,8 +4,6 @@ import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
 
-import { EditorProvider } from '@/context';
-
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -21,11 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <EditorProvider>
-        <body className={`min-w-[768px] overflow-y-hidden ${inter.className}`}>
-          {children}
-        </body>
-      </EditorProvider>
+      <body className={`min-w-[768px] overflow-y-hidden ${inter.className}`}>
+        {children}
+      </body>
     </html>
   );
 }
