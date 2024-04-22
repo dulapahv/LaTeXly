@@ -11,10 +11,10 @@ Most comprehensive online LaTeX equation editor with live preview and syntax hig
 - [x] Equation editor
 - [x] Syntax highlighting
 - [x] Live preview
-- [ ] All LaTeX symbols (based on [here](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf))
+- [x] All LaTeX symbols (based on [here](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf))
 - [ ] Symbol search
 - [ ] Export to image or PDF
-- [ ] Undo/Redo support
+- [x] Undo/Redo support
 - [ ] Matrices builder
 - [ ] Prettify equation
 - [ ] Minify equation
