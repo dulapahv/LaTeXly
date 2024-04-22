@@ -3,7 +3,7 @@ import { Button, Tooltip } from '@nextui-org/react';
 
 const UndoRedo = () => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center pr-1.5">
       <Tooltip
         disableAnimation
         closeDelay={0}
