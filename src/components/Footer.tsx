@@ -15,7 +15,7 @@ const Footer = () => {
         </Link>
       </div>
       <span className="text-neutral-500">
-        LaTeXly 0.1.2 (
+        LaTeXly 0.2.0 (
         <Link
           href="https://github.com/dulapahv/LaTeXly"
           isExternal
