@@ -30,6 +30,11 @@
       "name": "inf",
       "text": "\\inf",
       "value": "\\inf "
+    },
+    {
+      "name": "infinite",
+      "text": "\\infty",
+      "value": "\\infty "
     }
   ]
 }
