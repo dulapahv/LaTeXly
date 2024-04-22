@@ -31,7 +31,7 @@ import {
   uppercase_greek_letters,
 } from '@/constants';
 
-import { SymbolButton } from '.';
+import { SymbolButton, UndoRedo } from '.';
 
 const ToolPanel = () => {
   const symbolsGroups: SymbolsGroup[] = [
@@ -58,6 +58,7 @@ const ToolPanel = () => {
 
   return (
     <ScrollShadow className="flex h-full flex-row flex-wrap content-start overflow-y-scroll p-2 [&>*:not(:last-child)]:border-r">
+      <UndoRedo />
       {symbolsGroups.map((symbolsGroup) => {
         const { title, symbols, displayLength } = symbolsGroup;
         const shouldDisplayOverflow = symbols.length > displayLength;
