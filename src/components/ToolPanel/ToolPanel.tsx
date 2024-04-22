@@ -57,7 +57,7 @@ const ToolPanel = () => {
   ];
 
   return (
-    <ScrollShadow className="flex h-full flex-row flex-wrap content-start overflow-y-scroll p-2 [&>*:not(:last-child)]:border-r">
+    <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 [&>*:not(:last-child)]:border-r">
       <UndoRedo />
       {symbolsGroups.map((symbolsGroup) => {
         const { title, symbols, displayLength } = symbolsGroup;
