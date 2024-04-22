@@ -1,0 +1,30 @@
+{
+  "title": "Logarithms",
+  "symbols": [
+    {
+      "name": "Exponential",
+      "text": "\\exp",
+      "value": "\\exp "
+    },
+    {
+      "name": "Logarithm",
+      "text": "\\log",
+      "value": "\\log "
+    },
+    {
+      "name": "Natural Logarithm",
+      "text": "\\ln",
+      "value": "\\ln "
+    },
+    {
+      "name": "Natural Logarithm",
+      "text": "\\log_{e}",
+      "value": "\\log_{e} "
+    },
+    {
+      "name": "Common Logarithm",
+      "text": "\\log_{10}",
+      "value": "\\log_{10} "
+    }
+  ]
+}

@@ -22,16 +22,21 @@ import {
   binary_relations,
   common_symbols,
   delimiters,
+  inverse_trigonometry,
+  limits,
+  logarithms,
   lowercase_greek_letters,
   math_alphabets,
   math_mode_accents,
   miscellaneous_symbols,
   non_mathematical_symbols,
+  operators,
   SymbolsGroup,
+  trigonometry,
   uppercase_greek_letters,
 } from '@/constants';
 
-import { SymbolButton, UndoRedo } from '.';
+import { AutocompleteMenu, SymbolButton, UndoRedo } from '.';
 
 const ToolPanel = () => {
   const symbolsGroups: SymbolsGroup[] = [
@@ -56,12 +61,25 @@ const ToolPanel = () => {
     math_alphabets,
   ];
 
+  const functionsGroups: SymbolsGroup[] = [
+    logarithms,
+    trigonometry,
+    inverse_trigonometry,
+    limits,
+    operators,
+  ];
+
   return (
     <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 [&>*:not(:last-child)]:border-r">
       <UndoRedo />
+      <AutocompleteMenu
+        title="Search a function"
+        tooltip="Type or select a function"
+        symbolsGroups={functionsGroups}
+      />
       {symbolsGroups.map((symbolsGroup) => {
         const { title, symbols, displayLength } = symbolsGroup;
-        const shouldDisplayOverflow = symbols.length > displayLength;
+        const shouldDisplayOverflow = symbols.length > displayLength!;
         const pinnedSymbols = symbols.slice(0, displayLength);
 
         return (

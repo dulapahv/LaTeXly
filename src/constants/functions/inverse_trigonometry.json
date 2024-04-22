@@ -1,0 +1,50 @@
+{
+  "title": "Inverse Trigonometry",
+  "symbols": [
+    {
+      "name": "arcsin",
+      "text": "\\arcsin",
+      "value": "\\arcsin "
+    },
+    {
+      "name": "arccos",
+      "text": "\\arccos",
+      "value": "\\arccos "
+    },
+    {
+      "name": "arctan",
+      "text": "\\arctan",
+      "value": "\\arctan "
+    },
+    {
+      "name": "arccsc",
+      "text": "\\textrm{arcsec}",
+      "value": "\\textrm{arcsec}"
+    },
+    {
+      "name": "arcsec",
+      "text": "\\textrm{arccsc}",
+      "value": "\\textrm{arccsc}"
+    },
+    {
+      "name": "arccot",
+      "text": "\\textrm{arccot}",
+      "value": "\\textrm{arccot}"
+    },
+    {
+      "name": "arcsinh",
+      "text": "\\textrm{arcsinh}",
+      "value": "\\textrm{arcsinh}"
+    },
+    {
+      "name": "arccosh",
+      "text": "\\textrm{arccosh}",
+      "value": "\\textrm{arccosh}"
+    },
+    {
+      "name": "arctanh",
+      "text": "\\textrm{arctanh}",
+      "value": "\\textrm{arctanh}"
+    }
+  ]
+}

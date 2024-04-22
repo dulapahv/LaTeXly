@@ -18,10 +18,15 @@ export { default as ams_negated_binary_relations_and_arrows } from './ams_negate
 export { default as ams_binary_operators } from './ams_binary_operators.json';
 export { default as ams_miscellaneous } from './ams_miscellaneous.json';
 export { default as math_alphabets } from './math_alphabets.json';
+export { default as logarithms } from './functions/logarithms.json';
+export { default as trigonometry } from './functions/trigonometry.json';
+export { default as inverse_trigonometry } from './functions/inverse_trigonometry.json';
+export { default as limits } from './functions/limits.json';
+export { default as operators } from './functions/operators.json';
 
 export interface SymbolsGroup {
   title: string;
-  displayLength: number;
+  displayLength?: number;
   symbols: {
     name: string;
     text: string;
