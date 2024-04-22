@@ -1,6 +1,6 @@
 # LaTeXly
 
-> Currently under development
+> Currently under development (development paused due to exams)
 
 **Try it out at [latexly.dulapahv.dev](https://latexly.dulapahv.dev)**
 
