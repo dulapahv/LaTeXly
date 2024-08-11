@@ -4,7 +4,7 @@
 
 'use client';
 
-import { useRef, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 
 import { IoCopyOutline, IoDownloadOutline } from "react-icons/io5";
 
@@ -45,12 +45,9 @@ const Home = () => {
                 isIconOnly
                 className="text-base border-1"
                 isLoading={isCopying}
-                onPress={async () => {
-                  if (!latexPanelRef.current) return;
-
-                  setIsCopying(true);
-                  latexPanelRef?.current?.copyToClipboard();
-                  setIsCopying(false);
+                onClick={() => {
+                  setIsCopying(() => true);
+                  latexPanelRef.current?.copyToClipboard().finally(() => setIsCopying(() => false)) ;
                 }}
               >
                 <IoCopyOutline />
@@ -67,12 +64,13 @@ const Home = () => {
                 isIconOnly
                 className="text-base border-1"
                 isLoading={isDownloading}
-                onPress={async () => {
-                  if (!latexPanelRef.current) return;
-
-                  setIsDownloading(true);
-                  latexPanelRef?.current?.download();
-                  setIsDownloading(false);
+                onClick={async () => {
+                  setIsDownloading(() => true);
+                  try {
+                    await latexPanelRef.current?.download();
+                  } finally {
+                    setIsDownloading(() => false);
+                  }
                 }}
               >
                 <IoDownloadOutline />
