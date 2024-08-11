@@ -33,7 +33,7 @@ const Home = () => {
           <ToolPanel />
         </div>
         <LaTeXPanel ref={latexPanelRef} />
-        <div className='absolute right-4 bottom-16 !h-fit flex gap-2'>
+        <div className='absolute right-4 bottom-4 !h-fit flex gap-2'>
           <Tooltip
               disableAnimation
               closeDelay={0}
