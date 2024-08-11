@@ -32,7 +32,7 @@ const bracketPairs: Record<string, string> = {
 };
 
 const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
-  const [equation, setEquation] = useState('');
+  const [equation, setEquation] = useState("\\begin{align*}\n\ne^{i\\theta} =& \\cos(\\theta) + i\\sin(\\theta)\n\n\\end{align*}");
 
   useEffect(() => {
     latexPanelRef.current?.setEquation(equation);
