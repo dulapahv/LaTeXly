@@ -10,6 +10,8 @@ import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "LaTeXly | Online LaTeX Equation Editor",
   description:
