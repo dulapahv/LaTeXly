@@ -4,9 +4,9 @@
 
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Button, NextUIProvider, Tooltip } from "@nextui-org/react";
-import { IoCopyOutline, IoDownloadOutline } from "react-icons/io5";
+import { Copy, Download } from "lucide-react";
 
 import {
   Banner,
@@ -51,7 +51,7 @@ const Home = () => {
                   .finally(() => setIsCopying(() => false));
               }}
             >
-              <IoCopyOutline />
+              <Copy size={18} />
             </Button>
           </Tooltip>
           <Tooltip
@@ -74,7 +74,7 @@ const Home = () => {
                 }
               }}
             >
-              <IoDownloadOutline />
+              <Download size={18} />
             </Button>
           </Tooltip>
         </div>

@@ -6,7 +6,7 @@ import {
   getKeyValue,
   Tooltip,
 } from "@nextui-org/react";
-import { TbSelector } from "react-icons/tb";
+import { ChevronsUpDown } from "lucide-react";
 import { BlockMath, InlineMath } from "react-katex";
 
 import { SymbolsGroup } from "@/constants";
@@ -64,7 +64,7 @@ const AutocompleteMenu = ({
           aria-label={title}
           disableAnimation
           disableSelectorIconRotation
-          selectorIcon={<TbSelector />}
+          selectorIcon={<ChevronsUpDown size={14} />}
           selectedKey={null}
           defaultItems={symbolsGroups}
           onSelectionChange={(symbol) => {

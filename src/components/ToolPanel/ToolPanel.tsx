@@ -7,7 +7,7 @@
  */
 
 import { ScrollShadow } from "@nextui-org/react";
-import { TbArrowDownRight } from "react-icons/tb";
+import { ArrowDownRight } from "lucide-react";
 
 import {
   ams_arrows,
@@ -106,7 +106,10 @@ const ToolPanel = () => {
             <p className="relative flex w-full justify-center [font-size:11px]">
               {title}
               {shouldDisplayOverflow && (
-                <TbArrowDownRight className="absolute bottom-0.5 right-0" />
+                <ArrowDownRight
+                  size={12}
+                  className="absolute bottom-0.5 right-0"
+                />
               )}
             </p>
           </div>

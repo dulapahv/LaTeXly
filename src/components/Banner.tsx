@@ -4,7 +4,7 @@
 
 import { useState } from "react";
 import { Button, Link } from "@nextui-org/react";
-import { IoClose } from "react-icons/io5";
+import { X } from "lucide-react";
 
 const Banner = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +38,7 @@ const Banner = () => {
             variant="light"
             aria-label="Close"
           >
-            <IoClose className="text-base text-black" />
+            <X size={16} className="text-base text-black" />
           </Button>
         </div>
       ) : null}

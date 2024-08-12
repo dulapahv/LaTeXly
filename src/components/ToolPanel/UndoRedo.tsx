@@ -1,5 +1,5 @@
 import { Button, Tooltip } from "@nextui-org/react";
-import { FaRedo, FaUndo } from "react-icons/fa";
+import { Undo2, Redo2 } from "lucide-react";
 
 const UndoRedo = () => {
   return (
@@ -26,7 +26,7 @@ const UndoRedo = () => {
           variant="light"
           aria-label="Undo"
         >
-          <FaUndo />
+          <Undo2 />
         </Button>
       </Tooltip>
       <Tooltip
@@ -51,7 +51,7 @@ const UndoRedo = () => {
           variant="light"
           aria-label="Redo"
         >
-          <FaRedo />
+          <Redo2 />
         </Button>
       </Tooltip>
     </div>
