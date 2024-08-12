@@ -23,15 +23,3 @@ export { default as trigonometry } from "./functions/trigonometry.json";
 export { default as inverse_trigonometry } from "./functions/inverse_trigonometry.json";
 export { default as limits } from "./functions/limits.json";
 export { default as operators } from "./functions/operators.json";
-
-export interface SymbolsGroup {
-  title: string;
-  displayLength?: number;
-  symbols: {
-    name: string;
-    text: string;
-    value: string;
-    caretPosition?: number;
-    isBlockMath?: boolean;
-  }[];
-}
