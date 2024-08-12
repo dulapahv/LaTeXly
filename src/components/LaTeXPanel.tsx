@@ -25,36 +25,46 @@ const LaTeXPanel = forwardRef<LaTeXPanelRef>((_, ref) => {
 
 	useImperativeHandle(ref, () => ({
 		setEquation,
-		// equation,
 		download: () =>
-			html2canvas(equationRef.current).then((canvas) => {
-				const el = document.createElement("a");
-				el.href = canvas.toDataURL("image/png");
-				el.target = "_blank";
-				el.download = "latex-equation.png";
-				el.click();
-				el.remove();
+			new Promise<void>((resolve, reject) => {
+				const element = equationRef.current;
+				if (!element) {
+					reject(new Error("Element not found"));
+					return;
+				}
+
+				html2canvas(element).then((canvas) => {
+					const el = document.createElement("a");
+					el.href = canvas.toDataURL("image/png");
+					el.target = "_blank";
+					el.download = "latex-equation.png";
+					el.click();
+					el.remove();
+					resolve();
+				}).catch(reject);
 			}),
 		copyToClipboard: () =>
-			navigator.clipboard.write([
-				new ClipboardItem({
-					"image/png": new Promise((resolve, reject) => {
-						if (!equationRef.current) return reject();
+			new Promise<void>((resolve, reject) => {
+				const element = equationRef.current;
+				if (!element) {
+					reject(new Error("Element not found"));
+					return;
+				}
 
-						return html2canvas(equationRef.current).then((canvas) =>
-							new Promise<Blob>((res1, rej1) =>
-								canvas.toBlob((b) => {
-									if (b) res1(b);
-									else rej1();
-								}, "image/png"),
-							).then((blob) => {
-								console.log(blob);
-								resolve(blob);
-							}),
-						);
-					}),
-				}),
-			]),
+				html2canvas(element).then((canvas) => {
+					canvas.toBlob((blob) => {
+						if (blob) {
+							navigator.clipboard.write([
+								new ClipboardItem({
+									"image/png": blob,
+								}),
+							]).then(() => resolve()).catch(reject);
+						} else {
+							reject(new Error("Blob conversion failed"));
+						}
+					}, "image/png");
+				}).catch(reject);
+			}),
 	}));
 
 	return (
