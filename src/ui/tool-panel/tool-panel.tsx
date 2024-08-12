@@ -38,9 +38,9 @@ import {
 import { SymbolsGroup } from "@/types/symbols";
 import { cn } from "@/utils/cn";
 
-import { AutocompleteMenu } from "./AutocompleteMenu";
-import { SymbolButton } from "./SymbolButton";
-import { UndoRedo } from "./UndoRedo";
+import { AutocompleteMenu } from "./autocomplete-menu";
+import { SymbolButton } from "./symbol-button";
+import { UndoRedo } from "./undo-redo";
 
 export function ToolPanel() {
   const symbolsGroups: SymbolsGroup[] = [

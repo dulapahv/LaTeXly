@@ -10,14 +10,14 @@ import { forwardRef, useImperativeHandle, useRef, useState } from "react";
 import html2canvas from "html2canvas";
 import { BlockMath } from "react-katex";
 
-export interface LaTeXPanelRef {
+export interface latexPanelRef {
   setEquation: (value: string) => void;
   download: () => Promise<void>;
   copyToClipboard: () => Promise<void>;
   // equation: string;
 }
 
-const LaTeXPanel = forwardRef<LaTeXPanelRef>((_, ref) => {
+const latexPanel = forwardRef<latexPanelRef>((_, ref) => {
   const [equation, setEquation] = useState("");
   const equationRef = useRef<HTMLDivElement>(null);
 
@@ -93,4 +93,4 @@ const LaTeXPanel = forwardRef<LaTeXPanelRef>((_, ref) => {
   );
 });
 
-export { LaTeXPanel };
+export { latexPanel as LaTeXPanel };

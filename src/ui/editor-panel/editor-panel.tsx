@@ -11,14 +11,14 @@ import { KeyboardEvent, RefObject, useEffect, useState } from "react";
 import { Grammar, highlight, languages } from "prismjs";
 import Editor from "react-simple-code-editor";
 
-import { LaTeXPanelRef } from "./LaTeXPanel";
+import { latexPanelRef } from "../latex-panel/latex-panel";
 
 import "katex/dist/katex.min.css";
 import "prismjs/themes/prism-coy.css";
 import "prismjs/components/prism-latex";
 
 interface EditorPanelProps {
-  latexPanelRef: RefObject<LaTeXPanelRef>;
+  latexPanelRef: RefObject<latexPanelRef>;
 }
 
 const bracketPairs: Record<string, string> = {
