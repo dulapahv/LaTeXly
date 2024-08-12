@@ -8,7 +8,7 @@ import { IoClose } from 'react-icons/io5';
 import { Button, Link } from '@nextui-org/react';
 
 const Banner = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   return (
     <>
