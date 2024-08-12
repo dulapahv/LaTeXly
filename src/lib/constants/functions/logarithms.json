@@ -12,12 +12,12 @@
       "value": "\\log "
     },
     {
-      "name": "Natural Logarithm",
+      "name": "Natural Logarithm (ln)",
       "text": "\\ln",
       "value": "\\ln "
     },
     {
-      "name": "Common Logarithm",
+      "name": "Common Logarithm (log10)",
       "text": "\\log_{10}",
       "value": "\\log_{10}"
     }
