@@ -17,13 +17,13 @@ interface SymbolButtonProps {
   isBlockMath?: boolean;
 }
 
-const SymbolButton = ({
+export function SymbolButton({
   name,
   text,
   value,
   caretPosition = value.length,
   isBlockMath = false,
-}: SymbolButtonProps) => {
+}: SymbolButtonProps) {
   const handleInsert = (value: string) => {
     const editor = document.getElementById("editor") as HTMLTextAreaElement;
     if (!editor) return;
@@ -71,6 +71,4 @@ const SymbolButton = ({
       </Button>
     </Tooltip>
   );
-};
-
-export default SymbolButton;
+}

@@ -11,7 +11,7 @@ import { KeyboardEvent, RefObject, useEffect, useState } from "react";
 import { Grammar, highlight, languages } from "prismjs";
 import Editor from "react-simple-code-editor";
 
-import { LaTeXPanelRef } from "@/components";
+import { LaTeXPanelRef } from "./LaTeXPanel";
 
 import "katex/dist/katex.min.css";
 import "prismjs/themes/prism-coy.css";
@@ -30,7 +30,7 @@ const bracketPairs: Record<string, string> = {
   "<": ">",
 };
 
-const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
+export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
   const [equation, setEquation] = useState(
     "\\begin{align*}\n\ne^{i\\theta} =& \\cos(\\theta) + i\\sin(\\theta)\n\n\\end{align*}",
   );
@@ -120,6 +120,4 @@ const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
       />
     </div>
   );
-};
-
-export default EditorPanel;
+}

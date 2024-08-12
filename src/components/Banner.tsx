@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Button, Link } from "@nextui-org/react";
 import { X } from "lucide-react";
 
-const Banner = () => {
+export function Banner() {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
@@ -44,6 +44,4 @@ const Banner = () => {
       ) : null}
     </>
   );
-};
-
-export default Banner;
+}

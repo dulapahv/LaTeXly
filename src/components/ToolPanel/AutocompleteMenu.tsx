@@ -9,7 +9,7 @@ import {
 import { ChevronsUpDown } from "lucide-react";
 import { BlockMath, InlineMath } from "react-katex";
 
-import { SymbolsGroup } from "@/constants";
+import { SymbolsGroup } from "@/types/symbols";
 
 interface AutocompleteMenuProps {
   title: string;
@@ -17,11 +17,11 @@ interface AutocompleteMenuProps {
   symbolsGroups: SymbolsGroup[];
 }
 
-const AutocompleteMenu = ({
+export function AutocompleteMenu({
   title,
   tooltip,
   symbolsGroups,
-}: AutocompleteMenuProps) => {
+}: AutocompleteMenuProps) {
   const handleInsert = (
     value: string,
     caretPosition: number = value.length,
@@ -116,6 +116,4 @@ const AutocompleteMenu = ({
       </Tooltip>
     </div>
   );
-};
-
-export default AutocompleteMenu;
+}

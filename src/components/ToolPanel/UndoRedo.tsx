@@ -1,7 +1,7 @@
 import { Button, Tooltip } from "@nextui-org/react";
-import { Undo2, Redo2 } from "lucide-react";
+import { Redo2, Undo2 } from "lucide-react";
 
-const UndoRedo = () => {
+export function UndoRedo() {
   return (
     <div className="flex items-center pr-1.5">
       <Tooltip
@@ -56,6 +56,4 @@ const UndoRedo = () => {
       </Tooltip>
     </div>
   );
-};
-
-export default UndoRedo;
+}

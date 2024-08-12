@@ -93,4 +93,4 @@ const LaTeXPanel = forwardRef<LaTeXPanelRef>((_, ref) => {
   );
 });
 
-export default LaTeXPanel;
+export { LaTeXPanel };

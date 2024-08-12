@@ -8,16 +8,13 @@ import { useRef, useState } from "react";
 import { Button, Tooltip } from "@nextui-org/react";
 import { Copy, Download } from "lucide-react";
 
-import {
-  Banner,
-  EditorPanel,
-  Footer,
-  LaTeXPanel,
-  LaTeXPanelRef,
-  ToolPanel,
-} from "@/components";
+import { Banner } from "@/components/Banner";
+import { EditorPanel } from "@/components/EditorPanel";
+import { Footer } from "@/components/Footer";
+import { LaTeXPanel, LaTeXPanelRef } from "@/components/LaTeXPanel";
+import { ToolPanel } from "@/components/ToolPanel";
 
-const Home = () => {
+export default function Home() {
   const latexPanelRef = useRef<LaTeXPanelRef>(null);
 
   const [isDownloading, setIsDownloading] = useState(false);
@@ -82,6 +79,4 @@ const Home = () => {
       <Footer />
     </>
   );
-};
-
-export default Home;
+}

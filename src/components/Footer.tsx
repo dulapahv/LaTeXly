@@ -1,6 +1,6 @@
 import { Link } from "@nextui-org/react";
 
-const Footer = () => {
+export function Footer() {
   return (
     <div className="fixed bottom-0 left-1 isolate text-xs">
       <div>
@@ -28,6 +28,4 @@ const Footer = () => {
       </span>
     </div>
   );
-};
-
-export default Footer;
+}

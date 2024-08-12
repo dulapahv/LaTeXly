@@ -32,15 +32,17 @@ import {
   miscellaneous_symbols,
   non_mathematical_symbols,
   operators,
-  SymbolsGroup,
   trigonometry,
   uppercase_greek_letters,
 } from "@/constants";
+import { SymbolsGroup } from "@/types/symbols";
 import { cn } from "@/utils/cn";
 
-import { AutocompleteMenu, SymbolButton, UndoRedo } from ".";
+import { AutocompleteMenu } from "./AutocompleteMenu";
+import { SymbolButton } from "./SymbolButton";
+import { UndoRedo } from "./UndoRedo";
 
-const ToolPanel = () => {
+export function ToolPanel() {
   const symbolsGroups: SymbolsGroup[] = [
     common_symbols,
     math_mode_accents,
@@ -122,6 +124,4 @@ const ToolPanel = () => {
       })}
     </ScrollShadow>
   );
-};
-
-export default ToolPanel;
+}
