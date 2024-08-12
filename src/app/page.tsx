@@ -5,7 +5,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { Button, NextUIProvider, Tooltip } from "@nextui-org/react";
+import { Button, Tooltip } from "@nextui-org/react";
 import { Copy, Download } from "lucide-react";
 
 import {
@@ -24,7 +24,7 @@ const Home = () => {
   const [isCopying, setIsCopying] = useState(false);
 
   return (
-    <NextUIProvider>
+    <>
       <Banner />
       <div className="flex h-screen flex-col *:h-full *:max-h-[calc(50%-1rem)]">
         <div className="flex flex-row border-b-1.5 *:w-1/2">
@@ -80,7 +80,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
-    </NextUIProvider>
+    </>
   );
 };
 
