@@ -1,15 +1,15 @@
-import './globals.css';
+import "./globals.css";
 
-import { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
+import { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'LaTeXly | Online LaTeX Equation Editor',
+  title: "LaTeXly | Online LaTeX Equation Editor",
   description:
-    'Most comprehensive online LaTeX equation editor with live preview and syntax highlighting.',
+    "Most comprehensive online LaTeX equation editor with live preview and syntax highlighting.",
 };
 
 export default function RootLayout({

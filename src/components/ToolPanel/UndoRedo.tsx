@@ -1,5 +1,5 @@
-import { FaRedo, FaUndo } from 'react-icons/fa';
-import { Button, Tooltip } from '@nextui-org/react';
+import { Button, Tooltip } from "@nextui-org/react";
+import { FaRedo, FaUndo } from "react-icons/fa";
 
 const UndoRedo = () => {
   return (
@@ -13,12 +13,12 @@ const UndoRedo = () => {
         <Button
           onPress={() => {
             const editor = document.getElementById(
-              'editor'
+              "editor",
             ) as HTMLTextAreaElement;
             if (!editor) return;
 
             editor.focus();
-            document.execCommand('undo');
+            document.execCommand("undo");
           }}
           className="text-base"
           isIconOnly
@@ -38,12 +38,12 @@ const UndoRedo = () => {
         <Button
           onPress={() => {
             const editor = document.getElementById(
-              'editor'
+              "editor",
             ) as HTMLTextAreaElement;
             if (!editor) return;
 
             editor.focus();
-            document.execCommand('redo');
+            document.execCommand("redo");
           }}
           className="text-base"
           isIconOnly

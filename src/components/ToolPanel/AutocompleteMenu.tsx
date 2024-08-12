@@ -1,16 +1,15 @@
-import { ReactNode } from 'react';
-
-import { BlockMath, InlineMath } from 'react-katex';
-
-import { SymbolsGroup } from '@/constants';
-import { TbSelector } from 'react-icons/tb';
+import { ReactNode } from "react";
 import {
   Autocomplete,
   AutocompleteItem,
   AutocompleteSection,
   getKeyValue,
   Tooltip,
-} from '@nextui-org/react';
+} from "@nextui-org/react";
+import { TbSelector } from "react-icons/tb";
+import { BlockMath, InlineMath } from "react-katex";
+
+import { SymbolsGroup } from "@/constants";
 
 interface AutocompleteMenuProps {
   title: string;
@@ -25,9 +24,9 @@ const AutocompleteMenu = ({
 }: AutocompleteMenuProps) => {
   const handleInsert = (
     value: string,
-    caretPosition: number = value.length
+    caretPosition: number = value.length,
   ) => {
-    const editor = document.getElementById('editor') as HTMLTextAreaElement;
+    const editor = document.getElementById("editor") as HTMLTextAreaElement;
     if (!editor) return;
 
     editor.focus();
@@ -43,7 +42,7 @@ const AutocompleteMenu = ({
     // setEquation(editor.value);
 
     // Add value to the browser undo/redo stack
-    document.execCommand('insertText', false, value); // TODO: Change to non-deprecated method
+    document.execCommand("insertText", false, value); // TODO: Change to non-deprecated method
 
     // Move the caret to the caretPosition
     editor.selectionStart = start + caretPosition;
@@ -69,7 +68,7 @@ const AutocompleteMenu = ({
           selectedKey={null}
           defaultItems={symbolsGroups}
           onSelectionChange={(symbol) => {
-            const symbolValue = getKeyValue(symbol, '');
+            const symbolValue = getKeyValue(symbol, "");
             handleInsert(symbolValue);
           }}
           scrollShadowProps={{
@@ -77,7 +76,7 @@ const AutocompleteMenu = ({
           }}
           listboxProps={{
             itemClasses: {
-              base: 'text-sm',
+              base: "text-sm",
             },
           }}
         >
@@ -91,7 +90,7 @@ const AutocompleteMenu = ({
                 items={symbols}
                 classNames={{
                   heading:
-                    'flex w-full sticky top-1 z-20 py-1.5 px-2 bg-default-100 shadow-small rounded-small',
+                    "flex w-full sticky top-1 z-20 py-1.5 px-2 bg-default-100 shadow-small rounded-small",
                 }}
               >
                 {symbols.map((symbol) => (

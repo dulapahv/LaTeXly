@@ -6,8 +6,9 @@
  * https://stackoverflow.com/a/74445912/17302377
  */
 
-import { ScrollShadow } from '@nextui-org/react';
-import { TbArrowDownRight } from 'react-icons/tb';
+import { ScrollShadow } from "@nextui-org/react";
+import { TbArrowDownRight } from "react-icons/tb";
+
 import {
   ams_arrows,
   ams_binary_operators,
@@ -34,9 +35,9 @@ import {
   SymbolsGroup,
   trigonometry,
   uppercase_greek_letters,
-} from '@/constants';
+} from "@/constants";
 
-import { AutocompleteMenu, SymbolButton, UndoRedo } from '.';
+import { AutocompleteMenu, SymbolButton, UndoRedo } from ".";
 
 const ToolPanel = () => {
   const symbolsGroups: SymbolsGroup[] = [
@@ -85,7 +86,7 @@ const ToolPanel = () => {
         return (
           <div
             key={title}
-            className={`relative size-fit ${shouldDisplayOverflow ? 'group hover:rounded-t-lg hover:shadow-small' : ''}`}
+            className={`relative size-fit ${shouldDisplayOverflow ? "group hover:rounded-t-lg hover:shadow-small" : ""}`}
           >
             {pinnedSymbols.map((symbol) => (
               <SymbolButton key={symbol.text} {...symbol} />

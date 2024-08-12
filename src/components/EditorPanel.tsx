@@ -7,39 +7,40 @@
  * https://codesandbox.io/p/sandbox/react-simple-editor-linenumbers-wy240?file=%2Fsrc%2Findex.js
  */
 
-import { KeyboardEvent, RefObject, useEffect, useState } from 'react';
+import { KeyboardEvent, RefObject, useEffect, useState } from "react";
+import { Grammar, highlight, languages } from "prismjs";
+import Editor from "react-simple-code-editor";
 
-import Editor from 'react-simple-code-editor';
-import { Grammar, highlight, languages } from 'prismjs';
+import { LaTeXPanelRef } from "@/components";
 
-import { LaTeXPanelRef } from '@/components';
-
-import 'katex/dist/katex.min.css';
-import 'prismjs/themes/prism-coy.css';
-import 'prismjs/components/prism-latex';
+import "katex/dist/katex.min.css";
+import "prismjs/themes/prism-coy.css";
+import "prismjs/components/prism-latex";
 
 interface EditorPanelProps {
   latexPanelRef: RefObject<LaTeXPanelRef>;
 }
 
 const bracketPairs: Record<string, string> = {
-  '(': ')',
-  '[': ']',
-  '{': '}',
-  '|': '|',
-  '/': '/',
-  '<': '>',
+  "(": ")",
+  "[": "]",
+  "{": "}",
+  "|": "|",
+  "/": "/",
+  "<": ">",
 };
 
 const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
-  const [equation, setEquation] = useState("\\begin{align*}\n\ne^{i\\theta} =& \\cos(\\theta) + i\\sin(\\theta)\n\n\\end{align*}");
+  const [equation, setEquation] = useState(
+    "\\begin{align*}\n\ne^{i\\theta} =& \\cos(\\theta) + i\\sin(\\theta)\n\n\\end{align*}",
+  );
 
   useEffect(() => {
     latexPanelRef.current?.setEquation(equation);
   }, [equation]);
 
   const insertCharacter = (char: string) => {
-    const editor = document.getElementById('editor') as HTMLTextAreaElement;
+    const editor = document.getElementById("editor") as HTMLTextAreaElement;
     if (!editor) return;
 
     const start = editor.selectionStart;
@@ -54,20 +55,20 @@ const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
   };
 
   const onKeyDown = (e: KeyboardEvent<HTMLElement>) => {
-    const editor = document.getElementById('editor') as HTMLTextAreaElement;
+    const editor = document.getElementById("editor") as HTMLTextAreaElement;
     if (!editor) return;
 
     const textBeforeCaret = equation.substring(0, editor.selectionStart);
 
-    if (e.key === '{') {
+    if (e.key === "{") {
       // \begin{ -> \begin{} \end{} - the last 'else' will handle the closing bracket for the first bracket
-      const pattern1 = textBeforeCaret.endsWith('\\begin');
+      const pattern1 = textBeforeCaret.endsWith("\\begin");
       if (pattern1) {
         insertCharacter(` \\end{}`);
       }
 
       // \frac{ -> \frac{}{} - the last 'else' will handle the closing bracket for the first bracket
-      const pattern2 = textBeforeCaret.endsWith('\\frac');
+      const pattern2 = textBeforeCaret.endsWith("\\frac");
       if (pattern2) {
         insertCharacter(`{}`);
       }
@@ -75,13 +76,13 @@ const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
 
     if (Object.keys(bracketPairs).includes(e.key)) {
       // \left( -> \left( \right)
-      const pattern3 = textBeforeCaret.endsWith('\\left');
+      const pattern3 = textBeforeCaret.endsWith("\\left");
       if (pattern3) {
         insertCharacter(` \\right${bracketPairs[e.key]}`);
       } else {
         // (), [], {}
         insertCharacter(
-          e.key === '(' ? ')' : e.key === '[' ? ']' : e.key === '{' ? '}' : ''
+          e.key === "(" ? ")" : e.key === "[" ? "]" : e.key === "{" ? "}" : "",
         );
       }
     }
@@ -90,15 +91,15 @@ const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
   const highlightWithLineNumbers = (
     text: string,
     grammar: Grammar,
-    language: string
+    language: string,
   ) =>
     highlight(text, grammar, language)
-      .split('\n')
+      .split("\n")
       .map(
         (line, i) =>
-          `<span style='position:absolute;left:0px;color:#cccccc;text-align:right;width:40px'>${i + 1}</span>${line}`
+          `<span style='position:absolute;left:0px;color:#cccccc;text-align:right;width:40px'>${i + 1}</span>${line}`,
       )
-      .join('\n');
+      .join("\n");
 
   return (
     <div className="h-full overflow-y-auto border-r-1.5">
@@ -111,7 +112,7 @@ const EditorPanel = ({ latexPanelRef }: EditorPanelProps) => {
         onKeyDown={onKeyDown}
         onValueChange={setEquation}
         highlight={(code) =>
-          highlightWithLineNumbers(code, languages.latex!, 'latex')
+          highlightWithLineNumbers(code, languages.latex!, "latex")
         }
         padding={10}
         autoFocus

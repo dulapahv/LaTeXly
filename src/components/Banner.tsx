@@ -2,10 +2,9 @@
  * Announcement banner (likely be removed in the future)
  */
 
-import { useState } from 'react';
-
-import { IoClose } from 'react-icons/io5';
-import { Button, Link } from '@nextui-org/react';
+import { useState } from "react";
+import { Button, Link } from "@nextui-org/react";
+import { IoClose } from "react-icons/io5";
 
 const Banner = () => {
   const [isVisible, setIsVisible] = useState(false);

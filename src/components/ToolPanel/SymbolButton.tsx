@@ -6,9 +6,8 @@
  * https://stackoverflow.com/a/34968263/17302377
  */
 
-import { BlockMath, InlineMath } from 'react-katex';
-
-import { Button, Tooltip } from '@nextui-org/react';
+import { Button, Tooltip } from "@nextui-org/react";
+import { BlockMath, InlineMath } from "react-katex";
 
 interface SymbolButtonProps {
   name: string;
@@ -26,7 +25,7 @@ const SymbolButton = ({
   isBlockMath = false,
 }: SymbolButtonProps) => {
   const handleInsert = (value: string) => {
-    const editor = document.getElementById('editor') as HTMLTextAreaElement;
+    const editor = document.getElementById("editor") as HTMLTextAreaElement;
     if (!editor) return;
 
     editor.focus();
@@ -42,7 +41,7 @@ const SymbolButton = ({
     // setEquation(editor.value);
 
     // Add value to the browser undo/redo stack
-    document.execCommand('insertText', false, value); // TODO: Change to non-deprecated method
+    document.execCommand("insertText", false, value); // TODO: Change to non-deprecated method
 
     // Move the caret to the caretPosition
     editor.selectionStart = start + caretPosition;
