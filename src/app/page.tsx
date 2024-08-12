@@ -41,6 +41,7 @@ export default function Home() {
               isIconOnly
               className="border-1 text-base"
               isLoading={isCopying}
+              radius="sm"
               onClick={() => {
                 setIsCopying(() => true);
                 latexPanelRef.current
@@ -62,6 +63,7 @@ export default function Home() {
               isIconOnly
               className="border-1 text-base"
               isLoading={isDownloading}
+              radius="sm"
               onClick={async () => {
                 setIsDownloading(() => true);
                 try {

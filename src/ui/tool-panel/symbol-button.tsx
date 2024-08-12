@@ -58,6 +58,7 @@ export function SymbolButton({
           <span className="text-xs">{text}</span>
         </>
       }
+      className="rounded-md"
     >
       <Button
         onPress={() => handleInsert(value)}

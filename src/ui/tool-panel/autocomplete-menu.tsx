@@ -74,9 +74,14 @@ export function AutocompleteMenu({
           scrollShadowProps={{
             isEnabled: false,
           }}
+          popoverProps={{
+            classNames: {
+              content: "rounded-lg",
+            },
+          }}
           listboxProps={{
             itemClasses: {
-              base: "text-sm",
+              base: "text-sm rounded-md",
             },
           }}
         >
@@ -90,7 +95,7 @@ export function AutocompleteMenu({
                 items={symbols}
                 classNames={{
                   heading:
-                    "flex w-full sticky top-1 z-20 py-1.5 px-2 bg-default-100 shadow-small rounded-small",
+                    "flex w-full sticky top-1 z-20 py-1.5 px-2 bg-default-100 shadow-small rounded-md",
                 }}
               >
                 {symbols.map((symbol) => (
