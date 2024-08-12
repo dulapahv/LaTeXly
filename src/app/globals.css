@@ -4,7 +4,6 @@
 
 * {
   /* @apply !outline outline-1 outline-red; */
-  @apply scroll-smooth;
 }
 
 ::-webkit-scrollbar {
