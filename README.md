@@ -13,7 +13,7 @@ Most comprehensive online LaTeX equation editor with live preview and syntax hig
 - [x] Live preview
 - [x] All LaTeX symbols (based on [here](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf))
 - [ ] Symbol search
-- [ ] Export to image or PDF
+- [x] Export to image or PDF
 - [x] Undo/Redo support
 - [ ] Matrices builder
 - [ ] Prettify equation
