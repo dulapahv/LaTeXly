@@ -36,6 +36,7 @@ import {
   trigonometry,
   uppercase_greek_letters,
 } from "@/constants";
+import { cn } from "@/utils/cn";
 
 import { AutocompleteMenu, SymbolButton, UndoRedo } from ".";
 
@@ -86,7 +87,11 @@ const ToolPanel = () => {
         return (
           <div
             key={title}
-            className={`relative size-fit ${shouldDisplayOverflow ? "group hover:rounded-t-lg hover:shadow-small" : ""}`}
+            className={cn(
+              "relative size-fit",
+              shouldDisplayOverflow &&
+                "group hover:rounded-t-lg hover:shadow-small",
+            )}
           >
             {pinnedSymbols.map((symbol) => (
               <SymbolButton key={symbol.text} {...symbol} />

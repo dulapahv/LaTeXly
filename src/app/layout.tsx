@@ -4,6 +4,8 @@ import { ReactNode } from "react";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+import { cn } from "@/utils/cn";
+
 import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`min-w-[768px] overflow-y-hidden ${inter.className}`}>
+      <body className={cn("min-w-[768px] overflow-y-hidden", inter.className)}>
         <Providers>{children}</Providers>
       </body>
     </html>
