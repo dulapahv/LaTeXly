@@ -3,73 +3,73 @@
   "displayLength": 4,
   "symbols": [
     {
-      "name": "Left Parenthesis",
+      "name": "Parenthesis",
       "text": "\\left( \\right)",
       "value": "\\left(  \\right)",
       "caretPosition": 7
     },
     {
-      "name": "Left Square Bracket",
+      "name": "Square Bracket",
       "text": "\\left[ \\right]",
       "value": "\\left[  \\right]",
       "caretPosition": 7
     },
     {
-      "name": "Left Curly Brace",
+      "name": "Curly Brace",
       "text": "\\left\\{ \\right\\}",
       "value": "\\left\\{  \\right\\}",
       "caretPosition": 8
     },
     {
-      "name": "Left Absolute Value",
+      "name": "Absolute Value",
       "text": "\\left| \\right|",
       "value": "\\left|  \\right|",
       "caretPosition": 7
     },
     {
-      "name": "Left Floor",
+      "name": "Floor",
       "text": "\\left\\lfloor \\right\\rfloor",
       "value": "\\left\\lfloor  \\right\\rfloor",
       "caretPosition": 13
     },
     {
-      "name": "Left Ceiling",
+      "name": "Ceiling",
       "text": "\\left\\lceil \\right\\rceil",
       "value": "\\left\\lceil  \\right\\rceil",
       "caretPosition": 12
     },
     {
-      "name": "Mixed Left Delimiters",
+      "name": "Mixed Delimiters",
       "text": "\\left\\lceil \\right\\rfloor",
       "value": "\\left\\lceil  \\right\\rfloor",
       "caretPosition": 12
     },
     {
-      "name": "Left Angle Bracket",
+      "name": "Angle Bracket",
       "text": "\\left\\langle \\right\\rangle",
       "value": "\\left\\langle  \\right\\rangle",
       "caretPosition": 13
     },
     {
-      "name": "Left Slash",
+      "name": "Slash",
       "text": "\\left/ \\right/",
       "value": "\\left/  \\right/",
       "caretPosition": 7
     },
     {
-      "name": "Left Backslash",
+      "name": "Backslash",
       "text": "\\left\\backslash \\right\\backslash",
       "value": "\\left\\backslash  \\right\\backslash",
       "caretPosition": 16
     },
     {
-      "name": "Double Left Vertical Bar",
+      "name": "Double Vertical Bar",
       "text": "\\left\\vert \\right\\vert",
       "value": "\\left\\vert  \\right\\vert",
       "caretPosition": 11
     },
     {
-      "name": "Double Left Double Vertical Bar",
+      "name": "Double Double Vertical Bar",
       "text": "\\left\\Vert \\right\\Vert",
       "value": "\\left\\Vert  \\right\\Vert",
       "caretPosition": 11
@@ -99,13 +99,13 @@
       "caretPosition": 18
     },
     {
-      "name": "Left Group",
+      "name": "Group",
       "text": "\\left\\lgroup \\right\\rgroup",
       "value": "\\left\\lgroup  \\right\\rgroup",
       "caretPosition": 13
     },
     {
-      "name": "Left Moustache",
+      "name": "Moustache",
       "text": "\\left\\lmoustache \\right\\rmoustache",
       "value": "\\left\\lmoustache  \\right\\rmoustache",
       "caretPosition": 17
