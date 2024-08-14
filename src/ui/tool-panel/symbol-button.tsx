@@ -44,7 +44,7 @@ export function SymbolButton({
         isIconOnly
         size="sm"
         variant="light"
-        aria-label={text}
+        aria-label={name}
       >
         {isBlockMath ? <BlockMath math={text} /> : <InlineMath math={text} />}
       </Button>
