@@ -9,16 +9,46 @@
       "caretPosition": 5
     },
     {
-      "name": "Check",
-      "text": "\\check{a}",
-      "value": "\\check{}",
-      "caretPosition": 7
-    },
-    {
       "name": "Tilde",
       "text": "\\tilde{a}",
       "value": "\\tilde{}",
       "caretPosition": 7
+    },
+    {
+      "name": "Dot",
+      "text": "\\dot{a}",
+      "value": "\\dot{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Vector",
+      "text": "\\vec{a}",
+      "value": "\\vec{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Bar",
+      "text": "\\bar{a}",
+      "value": "\\bar{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Wide Hat",
+      "text": "\\widehat{a}",
+      "value": "\\widehat{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "Wide Tilde",
+      "text": "\\widetilde{a}",
+      "value": "\\widetilde{}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Double Dot",
+      "text": "\\ddot{a}",
+      "value": "\\ddot{}",
+      "caretPosition": 6
     },
     {
       "name": "Acute",
@@ -33,46 +63,16 @@
       "caretPosition": 7
     },
     {
-      "name": "Dot",
-      "text": "\\dot{a}",
-      "value": "\\dot{}",
-      "caretPosition": 5
-    },
-    {
-      "name": "Double Dot",
-      "text": "\\ddot{a}",
-      "value": "\\ddot{}",
-      "caretPosition": 6
-    },
-    {
       "name": "Breve",
       "text": "\\breve{a}",
       "value": "\\breve{}",
       "caretPosition": 7
     },
     {
-      "name": "Bar",
-      "text": "\\bar{a}",
-      "value": "\\bar{}",
-      "caretPosition": 5
-    },
-    {
-      "name": "Vector",
-      "text": "\\vec{a}",
-      "value": "\\vec{}",
-      "caretPosition": 5
-    },
-    {
-      "name": "Wide Hat",
-      "text": "\\widehat{a}",
-      "value": "\\widehat{}",
-      "caretPosition": 9
-    },
-    {
-      "name": "Wide Tilde",
-      "text": "\\widetilde{a}",
-      "value": "\\widetilde{}",
-      "caretPosition": 11
+      "name": "Check",
+      "text": "\\check{a}",
+      "value": "\\check{}",
+      "caretPosition": 7
     }
   ]
 }

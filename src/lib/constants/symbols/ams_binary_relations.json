@@ -1,22 +1,7 @@
 {
   "title": "AMS Binary Relations",
-  "displayLength": 6,
+  "displayLength": 8,
   "symbols": [
-    {
-      "name": "LessDot",
-      "text": "\\lessdot",
-      "value": "\\lessdot "
-    },
-    {
-      "name": "GreaterDot",
-      "text": "\\gtrdot",
-      "value": "\\gtrdot "
-    },
-    {
-      "name": "DotEqDot",
-      "text": "\\doteqdot",
-      "value": "\\doteqdot "
-    },
     {
       "name": "LeqSlant",
       "text": "\\leqslant",
@@ -26,56 +11,6 @@
       "name": "GeqSlant",
       "text": "\\geqslant",
       "value": "\\geqslant "
-    },
-    {
-      "name": "RisingDotSeq",
-      "text": "\\risingdotseq",
-      "value": "\\risingdotseq "
-    },
-    {
-      "name": "EqSlantLess",
-      "text": "\\eqslantless",
-      "value": "\\eqslantless "
-    },
-    {
-      "name": "EqSlantGtr",
-      "text": "\\eqslantgtr",
-      "value": "\\eqslantgtr "
-    },
-    {
-      "name": "FallingDotSeq",
-      "text": "\\fallingdotseq",
-      "value": "\\fallingdotseq "
-    },
-    {
-      "name": "Leqq",
-      "text": "\\leqq",
-      "value": "\\leqq "
-    },
-    {
-      "name": "Geqq",
-      "text": "\\geqq",
-      "value": "\\geqq "
-    },
-    {
-      "name": "EqCirc",
-      "text": "\\eqcirc",
-      "value": "\\eqcirc "
-    },
-    {
-      "name": "Lll",
-      "text": "\\lll",
-      "value": "\\lll "
-    },
-    {
-      "name": "Ggg",
-      "text": "\\ggg",
-      "value": "\\ggg "
-    },
-    {
-      "name": "Circeq",
-      "text": "\\circeq",
-      "value": "\\circeq "
     },
     {
       "name": "LessSim",
@@ -88,174 +23,14 @@
       "value": "\\gtrsim "
     },
     {
-      "name": "TriangleEq",
-      "text": "\\triangleq",
-      "value": "\\triangleq "
-    },
-    {
-      "name": "LessApprox",
-      "text": "\\lessapprox",
-      "value": "\\lessapprox "
-    },
-    {
-      "name": "GtrApprox",
-      "text": "\\gtrapprox",
-      "value": "\\gtrapprox "
-    },
-    {
-      "name": "Bumpeq",
-      "text": "\\bumpeq",
-      "value": "\\bumpeq "
-    },
-    {
-      "name": "LessGtr",
-      "text": "\\lessgtr",
-      "value": "\\lessgtr "
-    },
-    {
-      "name": "GtrLess",
-      "text": "\\gtrless",
-      "value": "\\gtrless "
-    },
-    {
-      "name": "Bumpeq",
-      "text": "\\Bumpeq",
-      "value": "\\Bumpeq "
-    },
-    {
-      "name": "LesseqqGtr",
-      "text": "\\lesseqgtr",
-      "value": "\\lesseqgtr "
-    },
-    {
-      "name": "GtreqqLess",
-      "text": "\\gtreqless",
-      "value": "\\gtreqless "
-    },
-    {
-      "name": "ThickSim",
-      "text": "\\thicksim",
-      "value": "\\thicksim "
-    },
-    {
-      "name": "LesseqqGtr",
-      "text": "\\lesseqqgtr",
-      "value": "\\lesseqqgtr "
-    },
-    {
-      "name": "GtreqqLess",
-      "text": "\\gtreqqless",
-      "value": "\\gtreqqless "
-    },
-    {
-      "name": "ThickApprox",
-      "text": "\\thickapprox",
-      "value": "\\thickapprox "
-    },
-    {
-      "name": "PrecCurlyEq",
-      "text": "\\preccurlyeq",
-      "value": "\\preccurlyeq "
-    },
-    {
-      "name": "SuccCurlyEq",
-      "text": "\\succcurlyeq",
-      "value": "\\succcurlyeq "
-    },
-    {
-      "name": "ApproxEq",
-      "text": "\\approxeq",
-      "value": "\\approxeq "
-    },
-    {
-      "name": "CurlyEqPrec",
-      "text": "\\curlyeqprec",
-      "value": "\\curlyeqprec "
-    },
-    {
-      "name": "CurlyEqSucc",
-      "text": "\\curlyeqsucc",
-      "value": "\\curlyeqsucc "
-    },
-    {
       "name": "BackSim",
       "text": "\\backsim",
       "value": "\\backsim "
     },
     {
-      "name": "PrecSim",
-      "text": "\\precsim",
-      "value": "\\precsim "
-    },
-    {
-      "name": "SuccSim",
-      "text": "\\succsim",
-      "value": "\\succsim "
-    },
-    {
-      "name": "Backsimeq",
-      "text": "\\backsimeq",
-      "value": "\\backsimeq "
-    },
-    {
-      "name": "PrecApprox",
-      "text": "\\precapprox",
-      "value": "\\precapprox "
-    },
-    {
-      "name": "SuccApprox",
-      "text": "\\succapprox",
-      "value": "\\succapprox "
-    },
-    {
-      "name": "VDash",
-      "text": "\\vDash",
-      "value": "\\vDash "
-    },
-    {
-      "name": "SubsetEqq",
-      "text": "\\subseteqq",
-      "value": "\\subseteqq "
-    },
-    {
-      "name": "SupsetEqq",
-      "text": "\\supseteqq",
-      "value": "\\supseteqq "
-    },
-    {
-      "name": "VDash",
-      "text": "\\Vdash",
-      "value": "\\Vdash "
-    },
-    {
-      "name": "Subset",
-      "text": "\\Subset",
-      "value": "\\Subset "
-    },
-    {
-      "name": "Supset",
-      "text": "\\Supset",
-      "value": "\\Supset "
-    },
-    {
-      "name": "VVDash",
-      "text": "\\Vvdash",
-      "value": "\\Vvdash "
-    },
-    {
-      "name": "SqSubset",
-      "text": "\\sqsubset",
-      "value": "\\sqsubset "
-    },
-    {
-      "name": "SqSupset",
-      "text": "\\sqsupset",
-      "value": "\\sqsupset "
-    },
-    {
-      "name": "BackEpsilon",
-      "text": "\\backepsilon",
-      "value": "\\backepsilon "
+      "name": "ThickSim",
+      "text": "\\thicksim",
+      "value": "\\thicksim "
     },
     {
       "name": "Therefore",
@@ -268,9 +43,224 @@
       "value": "\\because "
     },
     {
-      "name": "Varpropto",
-      "text": "\\varpropto",
-      "value": "\\varpropto "
+      "name": "EqSlantLess",
+      "text": "\\eqslantless",
+      "value": "\\eqslantless "
+    },
+    {
+      "name": "EqSlantGtr",
+      "text": "\\eqslantgtr",
+      "value": "\\eqslantgtr "
+    },
+    {
+      "name": "LessApprox",
+      "text": "\\lessapprox",
+      "value": "\\lessapprox "
+    },
+    {
+      "name": "GtrApprox",
+      "text": "\\gtrapprox",
+      "value": "\\gtrapprox "
+    },
+    {
+      "name": "Backsimeq",
+      "text": "\\backsimeq",
+      "value": "\\backsimeq "
+    },
+    {
+      "name": "ApproxEq",
+      "text": "\\approxeq",
+      "value": "\\approxeq "
+    },
+    {
+      "name": "LessDot",
+      "text": "\\lessdot",
+      "value": "\\lessdot "
+    },
+    {
+      "name": "GreaterDot",
+      "text": "\\gtrdot",
+      "value": "\\gtrdot "
+    },
+    {
+      "name": "Leqq",
+      "text": "\\leqq",
+      "value": "\\leqq "
+    },
+    {
+      "name": "Geqq",
+      "text": "\\geqq",
+      "value": "\\geqq "
+    },
+    {
+      "name": "PrecSim",
+      "text": "\\precsim",
+      "value": "\\precsim "
+    },
+    {
+      "name": "SuccSim",
+      "text": "\\succsim",
+      "value": "\\succsim "
+    },
+    {
+      "name": "ThickApprox",
+      "text": "\\thickapprox",
+      "value": "\\thickapprox "
+    },
+    {
+      "name": "DotEqDot",
+      "text": "\\doteqdot",
+      "value": "\\doteqdot "
+    },
+    {
+      "name": "RisingDotSeq",
+      "text": "\\risingdotseq",
+      "value": "\\risingdotseq "
+    },
+    {
+      "name": "FallingDotSeq",
+      "text": "\\fallingdotseq",
+      "value": "\\fallingdotseq "
+    },
+    {
+      "name": "LessGtr",
+      "text": "\\lessgtr",
+      "value": "\\lessgtr "
+    },
+    {
+      "name": "GtrLess",
+      "text": "\\gtrless",
+      "value": "\\gtrless "
+    },
+    {
+      "name": "PrecApprox",
+      "text": "\\precapprox",
+      "value": "\\precapprox "
+    },
+    {
+      "name": "SuccApprox",
+      "text": "\\succapprox",
+      "value": "\\succapprox "
+    },
+    {
+      "name": "Circeq",
+      "text": "\\circeq",
+      "value": "\\circeq "
+    },
+    {
+      "name": "EqCirc",
+      "text": "\\eqcirc",
+      "value": "\\eqcirc "
+    },
+    {
+      "name": "Bumpeq",
+      "text": "\\bumpeq",
+      "value": "\\bumpeq "
+    },
+    {
+      "name": "Bumpeq",
+      "text": "\\Bumpeq",
+      "value": "\\Bumpeq "
+    },
+    {
+      "name": "LesseqGtr",
+      "text": "\\lesseqgtr",
+      "value": "\\lesseqgtr "
+    },
+    {
+      "name": "GtreqLess",
+      "text": "\\gtreqless",
+      "value": "\\gtreqless "
+    },
+    {
+      "name": "PrecCurlyEq",
+      "text": "\\preccurlyeq",
+      "value": "\\preccurlyeq "
+    },
+    {
+      "name": "SuccCurlyEq",
+      "text": "\\succcurlyeq",
+      "value": "\\succcurlyeq "
+    },
+    {
+      "name": "SubsetEqq",
+      "text": "\\subseteqq",
+      "value": "\\subseteqq "
+    },
+    {
+      "name": "SupsetEqq",
+      "text": "\\supseteqq",
+      "value": "\\supseteqq "
+    },
+    {
+      "name": "Subset",
+      "text": "\\Subset",
+      "value": "\\Subset "
+    },
+    {
+      "name": "Supset",
+      "text": "\\Supset",
+      "value": "\\Supset "
+    },
+    {
+      "name": "LesseqqGtr",
+      "text": "\\lesseqqgtr",
+      "value": "\\lesseqqgtr "
+    },
+    {
+      "name": "GtreqqLess",
+      "text": "\\gtreqqless",
+      "value": "\\gtreqqless "
+    },
+    {
+      "name": "CurlyEqPrec",
+      "text": "\\curlyeqprec",
+      "value": "\\curlyeqprec "
+    },
+    {
+      "name": "CurlyEqSucc",
+      "text": "\\curlyeqsucc",
+      "value": "\\curlyeqsucc "
+    },
+    {
+      "name": "TriangleEq",
+      "text": "\\triangleq",
+      "value": "\\triangleq "
+    },
+    {
+      "name": "vDash",
+      "text": "\\vDash",
+      "value": "\\vDash "
+    },
+    {
+      "name": "VDash",
+      "text": "\\Vdash",
+      "value": "\\Vdash "
+    },
+    {
+      "name": "VVDash",
+      "text": "\\Vvdash",
+      "value": "\\Vvdash "
+    },
+    {
+      "name": "Lll",
+      "text": "\\lll",
+      "value": "\\lll "
+    },
+    {
+      "name": "Ggg",
+      "text": "\\ggg",
+      "value": "\\ggg "
+    },
+    {
+      "name": "SqSubset",
+      "text": "\\sqsubset",
+      "value": "\\sqsubset "
+    },
+    {
+      "name": "SqSupset",
+      "text": "\\sqsupset",
+      "value": "\\sqsupset "
     },
     {
       "name": "ShortMid",
@@ -283,24 +273,14 @@
       "value": "\\shortparallel "
     },
     {
-      "name": "Between",
-      "text": "\\between",
-      "value": "\\between "
+      "name": "BackEpsilon",
+      "text": "\\backepsilon",
+      "value": "\\backepsilon "
     },
     {
-      "name": "SmallSmile",
-      "text": "\\smallsmile",
-      "value": "\\smallsmile "
-    },
-    {
-      "name": "SmallFrown",
-      "text": "\\smallfrown",
-      "value": "\\smallfrown "
-    },
-    {
-      "name": "Pitchfork",
-      "text": "\\pitchfork",
-      "value": "\\pitchfork "
+      "name": "Varpropto",
+      "text": "\\varpropto",
+      "value": "\\varpropto "
     },
     {
       "name": "VartriangleLeft",
@@ -331,6 +311,26 @@
       "name": "TriangleRightEq",
       "text": "\\trianglerighteq",
       "value": "\\trianglerighteq "
+    },
+    {
+      "name": "SmallSmile",
+      "text": "\\smallsmile",
+      "value": "\\smallsmile "
+    },
+    {
+      "name": "SmallFrown",
+      "text": "\\smallfrown",
+      "value": "\\smallfrown "
+    },
+    {
+      "name": "Between",
+      "text": "\\between",
+      "value": "\\between "
+    },
+    {
+      "name": "Pitchfork",
+      "text": "\\pitchfork",
+      "value": "\\pitchfork "
     }
   ]
 }

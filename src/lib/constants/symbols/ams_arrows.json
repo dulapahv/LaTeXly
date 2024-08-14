@@ -13,26 +13,6 @@
       "value": "\\dashrightarrow "
     },
     {
-      "name": "Multimap",
-      "text": "\\multimap",
-      "value": "\\multimap "
-    },
-    {
-      "name": "LeftLeftArrows",
-      "text": "\\leftleftarrows",
-      "value": "\\leftleftarrows "
-    },
-    {
-      "name": "RightRightArrows",
-      "text": "\\rightrightarrows",
-      "value": "\\rightrightarrows "
-    },
-    {
-      "name": "UpUpArrows",
-      "text": "\\upuparrows",
-      "value": "\\upuparrows "
-    },
-    {
       "name": "LeftRightArrows",
       "text": "\\leftrightarrows",
       "value": "\\leftrightarrows "
@@ -43,24 +23,14 @@
       "value": "\\rightleftarrows "
     },
     {
-      "name": "DownDownArrows",
-      "text": "\\downdownarrows",
-      "value": "\\downdownarrows "
-    },
-    {
-      "name": "Lleftarrow",
-      "text": "\\Lleftarrow",
-      "value": "\\Lleftarrow "
-    },
-    {
-      "name": "Rrightarrow",
-      "text": "\\Rrightarrow",
-      "value": "\\Rrightarrow "
-    },
-    {
       "name": "UpHarpoonLeft",
       "text": "\\upharpoonleft",
       "value": "\\upharpoonleft "
+    },
+    {
+      "name": "DownHarpoonLeft",
+      "text": "\\downharpoonleft",
+      "value": "\\downharpoonleft "
     },
     {
       "name": "TwoHeadLeftArrow",
@@ -73,9 +43,24 @@
       "value": "\\twoheadrightarrow "
     },
     {
+      "name": "LeftLeftArrows",
+      "text": "\\leftleftarrows",
+      "value": "\\leftleftarrows "
+    },
+    {
+      "name": "RightRightArrows",
+      "text": "\\rightrightarrows",
+      "value": "\\rightrightarrows "
+    },
+    {
       "name": "UpHarpoonRight",
       "text": "\\upharpoonright",
       "value": "\\downharpoonleft "
+    },
+    {
+      "name": "DownHarpoonRight",
+      "text": "\\downharpoonright",
+      "value": "\\upharpoonright "
     },
     {
       "name": "LeftArrowTail",
@@ -88,24 +73,24 @@
       "value": "\\rightarrowtail "
     },
     {
-      "name": "DownHarpoonLeft",
-      "text": "\\downharpoonleft",
-      "value": "\\downharpoonleft "
+      "name": "Lleftarrow",
+      "text": "\\Lleftarrow",
+      "value": "\\Lleftarrow "
     },
     {
-      "name": "LeftRightHarpoons",
-      "text": "\\leftrightharpoons",
-      "value": "\\leftrightharpoons "
+      "name": "Rrightarrow",
+      "text": "\\Rrightarrow",
+      "value": "\\Rrightarrow "
     },
     {
-      "name": "RightLeftHarpoons",
-      "text": "\\rightleftharpoons",
-      "value": "\\rightleftharpoons "
+      "name": "UpUpArrows",
+      "text": "\\upuparrows",
+      "value": "\\upuparrows "
     },
     {
-      "name": "DownHarpoonRight",
-      "text": "\\downharpoonright",
-      "value": "\\upharpoonright "
+      "name": "DownDownArrows",
+      "text": "\\downdownarrows",
+      "value": "\\downdownarrows "
     },
     {
       "name": "Lsh",
@@ -118,9 +103,24 @@
       "value": "\\Rsh "
     },
     {
+      "name": "LeftRightHarpoons",
+      "text": "\\leftrightharpoons",
+      "value": "\\leftrightharpoons "
+    },
+    {
+      "name": "RightLeftHarpoons",
+      "text": "\\rightleftharpoons",
+      "value": "\\rightleftharpoons "
+    },
+    {
       "name": "RightSquigArrow",
       "text": "\\rightsquigarrow",
       "value": "\\rightsquigarrow "
+    },
+    {
+      "name": "LeftRightSquigArrow",
+      "text": "\\leftrightsquigarrow",
+      "value": "\\leftrightsquigarrow "
     },
     {
       "name": "LoopArrowLeft",
@@ -131,11 +131,6 @@
       "name": "LoopArrowRight",
       "text": "\\looparrowright",
       "value": "\\looparrowright "
-    },
-    {
-      "name": "LeftRightSquigArrow",
-      "text": "\\leftrightsquigarrow",
-      "value": "\\leftrightsquigarrow "
     },
     {
       "name": "CurveArrowLeft",
@@ -156,6 +151,11 @@
       "name": "CircleArrowRight",
       "text": "\\circlearrowright",
       "value": "\\circlearrowright "
+    },
+    {
+      "name": "Multimap",
+      "text": "\\multimap",
+      "value": "\\multimap "
     }
   ]
 }

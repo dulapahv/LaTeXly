@@ -3,109 +3,95 @@
   "displayLength": 6,
   "symbols": [
     {
-      "name": "Gets",
+      "name": "Left Arrow",
       "text": "\\gets",
       "value": "\\gets "
     },
     {
-      "name": "Long Leftarrow",
-      "text": "\\longleftarrow",
-      "value": "\\longleftarrow "
-    },
-    {
-      "name": "Uparrow",
-      "text": "\\uparrow",
-      "value": "\\uparrow "
-    },
-    {
-      "name": "To",
+      "name": "Right Arrow",
       "text": "\\to",
       "value": "\\to "
     },
     {
-      "name": "Long Rightarrow",
-      "text": "\\longrightarrow",
-      "value": "\\longrightarrow "
-    },
-    {
-      "name": "Downarrow",
-      "text": "\\downarrow",
-      "value": "\\downarrow "
-    },
-    {
-      "name": "Left Rightarrow",
-      "text": "\\leftrightarrow",
-      "value": "\\leftrightarrow "
-    },
-    {
-      "name": "Long Left Rightarrow",
-      "text": "\\longleftrightarrow",
-      "value": "\\longleftrightarrow "
-    },
-    {
-      "name": "Up Downarrow",
-      "text": "\\updownarrow",
-      "value": "\\updownarrow "
-    },
-    {
-      "name": "Leftarrow",
+      "name": "Double Left Arrow",
       "text": "\\Leftarrow",
       "value": "\\Leftarrow "
     },
     {
-      "name": "Long Leftarrow",
-      "text": "\\Longleftarrow",
-      "value": "\\Longleftarrow "
-    },
-    {
-      "name": "Uparrow",
-      "text": "\\Uparrow",
-      "value": "\\Uparrow "
-    },
-    {
-      "name": "Rightarrow",
+      "name": "Double Right Arrow",
       "text": "\\Rightarrow",
       "value": "\\Rightarrow "
     },
     {
-      "name": "Long Rightarrow",
+      "name": "Up Arrow",
+      "text": "\\uparrow",
+      "value": "\\uparrow "
+    },
+    {
+      "name": "Down Arrow",
+      "text": "\\downarrow",
+      "value": "\\downarrow "
+    },
+    {
+      "name": "Long Left Arrow",
+      "text": "\\longleftarrow",
+      "value": "\\longleftarrow "
+    },
+    {
+      "name": "Long Right Arrow",
+      "text": "\\longrightarrow",
+      "value": "\\longrightarrow "
+    },
+
+    {
+      "name": "Long Left Arrow",
+      "text": "\\Longleftarrow",
+      "value": "\\Longleftarrow "
+    },
+    {
+      "name": "Long Right Arrow",
       "text": "\\Longrightarrow",
       "value": "\\Longrightarrow "
     },
     {
-      "name": "Downarrow",
+      "name": "Up Arrow",
+      "text": "\\Uparrow",
+      "value": "\\Uparrow "
+    },
+    {
+      "name": "Down Arrow",
       "text": "\\Downarrow",
       "value": "\\Downarrow "
     },
     {
-      "name": "Left Rightarrow",
+      "name": "Left Right Arrow",
+      "text": "\\leftrightarrow",
+      "value": "\\leftrightarrow "
+    },
+    {
+      "name": "Left Right Arrow",
+      "text": "\\longleftrightarrow",
+      "value": "\\longleftrightarrow "
+    },
+    {
+      "name": "Up Down Arrow",
       "text": "\\Leftrightarrow",
       "value": "\\Leftrightarrow "
     },
     {
-      "name": "Long Left Rightarrow",
+      "name": "Long Left Right Arrow",
       "text": "\\Longleftrightarrow",
       "value": "\\Longleftrightarrow "
     },
     {
-      "name": "Up Downarrow",
+      "name": "Up Down Arrow",
+      "text": "\\updownarrow",
+      "value": "\\updownarrow "
+    },
+    {
+      "name": "Double Up Down Arrow",
       "text": "\\Updownarrow",
       "value": "\\Updownarrow "
-    },
-    {
-      "name": "Mapsto",
-      "text": "\\mapsto",
-      "value": "\\mapsto "
-    },
-    {
-      "name": "Long Mapsto",
-      "text": "\\longmapsto",
-      "value": "\\longmapsto "
-    },
-    {
-      "name": "Nearrow",
-      "text": "\\nearrow",
-      "value": "\\nearrow "
     },
     {
       "name": "Hook Leftarrow",
@@ -118,7 +104,22 @@
       "value": "\\hookrightarrow "
     },
     {
-      "name": "Searrow",
+      "name": "Left Harpoon",
+      "text": "\\mapsto",
+      "value": "\\mapsto "
+    },
+    {
+      "name": "Right Harpoon",
+      "text": "\\longmapsto",
+      "value": "\\longmapsto "
+    },
+    {
+      "name": "NE Arrow",
+      "text": "\\nearrow",
+      "value": "\\nearrow "
+    },
+    {
+      "name": "SE Arrow",
       "text": "\\searrow",
       "value": "\\searrow "
     },
@@ -133,11 +134,6 @@
       "value": "\\rightharpoonup "
     },
     {
-      "name": "Swarrow",
-      "text": "\\swarrow",
-      "value": "\\swarrow "
-    },
-    {
       "name": "Left Harpoon Down",
       "text": "\\leftharpoondown",
       "value": "\\leftharpoondown "
@@ -148,9 +144,14 @@
       "value": "\\rightharpoondown "
     },
     {
-      "name": "Nwarrow",
+      "name": "NW Arrow",
       "text": "\\nwarrow",
       "value": "\\nwarrow "
+    },
+    {
+      "name": "SW Arrow",
+      "text": "\\swarrow",
+      "value": "\\swarrow "
     },
     {
       "name": "Right Left Harpoons",
@@ -158,12 +159,12 @@
       "value": "\\rightleftharpoons "
     },
     {
-      "name": "If and only If",
+      "name": "If And Only If",
       "text": "\\iff",
       "value": "\\iff "
     },
     {
-      "name": "Leadsto",
+      "name": "Leads To",
       "text": "\\leadsto",
       "value": "\\leadsto "
     }

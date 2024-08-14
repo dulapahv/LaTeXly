@@ -3,6 +3,21 @@
   "displayLength": 5,
   "symbols": [
     {
+      "name": "Delta",
+      "text": "\\Delta",
+      "value": "\\Delta "
+    },
+    {
+      "name": "Sigma",
+      "text": "\\Sigma",
+      "value": "\\Sigma "
+    },
+    {
+      "name": "Pi",
+      "text": "\\Pi",
+      "value": "\\Pi "
+    },
+    {
       "name": "Gamma",
       "text": "\\Gamma",
       "value": "\\Gamma "
@@ -11,31 +26,6 @@
       "name": "Lambda",
       "text": "\\Lambda",
       "value": "\\Lambda "
-    },
-    {
-      "name": "Sigma",
-      "text": "\\Sigma",
-      "value": "\\Sigma "
-    },
-    {
-      "name": "Psi",
-      "text": "\\Psi",
-      "value": "\\Psi "
-    },
-    {
-      "name": "Delta",
-      "text": "\\Delta",
-      "value": "\\Delta "
-    },
-    {
-      "name": "Xi",
-      "text": "\\Xi",
-      "value": "\\Xi "
-    },
-    {
-      "name": "Upsilon",
-      "text": "\\Upsilon",
-      "value": "\\Upsilon "
     },
     {
       "name": "Omega",
@@ -48,14 +38,24 @@
       "value": "\\Theta "
     },
     {
-      "name": "Pi",
-      "text": "\\Pi",
-      "value": "\\Pi "
+      "name": "Psi",
+      "text": "\\Psi",
+      "value": "\\Psi "
     },
     {
       "name": "Phi",
       "text": "\\Phi",
       "value": "\\Phi "
+    },
+    {
+      "name": "Xi",
+      "text": "\\Xi",
+      "value": "\\Xi "
+    },
+    {
+      "name": "Upsilon",
+      "text": "\\Upsilon",
+      "value": "\\Upsilon "
     }
   ]
 }

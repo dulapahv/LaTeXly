@@ -13,11 +13,6 @@
       "value": "\\gt "
     },
     {
-      "name": "Equal",
-      "text": "=",
-      "value": "= "
-    },
-    {
       "name": "Less Than or Equal",
       "text": "\\le",
       "value": "\\le "
@@ -26,56 +21,6 @@
       "name": "Greater Than or Equal",
       "text": "\\ge",
       "value": "\\ge "
-    },
-    {
-      "name": "Equivalent",
-      "text": "\\equiv",
-      "value": "\\equiv "
-    },
-    {
-      "name": "Much Less Than",
-      "text": "\\ll",
-      "value": "\\ll "
-    },
-    {
-      "name": "Much Greater Than",
-      "text": "\\gg",
-      "value": "\\gg "
-    },
-    {
-      "name": "Dot Equals",
-      "text": "\\doteq",
-      "value": "\\doteq "
-    },
-    {
-      "name": "Precedes",
-      "text": "\\prec",
-      "value": "\\prec "
-    },
-    {
-      "name": "Succeeds",
-      "text": "\\succ",
-      "value": "\\succ "
-    },
-    {
-      "name": "Similar",
-      "text": "\\sim",
-      "value": "\\sim "
-    },
-    {
-      "name": "Precedes or Equal",
-      "text": "\\preceq",
-      "value": "\\preceq "
-    },
-    {
-      "name": "Succeeds or Equal",
-      "text": "\\succeq",
-      "value": "\\succeq "
-    },
-    {
-      "name": "Similar or Equal",
-      "text": "\\simeq",
-      "value": "\\simeq "
     },
     {
       "name": "Subset",
@@ -88,9 +33,24 @@
       "value": "\\supset "
     },
     {
-      "name": "Approximately Equal",
-      "text": "\\approx",
-      "value": "\\approx "
+      "name": "Precedes",
+      "text": "\\prec",
+      "value": "\\prec "
+    },
+    {
+      "name": "Succeeds",
+      "text": "\\succ",
+      "value": "\\succ "
+    },
+    {
+      "name": "Precedes or Equal",
+      "text": "\\preceq",
+      "value": "\\preceq "
+    },
+    {
+      "name": "Succeeds or Equal",
+      "text": "\\succeq",
+      "value": "\\succeq "
     },
     {
       "name": "Subset or Equal",
@@ -101,6 +61,51 @@
       "name": "Superset or Equal",
       "text": "\\supseteq",
       "value": "\\supseteq "
+    },
+    {
+      "name": "Equal",
+      "text": "=",
+      "value": "= "
+    },
+    {
+      "name": "Equivalent",
+      "text": "\\equiv",
+      "value": "\\equiv "
+    },
+    {
+      "name": "Dot Equals",
+      "text": "\\doteq",
+      "value": "\\doteq "
+    },
+    {
+      "name": "Colon",
+      "text": ":",
+      "value": ": "
+    },
+    {
+      "name": "Element of",
+      "text": "\\in",
+      "value": "\\in "
+    },
+    {
+      "name": "Contains as Member",
+      "text": "\\ni",
+      "value": "\\ni "
+    },
+    {
+      "name": "Similar",
+      "text": "\\sim",
+      "value": "\\sim "
+    },
+    {
+      "name": "Approximately Equal",
+      "text": "\\approx",
+      "value": "\\approx "
+    },
+    {
+      "name": "Similar or Equal",
+      "text": "\\simeq",
+      "value": "\\simeq "
     },
     {
       "name": "Congruent",
@@ -118,9 +123,24 @@
       "value": "\\sqsupset "
     },
     {
+      "name": "Much Less Than",
+      "text": "\\ll",
+      "value": "\\ll "
+    },
+    {
+      "name": "Much Greater Than",
+      "text": "\\gg",
+      "value": "\\gg "
+    },
+    {
       "name": "Join",
       "text": "\\Join",
       "value": "\\Join "
+    },
+    {
+      "name": "Bowtie",
+      "text": "\\bowtie",
+      "value": "\\bowtie "
     },
     {
       "name": "Square Subset or Equal",
@@ -133,26 +153,6 @@
       "value": "\\sqsupseteq "
     },
     {
-      "name": "Bowtie",
-      "text": "\\bowtie",
-      "value": "\\bowtie "
-    },
-    {
-      "name": "Element of",
-      "text": "\\in",
-      "value": "\\in "
-    },
-    {
-      "name": "Contains as Member",
-      "text": "\\ni",
-      "value": "\\ni "
-    },
-    {
-      "name": "Proportional To",
-      "text": "\\propto",
-      "value": "\\propto "
-    },
-    {
       "name": "Right Tack",
       "text": "\\vdash",
       "value": "\\vdash "
@@ -161,6 +161,11 @@
       "name": "Left Tack",
       "text": "\\dashv",
       "value": "\\dashv "
+    },
+    {
+      "name": "Perpendicular",
+      "text": "\\perp",
+      "value": "\\perp "
     },
     {
       "name": "Models",
@@ -178,11 +183,6 @@
       "value": "\\parallel "
     },
     {
-      "name": "Perpendicular",
-      "text": "\\perp",
-      "value": "\\perp "
-    },
-    {
       "name": "Smile",
       "text": "\\smile",
       "value": "\\smile "
@@ -198,9 +198,9 @@
       "value": "\\asymp "
     },
     {
-      "name": "Colon",
-      "text": ":",
-      "value": ": "
+      "name": "Proportional To",
+      "text": "\\propto",
+      "value": "\\propto "
     }
   ]
 }

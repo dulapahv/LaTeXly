@@ -18,14 +18,49 @@
       "value": "\\times "
     },
     {
+      "name": "Dot",
+      "text": "\\cdot",
+      "value": "\\cdot "
+    },
+    {
+      "name": "Logical And",
+      "text": "\\wedge",
+      "value": "\\wedge "
+    },
+    {
+      "name": "Logical Or",
+      "text": "\\vee",
+      "value": "\\vee "
+    },
+    {
+      "name": "Direct Sum",
+      "text": "\\oplus",
+      "value": "\\oplus "
+    },
+    {
+      "name": "Direct Minus",
+      "text": "\\ominus",
+      "value": "\\ominus "
+    },
+    {
+      "name": "Tensor Product",
+      "text": "\\otimes",
+      "value": "\\otimes "
+    },
+    {
       "name": "Division",
       "text": "\\div",
       "value": "\\div "
     },
     {
-      "name": "Dot",
-      "text": "\\cdot",
-      "value": "\\cdot "
+      "name": "Intersection",
+      "text": "\\cap",
+      "value": "\\cap "
+    },
+    {
+      "name": "Union",
+      "text": "\\cup",
+      "value": "\\cup "
     },
     {
       "name": "Plus/Minus",
@@ -43,39 +78,9 @@
       "value": "\\ast "
     },
     {
-      "name": "Triangle Left",
-      "text": "\\triangleleft",
-      "value": "\\triangleleft "
-    },
-    {
-      "name": "Triangle Right",
-      "text": "\\triangleright",
-      "value": "\\triangleright "
-    },
-    {
       "name": "Set Minus",
       "text": "\\setminus",
       "value": "\\setminus "
-    },
-    {
-      "name": "Star",
-      "text": "\\star",
-      "value": "\\star "
-    },
-    {
-      "name": "Union",
-      "text": "\\cup",
-      "value": "\\cup "
-    },
-    {
-      "name": "Intersection",
-      "text": "\\cap",
-      "value": "\\cap "
-    },
-    {
-      "name": "Square Union",
-      "text": "\\sqcup",
-      "value": "\\sqcup "
     },
     {
       "name": "Square Intersection",
@@ -83,19 +88,9 @@
       "value": "\\sqcap "
     },
     {
-      "name": "Circle",
-      "text": "\\circ",
-      "value": "\\circ "
-    },
-    {
-      "name": "Logical Or",
-      "text": "\\vee",
-      "value": "\\vee "
-    },
-    {
-      "name": "Logical And",
-      "text": "\\wedge",
-      "value": "\\wedge "
+      "name": "Square Union",
+      "text": "\\sqcup",
+      "value": "\\sqcup "
     },
     {
       "name": "Bullet",
@@ -103,19 +98,9 @@
       "value": "\\bullet "
     },
     {
-      "name": "Direct Sum",
-      "text": "\\oplus",
-      "value": "\\oplus "
-    },
-    {
-      "name": "Direct Minus",
-      "text": "\\ominus",
-      "value": "\\ominus "
-    },
-    {
-      "name": "Diamond",
-      "text": "\\diamond",
-      "value": "\\diamond "
+      "name": "Circle",
+      "text": "\\circ",
+      "value": "\\circ "
     },
     {
       "name": "Circle Dot",
@@ -128,26 +113,6 @@
       "value": "\\oslash "
     },
     {
-      "name": "Plus Sign in Circle",
-      "text": "\\uplus",
-      "value": "\\uplus "
-    },
-    {
-      "name": "Tensor Product",
-      "text": "\\otimes",
-      "value": "\\otimes "
-    },
-    {
-      "name": "Big Circle",
-      "text": "\\bigcirc",
-      "value": "\\bigcirc "
-    },
-    {
-      "name": "Amalgamation",
-      "text": "\\amalg",
-      "value": "\\amalg "
-    },
-    {
       "name": "Big Triangle Up",
       "text": "\\bigtriangleup",
       "value": "\\bigtriangleup "
@@ -158,9 +123,14 @@
       "value": "\\bigtriangledown "
     },
     {
-      "name": "Dagger",
-      "text": "\\dagger",
-      "value": "\\dagger "
+      "name": "Triangle Left",
+      "text": "\\triangleleft",
+      "value": "\\triangleleft "
+    },
+    {
+      "name": "Triangle Right",
+      "text": "\\triangleright",
+      "value": "\\triangleright "
     },
     {
       "name": "Left-Handed Triangle",
@@ -173,11 +143,6 @@
       "value": "\\rhd "
     },
     {
-      "name": "Double Dagger",
-      "text": "\\ddagger",
-      "value": "\\ddagger "
-    },
-    {
       "name": "Unfilled Left-Handed Triangle",
       "text": "\\unlhd",
       "value": "\\unlhd "
@@ -186,6 +151,41 @@
       "name": "Unfilled Right-Handed Triangle",
       "text": "\\unrhd",
       "value": "\\unrhd "
+    },
+    {
+      "name": "Star",
+      "text": "\\star",
+      "value": "\\star "
+    },
+    {
+      "name": "Diamond",
+      "text": "\\diamond",
+      "value": "\\diamond "
+    },
+    {
+      "name": "Union Plus",
+      "text": "\\uplus",
+      "value": "\\uplus "
+    },
+    {
+      "name": "Big Circle",
+      "text": "\\bigcirc",
+      "value": "\\bigcirc "
+    },
+    {
+      "name": "Dagger",
+      "text": "\\dagger",
+      "value": "\\dagger "
+    },
+    {
+      "name": "Double Dagger",
+      "text": "\\ddagger",
+      "value": "\\ddagger "
+    },
+    {
+      "name": "Amalgamation",
+      "text": "\\amalg",
+      "value": "\\amalg "
     },
     {
       "name": "Wreath Product",

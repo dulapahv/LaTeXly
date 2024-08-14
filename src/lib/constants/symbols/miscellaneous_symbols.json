@@ -1,7 +1,32 @@
 {
   "title": "Miscellaneous Symbols",
-  "displayLength": 5,
+  "displayLength": 6,
   "symbols": [
+    {
+      "name": "Infinity",
+      "text": "\\infty",
+      "value": "\\infty "
+    },
+    {
+      "name": "Partial",
+      "text": "\\partial",
+      "value": "\\partial "
+    },
+    {
+      "name": "Exists",
+      "text": "\\exists",
+      "value": "\\exists "
+    },
+    {
+      "name": "For all",
+      "text": "\\forall",
+      "value": "\\forall "
+    },
+    {
+      "name": "Nabla",
+      "text": "\\nabla",
+      "value": "\\nabla "
+    },
     {
       "name": "Dots",
       "text": "\\dots",
@@ -13,74 +38,19 @@
       "value": "\\cdots "
     },
     {
-      "name": "Vertical Dots",
-      "text": "\\vdots",
-      "value": "\\vdots "
-    },
-    {
       "name": "Diagonal Dots",
       "text": "\\ddots",
       "value": "\\ddots "
     },
     {
+      "name": "Vertical Dots",
+      "text": "\\vdots",
+      "value": "\\vdots "
+    },
+    {
       "name": "Planck's constant over 2 pi",
       "text": "\\hbar",
       "value": "\\hbar "
-    },
-    {
-      "name": "Dotless i",
-      "text": "\\imath",
-      "value": "\\imath "
-    },
-    {
-      "name": "Dotless j",
-      "text": "\\jmath",
-      "value": "\\jmath "
-    },
-    {
-      "name": "Script l",
-      "text": "\\ell",
-      "value": "\\ell "
-    },
-    {
-      "name": "Script R",
-      "text": "\\Re",
-      "value": "\\Re "
-    },
-    {
-      "name": "Script I",
-      "text": "\\Im",
-      "value": "\\Im "
-    },
-    {
-      "name": "Aleph",
-      "text": "\\aleph",
-      "value": "\\aleph "
-    },
-    {
-      "name": "Weierstrass p",
-      "text": "\\wp",
-      "value": "\\wp "
-    },
-    {
-      "name": "For all",
-      "text": "\\forall",
-      "value": "\\forall "
-    },
-    {
-      "name": "Exists",
-      "text": "\\exists",
-      "value": "\\exists "
-    },
-    {
-      "name": "Mho",
-      "text": "\\mho",
-      "value": "\\mho "
-    },
-    {
-      "name": "Partial",
-      "text": "\\partial",
-      "value": "\\partial "
     },
     {
       "name": "Prime",
@@ -93,34 +63,19 @@
       "value": "\\prime "
     },
     {
-      "name": "Empty set",
-      "text": "\\emptyset",
-      "value": "\\emptyset "
-    },
-    {
-      "name": "Infinity",
-      "text": "\\infty",
-      "value": "\\infty "
-    },
-    {
-      "name": "Nabla",
-      "text": "\\nabla",
-      "value": "\\nabla "
-    },
-    {
       "name": "Triangle",
       "text": "\\triangle",
       "value": "\\triangle "
     },
     {
-      "name": "Open Box",
-      "text": "\\Box",
-      "value": "\\Box "
+      "name": "Angle",
+      "text": "\\angle",
+      "value": "\\angle "
     },
     {
-      "name": "Diamond",
-      "text": "\\Diamond",
-      "value": "\\Diamond "
+      "name": "Empty set",
+      "text": "\\emptyset",
+      "value": "\\emptyset "
     },
     {
       "name": "Perpendicular",
@@ -133,9 +88,34 @@
       "value": "\\top "
     },
     {
-      "name": "Angle",
-      "text": "\\angle",
-      "value": "\\angle "
+      "name": "Script l",
+      "text": "\\ell",
+      "value": "\\ell "
+    },
+    {
+      "name": "Aleph",
+      "text": "\\aleph",
+      "value": "\\aleph "
+    },
+    {
+      "name": "Script R",
+      "text": "\\Re",
+      "value": "\\Re "
+    },
+    {
+      "name": "Script I",
+      "text": "\\Im",
+      "value": "\\Im "
+    },
+    {
+      "name": "Dotless i",
+      "text": "\\imath",
+      "value": "\\imath "
+    },
+    {
+      "name": "Dotless j",
+      "text": "\\jmath",
+      "value": "\\jmath "
     },
     {
       "name": "Square root",
@@ -143,24 +123,14 @@
       "value": "\\surd "
     },
     {
-      "name": "Diamond suit",
-      "text": "\\diamondsuit",
-      "value": "\\diamondsuit "
+      "name": "Open Box",
+      "text": "\\Box",
+      "value": "\\Box "
     },
     {
-      "name": "Heart suit",
-      "text": "\\heartsuit",
-      "value": "\\heartsuit "
-    },
-    {
-      "name": "Club suit",
-      "text": "\\clubsuit",
-      "value": "\\clubsuit "
-    },
-    {
-      "name": "Spade suit",
-      "text": "\\spadesuit",
-      "value": "\\spadesuit "
+      "name": "Diamond",
+      "text": "\\Diamond",
+      "value": "\\Diamond "
     },
     {
       "name": "Negation",
@@ -181,6 +151,36 @@
       "name": "Sharp",
       "text": "\\sharp",
       "value": "\\sharp "
+    },
+    {
+      "name": "Mho",
+      "text": "\\mho",
+      "value": "\\mho "
+    },
+    {
+      "name": "Weierstrass p",
+      "text": "\\wp",
+      "value": "\\wp "
+    },
+    {
+      "name": "Heart Suit",
+      "text": "\\heartsuit",
+      "value": "\\heartsuit "
+    },
+    {
+      "name": "Diamond Suit",
+      "text": "\\diamondsuit",
+      "value": "\\diamondsuit "
+    },
+    {
+      "name": "Club Suit",
+      "text": "\\clubsuit",
+      "value": "\\clubsuit "
+    },
+    {
+      "name": "Spade Suit",
+      "text": "\\spadesuit",
+      "value": "\\spadesuit "
     }
   ]
 }

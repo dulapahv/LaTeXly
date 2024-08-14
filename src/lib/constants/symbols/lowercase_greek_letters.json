@@ -3,6 +3,11 @@
   "displayLength": 5,
   "symbols": [
     {
+      "name": "Pi",
+      "text": "\\pi",
+      "value": "\\pi "
+    },
+    {
       "name": "Alpha",
       "text": "\\alpha",
       "value": "\\alpha "
@@ -13,74 +18,14 @@
       "value": "\\theta "
     },
     {
-      "name": "Omicron",
-      "text": "o",
-      "value": "o "
-    },
-    {
-      "name": "Upsilon",
-      "text": "\\upsilon",
-      "value": "\\upsilon "
-    },
-    {
-      "name": "Beta",
-      "text": "\\beta",
-      "value": "\\beta "
-    },
-    {
-      "name": "Vartheta",
-      "text": "\\vartheta",
-      "value": "\\vartheta "
-    },
-    {
-      "name": "Pi",
-      "text": "\\pi",
-      "value": "\\pi "
-    },
-    {
-      "name": "Phi",
-      "text": "\\phi",
-      "value": "\\phi "
-    },
-    {
-      "name": "Gamma",
-      "text": "\\gamma",
-      "value": "\\gamma "
-    },
-    {
-      "name": "Iota",
-      "text": "\\iota",
-      "value": "\\iota "
-    },
-    {
-      "name": "Varpi",
-      "text": "\\varpi",
-      "value": "\\varpi "
-    },
-    {
-      "name": "Varphi",
-      "text": "\\varphi",
-      "value": "\\varphi "
+      "name": "Sigma",
+      "text": "\\sigma",
+      "value": "\\sigma "
     },
     {
       "name": "Delta",
       "text": "\\delta",
       "value": "\\delta "
-    },
-    {
-      "name": "Kappa",
-      "text": "\\kappa",
-      "value": "\\kappa "
-    },
-    {
-      "name": "Rho",
-      "text": "\\rho",
-      "value": "\\rho "
-    },
-    {
-      "name": "Chi",
-      "text": "\\chi",
-      "value": "\\chi "
     },
     {
       "name": "Epsilon",
@@ -93,19 +38,9 @@
       "value": "\\lambda "
     },
     {
-      "name": "Varrho",
-      "text": "\\varrho",
-      "value": "\\varrho "
-    },
-    {
-      "name": "Psi",
-      "text": "\\psi",
-      "value": "\\psi "
-    },
-    {
-      "name": "Varepsilon",
-      "text": "\\varepsilon",
-      "value": "\\varepsilon "
+      "name": "Gamma",
+      "text": "\\gamma",
+      "value": "\\gamma "
     },
     {
       "name": "Mu",
@@ -113,34 +48,24 @@
       "value": "\\mu "
     },
     {
-      "name": "Sigma",
-      "text": "\\sigma",
-      "value": "\\sigma "
-    },
-    {
       "name": "Omega",
       "text": "\\omega",
       "value": "\\omega "
     },
     {
-      "name": "Zeta",
-      "text": "\\zeta",
-      "value": "\\zeta "
+      "name": "Rho",
+      "text": "\\rho",
+      "value": "\\rho "
     },
     {
-      "name": "Nu",
-      "text": "\\nu",
-      "value": "\\nu "
+      "name": "Tau",
+      "text": "\\tau",
+      "value": "\\tau "
     },
     {
-      "name": "Varsigma",
-      "text": "\\varsigma",
-      "value": "\\varsigma "
-    },
-    {
-      "name": "Eta",
-      "text": "\\eta",
-      "value": "\\eta "
+      "name": "Phi",
+      "text": "\\phi",
+      "value": "\\phi "
     },
     {
       "name": "Xi",
@@ -148,9 +73,84 @@
       "value": "\\xi "
     },
     {
-      "name": "Tau",
-      "text": "\\tau",
-      "value": "\\tau "
+      "name": "Zeta",
+      "text": "\\zeta",
+      "value": "\\zeta "
+    },
+    {
+      "name": "Eta",
+      "text": "\\eta",
+      "value": "\\eta "
+    },
+    {
+      "name": "Nu",
+      "text": "\\nu",
+      "value": "\\nu "
+    },
+    {
+      "name": "Chi",
+      "text": "\\chi",
+      "value": "\\chi "
+    },
+    {
+      "name": "Psi",
+      "text": "\\psi",
+      "value": "\\psi "
+    },
+    {
+      "name": "Beta",
+      "text": "\\beta",
+      "value": "\\beta "
+    },
+    {
+      "name": "Kappa",
+      "text": "\\kappa",
+      "value": "\\kappa "
+    },
+    {
+      "name": "Upsilon",
+      "text": "\\upsilon",
+      "value": "\\upsilon "
+    },
+    {
+      "name": "Varepsilon",
+      "text": "\\varepsilon",
+      "value": "\\varepsilon "
+    },
+    {
+      "name": "Varsigma",
+      "text": "\\varsigma",
+      "value": "\\varsigma "
+    },
+    {
+      "name": "Varrho",
+      "text": "\\varrho",
+      "value": "\\varrho "
+    },
+    {
+      "name": "Varphi",
+      "text": "\\varphi",
+      "value": "\\varphi "
+    },
+    {
+      "name": "Varpi",
+      "text": "\\varpi",
+      "value": "\\varpi "
+    },
+    {
+      "name": "Vartheta",
+      "text": "\\vartheta",
+      "value": "\\vartheta "
+    },
+    {
+      "name": "Iota",
+      "text": "\\iota",
+      "value": "\\iota "
+    },
+    {
+      "name": "Omicron",
+      "text": "o",
+      "value": "o "
     }
   ]
 }

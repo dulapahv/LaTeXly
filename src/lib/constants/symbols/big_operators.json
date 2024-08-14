@@ -9,28 +9,22 @@
       "caretPosition": 6
     },
     {
-      "name": "Union (Big)",
-      "text": "\\bigcup",
-      "value": "\\bigcup_{}^{}",
-      "caretPosition": 9
-    },
-    {
-      "name": "Logical Or (Big)",
-      "text": "\\bigvee",
-      "value": "\\bigvee_{}^{}",
-      "caretPosition": 9
-    },
-    {
-      "name": "Direct Sum (Big)",
-      "text": "\\bigoplus",
-      "value": "\\bigoplus_{}^{}",
-      "caretPosition": 11
+      "name": "Integral",
+      "text": "\\int",
+      "value": "\\int_{}^{}",
+      "caretPosition": 6
     },
     {
       "name": "Product",
       "text": "\\prod",
       "value": "\\prod_{}^{}",
       "caretPosition": 7
+    },
+    {
+      "name": "Union (Big)",
+      "text": "\\bigcup",
+      "value": "\\bigcup_{}^{}",
+      "caretPosition": 9
     },
     {
       "name": "Intersection (Big)",
@@ -45,16 +39,40 @@
       "caretPosition": 10
     },
     {
+      "name": "Logical Or (Big)",
+      "text": "\\bigvee",
+      "value": "\\bigvee_{}^{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "Direct Sum (Big)",
+      "text": "\\bigoplus",
+      "value": "\\bigoplus_{}^{}",
+      "caretPosition": 11
+    },
+    {
       "name": "Tensor Product (Big)",
       "text": "\\bigotimes",
       "value": "\\bigotimes_{}^{}",
       "caretPosition": 12
     },
     {
+      "name": "Contour Integral",
+      "text": "\\oint",
+      "value": "\\oint_{}^{}",
+      "caretPosition": 7
+    },
+    {
       "name": "Coproduct",
       "text": "\\coprod",
       "value": "\\coprod_{}^{}",
       "caretPosition": 8
+    },
+    {
+      "name": "Union Plus (Big)",
+      "text": "\\biguplus",
+      "value": "\\biguplus_{}^{}",
+      "caretPosition": 10
     },
     {
       "name": "Square Union (Big)",
@@ -66,24 +84,6 @@
       "name": "Circle Dot (Big)",
       "text": "\\bigodot",
       "value": "\\bigodot_{}^{}",
-      "caretPosition": 10
-    },
-    {
-      "name": "Integral",
-      "text": "\\int",
-      "value": "\\int_{}^{}",
-      "caretPosition": 6
-    },
-    {
-      "name": "Contour Integral",
-      "text": "\\oint",
-      "value": "\\oint_{}^{}",
-      "caretPosition": 7
-    },
-    {
-      "name": "Union Plus (Big)",
-      "text": "\\biguplus",
-      "value": "\\biguplus_{}^{}",
       "caretPosition": 10
     }
   ]
