@@ -77,9 +77,9 @@ export function AutocompleteMenu({
                     key={symbol.value}
                     textValue={symbol.name}
                     value={symbol.value}
-                    // classNames={{
-                    //   title: 'text-xs',
-                    // }}
+                    classNames={{
+                      title: "text-xs",
+                    }}
                   >
                     {symbol.isBlockMath ? (
                       <BlockMath math={symbol.text} />
