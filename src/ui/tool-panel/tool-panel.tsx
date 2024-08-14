@@ -34,7 +34,7 @@ import {
   operators,
   trigonometry,
   uppercase_greek_letters,
-} from "@/lib/constants";
+} from "@/lib/constants/symbols";
 import { SymbolsGroup } from "@/types/symbols";
 import { cn } from "@/utils/cn";
 

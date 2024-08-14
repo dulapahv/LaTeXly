@@ -7,12 +7,13 @@
  * https://codesandbox.io/p/sandbox/react-simple-editor-linenumbers-wy240?file=%2Fsrc%2Findex.js
  */
 
-import { KeyboardEvent, RefObject, useEffect, useState } from "react";
+import { RefObject, useEffect, useState } from "react";
 import { Grammar, highlight, languages } from "prismjs";
 import Editor from "react-simple-code-editor";
 
 import { latexPanelRef } from "@/ui/latex-panel";
-import { insertToEditor } from "@/utils/insert-to-editor";
+
+import { processPattern } from "./process-pattern";
 
 import "katex/dist/katex.min.css";
 import "prismjs/themes/prism-coy.css";
@@ -22,56 +23,12 @@ interface EditorPanelProps {
   latexPanelRef: RefObject<latexPanelRef>;
 }
 
-const bracketPairs: Record<string, string> = {
-  "(": ")",
-  "[": "]",
-  "{": "}",
-  "|": "|",
-  "/": "/",
-  "<": ">",
-};
-
 export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
   const [equation, setEquation] = useState("");
 
   useEffect(() => {
     latexPanelRef.current?.setEquation(equation);
   }, [equation]);
-
-  const onKeyDown = (e: KeyboardEvent<HTMLElement>) => {
-    const editor = document.getElementById("editor") as HTMLTextAreaElement;
-    if (!editor) return;
-
-    const textBeforeCaret = equation.substring(0, editor.selectionStart);
-
-    if (e.key === "{") {
-      // \begin{ -> \begin{} \end{} - the last 'else' will handle the closing bracket for the first bracket
-      const pattern1 = textBeforeCaret.endsWith("\\begin");
-      if (pattern1) {
-        insertToEditor(` \\end{}`, false);
-      }
-
-      // \frac{ -> \frac{}{} - the last 'else' will handle the closing bracket for the first bracket
-      const pattern2 = textBeforeCaret.endsWith("\\frac");
-      if (pattern2) {
-        insertToEditor(`{}`, false);
-      }
-    }
-
-    if (Object.keys(bracketPairs).includes(e.key)) {
-      // \left( -> \left( \right)
-      const pattern3 = textBeforeCaret.endsWith("\\left");
-      if (pattern3) {
-        insertToEditor(` \\right${bracketPairs[e.key]}`, false);
-      } else {
-        // (), [], {}
-        insertToEditor(
-          e.key === "(" ? ")" : e.key === "[" ? "]" : e.key === "{" ? "}" : "",
-          false,
-        );
-      }
-    }
-  };
 
   const highlightWithLineNumbers = (
     text: string,
@@ -96,7 +53,7 @@ export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
         preClassName="!pl-12 !outline-none"
         textareaClassName="!pl-12 !outline-none"
         value={equation}
-        onKeyDown={onKeyDown}
+        onKeyDown={(e) => processPattern({ keyboardEvent: e, equation })}
         onValueChange={setEquation}
         highlight={(code) =>
           highlightWithLineNumbers(code, languages.latex!, "latex")
