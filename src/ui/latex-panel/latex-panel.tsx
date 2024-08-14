@@ -14,62 +14,61 @@ export interface latexPanelRef {
   setEquation: (value: string) => void;
   download: () => Promise<void>;
   copyToClipboard: () => Promise<void>;
-  // equation: string;
 }
 
 const latexPanel = forwardRef<latexPanelRef>((_, ref) => {
   const [equation, setEquation] = useState("");
   const equationRef = useRef<HTMLDivElement>(null);
 
+  async function handleCopy() {
+    const element = equationRef.current;
+    if (!element) {
+      throw new Error("Element not found");
+    }
+
+    try {
+      const canvas = await html2canvas(element);
+      const blob = await new Promise<Blob | null>((resolve) =>
+        canvas.toBlob((blob) => resolve(blob), "image/png"),
+      );
+
+      if (blob) {
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            "image/png": blob,
+          }),
+        ]);
+      } else {
+        throw new Error("Blob conversion failed");
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async function handleDownload() {
+    const element = equationRef.current;
+    if (!element) {
+      throw new Error("Element not found");
+    }
+
+    try {
+      const canvas = await html2canvas(element);
+      const el = document.createElement("a");
+      el.href = canvas.toDataURL("image/png");
+      el.target = "_blank";
+      el.download = "latex-equation.png";
+      el.click();
+      el.remove();
+    } catch (error) {
+      throw error;
+    }
+  }
+
   useImperativeHandle(ref, () => ({
     setEquation,
-    download: () =>
-      new Promise<void>((resolve, reject) => {
-        const element = equationRef.current;
-        if (!element) {
-          reject(new Error("Element not found"));
-          return;
-        }
-
-        html2canvas(element)
-          .then((canvas) => {
-            const el = document.createElement("a");
-            el.href = canvas.toDataURL("image/png");
-            el.target = "_blank";
-            el.download = "latex-equation.png";
-            el.click();
-            el.remove();
-            resolve();
-          })
-          .catch(reject);
-      }),
-    copyToClipboard: () =>
-      new Promise<void>((resolve, reject) => {
-        const element = equationRef.current;
-        if (!element) {
-          reject(new Error("Element not found"));
-          return;
-        }
-
-        html2canvas(element)
-          .then((canvas) => {
-            canvas.toBlob((blob) => {
-              if (blob) {
-                navigator.clipboard
-                  .write([
-                    new ClipboardItem({
-                      "image/png": blob,
-                    }),
-                  ])
-                  .then(() => resolve())
-                  .catch(reject);
-              } else {
-                reject(new Error("Blob conversion failed"));
-              }
-            }, "image/png");
-          })
-          .catch(reject);
-      }),
+    download: handleDownload,
+    copyToClipboard: handleCopy,
   }));
 
   return (

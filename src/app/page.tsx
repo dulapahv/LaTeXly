@@ -20,6 +20,24 @@ export default function Home() {
   const [isDownloading, setIsDownloading] = useState(false);
   const [isCopying, setIsCopying] = useState(false);
 
+  async function handleCopy() {
+    setIsCopying(true);
+    try {
+      await latexPanelRef.current?.copyToClipboard();
+    } finally {
+      setIsCopying(false);
+    }
+  }
+
+  async function handleDownload() {
+    setIsDownloading(true);
+    try {
+      await latexPanelRef.current?.download();
+    } finally {
+      setIsDownloading(false);
+    }
+  }
+
   return (
     <>
       <Banner />
@@ -43,12 +61,7 @@ export default function Home() {
               className="border-1 text-base"
               isLoading={isCopying}
               radius="sm"
-              onClick={() => {
-                setIsCopying(() => true);
-                latexPanelRef.current
-                  ?.copyToClipboard()
-                  .finally(() => setIsCopying(() => false));
-              }}
+              onClick={handleCopy}
             >
               <Copy size={18} />
             </Button>
@@ -66,14 +79,7 @@ export default function Home() {
               className="border-1 text-base"
               isLoading={isDownloading}
               radius="sm"
-              onClick={async () => {
-                setIsDownloading(() => true);
-                try {
-                  await latexPanelRef.current?.download();
-                } finally {
-                  setIsDownloading(() => false);
-                }
-              }}
+              onClick={handleDownload}
             >
               <Download size={18} />
             </Button>
