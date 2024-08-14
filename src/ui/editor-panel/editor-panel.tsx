@@ -11,7 +11,8 @@ import { KeyboardEvent, RefObject, useEffect, useState } from "react";
 import { Grammar, highlight, languages } from "prismjs";
 import Editor from "react-simple-code-editor";
 
-import { latexPanelRef } from "../latex-panel/latex-panel";
+import { latexPanelRef } from "@/ui/latex-panel";
+import { insertToEditor } from "@/utils/insert-to-editor";
 
 import "katex/dist/katex.min.css";
 import "prismjs/themes/prism-coy.css";
@@ -37,21 +38,6 @@ export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
     latexPanelRef.current?.setEquation(equation);
   }, [equation]);
 
-  const insertCharacter = (char: string) => {
-    const editor = document.getElementById("editor") as HTMLTextAreaElement;
-    if (!editor) return;
-
-    const start = editor.selectionStart;
-    const end = editor.selectionEnd;
-    const textBefore = editor.value.substring(0, start);
-    const textAfter = editor.value.substring(end, editor.value.length);
-
-    editor.value = textBefore + char + textAfter;
-
-    editor.selectionStart = start;
-    editor.selectionEnd = start;
-  };
-
   const onKeyDown = (e: KeyboardEvent<HTMLElement>) => {
     const editor = document.getElementById("editor") as HTMLTextAreaElement;
     if (!editor) return;
@@ -62,13 +48,13 @@ export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
       // \begin{ -> \begin{} \end{} - the last 'else' will handle the closing bracket for the first bracket
       const pattern1 = textBeforeCaret.endsWith("\\begin");
       if (pattern1) {
-        insertCharacter(` \\end{}`);
+        insertToEditor(` \\end{}`, false);
       }
 
       // \frac{ -> \frac{}{} - the last 'else' will handle the closing bracket for the first bracket
       const pattern2 = textBeforeCaret.endsWith("\\frac");
       if (pattern2) {
-        insertCharacter(`{}`);
+        insertToEditor(`{}`, false);
       }
     }
 
@@ -76,11 +62,12 @@ export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
       // \left( -> \left( \right)
       const pattern3 = textBeforeCaret.endsWith("\\left");
       if (pattern3) {
-        insertCharacter(` \\right${bracketPairs[e.key]}`);
+        insertToEditor(` \\right${bracketPairs[e.key]}`, false);
       } else {
         // (), [], {}
-        insertCharacter(
+        insertToEditor(
           e.key === "(" ? ")" : e.key === "[" ? "]" : e.key === "{" ? "}" : "",
+          false,
         );
       }
     }
