@@ -37,6 +37,7 @@ export default function Home() {
             content="Copy"
           >
             <Button
+              aria-label="Copy LaTeX code to clipboard"
               variant="light"
               isIconOnly
               className="border-1 text-base"
@@ -59,6 +60,7 @@ export default function Home() {
             content="Download"
           >
             <Button
+              aria-label="Download LaTeX code as a file"
               variant="light"
               isIconOnly
               className="border-1 text-base"
