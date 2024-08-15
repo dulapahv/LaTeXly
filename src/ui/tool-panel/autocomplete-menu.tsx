@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { Key, ReactNode, useCallback, useMemo } from "react";
 import {
   Autocomplete,
   AutocompleteItem,
@@ -10,19 +10,53 @@ import { ChevronsUpDown } from "lucide-react";
 import { BlockMath, InlineMath } from "react-katex";
 
 import { SymbolsGroup } from "@/types/symbols";
+import { cn } from "@/utils/cn";
 import { insertToEditor } from "@/utils/insert-to-editor";
 
 interface AutocompleteMenuProps {
   title: string;
   tooltip: ReactNode | string;
   symbolsGroups: SymbolsGroup[];
+  isBlockMath?: boolean;
+  hideSection?: boolean;
 }
 
 export function AutocompleteMenu({
   title,
   tooltip,
   symbolsGroups,
+  isBlockMath = false,
+  hideSection = false,
 }: AutocompleteMenuProps) {
+  const symbolMap = useMemo(() => {
+    const map = new Map();
+    symbolsGroups.forEach((group) => {
+      group.symbols.forEach((symbol) => {
+        map.set(symbol.value, symbol);
+      });
+    });
+    return map;
+  }, [symbolsGroups]);
+
+  const handleSelectionChange = useCallback(
+    (symbol: Key | null) => {
+      const selectedSymbol = symbolMap.get(getKeyValue(symbol, ""));
+      if (!selectedSymbol) return;
+      insertToEditor(selectedSymbol.value, true, selectedSymbol.caretPosition);
+    },
+    [symbolMap],
+  );
+
+  const headingClassNames = useMemo(
+    () => ({
+      heading: cn(
+        "sticky top-1 z-20 w-full rounded-md bg-default-100 px-2 py-1.5 shadow-small",
+        hideSection ? "hidden" : "flex",
+      ),
+    }),
+    [hideSection],
+  );
+
   return (
     <div className="flex items-center pl-0.5 pr-1.5">
       <Tooltip
@@ -41,10 +75,7 @@ export function AutocompleteMenu({
           selectorIcon={<ChevronsUpDown size={14} />}
           selectedKey={null}
           defaultItems={symbolsGroups}
-          onSelectionChange={(symbol) => {
-            const symbolValue = getKeyValue(symbol, "");
-            insertToEditor(symbolValue);
-          }}
+          onSelectionChange={handleSelectionChange}
           scrollShadowProps={{
             isEnabled: false,
           }}
@@ -67,27 +98,24 @@ export function AutocompleteMenu({
                 key={title}
                 title={title}
                 items={symbols}
-                classNames={{
-                  heading:
-                    "flex w-full sticky top-1 z-20 py-1.5 px-2 bg-default-100 shadow-small rounded-md",
-                }}
+                classNames={headingClassNames}
               >
-                {symbols.map((symbol) => (
+                {(symbol) => (
                   <AutocompleteItem
                     key={symbol.value}
-                    textValue={symbol.name}
+                    textValue={symbol.name + symbol.value}
                     value={symbol.value}
                     classNames={{
                       title: "text-xs",
                     }}
                   >
-                    {symbol.isBlockMath ? (
+                    {isBlockMath && symbol.isBlockMath ? (
                       <BlockMath math={symbol.text} />
                     ) : (
                       <InlineMath math={symbol.text} />
                     )}
                   </AutocompleteItem>
-                ))}
+                )}
               </AutocompleteSection>
             );
           }}
