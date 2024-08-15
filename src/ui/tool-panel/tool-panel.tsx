@@ -34,7 +34,7 @@ import {
   operators,
   trigonometry,
   uppercase_greek_letters,
-} from "@/lib/constants/symbols";
+} from "@/lib/constants/latex";
 import { SymbolsGroup } from "@/types/symbols";
 import { cn } from "@/utils/cn";
 
@@ -44,7 +44,6 @@ import { UndoRedo } from "./undo-redo";
 
 export function ToolPanel() {
   const symbolsGroups: SymbolsGroup[] = [
-    common_symbols,
     math_mode_accents,
     lowercase_greek_letters,
     uppercase_greek_letters,
@@ -62,7 +61,6 @@ export function ToolPanel() {
     ams_negated_binary_relations_and_arrows,
     ams_binary_operators,
     ams_miscellaneous,
-    math_alphabets,
   ];
 
   const functionsGroups: SymbolsGroup[] = [
@@ -73,15 +71,28 @@ export function ToolPanel() {
     operators,
   ];
 
+  const alphabetGroups: SymbolsGroup[] = [math_alphabets];
+
   return (
     <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 [&>*:not(:last-child)]:border-r">
       <UndoRedo />
+      <AutocompleteMenu
+        title="Search a symbol"
+        tooltip="Type or select a symbol"
+        symbolsGroups={symbolsGroups}
+      />
       <AutocompleteMenu
         title="Search a function"
         tooltip="Type or select a function"
         symbolsGroups={functionsGroups}
       />
-      {symbolsGroups.map((symbolsGroup) => {
+      <AutocompleteMenu
+        title="Search a font"
+        tooltip="Type or select a font"
+        symbolsGroups={alphabetGroups}
+        hideSection
+      />
+      {[common_symbols, ...symbolsGroups].map((symbolsGroup) => {
         const { title, symbols, displayLength } = symbolsGroup;
         const shouldDisplayOverflow = symbols.length > displayLength!;
         const pinnedSymbols = symbols.slice(0, displayLength);
