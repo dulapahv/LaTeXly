@@ -12,7 +12,7 @@ Most comprehensive online LaTeX equation editor with live preview and syntax hig
 - [x] Syntax highlighting
 - [x] Live preview
 - [x] All LaTeX symbols (based on [here](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf))
-- [ ] Symbol search
+- [x] Symbol search
 - [x] Export to image or PDF
 - [x] Undo/Redo support
 - [ ] Matrices builder
@@ -27,7 +27,7 @@ Most comprehensive online LaTeX equation editor with live preview and syntax hig
 ### Prerequisites
 
 - Node.js
-- yarn or npm
+- A package manager (pnpm, yarn, or npm)
 
 ### Getting started
 
@@ -39,11 +39,19 @@ git clone https://github.com/dulapahv/LaTeXly.git
 
 #### 2. Install dependencies
 
+Using pnpm:
+
+```bash
+pnpm install
+```
+
+Using yarn:
+
 ```bash
 yarn install
 ```
 
-or
+Using npm:
 
 ```bash
 npm install
@@ -51,11 +59,19 @@ npm install
 
 #### 3. Start the development server
 
+Using pnpm:
+
+```bash
+pnpm dev
+```
+
+Using yarn:
+
 ```bash
 yarn dev
 ```
 
-or
+Using npm:
 
 ```bash
 npm run dev
