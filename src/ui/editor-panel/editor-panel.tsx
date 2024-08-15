@@ -11,6 +11,7 @@ import { RefObject, useEffect, useState } from "react";
 import { Grammar, highlight, languages } from "prismjs";
 import Editor from "react-simple-code-editor";
 
+import { EDITOR_PLACEHOLDER } from "@/lib/constants/constants";
 import { latexPanelRef } from "@/ui/latex-panel";
 
 import { processPattern } from "./process-pattern";
@@ -46,9 +47,7 @@ export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
   return (
     <div className="h-full overflow-y-auto border-r-1.5">
       <Editor
-        // The placeholder equation below is provided by the first contributor
-        // of the project and to honor their contribution, it is kept as it is.
-        placeholder="Enter a LaTeX equation... e.g. e^{i\theta} = \cos(\theta) + i\sin(\theta)"
+        placeholder={EDITOR_PLACEHOLDER}
         className="min-h-full font-mono text-sm sm:text-base"
         preClassName="!pl-12 !outline-none"
         textareaClassName="!pl-12 !outline-none"

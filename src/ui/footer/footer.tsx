@@ -1,4 +1,12 @@
 import { Link } from "@nextui-org/react";
+import { InlineMath } from "react-katex";
+
+import {
+  GITHUB_REPO,
+  LATEXLY,
+  USERNAME,
+  VERSION,
+} from "@/lib/constants/constants";
 
 export function Footer() {
   return (
@@ -11,13 +19,13 @@ export function Footer() {
           showAnchorIcon
           className="text-xs text-neutral-500"
         >
-          dulapahv
+          {USERNAME}
         </Link>
       </div>
       <span className="text-neutral-500">
-        LaTeXly 0.3.1 (
+        <InlineMath>{LATEXLY}</InlineMath> {VERSION} (
         <Link
-          href="https://github.com/dulapahv/LaTeXly"
+          href={GITHUB_REPO}
           isExternal
           showAnchorIcon
           className="text-xs text-neutral-500"
