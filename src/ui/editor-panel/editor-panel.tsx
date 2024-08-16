@@ -16,7 +16,6 @@ import { latexPanelRef } from "@/ui/latex-panel";
 
 import { processPattern } from "./process-pattern";
 
-import "katex/dist/katex.min.css";
 import "prismjs/themes/prism-coy.css";
 import "prismjs/components/prism-latex";
 

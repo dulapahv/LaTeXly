@@ -4,7 +4,7 @@
 
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button, Tooltip } from "@nextui-org/react";
 import { Copy, Download } from "lucide-react";
 
@@ -14,11 +14,20 @@ import { Footer } from "@/ui/footer";
 import { LaTeXPanel, latexPanelRef } from "@/ui/latex-panel";
 import { ToolPanel } from "@/ui/tool-panel";
 
+import "katex/dist/katex.min.css";
+import "katex/dist/contrib/mhchem";
+import "katex/dist/contrib/render-a11y-string";
+
 export default function Home() {
   const latexPanelRef = useRef<latexPanelRef>(null);
 
   const [isDownloading, setIsDownloading] = useState(false);
   const [isCopying, setIsCopying] = useState(false);
+
+  // Conditionally import the copy-tex module on the client side
+  useEffect(() => {
+    require("katex/dist/contrib/copy-tex");
+  }, []);
 
   async function handleCopy() {
     setIsCopying(true);
