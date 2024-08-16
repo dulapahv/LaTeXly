@@ -55,12 +55,12 @@
     {
       "name": "UpHarpoonRight",
       "text": "\\upharpoonright",
-      "value": "\\downharpoonleft "
+      "value": "\\upharpoonright "
     },
     {
       "name": "DownHarpoonRight",
       "text": "\\downharpoonright",
-      "value": "\\upharpoonright "
+      "value": "\\downharpoonright "
     },
     {
       "name": "LeftArrowTail",
