@@ -13,7 +13,7 @@ export function Providers({ children, className }: ProvidersProps) {
   const router = useRouter();
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark">
+    <ThemeProvider attribute="class" defaultTheme="light">
       <NextUIProvider navigate={router.push} className={className}>
         {children}
       </NextUIProvider>
