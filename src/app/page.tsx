@@ -51,7 +51,7 @@ export default function Home() {
     <>
       <Banner />
       <div className="flex h-screen flex-col *:h-full *:max-h-[calc(50%-1rem)]">
-        <div className="flex flex-row border-b-1.5 *:w-1/2">
+        <div className="flex flex-row border-b-1.5 *:w-1/2 dark:border-b-default-50">
           <EditorPanel latexPanelRef={latexPanelRef} />
           <ToolPanel />
         </div>

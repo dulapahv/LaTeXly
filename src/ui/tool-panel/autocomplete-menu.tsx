@@ -1,4 +1,4 @@
-import { Key, ReactNode, useCallback, useMemo } from "react";
+import { Key, ReactNode, useCallback, useMemo, useState } from "react";
 import {
   Autocomplete,
   AutocompleteItem,
@@ -28,6 +28,22 @@ export function AutocompleteMenu({
   isBlockMath = false,
   hideSection = false,
 }: AutocompleteMenuProps) {
+  const [search, setSearch] = useState("");
+
+  const filteredSymbolsGroups = useMemo(() => {
+    return symbolsGroups
+      .map((group) => {
+        const symbols = group.symbols
+          .filter((symbol) =>
+            symbol.name.toLowerCase().includes(search.toLowerCase()),
+          )
+          .slice(0, 10);
+        return { ...group, symbols };
+      })
+      .filter((group) => group.symbols.length > 0)
+      .slice(0, 3);
+  }, [search, symbolsGroups]);
+
   const symbolMap = useMemo(() => {
     const map = new Map();
     symbolsGroups.forEach((group) => {
@@ -74,7 +90,8 @@ export function AutocompleteMenu({
           disableSelectorIconRotation
           selectorIcon={<ChevronsUpDown size={14} />}
           selectedKey={null}
-          defaultItems={symbolsGroups}
+          items={filteredSymbolsGroups}
+          onInputChange={setSearch}
           onSelectionChange={handleSelectionChange}
           scrollShadowProps={{
             isEnabled: false,
@@ -85,6 +102,7 @@ export function AutocompleteMenu({
             },
           }}
           listboxProps={{
+            isVirtualized: true,
             itemClasses: {
               base: "text-sm rounded-md",
             },

@@ -3,6 +3,7 @@ import "./globals.css";
 import { ReactNode } from "react";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { ThemeProvider } from "next-themes";
 
 import { BASE_URL, NAME } from "@/lib/constants/constants";
 import { cn } from "@/utils/cn";
@@ -63,8 +64,13 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn("min-w-[768px] overflow-y-hidden", inter.className)}>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={cn(
+          "min-w-[768px] overflow-y-hidden antialiased",
+          inter.className,
+        )}
+      >
         <Providers>{children}</Providers>
       </body>
     </html>

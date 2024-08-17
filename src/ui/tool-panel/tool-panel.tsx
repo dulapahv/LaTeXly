@@ -40,6 +40,7 @@ import { cn } from "@/utils/cn";
 
 import { AutocompleteMenu } from "./autocomplete-menu";
 import { SymbolButton } from "./symbol-button";
+import { ThemeSwitch } from "./theme-switch";
 import { UndoRedo } from "./undo-redo";
 
 export function ToolPanel() {
@@ -74,8 +75,9 @@ export function ToolPanel() {
   const alphabetGroups: SymbolsGroup[] = [math_alphabets];
 
   return (
-    <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 [&>*:not(:last-child)]:border-r">
+    <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 *:dark:border-r-default-100 [&>*:not(:last-child)]:border-r">
       <UndoRedo />
+      <ThemeSwitch />
       <AutocompleteMenu
         title="Search a symbol"
         tooltip="Type or select a symbol"
@@ -103,7 +105,7 @@ export function ToolPanel() {
             className={cn(
               "relative size-fit",
               shouldDisplayOverflow &&
-                "group hover:rounded-t-lg hover:shadow-small",
+                "group hover:rounded-t-lg hover:shadow-small dark:hover:border-r-default-50 dark:hover:bg-default-50",
             )}
           >
             {pinnedSymbols.map((symbol) => (
@@ -111,7 +113,7 @@ export function ToolPanel() {
             ))}
             {shouldDisplayOverflow && (
               <div
-                className="absolute z-10 hidden rounded-b-lg border-b-1 bg-white shadow-lg group-hover:grid"
+                className="absolute z-10 hidden rounded-b-lg border-b-1 bg-white shadow-lg group-hover:grid dark:border-b-default-50 dark:bg-default-50"
                 style={{
                   gridTemplateColumns: `repeat(${displayLength}, minmax(0, 1fr))`,
                 }}

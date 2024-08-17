@@ -1,6 +1,6 @@
 {
   "name": "latexly",
-  "version": "0.4.1",
+  "version": "0.5.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,6 +16,7 @@
     "html2canvas": "^1.4.1",
     "lucide-react": "^0.427.0",
     "next": "^14.2.5",
+    "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-katex": "^3.0.1",

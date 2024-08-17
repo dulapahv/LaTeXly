@@ -44,7 +44,7 @@ export function EditorPanel({ latexPanelRef }: EditorPanelProps) {
       .join("\n");
 
   return (
-    <div className="h-full overflow-y-auto border-r-1.5">
+    <div className="h-full overflow-y-auto border-r-1.5 dark:border-r-default-50">
       <Editor
         placeholder={EDITOR_PLACEHOLDER}
         className="min-h-full font-mono text-sm sm:text-base"
