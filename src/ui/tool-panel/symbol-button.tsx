@@ -33,7 +33,7 @@ export function SymbolButton({
       content={
         <>
           <span className="text-xs font-semibold">{name}</span>
-          <span className="text-xs">{text}</span>
+          <span className="text-xs">{value}</span>
         </>
       }
       className="rounded-md"
