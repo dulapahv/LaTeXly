@@ -19,6 +19,7 @@ interface AutocompleteMenuProps {
   symbolsGroups: SymbolsGroup[];
   isBlockMath?: boolean;
   hideSection?: boolean;
+  hideValue?: boolean;
 }
 
 export function AutocompleteMenu({
@@ -27,6 +28,7 @@ export function AutocompleteMenu({
   symbolsGroups,
   isBlockMath = false,
   hideSection = false,
+  hideValue = false,
 }: AutocompleteMenuProps) {
   const [search, setSearch] = useState("");
 
@@ -37,11 +39,10 @@ export function AutocompleteMenu({
           .filter((symbol) =>
             symbol.name.toLowerCase().includes(search.toLowerCase()),
           )
-          .slice(0, 10);
+          .slice(0, 5);
         return { ...group, symbols };
       })
-      .filter((group) => group.symbols.length > 0)
-      .slice(0, 3);
+      .filter((group) => group.symbols.length > 0);
   }, [search, symbolsGroups]);
 
   const symbolMap = useMemo(() => {
@@ -132,6 +133,7 @@ export function AutocompleteMenu({
                     ) : (
                       <InlineMath math={symbol.text} />
                     )}
+                    {hideValue ? "" : ` - ${symbol.value}`}
                   </AutocompleteItem>
                 )}
               </AutocompleteSection>
