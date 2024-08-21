@@ -23,3 +23,4 @@ export { default as inverse_trigonometry } from "./functions/inverse_trigonometr
 export { default as limits } from "./functions/limits.json";
 export { default as operators } from "./functions/operators.json";
 export { default as math_alphabets } from "./alphabets/math_alphabets.json";
+export { default as colors } from "./colors/colors.json";

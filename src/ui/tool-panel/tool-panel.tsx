@@ -21,6 +21,7 @@ import {
   big_operators,
   binary_operators,
   binary_relations,
+  colors,
   common_symbols,
   delimiters,
   inverse_trigonometry,
@@ -62,6 +63,7 @@ export function ToolPanel() {
     ams_negated_binary_relations_and_arrows,
     ams_binary_operators,
     ams_miscellaneous,
+    colors,
   ];
 
   const functionsGroups: SymbolsGroup[] = [
@@ -93,6 +95,7 @@ export function ToolPanel() {
         tooltip="Type or select a font"
         symbolsGroups={alphabetGroups}
         hideSection
+        hideValue
       />
       {[common_symbols, ...symbolsGroups].map((symbolsGroup) => {
         const { title, symbols, displayLength } = symbolsGroup;

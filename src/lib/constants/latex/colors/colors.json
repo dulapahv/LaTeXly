@@ -1,0 +1,114 @@
+{
+  "title": "Colors",
+  "displayLength": 3,
+  "symbols": [
+    {
+      "name": "Red",
+      "text": "{\\color{Red}\\blacksquare}",
+      "value": "{\\color{Red} }",
+      "caretPosition": 13
+    },
+    {
+      "name": "Green",
+      "text": "{\\color{Green}\\blacksquare}",
+      "value": "{\\color{Green} }",
+      "caretPosition": 15
+    },
+    {
+      "name": "Blue",
+      "text": "{\\color{Blue}\\blacksquare}",
+      "value": "{\\color{Blue} }",
+      "caretPosition": 14
+    },
+    {
+      "name": "Dark Red",
+      "text": "{\\color{DarkRed}\\blacksquare}",
+      "value": "{\\color{DarkRed} }",
+      "caretPosition": 17
+    },
+    {
+      "name": "Dark Green",
+      "text": "{\\color{DarkGreen}\\blacksquare}",
+      "value": "{\\color{DarkGreen} }",
+      "caretPosition": 19
+    },
+    {
+      "name": "Dark Blue",
+      "text": "{\\color{DarkBlue}\\blacksquare}",
+      "value": "{\\color{DarkBlue} }",
+      "caretPosition": 18
+    },
+    {
+      "name": "Yellow",
+      "text": "{\\color{Yellow}\\blacksquare}",
+      "value": "{\\color{Yellow} }",
+      "caretPosition": 16
+    },
+    {
+      "name": "Cyan",
+      "text": "{\\color{Cyan}\\blacksquare}",
+      "value": "{\\color{Cyan} }",
+      "caretPosition": 14
+    },
+    {
+      "name": "Magenta",
+      "text": "{\\color{Magenta}\\blacksquare}",
+      "value": "{\\color{Magenta} }",
+      "caretPosition": 17
+    },
+    {
+      "name": "Brown",
+      "text": "{\\color{Brown}\\blacksquare}",
+      "value": "{\\color{Brown} }",
+      "caretPosition": 15
+    },
+    {
+      "name": "Teal",
+      "text": "{\\color{Teal}\\blacksquare}",
+      "value": "{\\color{Teal} }",
+      "caretPosition": 14
+    },
+    {
+      "name": "Purple",
+      "text": "{\\color{Purple}\\blacksquare}",
+      "value": "{\\color{Purple} }",
+      "caretPosition": 16
+    },
+    {
+      "name": "Orange",
+      "text": "{\\color{Orange}\\blacksquare}",
+      "value": "{\\color{Orange} }",
+      "caretPosition": 16
+    },
+    {
+      "name": "Emerald",
+      "text": "{\\color{Emerald}\\blacksquare}",
+      "value": "{\\color{Emerald} }",
+      "caretPosition": 17
+    },
+    {
+      "name": "Orchid",
+      "text": "{\\color{Orchid}\\blacksquare}",
+      "value": "{\\color{Orchid} }",
+      "caretPosition": 16
+    },
+    {
+      "name": "Dark Orange",
+      "text": "{\\color{DarkOrange}\\blacksquare}",
+      "value": "{\\color{DarkOrange} }",
+      "caretPosition": 20
+    },
+    {
+      "name": "Gold",
+      "text": "{\\color{Gold}\\blacksquare}",
+      "value": "{\\color{Gold} }",
+      "caretPosition": 14
+    },
+    {
+      "name": "Pink",
+      "text": "{\\color{Pink}\\blacksquare}",
+      "value": "{\\color{Pink} }",
+      "caretPosition": 14
+    }
+  ]
+}
