@@ -7,7 +7,7 @@
  */
 
 import { ScrollShadow } from "@nextui-org/react";
-import { ArrowDownRight } from "lucide-react";
+import { ALargeSmall, ArrowDownRight, Pi, Type, Variable } from "lucide-react";
 
 import {
   ams_arrows,
@@ -28,11 +28,15 @@ import {
   limits,
   logarithms,
   lowercase_greek_letters,
-  math_alphabets,
+  math_alphabets_1,
+  math_alphabets_2,
+  math_alphabets_3,
+  math_alphabets_4,
   math_mode_accents,
   miscellaneous_symbols,
   non_mathematical_symbols,
   operators,
+  sizes,
   trigonometry,
   uppercase_greek_letters,
 } from "@/lib/constants/latex";
@@ -66,7 +70,7 @@ export function ToolPanel() {
     colors,
   ];
 
-  const functionsGroups: SymbolsGroup[] = [
+  const functionsGroup: SymbolsGroup[] = [
     logarithms,
     trigonometry,
     inverse_trigonometry,
@@ -74,26 +78,44 @@ export function ToolPanel() {
     operators,
   ];
 
-  const alphabetGroups: SymbolsGroup[] = [math_alphabets];
+  const alphabetsGroup: SymbolsGroup[] = [
+    math_alphabets_1,
+    math_alphabets_2,
+    math_alphabets_3,
+    math_alphabets_4,
+  ];
+
+  const sizesGroup: SymbolsGroup[] = [sizes];
 
   return (
     <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 *:dark:border-r-default-100 [&>*:not(:last-child)]:border-r">
       <UndoRedo />
       <ThemeSwitch />
       <AutocompleteMenu
-        title="Search a symbol"
+        title="Symbol"
         tooltip="Type or select a symbol"
         symbolsGroups={symbolsGroups}
+        icon={<Pi size={30} className="text-foreground-500" />}
+        limit
       />
       <AutocompleteMenu
-        title="Search a function"
+        title="Function"
         tooltip="Type or select a function"
-        symbolsGroups={functionsGroups}
+        symbolsGroups={functionsGroup}
+        icon={<Variable size={30} className="text-foreground-500" />}
       />
       <AutocompleteMenu
-        title="Search a font"
+        title="Font"
         tooltip="Type or select a font"
-        symbolsGroups={alphabetGroups}
+        symbolsGroups={alphabetsGroup}
+        icon={<Type size={30} className="text-foreground-500" />}
+        hideValue
+      />
+      <AutocompleteMenu
+        title="Size"
+        tooltip="Type or select a size"
+        symbolsGroups={sizesGroup}
+        icon={<ALargeSmall size={30} className="text-foreground-500" />}
         hideSection
         hideValue
       />
