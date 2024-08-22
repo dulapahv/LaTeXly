@@ -17,18 +17,22 @@ interface AutocompleteMenuProps {
   title: string;
   tooltip: ReactNode | string;
   symbolsGroups: SymbolsGroup[];
+  icon?: ReactNode;
   isBlockMath?: boolean;
   hideSection?: boolean;
   hideValue?: boolean;
+  limit?: boolean;
 }
 
 export function AutocompleteMenu({
   title,
   tooltip,
   symbolsGroups,
+  icon,
   isBlockMath = false,
   hideSection = false,
   hideValue = false,
+  limit = false,
 }: AutocompleteMenuProps) {
   const [search, setSearch] = useState("");
 
@@ -39,7 +43,7 @@ export function AutocompleteMenu({
           .filter((symbol) =>
             symbol.name.toLowerCase().includes(search.toLowerCase()),
           )
-          .slice(0, 5);
+          .slice(limit ? 0 : undefined, limit ? 5 : undefined);
         return { ...group, symbols };
       })
       .filter((group) => group.symbols.length > 0);
@@ -87,6 +91,7 @@ export function AutocompleteMenu({
           className="w-52"
           size="sm"
           aria-label={title}
+          startContent={icon}
           disableAnimation
           disableSelectorIconRotation
           selectorIcon={<ChevronsUpDown size={14} />}
