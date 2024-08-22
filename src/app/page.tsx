@@ -15,8 +15,8 @@ import { LaTeXPanel, latexPanelRef } from "@/ui/latex-panel";
 import { ToolPanel } from "@/ui/tool-panel";
 
 import "katex/dist/katex.min.css";
-import "katex/contrib/mhchem";
-import "katex/contrib/render-a11y-string";
+import "katex/dist/contrib/mhchem";
+import "katex/dist/contrib/render-a11y-string";
 
 export default function Home() {
   const latexPanelRef = useRef<latexPanelRef>(null);
