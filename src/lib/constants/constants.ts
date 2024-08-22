@@ -1,6 +1,6 @@
 export const LATEXLY = "\\LaTeX\\text{ly}";
 export const BASE_URL = "https://latexly.dulapahv.dev/";
-export const VERSION = "0.5.2";
+export const VERSION = "0.5.3";
 export const USERNAME = "dulapahv";
 export const NAME = "Dulapah Vibulsanti";
 export const GITHUB_REPO = "https://github.com/dulapahv/LaTeXly";
