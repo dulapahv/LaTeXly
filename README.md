@@ -27,7 +27,7 @@ Open-source LaTeX equation editor/scratch pad for the web with live preview and 
 ### Prerequisites
 
 - Node.js
-- A package manager (pnpm, yarn, or npm)
+- A package manager (bun, pnpm, yarn, or npm)
 
 ### Getting started
 
@@ -39,18 +39,6 @@ git clone https://github.com/dulapahv/LaTeXly.git
 
 #### 2. Install dependencies
 
-Using pnpm:
-
-```bash
-pnpm install
-```
-
-Using yarn:
-
-```bash
-yarn install
-```
-
 Using npm:
 
 ```bash
@@ -58,18 +46,6 @@ npm install
 ```
 
 #### 3. Start the development server
-
-Using pnpm:
-
-```bash
-pnpm dev
-```
-
-Using yarn:
-
-```bash
-yarn dev
-```
 
 Using npm:
 
