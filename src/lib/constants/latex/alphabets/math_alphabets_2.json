@@ -1,0 +1,53 @@
+{
+  "title": "Moderately Common",
+  "symbols": [
+    {
+      "name": "textsf",
+      "text": "\\textsf{textsf - Ab0}",
+      "value": "\\textsf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathsf",
+      "text": "\\mathsf{mathsf - Ab0}",
+      "value": "\\mathsf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textrm",
+      "text": "\\textrm{textrm - Ab0}",
+      "value": "\\textrm{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathnormal",
+      "text": "\\mathnormal{mathnormal - Ab0}",
+      "value": "\\mathnormal{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "textnormal",
+      "text": "\\textnormal{textnormal - Ab0}",
+      "value": "\\textnormal{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "textup",
+      "text": "\\textup{textup - Ab0}",
+      "value": "\\textup{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textmd",
+      "text": "\\textmd{textmd - Ab0}",
+      "value": "\\textmd{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathtt",
+      "text": "\\mathtt{mathtt - Ab0}",
+      "value": "\\mathtt{}",
+      "caretPosition": 8
+    }
+  ]
+}

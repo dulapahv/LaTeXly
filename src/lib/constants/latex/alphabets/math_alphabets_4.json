@@ -1,0 +1,59 @@
+{
+  "title": "Rarely Used (Legacy)",
+  "symbols": [
+    {
+      "name": "Bbb",
+      "text": "\\Bbb{Bbb - Ab0}",
+      "value": "\\Bbb{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "frak",
+      "text": "\\frak{Bbb - Ab0}",
+      "value": "\\frak{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "bf",
+      "text": "\\bf{bf - Ab0}",
+      "value": "\\bf{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "sf",
+      "text": "\\sf{sf - Ab0}",
+      "value": "\\sf{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "rm",
+      "text": "\\rm{rm - Ab0}",
+      "value": "\\rm{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "bold",
+      "text": "\\bold{bold - Ab0}",
+      "value": "\\bold{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "cal",
+      "text": "\\cal{cal - Ab0}",
+      "value": "\\cal{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "it",
+      "text": "\\it{it - Ab0}",
+      "value": "\\it{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "tt",
+      "text": "\\tt{tt - Ab0}",
+      "value": "\\tt{}",
+      "caretPosition": 4
+    }
+  ]
+}

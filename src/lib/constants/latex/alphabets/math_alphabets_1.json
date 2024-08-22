@@ -1,0 +1,47 @@
+{
+  "title": "Most Commonly Used",
+  "symbols": [
+    {
+      "name": "text",
+      "text": "\\text{text - Ab0}",
+      "value": "\\text{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "textbf",
+      "text": "\\textbf{textbf - Ab0}",
+      "value": "\\textbf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textit",
+      "text": "\\textit{textit - Ab0}",
+      "value": "\\textit{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "texttt",
+      "text": "\\texttt{texttt - Ab0}",
+      "value": "\\texttt{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathbf",
+      "text": "\\mathbf{mathbf - Ab0}",
+      "value": "\\mathbf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathbb",
+      "text": "\\mathbb{mathbb - Ab0}",
+      "value": "\\mathbb{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathrm",
+      "text": "\\mathrm{mathrm - Ab0}",
+      "value": "\\mathrm{}",
+      "caretPosition": 8
+    }
+  ]
+}

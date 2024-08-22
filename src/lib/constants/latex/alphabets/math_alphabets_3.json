@@ -1,0 +1,47 @@
+{
+  "title": "Less Common",
+  "symbols": [
+    {
+      "name": "bm",
+      "text": "\\bm{bm - Ab0}",
+      "value": "\\bm{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "boldsymbol",
+      "text": "\\boldsymbol{boldsymbol - Ab0}",
+      "value": "\\boldsymbol{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "mathfrak",
+      "text": "\\mathfrak{mathfrak - Ab0}",
+      "value": "\\mathfrak{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "mathcal",
+      "text": "\\mathcal{mathcal - Ab0}",
+      "value": "\\mathcal{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "mathscr",
+      "text": "\\mathscr{mathscr - Ab0}",
+      "value": "\\mathscr{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "mathit",
+      "text": "\\mathit{mathit - Ab0}",
+      "value": "\\mathit{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "emph",
+      "text": "\\emph{emph - Ab0}",
+      "value": "\\emph{}",
+      "caretPosition": 6
+    }
+  ]
+}
