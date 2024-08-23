@@ -1,6 +1,6 @@
 {
   "name": "latexly",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -20,7 +20,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-katex": "^3.0.1",
-    "react-simple-code-editor": "^0.13.1",
+    "react-simple-code-editor": "^0.14.1",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
