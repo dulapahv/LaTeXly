@@ -10,7 +10,7 @@ import { InlineMath } from "react-katex";
 import { GITHUB_REPO, LATEXLY } from "@/lib/constants/constants";
 
 export function Banner() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   if (!isVisible) return null;
 
