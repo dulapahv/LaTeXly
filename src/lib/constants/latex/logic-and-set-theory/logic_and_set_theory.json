@@ -1,0 +1,146 @@
+{
+  "title": "Logic and Set Theory",
+  "displayLength": 6,
+  "symbols": [
+    {
+      "name": "For All",
+      "text": "\\forall",
+      "value": "\\forall "
+    },
+    {
+      "name": "Complement",
+      "text": "\\complement",
+      "value": "\\complement "
+    },
+    {
+      "name": "Therefore",
+      "text": "\\therefore",
+      "value": "\\therefore "
+    },
+    {
+      "name": "Empty Set",
+      "text": "\\emptyset",
+      "value": "\\emptyset "
+    },
+    {
+      "name": "Exists",
+      "text": "\\exists",
+      "value": "\\exists "
+    },
+    {
+      "name": "Subset",
+      "text": "\\subset",
+      "value": "\\subset "
+    },
+    {
+      "name": "Because",
+      "text": "\\because",
+      "value": "\\because "
+    },
+    {
+      "name": "Empty",
+      "text": "\\empty",
+      "value": "\\empty "
+    },
+    {
+      "name": "Exist",
+      "text": "\\exist",
+      "value": "\\exist "
+    },
+    {
+      "name": "Superset",
+      "text": "\\supset",
+      "value": "\\supset "
+    },
+    {
+      "name": "Mapsto",
+      "text": "\\mapsto",
+      "value": "\\mapsto "
+    },
+    {
+      "name": "Var Nothing",
+      "text": "\\varnothing",
+      "value": "\\varnothing "
+    },
+    {
+      "name": "Nexists",
+      "text": "\\nexists",
+      "value": "\\nexists "
+    },
+    {
+      "name": "Mid",
+      "text": "\\mid",
+      "value": "\\mid "
+    },
+    {
+      "name": "To",
+      "text": "\\to",
+      "value": "\\to "
+    },
+    {
+      "name": "Implies",
+      "text": "\\implies",
+      "value": "\\implies "
+    },
+    {
+      "name": "In",
+      "text": "\\in",
+      "value": "\\in "
+    },
+    {
+      "name": "Land",
+      "text": "\\land",
+      "value": "\\land "
+    },
+    {
+      "name": "Gets",
+      "text": "\\gets",
+      "value": "\\gets "
+    },
+    {
+      "name": "Implied By",
+      "text": "\\impliedby",
+      "value": "\\impliedby "
+    },
+    {
+      "name": "Is In",
+      "text": "\\isin",
+      "value": "\\isin "
+    },
+    {
+      "name": "Lor",
+      "text": "\\lor",
+      "value": "\\lor "
+    },
+    {
+      "name": "Leftrightarrow",
+      "text": "\\leftrightarrow",
+      "value": "\\leftrightarrow "
+    },
+    {
+      "name": "Iff",
+      "text": "\\iff",
+      "value": "\\iff "
+    },
+    {
+      "name": "Not In",
+      "text": "\\notin",
+      "value": "\\notin "
+    },
+    {
+      "name": "Contains",
+      "text": "\\ni",
+      "value": "\\ni "
+    },
+    {
+      "name": "Not Contains",
+      "text": "\\notni",
+      "value": "\\notni "
+    },
+    {
+      "name": "Negation",
+      "text": "\\neg",
+      "value": "\\neg "
+    }
+  ]
+}

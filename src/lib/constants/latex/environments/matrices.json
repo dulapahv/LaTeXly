@@ -1,0 +1,43 @@
+{
+  "title": "Matrices",
+  "displayLength": 3,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "Matrix",
+      "text": "\\footnotesize \\begin{matrix} a & b \\\\ c & d \\end{matrix}",
+      "value": "\\begin{matrix}  &  \\\\  &  \\end{matrix}",
+      "caretPosition": 15
+    },
+    {
+      "name": "Parentheses Matrix",
+      "text": "\\footnotesize \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}",
+      "value": "\\begin{pmatrix}  &  \\\\  &  \\end{pmatrix}",
+      "caretPosition": 16
+    },
+    {
+      "name": "Bracket Matrix",
+      "text": "\\footnotesize \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
+      "value": "\\begin{bmatrix}  &  \\\\  &  \\end{bmatrix}",
+      "caretPosition": 16
+    },
+    {
+      "name": "Determinant",
+      "text": "\\footnotesize \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
+      "value": "\\begin{vmatrix}  &  \\\\  &  \\end{vmatrix}",
+      "caretPosition": 16
+    },
+    {
+      "name": "Double Vertical Bars Matrix",
+      "text": "\\footnotesize \\begin{Vmatrix} a & b \\\\ c & d \\end{Vmatrix}",
+      "value": "\\begin{Vmatrix}  &  \\\\  &  \\end{Vmatrix}",
+      "caretPosition": 16
+    },
+    {
+      "name": "Curly Braces Matrix",
+      "text": "\\footnotesize \\begin{Bmatrix} a & b \\\\ c & d \\end{Bmatrix}",
+      "value": "\\begin{Bmatrix}  &  \\\\  &  \\end{Bmatrix}",
+      "caretPosition": 16
+    }
+  ]
+}

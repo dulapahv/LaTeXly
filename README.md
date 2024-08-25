@@ -11,7 +11,7 @@ Open-source LaTeX equation editor/scratch pad for the web with live preview and 
 - [x] Equation editor
 - [x] Syntax highlighting
 - [x] Live preview
-- [x] All LaTeX symbols (based on [here](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf))
+- [x] All LaTeX symbols (based on [here](https://katex.org/docs/supported.html))
 - [x] Symbol search
 - [x] Export to image or PDF
 - [x] Undo/Redo support

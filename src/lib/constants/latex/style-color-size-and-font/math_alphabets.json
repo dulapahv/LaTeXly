@@ -1,0 +1,193 @@
+{
+  "title": "Math Alphabets",
+  "displayLength": 4,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "text",
+      "text": "\\text{Ab0}",
+      "value": "\\text{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "textbf",
+      "text": "\\textbf{Ab0}",
+      "value": "\\textbf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textit",
+      "text": "\\textit{Ab0}",
+      "value": "\\textit{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "texttt",
+      "text": "\\texttt{Ab0}",
+      "value": "\\texttt{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathbf",
+      "text": "\\mathbf{Ab0}",
+      "value": "\\mathbf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathbb",
+      "text": "\\mathbb{Ab0}",
+      "value": "\\mathbb{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathrm",
+      "text": "\\mathrm{Ab0}",
+      "value": "\\mathrm{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textsf",
+      "text": "\\textsf{Ab0}",
+      "value": "\\textsf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathsf",
+      "text": "\\mathsf{Ab0}",
+      "value": "\\mathsf{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textrm",
+      "text": "\\textrm{Ab0}",
+      "value": "\\textrm{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathnormal",
+      "text": "\\mathnormal{Ab0}",
+      "value": "\\mathnormal{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "textnormal",
+      "text": "\\textnormal{Ab0}",
+      "value": "\\textnormal{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "textup",
+      "text": "\\textup{Ab0}",
+      "value": "\\textup{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "textmd",
+      "text": "\\textmd{Ab0}",
+      "value": "\\textmd{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "mathtt",
+      "text": "\\mathtt{Ab0}",
+      "value": "\\mathtt{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "bm",
+      "text": "\\bm{Ab0}",
+      "value": "\\bm{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "boldsymbol",
+      "text": "\\boldsymbol{Ab0}",
+      "value": "\\boldsymbol{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "mathfrak",
+      "text": "\\mathfrak{Ab0}",
+      "value": "\\mathfrak{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "mathcal",
+      "text": "\\mathcal{Ab0}",
+      "value": "\\mathcal{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "mathscr",
+      "text": "\\mathscr{Ab0}",
+      "value": "\\mathscr{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "mathit",
+      "text": "\\mathit{Ab0}",
+      "value": "\\mathit{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "emph",
+      "text": "\\emph{Ab0}",
+      "value": "\\emph{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "Bbb (Legacy)",
+      "text": "\\Bbb{Ab0}",
+      "value": "\\Bbb{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "frak (Legacy)",
+      "text": "\\frak{Ab0}",
+      "value": "\\frak{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "bf (Legacy)",
+      "text": "\\bf{Ab0}",
+      "value": "\\bf{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "sf (Legacy)",
+      "text": "\\sf{Ab0}",
+      "value": "\\sf{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "rm (Legacy)",
+      "text": "\\rm{Ab0}",
+      "value": "\\rm{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "bold (Legacy)",
+      "text": "\\bold{Ab0}",
+      "value": "\\bold{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "cal (Legacy)",
+      "text": "\\cal{Ab0}",
+      "value": "\\cal{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "it (Legacy)",
+      "text": "\\it{Ab0}",
+      "value": "\\it{}",
+      "caretPosition": 4
+    },
+    {
+      "name": "tt (Legacy)",
+      "text": "\\tt{Ab0}",
+      "value": "\\tt{}",
+      "caretPosition": 4
+    }
+  ]
+}

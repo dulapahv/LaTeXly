@@ -1,0 +1,451 @@
+{
+  "title": "Arrows",
+  "displayLength": 6,
+  "symbols": [
+    {
+      "name": "Circlearrowleft",
+      "text": "\\circlearrowleft",
+      "value": "\\circlearrowleft "
+    },
+    {
+      "name": "Leftharpoonup",
+      "text": "\\leftharpoonup",
+      "value": "\\leftharpoonup "
+    },
+    {
+      "name": "RArr",
+      "text": "\\rArr",
+      "value": "\\rArr "
+    },
+    {
+      "name": "Circlearrowright",
+      "text": "\\circlearrowright",
+      "value": "\\circlearrowright "
+    },
+    {
+      "name": "Leftleftarrows",
+      "text": "\\leftleftarrows",
+      "value": "\\leftleftarrows "
+    },
+    {
+      "name": "Rarr",
+      "text": "\\rarr",
+      "value": "\\rarr "
+    },
+    {
+      "name": "Curvearrowleft",
+      "text": "\\curvearrowleft",
+      "value": "\\curvearrowleft "
+    },
+    {
+      "name": "Leftrightarrow",
+      "text": "\\leftrightarrow",
+      "value": "\\leftrightarrow "
+    },
+    {
+      "name": "Restriction",
+      "text": "\\restriction",
+      "value": "\\restriction "
+    },
+    {
+      "name": "Curvearrowright",
+      "text": "\\curvearrowright",
+      "value": "\\curvearrowright "
+    },
+    {
+      "name": "Leftrightarrow",
+      "text": "\\Leftrightarrow",
+      "value": "\\Leftrightarrow "
+    },
+    {
+      "name": "Rightarrow",
+      "text": "\\rightarrow",
+      "value": "\\rightarrow "
+    },
+    {
+      "name": "Darr",
+      "text": "\\Darr",
+      "value": "\\Darr "
+    },
+    {
+      "name": "Leftrightarrows",
+      "text": "\\leftrightarrows",
+      "value": "\\leftrightarrows "
+    },
+    {
+      "name": "Rightarrow",
+      "text": "\\Rightarrow",
+      "value": "\\Rightarrow "
+    },
+    {
+      "name": "Darr",
+      "text": "\\dArr",
+      "value": "\\dArr "
+    },
+    {
+      "name": "Leftrightharpoons",
+      "text": "\\leftrightharpoons",
+      "value": "\\leftrightharpoons "
+    },
+    {
+      "name": "Rightarrowtail",
+      "text": "\\rightarrowtail",
+      "value": "\\rightarrowtail "
+    },
+    {
+      "name": "Darr",
+      "text": "\\darr",
+      "value": "\\darr "
+    },
+    {
+      "name": "Leftrightsquigarrow",
+      "text": "\\leftrightsquigarrow",
+      "value": "\\leftrightsquigarrow "
+    },
+    {
+      "name": "Rightharpoondown",
+      "text": "\\rightharpoondown",
+      "value": "\\rightharpoondown "
+    },
+    {
+      "name": "Dashleftarrow",
+      "text": "\\dashleftarrow",
+      "value": "\\dashleftarrow "
+    },
+    {
+      "name": "Lleftarrow",
+      "text": "\\Lleftarrow",
+      "value": "\\Lleftarrow "
+    },
+    {
+      "name": "Rightharpoonup",
+      "text": "\\rightharpoonup",
+      "value": "\\rightharpoonup "
+    },
+    {
+      "name": "Dashrightarrow",
+      "text": "\\dashrightarrow",
+      "value": "\\dashrightarrow "
+    },
+    {
+      "name": "Longleftarrow",
+      "text": "\\longleftarrow",
+      "value": "\\longleftarrow "
+    },
+    {
+      "name": "Rightleftarrows",
+      "text": "\\rightleftarrows",
+      "value": "\\rightleftarrows "
+    },
+    {
+      "name": "Downarrow",
+      "text": "\\downarrow",
+      "value": "\\downarrow "
+    },
+    {
+      "name": "Longleftarrow",
+      "text": "\\Longleftarrow",
+      "value": "\\Longleftarrow "
+    },
+    {
+      "name": "Rightleftharpoons",
+      "text": "\\rightleftharpoons",
+      "value": "\\rightleftharpoons "
+    },
+    {
+      "name": "Rightrightarrows",
+      "text": "\\rightrightarrows",
+      "value": "\\rightrightarrows "
+    },
+    {
+      "name": "Downdownarrows",
+      "text": "\\downdownarrows",
+      "value": "\\downdownarrows "
+    },
+    {
+      "name": "Longleftrightarrow",
+      "text": "\\Longleftrightarrow",
+      "value": "\\Longleftrightarrow "
+    },
+    {
+      "name": "Rightsquigarrow",
+      "text": "\\rightsquigarrow",
+      "value": "\\rightsquigarrow "
+    },
+    {
+      "name": "Downharpoonleft",
+      "text": "\\downharpoonleft",
+      "value": "\\downharpoonleft "
+    },
+    {
+      "name": "Longmapsto",
+      "text": "\\longmapsto",
+      "value": "\\longmapsto "
+    },
+    {
+      "name": "Rrightarrow",
+      "text": "\\Rrightarrow",
+      "value": "\\Rrightarrow "
+    },
+    {
+      "name": "Downharpoonright",
+      "text": "\\downharpoonright",
+      "value": "\\downharpoonright "
+    },
+    {
+      "name": "Longrightarrow",
+      "text": "\\longrightarrow",
+      "value": "\\longrightarrow "
+    },
+    {
+      "name": "Rsh",
+      "text": "\\Rsh",
+      "value": "\\Rsh "
+    },
+    {
+      "name": "Gets",
+      "text": "\\gets",
+      "value": "\\gets "
+    },
+    {
+      "name": "Longrightarrow",
+      "text": "\\Longrightarrow",
+      "value": "\\Longrightarrow "
+    },
+    {
+      "name": "Searrow",
+      "text": "\\searrow",
+      "value": "\\searrow "
+    },
+    {
+      "name": "Harr",
+      "text": "\\Harr",
+      "value": "\\Harr "
+    },
+    {
+      "name": "Looparrowleft",
+      "text": "\\looparrowleft",
+      "value": "\\looparrowleft "
+    },
+    {
+      "name": "Swarrow",
+      "text": "\\swarrow",
+      "value": "\\swarrow "
+    },
+    {
+      "name": "hArr",
+      "text": "\\hArr",
+      "value": "\\hArr "
+    },
+    {
+      "name": "Looparrowright",
+      "text": "\\looparrowright",
+      "value": "\\looparrowright "
+    },
+    {
+      "name": "To",
+      "text": "\\to",
+      "value": "\\to "
+    },
+    {
+      "name": "Harr",
+      "text": "\\harr",
+      "value": "\\harr "
+    },
+    {
+      "name": "Lrarr",
+      "text": "\\Lrarr",
+      "value": "\\Lrarr "
+    },
+    {
+      "name": "Twoheadleftarrow",
+      "text": "\\twoheadleftarrow",
+      "value": "\\twoheadleftarrow "
+    },
+    {
+      "name": "Hookleftarrow",
+      "text": "\\hookleftarrow",
+      "value": "\\hookleftarrow "
+    },
+    {
+      "name": "LrArr",
+      "text": "\\lrArr",
+      "value": "\\lrArr "
+    },
+    {
+      "name": "Twoheadrightarrow",
+      "text": "\\twoheadrightarrow",
+      "value": "\\twoheadrightarrow "
+    },
+    {
+      "name": "Hookrightarrow",
+      "text": "\\hookrightarrow",
+      "value": "\\hookrightarrow "
+    },
+    {
+      "name": "Lrarr",
+      "text": "\\lrarr",
+      "value": "\\lrarr "
+    },
+    {
+      "name": "Uarr",
+      "text": "\\Uarr",
+      "value": "\\Uarr "
+    },
+    {
+      "name": "Iff",
+      "text": "\\iff",
+      "value": "\\iff "
+    },
+    {
+      "name": "Lsh",
+      "text": "\\Lsh",
+      "value": "\\Lsh "
+    },
+    {
+      "name": "uArr",
+      "text": "\\uArr",
+      "value": "\\uArr "
+    },
+    {
+      "name": "Impliedby",
+      "text": "\\impliedby",
+      "value": "\\impliedby "
+    },
+    {
+      "name": "Mapsto",
+      "text": "\\mapsto",
+      "value": "\\mapsto "
+    },
+    {
+      "name": "Uarr",
+      "text": "\\uarr",
+      "value": "\\uarr "
+    },
+    {
+      "name": "Implies",
+      "text": "\\implies",
+      "value": "\\implies "
+    },
+    {
+      "name": "Nearrow",
+      "text": "\\nearrow",
+      "value": "\\nearrow "
+    },
+    {
+      "name": "Uparrow",
+      "text": "\\uparrow",
+      "value": "\\uparrow "
+    },
+    {
+      "name": "Larr",
+      "text": "\\Larr",
+      "value": "\\Larr "
+    },
+    {
+      "name": "Nleftarrow",
+      "text": "\\nleftarrow",
+      "value": "\\nleftarrow "
+    },
+    {
+      "name": "Uarr",
+      "text": "\\Uarr",
+      "value": "\\Uarr "
+    },
+    {
+      "name": "LArr",
+      "text": "\\lArr",
+      "value": "\\lArr "
+    },
+    {
+      "name": "NLeftarrow",
+      "text": "\\nLeftarrow",
+      "value": "\\nLeftarrow "
+    },
+    {
+      "name": "Updownarrow",
+      "text": "\\updownarrow",
+      "value": "\\updownarrow "
+    },
+    {
+      "name": "Larr",
+      "text": "\\larr",
+      "value": "\\larr "
+    },
+    {
+      "name": "Nleftrightarrow",
+      "text": "\\nleftrightarrow",
+      "value": "\\nleftrightarrow "
+    },
+    {
+      "name": "Updownarrow",
+      "text": "\\Updownarrow",
+      "value": "\\Updownarrow "
+    },
+    {
+      "name": "Leadsto",
+      "text": "\\leadsto",
+      "value": "\\leadsto "
+    },
+    {
+      "name": "NLeftrightarrow",
+      "text": "\\nLeftrightarrow",
+      "value": "\\nLeftrightarrow "
+    },
+    {
+      "name": "Upharpoonleft",
+      "text": "\\upharpoonleft",
+      "value": "\\upharpoonleft "
+    },
+    {
+      "name": "Leftarrow",
+      "text": "\\leftarrow",
+      "value": "\\leftarrow "
+    },
+    {
+      "name": "Nrightarrow",
+      "text": "\\nrightarrow",
+      "value": "\\nrightarrow "
+    },
+    {
+      "name": "Upharpoonright",
+      "text": "\\upharpoonright",
+      "value": "\\upharpoonright "
+    },
+    {
+      "name": "Leftarrow",
+      "text": "\\Leftarrow",
+      "value": "\\Leftarrow "
+    },
+    {
+      "name": "NRightarrow",
+      "text": "\\nRightarrow",
+      "value": "\\nRightarrow "
+    },
+    {
+      "name": "Upuparrows",
+      "text": "\\upuparrows",
+      "value": "\\upuparrows "
+    },
+    {
+      "name": "Leftarrowtail",
+      "text": "\\leftarrowtail",
+      "value": "\\leftarrowtail "
+    },
+    {
+      "name": "Nwarrow",
+      "text": "\\nwarrow",
+      "value": "\\nwarrow "
+    },
+    {
+      "name": "Leftharpoondown",
+      "text": "\\leftharpoondown",
+      "value": "\\leftharpoondown "
+    },
+    {
+      "name": "Rarr",
+      "text": "\\Rarr",
+      "value": "\\Rarr "
+    }
+  ]
+}

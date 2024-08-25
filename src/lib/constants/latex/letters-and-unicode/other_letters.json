@@ -1,0 +1,216 @@
+{
+  "title": "Other Letters",
+  "displayLength": 5,
+  "symbols": [
+    {
+      "name": "imath",
+      "text": "\\imath",
+      "value": "\\imath "
+    },
+    {
+      "name": "nabla",
+      "text": "\\nabla",
+      "value": "\\nabla "
+    },
+    {
+      "name": "Im",
+      "text": "\\Im",
+      "value": "\\Im "
+    },
+    {
+      "name": "Reals",
+      "text": "\\Reals",
+      "value": "\\Reals "
+    },
+    {
+      "name": "OE",
+      "text": "\\text{\\OE}",
+      "value": "\\text{\\OE} "
+    },
+    {
+      "name": "jmath",
+      "text": "\\jmath",
+      "value": "\\jmath "
+    },
+    {
+      "name": "partial",
+      "text": "\\partial",
+      "value": "\\partial "
+    },
+    {
+      "name": "image",
+      "text": "\\image",
+      "value": "\\image "
+    },
+    {
+      "name": "wp",
+      "text": "\\wp",
+      "value": "\\wp "
+    },
+    {
+      "name": "o",
+      "text": "\\text{\\o}",
+      "value": "\\text{\\o} "
+    },
+    {
+      "name": "aleph",
+      "text": "\\aleph",
+      "value": "\\aleph "
+    },
+    {
+      "name": "Game",
+      "text": "\\Game",
+      "value": "\\Game "
+    },
+    {
+      "name": "Bbbk",
+      "text": "\\Bbbk",
+      "value": "\\Bbbk "
+    },
+    {
+      "name": "weierp",
+      "text": "\\weierp",
+      "value": "\\weierp "
+    },
+    {
+      "name": "O",
+      "text": "\\text{\\O}",
+      "value": "\\text{\\O} "
+    },
+    {
+      "name": "alef",
+      "text": "\\alef",
+      "value": "\\alef "
+    },
+    {
+      "name": "Finv",
+      "text": "\\Finv",
+      "value": "\\Finv "
+    },
+    {
+      "name": "N",
+      "text": "\\N",
+      "value": "\\N "
+    },
+    {
+      "name": "Z",
+      "text": "\\Z",
+      "value": "\\Z "
+    },
+    {
+      "name": "ss",
+      "text": "\\text{\\ss}",
+      "value": "\\text{\\ss} "
+    },
+    {
+      "name": "alefsym",
+      "text": "\\alefsym",
+      "value": "\\alefsym "
+    },
+    {
+      "name": "cnums",
+      "text": "\\cnums",
+      "value": "\\cnums "
+    },
+    {
+      "name": "natnums",
+      "text": "\\natnums",
+      "value": "\\natnums "
+    },
+    {
+      "name": "aa",
+      "text": "\\text{\\aa}",
+      "value": "\\text{\\aa} "
+    },
+    {
+      "name": "i",
+      "text": "\\text{\\i}",
+      "value": "\\text{\\i} "
+    },
+    {
+      "name": "beth",
+      "text": "\\beth",
+      "value": "\\beth "
+    },
+    {
+      "name": "Complex",
+      "text": "\\Complex",
+      "value": "\\Complex "
+    },
+    {
+      "name": "R",
+      "text": "\\R",
+      "value": "\\R "
+    },
+    {
+      "name": "AA",
+      "text": "\\text{\\AA}",
+      "value": "\\text{\\AA} "
+    },
+    {
+      "name": "j",
+      "text": "\\text{\\j}",
+      "value": "\\text{\\j} "
+    },
+    {
+      "name": "gimel",
+      "text": "\\gimel",
+      "value": "\\gimel "
+    },
+    {
+      "name": "ell",
+      "text": "\\ell",
+      "value": "\\ell "
+    },
+    {
+      "name": "Re",
+      "text": "\\Re",
+      "value": "\\Re "
+    },
+    {
+      "name": "ae",
+      "text": "\\text{\\ae}",
+      "value": "\\text{\\ae} "
+    },
+    {
+      "name": "daleth",
+      "text": "\\daleth",
+      "value": "\\daleth "
+    },
+    {
+      "name": "hbar",
+      "text": "\\hbar",
+      "value": "\\hbar "
+    },
+    {
+      "name": "real",
+      "text": "\\real",
+      "value": "\\real "
+    },
+    {
+      "name": "AE",
+      "text": "\\text{\\AE}",
+      "value": "\\text{\\AE} "
+    },
+    {
+      "name": "eth",
+      "text": "\\eth",
+      "value": "\\eth "
+    },
+    {
+      "name": "hslash",
+      "text": "\\hslash",
+      "value": "\\hslash "
+    },
+    {
+      "name": "reals",
+      "text": "\\reals",
+      "value": "\\reals "
+    },
+    {
+      "name": "oe",
+      "text": "\\text{\\oe}",
+      "value": "\\text{\\oe} "
+    }
+  ]
+}

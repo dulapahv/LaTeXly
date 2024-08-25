@@ -1,0 +1,349 @@
+{
+  "title": "Binary Operators",
+  "displayLength": 8,
+  "symbols": [
+    {
+      "name": "Plus",
+      "text": "+",
+      "value": "+"
+    },
+    {
+      "name": "Center Dot",
+      "text": "\\cdot",
+      "value": "\\cdot "
+    },
+    {
+      "name": "Greater Dot",
+      "text": "\\gtrdot",
+      "value": "\\gtrdot "
+    },
+    {
+      "name": "P Mod",
+      "text": "\\scriptsize\\text{(\\!mod\\!)}",
+      "value": " \\pmod{}",
+      "caretPosition": 7
+    },
+    {
+      "name": "Minus",
+      "text": "-",
+      "value": "-"
+    },
+    {
+      "name": "Center Dot P",
+      "text": "\\cdotp",
+      "value": "\\cdotp "
+    },
+    {
+      "name": "Intercal",
+      "text": "\\intercal",
+      "value": "\\intercal "
+    },
+    {
+      "name": "Pod",
+      "text": "\\scriptsize x \\pod{a}",
+      "value": " \\pod{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "Slash",
+      "text": "/",
+      "value": "/"
+    },
+    {
+      "name": "Center Dot Alt",
+      "text": "\\centerdot",
+      "value": "\\centerdot "
+    },
+    {
+      "name": "Logical And",
+      "text": "\\land",
+      "value": "\\land "
+    },
+    {
+      "name": "RHD",
+      "text": "\\rhd",
+      "value": "\\rhd "
+    },
+    {
+      "name": "Asterisk",
+      "text": "*",
+      "value": "*"
+    },
+    {
+      "name": "Circle",
+      "text": "\\circ",
+      "value": "\\circ "
+    },
+    {
+      "name": "Left Three Times",
+      "text": "\\leftthreetimes",
+      "value": "\\leftthreetimes "
+    },
+    {
+      "name": "Right Three Times",
+      "text": "\\rightthreetimes",
+      "value": "\\rightthreetimes "
+    },
+    {
+      "name": "Amalgam",
+      "text": "\\amalg",
+      "value": "\\amalg "
+    },
+    {
+      "name": "Circled Asterisk",
+      "text": "\\circledast",
+      "value": "\\circledast "
+    },
+    {
+      "name": "LDOTP",
+      "text": "\\ldotp",
+      "value": "\\ldotp "
+    },
+    {
+      "name": "Right Times",
+      "text": "\\rtimes",
+      "value": "\\rtimes "
+    },
+    {
+      "name": "And",
+      "text": "\\And",
+      "value": "\\And "
+    },
+    {
+      "name": "Circled Circle",
+      "text": "\\circledcirc",
+      "value": "\\circledcirc "
+    },
+    {
+      "name": "Logical Or",
+      "text": "\\lor",
+      "value": "\\lor "
+    },
+    {
+      "name": "Set Minus",
+      "text": "\\setminus",
+      "value": "\\setminus "
+    },
+    {
+      "name": "Asterisk Alt",
+      "text": "\\ast",
+      "value": "\\ast "
+    },
+    {
+      "name": "Circled Dash",
+      "text": "\\circleddash",
+      "value": "\\circleddash "
+    },
+    {
+      "name": "Less Dot",
+      "text": "\\lessdot",
+      "value": "\\lessdot "
+    },
+    {
+      "name": "Small Set Minus",
+      "text": "\\smallsetminus",
+      "value": "\\smallsetminus "
+    },
+    {
+      "name": "Bar Wedge",
+      "text": "\\barwedge",
+      "value": "\\barwedge "
+    },
+    {
+      "name": "Cup",
+      "text": "\\Cup",
+      "value": "\\Cup "
+    },
+    {
+      "name": "LHD",
+      "text": "\\lhd",
+      "value": "\\lhd "
+    },
+    {
+      "name": "Square Cap",
+      "text": "\\sqcap",
+      "value": "\\sqcap "
+    },
+    {
+      "name": "Big Circle",
+      "text": "\\bigcirc",
+      "value": "\\bigcirc "
+    },
+    {
+      "name": "Union",
+      "text": "\\cup",
+      "value": "\\cup "
+    },
+    {
+      "name": "Left Times",
+      "text": "\\ltimes",
+      "value": "\\ltimes "
+    },
+    {
+      "name": "Square Cup",
+      "text": "\\sqcup",
+      "value": "\\sqcup "
+    },
+    {
+      "name": "B Mod",
+      "text": "\\scriptsize\\text{mod}",
+      "value": " \\bmod "
+    },
+    {
+      "name": "Curly Vee",
+      "text": "\\curlyvee",
+      "value": "\\curlyvee "
+    },
+    {
+      "name": "X Mod A",
+      "text": "\\scriptsize\\text{mod}",
+      "value": " \\mod{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "Times",
+      "text": "\\times",
+      "value": "\\times "
+    },
+    {
+      "name": "Box Dot",
+      "text": "\\boxdot",
+      "value": "\\boxdot "
+    },
+    {
+      "name": "Curly Wedge",
+      "text": "\\curlywedge",
+      "value": "\\curlywedge "
+    },
+    {
+      "name": "Minus Plus",
+      "text": "\\mp",
+      "value": "\\mp "
+    },
+    {
+      "name": "UNLHD",
+      "text": "\\unlhd",
+      "value": "\\unlhd "
+    },
+    {
+      "name": "Box Minus",
+      "text": "\\boxminus",
+      "value": "\\boxminus "
+    },
+    {
+      "name": "Divide",
+      "text": "\\div",
+      "value": "\\div "
+    },
+    {
+      "name": "ODOT",
+      "text": "\\odot",
+      "value": "\\odot "
+    },
+    {
+      "name": "UNRHD",
+      "text": "\\unrhd",
+      "value": "\\unrhd "
+    },
+    {
+      "name": "Box Plus",
+      "text": "\\boxplus",
+      "value": "\\boxplus "
+    },
+    {
+      "name": "Divide on Times",
+      "text": "\\divideontimes",
+      "value": "\\divideontimes "
+    },
+    {
+      "name": "OMINUS",
+      "text": "\\ominus",
+      "value": "\\ominus "
+    },
+    {
+      "name": "U Plus",
+      "text": "\\uplus",
+      "value": "\\uplus "
+    },
+    {
+      "name": "Box Times",
+      "text": "\\boxtimes",
+      "value": "\\boxtimes "
+    },
+    {
+      "name": "Dot Plus",
+      "text": "\\dotplus",
+      "value": "\\dotplus "
+    },
+    {
+      "name": "OPLUS",
+      "text": "\\oplus",
+      "value": "\\oplus "
+    },
+    {
+      "name": "Logical Or Alt",
+      "text": "\\vee",
+      "value": "\\vee "
+    },
+    {
+      "name": "Bullet",
+      "text": "\\bullet",
+      "value": "\\bullet "
+    },
+    {
+      "name": "Double Bar Wedge",
+      "text": "\\doublebarwedge",
+      "value": "\\doublebarwedge "
+    },
+    {
+      "name": "OTIMES",
+      "text": "\\otimes",
+      "value": "\\otimes "
+    },
+    {
+      "name": "Vee Bar",
+      "text": "\\veebar",
+      "value": "\\veebar "
+    },
+    {
+      "name": "Cap",
+      "text": "\\Cap",
+      "value": "\\Cap "
+    },
+    {
+      "name": "Double Cap",
+      "text": "\\doublecap",
+      "value": "\\doublecap "
+    },
+    {
+      "name": "OSLASH",
+      "text": "\\oslash",
+      "value": "\\oslash "
+    },
+    {
+      "name": "Wedge",
+      "text": "\\wedge",
+      "value": "\\wedge "
+    },
+    {
+      "name": "Cap Alt",
+      "text": "\\cap",
+      "value": "\\cap "
+    },
+    {
+      "name": "Double Cup",
+      "text": "\\doublecup",
+      "value": "\\doublecup "
+    },
+    {
+      "name": "Plus Minus",
+      "text": "\\pm",
+      "value": "\\pm "
+    },
+    {
+      "name": "WR",
+      "text": "\\wr",
+      "value": "\\wr "
+    }
+  ]
+}

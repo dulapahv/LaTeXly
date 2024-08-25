@@ -1,0 +1,280 @@
+{
+  "title": "Math Operators",
+  "displayLength": 4,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "Arcsin",
+      "text": "\\arcsin",
+      "value": "\\arcsin "
+    },
+    {
+      "name": "Cosec",
+      "text": "\\cosec",
+      "value": "\\cosec "
+    },
+    {
+      "name": "Deg",
+      "text": "\\deg",
+      "value": "\\deg "
+    },
+    {
+      "name": "Sec",
+      "text": "\\sec",
+      "value": "\\sec "
+    },
+    {
+      "name": "Arccos",
+      "text": "\\arccos",
+      "value": "\\arccos "
+    },
+    {
+      "name": "Cosh",
+      "text": "\\cosh",
+      "value": "\\cosh "
+    },
+    {
+      "name": "Dim",
+      "text": "\\dim",
+      "value": "\\dim "
+    },
+    {
+      "name": "Sin",
+      "text": "\\sin",
+      "value": "\\sin "
+    },
+    {
+      "name": "Arctan",
+      "text": "\\arctan",
+      "value": "\\arctan "
+    },
+    {
+      "name": "Cot",
+      "text": "\\cot",
+      "value": "\\cot "
+    },
+    {
+      "name": "Exp",
+      "text": "\\exp",
+      "value": "\\exp "
+    },
+    {
+      "name": "Sinh",
+      "text": "\\sinh",
+      "value": "\\sinh "
+    },
+    {
+      "name": "Arctg",
+      "text": "\\arctg",
+      "value": "\\arctg "
+    },
+    {
+      "name": "Cotg",
+      "text": "\\cotg",
+      "value": "\\cotg "
+    },
+    {
+      "name": "Hom",
+      "text": "\\hom",
+      "value": "\\hom "
+    },
+    {
+      "name": "Sh",
+      "text": "\\sh",
+      "value": "\\sh "
+    },
+    {
+      "name": "Arcctg",
+      "text": "\\arcctg",
+      "value": "\\arcctg "
+    },
+    {
+      "name": "Coth",
+      "text": "\\coth",
+      "value": "\\coth "
+    },
+    {
+      "name": "Ker",
+      "text": "\\ker",
+      "value": "\\ker "
+    },
+    {
+      "name": "Tan",
+      "text": "\\tan",
+      "value": "\\tan "
+    },
+    {
+      "name": "Arg",
+      "text": "\\arg",
+      "value": "\\arg "
+    },
+    {
+      "name": "Csc",
+      "text": "\\csc",
+      "value": "\\csc "
+    },
+    {
+      "name": "Lg",
+      "text": "\\lg",
+      "value": "\\lg "
+    },
+    {
+      "name": "Tanh",
+      "text": "\\tanh",
+      "value": "\\tanh "
+    },
+    {
+      "name": "Ch",
+      "text": "\\ch",
+      "value": "\\ch "
+    },
+    {
+      "name": "Ctg",
+      "text": "\\ctg",
+      "value": "\\ctg "
+    },
+    {
+      "name": "Ln",
+      "text": "\\ln",
+      "value": "\\ln "
+    },
+    {
+      "name": "Tg",
+      "text": "\\tg",
+      "value": "\\tg "
+    },
+    {
+      "name": "Cos",
+      "text": "\\cos",
+      "value": "\\cos "
+    },
+    {
+      "name": "Cth",
+      "text": "\\cth",
+      "value": "\\cth "
+    },
+    {
+      "name": "Log",
+      "text": "\\log",
+      "value": "\\log "
+    },
+    {
+      "name": "Th",
+      "text": "\\th",
+      "value": "\\th "
+    },
+    {
+      "name": "Operator",
+      "text": "\\operatorname{f}",
+      "value": "\\operatorname{} ",
+      "caretPosition": 14
+    },
+    {
+      "name": "Argmax",
+      "text": "\\argmax",
+      "value": "\\argmax "
+    },
+    {
+      "name": "Injlim",
+      "text": "\\injlim",
+      "value": "\\injlim "
+    },
+    {
+      "name": "Min",
+      "text": "\\min",
+      "value": "\\min "
+    },
+    {
+      "name": "Varinjlim",
+      "text": "\\varinjlim",
+      "value": "\\varinjlim "
+    },
+    {
+      "name": "Argmin",
+      "text": "\\argmin",
+      "value": "\\argmin "
+    },
+    {
+      "name": "Lim",
+      "text": "\\lim",
+      "value": "\\lim "
+    },
+    {
+      "name": "Plim",
+      "text": "\\plim",
+      "value": "\\plim "
+    },
+    {
+      "name": "Varliminf",
+      "text": "\\varliminf",
+      "value": "\\varliminf "
+    },
+    {
+      "name": "Det",
+      "text": "\\det",
+      "value": "\\det "
+    },
+    {
+      "name": "Liminf",
+      "text": "\\liminf",
+      "value": "\\liminf "
+    },
+    {
+      "name": "Pr",
+      "text": "\\Pr",
+      "value": "\\Pr "
+    },
+    {
+      "name": "Varlimsup",
+      "text": "\\varlimsup",
+      "value": "\\varlimsup "
+    },
+    {
+      "name": "Gcd",
+      "text": "\\gcd",
+      "value": "\\gcd "
+    },
+    {
+      "name": "Limsup",
+      "text": "\\limsup",
+      "value": "\\limsup "
+    },
+    {
+      "name": "Projlim",
+      "text": "\\projlim",
+      "value": "\\projlim "
+    },
+    {
+      "name": "Varprojlim",
+      "text": "\\varprojlim",
+      "value": "\\varprojlim "
+    },
+    {
+      "name": "Inf",
+      "text": "\\inf",
+      "value": "\\inf "
+    },
+    {
+      "name": "Max",
+      "text": "\\max",
+      "value": "\\max "
+    },
+    {
+      "name": "Sup",
+      "text": "\\sup",
+      "value": "\\sup "
+    },
+    {
+      "name": "OperatorWithLimits",
+      "text": "\\operatorname*{f}",
+      "value": "\\operatorname*{} ",
+      "caretPosition": 15
+    },
+    {
+      "name": "OperatorWithLimitsAlt",
+      "text": "\\operatornamewithlimits{f}",
+      "value": "\\operatornamewithlimits{} ",
+      "caretPosition": 24
+    }
+  ]
+}

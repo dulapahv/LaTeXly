@@ -1,0 +1,65 @@
+{
+  "title": "Vertical Layout",
+  "displayLength": 4,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "Subscript",
+      "text": "x_n",
+      "value": "_{}",
+      "caretPosition": 2
+    },
+    {
+      "name": "StackrelEquals",
+      "text": "\\stackrel{!}{=}",
+      "value": "\\stackrel{}{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "Atop",
+      "text": "a \\atop b",
+      "value": "\\atop "
+    },
+    {
+      "name": "Superscript (Exponent)",
+      "text": "e^x",
+      "value": "^{}",
+      "caretPosition": 2
+    },
+    {
+      "name": "OversetEquals",
+      "text": "\\overset{!}{=}",
+      "value": "\\overset{}{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "Raisebox",
+      "text": "a\\raisebox{0.25em}{$b$}c",
+      "value": "\\raisebox{0em}{$$}",
+      "caretPosition": 11
+    },
+    {
+      "name": "UnderscoreSuperscript",
+      "text": "_u^o",
+      "value": "_u^o",
+      "caretPosition": 2
+    },
+    {
+      "name": "UndersetEquals",
+      "text": "\\underset{!}{=}",
+      "value": "\\underset{}{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "ComplexAtop",
+      "text": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)",
+      "value": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)"
+    },
+    {
+      "name": "SumSubstack",
+      "text": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "value": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "isBlockMath": true
+    }
+  ]
+}

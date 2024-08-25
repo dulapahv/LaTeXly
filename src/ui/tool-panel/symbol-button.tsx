@@ -9,6 +9,7 @@
 import { Button, Tooltip } from "@nextui-org/react";
 import { BlockMath, InlineMath } from "react-katex";
 
+import { cn } from "@/utils/cn";
 import { insertToEditor } from "@/utils/insert-to-editor";
 
 interface SymbolButtonProps {
@@ -17,6 +18,7 @@ interface SymbolButtonProps {
   value: string;
   caretPosition?: number;
   isBlockMath?: boolean;
+  squareButton?: boolean;
 }
 
 export function SymbolButton({
@@ -25,6 +27,7 @@ export function SymbolButton({
   value,
   caretPosition = value.length,
   isBlockMath = false,
+  squareButton = true,
 }: SymbolButtonProps) {
   return (
     <Tooltip
@@ -40,8 +43,11 @@ export function SymbolButton({
     >
       <Button
         onPress={() => insertToEditor(value, true, caretPosition)}
-        className="text-base"
-        isIconOnly
+        className={cn(
+          "rounded text-base",
+          !squareButton && "h-full px-0 py-1 text-sm",
+        )}
+        isIconOnly={squareButton}
         size="sm"
         variant="light"
         aria-label={name}

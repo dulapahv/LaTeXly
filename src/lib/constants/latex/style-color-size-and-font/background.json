@@ -1,0 +1,24 @@
+{
+  "title": "Colored Boxes",
+  "displayLength": 3,
+  "symbols": [
+    {
+      "name": "Box",
+      "text": "\\colorbox{aqua}{$A$}",
+      "value": "\\colorbox{}{$$}",
+      "caretPosition": 10
+    },
+    {
+      "name": "Box With Frame",
+      "text": "\\fcolorbox{red}{aqua}{$A$}",
+      "value": "\\fcolorbox{}{}{$$}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Transparent Box With Frame",
+      "text": "\\fcolorbox{red}{none}{$A$}",
+      "value": "\\fcolorbox{}{none}{$$}",
+      "caretPosition": 11
+    }
+  ]
+}

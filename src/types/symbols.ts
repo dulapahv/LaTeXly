@@ -10,4 +10,5 @@ export type SymbolsGroup = {
   title: string;
   displayLength?: number;
   symbols: Symbol[];
+  squareButton?: boolean;
 };

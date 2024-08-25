@@ -1,0 +1,67 @@
+{
+  "title": "Macros",
+  "displayLength": 3,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "Def",
+      "text": "\\footnotesize\\text{def}",
+      "value": "\\def\\foo{x^2} \\foo + \\foo",
+      "caretPosition": 13
+    },
+    {
+      "name": "GDef",
+      "text": "\\footnotesize\\text{GDef}",
+      "value": "\\gdef\\foo#1{#1^2} \\foo{y} + \\foo{y}",
+      "caretPosition": 17
+    },
+    {
+      "name": "EDef",
+      "text": "\\footnotesize\\text{EDef}",
+      "value": "\\edef\\macroname#1#2…{definition to be expanded}",
+      "caretPosition": 20
+    },
+    {
+      "name": "XDef",
+      "text": "\\footnotesize\\text{XDef}",
+      "value": "\\xdef\\macroname#1#2…{definition to be expanded}",
+      "caretPosition": 20
+    },
+    {
+      "name": "Let",
+      "text": "\\footnotesize\\text{Let}",
+      "value": "\\let\\foo=\\bar",
+      "caretPosition": 8
+    },
+    {
+      "name": "FutureLet",
+      "text": "\\footnotesize\\text{FtrLet}",
+      "value": "\\futurelet\\foo\\bar x",
+      "caretPosition": 14
+    },
+    {
+      "name": "GlobalDef",
+      "text": "\\footnotesize\\text{GlobDef}",
+      "value": "\\global\\def\\macroname#1#2…{definition}",
+      "caretPosition": 26
+    },
+    {
+      "name": "NewCommand",
+      "text": "\\footnotesize\\text{NewCmd}",
+      "value": "\\newcommand\\macroname[numargs]{definition}",
+      "caretPosition": 21
+    },
+    {
+      "name": "ReNewCommand",
+      "text": "\\footnotesize\\text{RNewCmd}",
+      "value": "\\renewcommand\\macroname[numargs]{definition}",
+      "caretPosition": 23
+    },
+    {
+      "name": "ProvideCommand",
+      "text": "\\footnotesize\\text{ProvCmd}",
+      "value": "\\providecommand\\macroname[numargs]{definition}",
+      "caretPosition": 25
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "title": "Symbols and Punctuation",
+  "displayLength": 6,
+  "symbols": [
+    {
+      "name": "Comment",
+      "text": "%",
+      "value": "% "
+    },
+    {
+      "name": "Dots",
+      "text": "\\dots",
+      "value": "\\dots "
+    },
+    {
+      "name": "KaTeX",
+      "text": "\\tiny\\KaTeX",
+      "value": "\\KaTeX "
+    },
+    {
+      "name": "PercentSign",
+      "text": "\\%",
+      "value": "\\% "
+    },
+    {
+      "name": "Cdots",
+      "text": "\\cdots",
+      "value": "\\cdots "
+    },
+    {
+      "name": "LaTeX",
+      "text": "\\tiny\\LaTeX",
+      "value": "\\LaTeX "
+    },
+    {
+      "name": "HashSign",
+      "text": "\\#",
+      "value": "\\# "
+    },
+    {
+      "name": "Ddots",
+      "text": "\\ddots",
+      "value": "\\ddots "
+    },
+    {
+      "name": "TeX",
+      "text": "\\scriptsize\\TeX",
+      "value": "\\TeX "
+    },
+    {
+      "name": "Ampersand",
+      "text": "\\&",
+      "value": "\\& "
+    },
+    {
+      "name": "Ldots",
+      "text": "\\ldots",
+      "value": "\\ldots "
+    },
+    {
+      "name": "Nabla",
+      "text": "\\nabla",
+      "value": "\\nabla "
+    },
+    {
+      "name": "Underscore",
+      "text": "\\_",
+      "value": "\\_ "
+    },
+    {
+      "name": "Vdots",
+      "text": "\\vdots",
+      "value": "\\vdots "
+    },
+    {
+      "name": "Infinity",
+      "text": "\\infty",
+      "value": "\\infty "
+    },
+    {
+      "name": "TextUnderscore",
+      "text": "\\text{\\textunderscore}",
+      "value": "\\text{\\textunderscore} "
+    },
+    {
+      "name": "DotsB",
+      "text": "\\dotsb",
+      "value": "\\dotsb "
+    },
+    {
+      "name": "InfinityAlt",
+      "text": "\\infin",
+      "value": "\\infin "
+    },
+    {
+      "name": "TextDash",
+      "text": "\\text{--}",
+      "value": "\\text{--} "
+    },
+    {
+      "name": "DotsC",
+      "text": "\\dotsc",
+      "value": "\\dotsc "
+    },
+    {
+      "name": "Checkmark",
+      "text": "\\checkmark",
+      "value": "\\checkmark "
+    },
+    {
+      "name": "TextEndash",
+      "text": "\\text{\\textendash}",
+      "value": "\\text{\\textendash} "
+    },
+    {
+      "name": "Dotsi",
+      "text": "\\dotsi",
+      "value": "\\dotsi "
+    },
+    {
+      "name": "Dagger",
+      "text": "\\dag",
+      "value": "\\dag "
+    },
+    {
+      "name": "TextEllipsis",
+      "text": "\\text{\\textellipsis}",
+      "value": "\\text{\\textellipsis} "
+    },
+    {
+      "name": "Dotsm",
+      "text": "\\dotsm",
+      "value": "\\dotsm "
+    },
+    {
+      "name": "DaggerAlt",
+      "text": "\\dagger",
+      "value": "\\dagger "
+    },
+    {
+      "name": "TextDagger",
+      "text": "\\text{\\textdagger}",
+      "value": "\\text{\\textdagger} "
+    },
+    {
+      "name": "TextAsciitilde",
+      "text": "\\text{\\textasciitilde}",
+      "value": "\\text{\\textasciitilde} "
+    },
+    {
+      "name": "Sdot",
+      "text": "\\sdot",
+      "value": "\\sdot "
+    },
+    {
+      "name": "Ddag",
+      "text": "\\ddag",
+      "value": "\\ddag "
+    },
+    {
+      "name": "TextAsciicircum",
+      "text": "\\text{\\textasciicircum}",
+      "value": "\\text{\\textasciicircum} "
+    },
+    {
+      "name": "Mathellipsis",
+      "text": "\\mathellipsis",
+      "value": "\\mathellipsis "
+    },
+    {
+      "name": "Ddoublesign",
+      "text": "\\ddagger",
+      "value": "\\ddagger "
+    },
+    {
+      "name": "TextDaggerdbl",
+      "text": "\\text{\\textdaggerdbl}",
+      "value": "\\text{\\textdaggerdbl} "
+    },
+    {
+      "name": "Lq",
+      "text": "\\lq",
+      "value": "\\lq "
+    },
+    {
+      "name": "Box",
+      "text": "\\Box",
+      "value": "\\Box "
+    },
+    {
+      "name": "DaggerSign",
+      "text": "\\Dagger",
+      "value": "\\Dagger "
+    },
+    {
+      "name": "Square",
+      "text": "\\square",
+      "value": "\\square "
+    },
+    {
+      "name": "MeasuredAngle",
+      "text": "\\measuredangle",
+      "value": "\\measuredangle "
+    },
+    {
+      "name": "Triangle",
+      "text": "\\triangle",
+      "value": "\\triangle "
+    },
+    {
+      "name": "SphericalAngle",
+      "text": "\\sphericalangle",
+      "value": "\\sphericalangle "
+    },
+    {
+      "name": "Triangledown",
+      "text": "\\triangledown",
+      "value": "\\triangledown "
+    },
+    {
+      "name": "Top",
+      "text": "\\top",
+      "value": "\\top "
+    },
+    {
+      "name": "Triangleleft",
+      "text": "\\triangleleft",
+      "value": "\\triangleleft "
+    },
+    {
+      "name": "Bot",
+      "text": "\\bot",
+      "value": "\\bot "
+    },
+    {
+      "name": "Triangleright",
+      "text": "\\triangleright",
+      "value": "\\triangleright "
+    },
+    {
+      "name": "TextDollar",
+      "text": "\\text{\\textdollar}",
+      "value": "\\text{\\textdollar} "
+    },
+    {
+      "name": "Colon",
+      "text": "\\colon",
+      "value": "\\colon "
+    },
+    {
+      "name": "Bigtriangledown",
+      "text": "\\bigtriangledown",
+      "value": "\\bigtriangledown "
+    },
+    {
+      "name": "Prime",
+      "text": "\\prime",
+      "value": "\\prime "
+    },
+    {
+      "name": "Longequal",
+      "text": "\\xlongequal{abc}",
+      "value": "\\xlongequal{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "PrimeAlt",
+      "text": "\\backprime",
+      "value": "\\backprime "
+    },
+    {
+      "name": "Bigtriangleup",
+      "text": "\\bigtriangleup",
+      "value": "\\bigtriangleup "
+    },
+    {
+      "name": "Blacktriangle",
+      "text": "\\blacktriangle",
+      "value": "\\blacktriangle "
+    },
+    {
+      "name": "Blacktriangledown",
+      "text": "\\blacktriangledown",
+      "value": "\\blacktriangledown "
+    },
+    {
+      "name": "Blacktriangleleft",
+      "text": "\\blacktriangleleft",
+      "value": "\\blacktriangleleft "
+    },
+    {
+      "name": "Blacktriangleright",
+      "text": "\\blacktriangleright",
+      "value": "\\blacktriangleright "
+    },
+    {
+      "name": "SdotAlt",
+      "text": "\\surd",
+      "value": "\\surd "
+    },
+    {
+      "name": "Degree",
+      "text": "\\degree",
+      "value": "\\degree "
+    },
+    {
+      "name": "TextDegree",
+      "text": "\\text{\\textdegree}",
+      "value": "\\text{\\textdegree} "
+    },
+    {
+      "name": "Mho",
+      "text": "\\mho",
+      "value": "\\mho "
+    },
+    {
+      "name": "Diagdown",
+      "text": "\\diagdown",
+      "value": "\\diagdown "
+    },
+    {
+      "name": "Diagup",
+      "text": "\\diagup",
+      "value": "\\diagup "
+    },
+    {
+      "name": "Flat",
+      "text": "\\flat",
+      "value": "\\flat "
+    },
+    {
+      "name": "Natural",
+      "text": "\\natural",
+      "value": "\\natural "
+    },
+    {
+      "name": "Sharp",
+      "text": "\\sharp",
+      "value": "\\sharp "
+    },
+    {
+      "name": "CircledA",
+      "text": "\\text{\\textcircled a}",
+      "value": "\\text{\\textcircled a} "
+    },
+    {
+      "name": "Maltese",
+      "text": "\\maltese",
+      "value": "\\maltese "
+    },
+    {
+      "name": "CircledR",
+      "text": "\\circledR",
+      "value": "\\circledR "
+    },
+    {
+      "name": "CircledS",
+      "text": "\\circledS",
+      "value": "\\circledS "
+    },
+    {
+      "name": "Copyright",
+      "text": "\\copyright",
+      "value": "\\copyright "
+    },
+    {
+      "name": "TextRegistered",
+      "text": "\\text{\\textregistered}",
+      "value": "\\text{\\textregistered} "
+    },
+    {
+      "name": "TextSterling",
+      "text": "\\text{\\textsterling}",
+      "value": "\\text{\\textsterling} "
+    },
+    {
+      "name": "Yen",
+      "text": "\\yen",
+      "value": "\\yen "
+    },
+    {
+      "name": "Diamond",
+      "text": "\\diamond",
+      "value": "\\diamond "
+    },
+    {
+      "name": "Diamondsuit",
+      "text": "\\diamondsuit",
+      "value": "\\diamondsuit "
+    },
+    {
+      "name": "Lozenge",
+      "text": "\\lozenge",
+      "value": "\\lozenge "
+    },
+    {
+      "name": "Blacklozenge",
+      "text": "\\blacklozenge",
+      "value": "\\blacklozenge "
+    },
+    {
+      "name": "Spadesuit",
+      "text": "\\spadesuit",
+      "value": "\\spadesuit "
+    },
+    {
+      "name": "Spades",
+      "text": "\\spades",
+      "value": "\\spades "
+    },
+    {
+      "name": "Heartsuit",
+      "text": "\\heartsuit",
+      "value": "\\heartsuit "
+    },
+    {
+      "name": "Hearts",
+      "text": "\\hearts",
+      "value": "\\hearts "
+    },
+    {
+      "name": "Clubssuit",
+      "text": "\\clubsuit",
+      "value": "\\clubsuit "
+    },
+    {
+      "name": "Clubs",
+      "text": "\\clubs",
+      "value": "\\clubs "
+    },
+    {
+      "name": "Bigstar",
+      "text": "\\bigstar",
+      "value": "\\bigstar "
+    },
+    {
+      "name": "Star",
+      "text": "\\star",
+      "value": "\\star "
+    },
+    {
+      "name": "BoxAlt",
+      "text": "\\Box",
+      "value": "\\Box "
+    },
+    {
+      "name": "Blacksquare",
+      "text": "\\blacksquare",
+      "value": "\\blacksquare "
+    },
+    {
+      "name": "TextAsciitilde",
+      "text": "\\text{\\textasciitilde}",
+      "value": "\\text{\\textasciitilde} "
+    },
+    {
+      "name": "TextQuotdblright",
+      "text": "\\text{\\textquotedblright}",
+      "value": "\\text{\\textquotedblright} "
+    },
+    {
+      "name": "TextQuotdblleft",
+      "text": "\\text{\\textquotedblleft}",
+      "value": "\\text{\\textquotedblleft} "
+    },
+    {
+      "name": "TextQuoteleft",
+      "text": "\\text{\\textquoteleft}",
+      "value": "\\text{\\textquoteleft} "
+    },
+    {
+      "name": "TextQuoteright",
+      "text": "\\text{\\textquoteright}",
+      "value": "\\text{\\textquoteright} "
+    },
+    {
+      "name": "TextLess",
+      "text": "\\text{\\textless}",
+      "value": "\\text{\\textless} "
+    },
+    {
+      "name": "TextGreater",
+      "text": "\\text{\\textgreater}",
+      "value": "\\text{\\textgreater} "
+    },
+    {
+      "name": "TextUnderscore",
+      "text": "\\text{\\textunderscore}",
+      "value": "\\text{\\textunderscore} "
+    },
+    {
+      "name": "TextAsciicircum",
+      "text": "\\text{\\textasciicircum}",
+      "value": "\\text{\\textasciicircum} "
+    },
+    {
+      "name": "TextEllipsis",
+      "text": "\\text{\\textellipsis}",
+      "value": "\\text{\\textellipsis} "
+    },
+    {
+      "name": "TextDagger",
+      "text": "\\text{\\textdagger}",
+      "value": "\\text{\\textdagger} "
+    },
+    {
+      "name": "Minuso",
+      "text": "\\minuso",
+      "value": "\\minuso "
+    }
+  ]
+}

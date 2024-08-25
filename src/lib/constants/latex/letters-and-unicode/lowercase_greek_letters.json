@@ -1,0 +1,171 @@
+{
+  "title": "Lowercase Greek Letters",
+  "displayLength": 5,
+  "symbols": [
+    {
+      "name": "alpha",
+      "text": "\\alpha",
+      "value": "\\alpha "
+    },
+    {
+      "name": "beta",
+      "text": "\\beta",
+      "value": "\\beta "
+    },
+    {
+      "name": "gamma",
+      "text": "\\gamma",
+      "value": "\\gamma "
+    },
+    {
+      "name": "delta",
+      "text": "\\delta",
+      "value": "\\delta "
+    },
+    {
+      "name": "epsilon",
+      "text": "\\epsilon",
+      "value": "\\epsilon "
+    },
+    {
+      "name": "zeta",
+      "text": "\\zeta",
+      "value": "\\zeta "
+    },
+    {
+      "name": "eta",
+      "text": "\\eta",
+      "value": "\\eta "
+    },
+    {
+      "name": "theta",
+      "text": "\\theta",
+      "value": "\\theta "
+    },
+    {
+      "name": "iota",
+      "text": "\\iota",
+      "value": "\\iota "
+    },
+    {
+      "name": "kappa",
+      "text": "\\kappa",
+      "value": "\\kappa "
+    },
+    {
+      "name": "lambda",
+      "text": "\\lambda",
+      "value": "\\lambda "
+    },
+    {
+      "name": "mu",
+      "text": "\\mu",
+      "value": "\\mu "
+    },
+    {
+      "name": "nu",
+      "text": "\\nu",
+      "value": "\\nu "
+    },
+    {
+      "name": "xi",
+      "text": "\\xi",
+      "value": "\\xi "
+    },
+    {
+      "name": "omicron",
+      "text": "\\omicron",
+      "value": "\\omicron "
+    },
+    {
+      "name": "pi",
+      "text": "\\pi",
+      "value": "\\pi "
+    },
+    {
+      "name": "rho",
+      "text": "\\rho",
+      "value": "\\rho "
+    },
+    {
+      "name": "sigma",
+      "text": "\\sigma",
+      "value": "\\sigma "
+    },
+    {
+      "name": "tau",
+      "text": "\\tau",
+      "value": "\\tau "
+    },
+    {
+      "name": "upsilon",
+      "text": "\\upsilon",
+      "value": "\\upsilon "
+    },
+    {
+      "name": "phi",
+      "text": "\\phi",
+      "value": "\\phi "
+    },
+    {
+      "name": "chi",
+      "text": "\\chi",
+      "value": "\\chi "
+    },
+    {
+      "name": "psi",
+      "text": "\\psi",
+      "value": "\\psi "
+    },
+    {
+      "name": "omega",
+      "text": "\\omega",
+      "value": "\\omega "
+    },
+    {
+      "name": "varepsilon",
+      "text": "\\varepsilon",
+      "value": "\\varepsilon "
+    },
+    {
+      "name": "varkappa",
+      "text": "\\varkappa",
+      "value": "\\varkappa "
+    },
+    {
+      "name": "vartheta",
+      "text": "\\vartheta",
+      "value": "\\vartheta "
+    },
+    {
+      "name": "thetasym",
+      "text": "\\thetasym",
+      "value": "\\thetasym "
+    },
+    {
+      "name": "varpi",
+      "text": "\\varpi",
+      "value": "\\varpi "
+    },
+    {
+      "name": "varrho",
+      "text": "\\varrho",
+      "value": "\\varrho "
+    },
+    {
+      "name": "varsigma",
+      "text": "\\varsigma",
+      "value": "\\varsigma "
+    },
+    {
+      "name": "varphi",
+      "text": "\\varphi",
+      "value": "\\varphi "
+    },
+    {
+      "name": "digamma",
+      "text": "\\digamma",
+      "value": "\\digamma "
+    }
+  ]
+}

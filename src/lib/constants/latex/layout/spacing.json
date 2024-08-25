@@ -1,0 +1,156 @@
+{
+  "title": "Spacing",
+  "displayLength": 4,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "-5/18 em Space",
+      "text": "A\\negthickspace B",
+      "value": "\\negthickspace "
+    },
+    {
+      "name": "-4/18 em Space",
+      "text": "A\\negmedspace B",
+      "value": "\\negmedspace "
+    },
+    {
+      "name": "-3/18 em Space",
+      "text": "A\\! B",
+      "value": "\\! "
+    },
+    {
+      "name": "-3/18 em Space",
+      "text": "A\\negthinspace B",
+      "value": "\\negthinspace "
+    },
+    {
+      "name": "3/18 em Space",
+      "text": "A\\,B",
+      "value": "\\,"
+    },
+    {
+      "name": "3/18 em Space",
+      "text": "A\\thinspace B",
+      "value": "\\thinspace "
+    },
+    {
+      "name": "4/18 em Space",
+      "text": "A\\>B",
+      "value": "\\>"
+    },
+    {
+      "name": "4/18 em Space",
+      "text": "A\\:B",
+      "value": "\\:"
+    },
+    {
+      "name": "4/18 em Space",
+      "text": "A\\medspace B",
+      "value": "\\medspace "
+    },
+    {
+      "name": "5/18 em Space",
+      "text": "A\\;B",
+      "value": "\\;"
+    },
+    {
+      "name": "5/18 em Space",
+      "text": "A\\thickspace B",
+      "value": "\\thickspace "
+    },
+    {
+      "name": "1/2 em Space",
+      "text": "A\\enspace B",
+      "value": "\\enspace "
+    },
+    {
+      "name": "1 em Space",
+      "text": "A\\quad B",
+      "value": "\\quad "
+    },
+    {
+      "name": "2 em Space",
+      "text": "A\\qquad B",
+      "value": "\\qquad "
+    },
+    {
+      "name": "Non-Breaking Space",
+      "text": "A~B",
+      "value": "~"
+    },
+    {
+      "name": "Space",
+      "text": "A\\ B",
+      "value": "\\ "
+    },
+    {
+      "name": "Non-Breaking Space",
+      "text": "A\\nobreakspace B",
+      "value": "\\nobreakspace "
+    },
+    {
+      "name": "Space",
+      "text": "A\\space B",
+      "value": "\\space "
+    },
+    {
+      "name": "Kern",
+      "text": "A\\kern{2pt} B",
+      "value": "\\kern{} ",
+      "caretPosition": 6
+    },
+    {
+      "name": "M Kern",
+      "text": "A\\mkern{2pt} B",
+      "value": "\\mkern{} ",
+      "caretPosition": 7
+    },
+    {
+      "name": "M Skip",
+      "text": "A\\mskip{2pt} B",
+      "value": "\\mskip{} ",
+      "caretPosition": 7
+    },
+    {
+      "name": "H Skip",
+      "text": "A\\hskip{2pt} B",
+      "value": "\\hskip{} ",
+      "caretPosition": 7
+    },
+    {
+      "name": "H Space",
+      "text": "A\\hspace{2pt} B",
+      "value": "\\hspace{} ",
+      "caretPosition": 8
+    },
+    {
+      "name": "H Space*",
+      "text": "A\\hspace*{2pt} B",
+      "value": "\\hspace*{} ",
+      "caretPosition": 9
+    },
+    {
+      "name": "Phantom",
+      "text": "A\\phantom{2pt} B",
+      "value": "\\phantom{} ",
+      "caretPosition": 9
+    },
+    {
+      "name": "H Phantom",
+      "text": "A\\hphantom{2pt} B",
+      "value": "\\hphantom{} ",
+      "caretPosition": 10
+    },
+    {
+      "name": "V Phantom",
+      "text": "A\\vphantom{2pt} B",
+      "value": "\\vphantom{} ",
+      "caretPosition": 10
+    },
+    {
+      "name": "Math Strut",
+      "text": "A\\mathstrut B",
+      "value": "\\mathstrut "
+    }
+  ]
+}

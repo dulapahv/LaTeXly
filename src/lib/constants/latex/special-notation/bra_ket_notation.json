@@ -1,0 +1,37 @@
+{
+  "title": "Bra-ket Notation",
+  "displayLength": 3,
+  "squareButton": false,
+  "symbols": [
+    {
+      "name": "Bra",
+      "text": "\\bra{\\phi}",
+      "value": "\\bra{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Ket",
+      "text": "\\ket{\\psi}",
+      "value": "\\ket{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Braket",
+      "text": "\\braket{\\phi|\\psi}",
+      "value": "\\braket{|}",
+      "caretPosition": 8
+    },
+    {
+      "name": "BraExtended",
+      "text": "\\Bra{\\phi}",
+      "value": "\\Bra{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "KetExtended",
+      "text": "\\Ket{\\psi}",
+      "value": "\\Ket{}",
+      "caretPosition": 5
+    }
+  ]
+}

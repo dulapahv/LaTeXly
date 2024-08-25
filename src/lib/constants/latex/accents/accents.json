@@ -1,0 +1,213 @@
+{
+  "title": "Accents",
+  "displayLength": 5,
+  "symbols": [
+    {
+      "name": "Prime (Single)",
+      "text": "a'",
+      "value": "'"
+    },
+    {
+      "name": "Prime (Double)",
+      "text": "a''",
+      "value": "''"
+    },
+    {
+      "name": "Prime (Single, LaTeX)",
+      "text": "a^{}",
+      "value": "^{\\prime}"
+    },
+    {
+      "name": "Tilde",
+      "text": "\\tilde{a}",
+      "value": "\\tilde{}",
+      "caretPosition": 7
+    },
+    {
+      "name": "Wide Tilde",
+      "text": "\\widetilde{ac}",
+      "value": "\\widetilde{}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Math Ring",
+      "text": "\\mathring{g}",
+      "value": "\\mathring{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "Overgroup",
+      "text": "\\overgroup{AB}",
+      "value": "\\overgroup{}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Undergroup",
+      "text": "\\undergroup{AB}",
+      "value": "\\undergroup{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "Utilde",
+      "text": "\\utilde{AB}",
+      "value": "\\utilde{}",
+      "caretPosition": 8
+    },
+    {
+      "name": "Acute",
+      "text": "\\acute{a}",
+      "value": "\\acute{}",
+      "caretPosition": 7
+    },
+    {
+      "name": "Vector",
+      "text": "\\vec{F}",
+      "value": "\\vec{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Overrightarrow",
+      "text": "\\overrightarrow{AB}",
+      "value": "\\overrightarrow{}",
+      "caretPosition": 16
+    },
+    {
+      "name": "Overleftarrow",
+      "text": "\\overleftarrow{AB}",
+      "value": "\\overleftarrow{}",
+      "caretPosition": 15
+    },
+    {
+      "name": "Overleftharpoon",
+      "text": "\\overleftharpoon{ac}",
+      "value": "\\overleftharpoon{}",
+      "caretPosition": 17
+    },
+    {
+      "name": "Overrightharpoon",
+      "text": "\\overrightharpoon{ac}",
+      "value": "\\overrightharpoon{}",
+      "caretPosition": 18
+    },
+    {
+      "name": "Overline",
+      "text": "\\overline{AB}",
+      "value": "\\overline{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "Overlinesegment",
+      "text": "\\overlinesegment{AB}",
+      "value": "\\overlinesegment{}",
+      "caretPosition": 17
+    },
+    {
+      "name": "Overleftrightarrow",
+      "text": "\\overleftrightarrow{AB}",
+      "value": "\\overleftrightarrow{}",
+      "caretPosition": 20
+    },
+    {
+      "name": "Overbrace",
+      "text": "\\overbrace{AB}",
+      "value": "\\overbrace{}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Underrightarrow",
+      "text": "\\underrightarrow{AB}",
+      "value": "\\underrightarrow{}",
+      "caretPosition": 17
+    },
+    {
+      "name": "Underleftarrow",
+      "text": "\\underleftarrow{AB}",
+      "value": "\\underleftarrow{}",
+      "caretPosition": 16
+    },
+    {
+      "name": "Underlinesegment",
+      "text": "\\underlinesegment{AB}",
+      "value": "\\underlinesegment{}",
+      "caretPosition": 18
+    },
+    {
+      "name": "Underleftrightarrow",
+      "text": "\\underleftrightarrow{AB}",
+      "value": "\\underleftrightarrow{}",
+      "caretPosition": 21
+    },
+    {
+      "name": "Underbrace",
+      "text": "\\underbrace{AB}",
+      "value": "\\underbrace{}",
+      "caretPosition": 12
+    },
+    {
+      "name": "Underline",
+      "text": "\\underline{AB}",
+      "value": "\\underline{}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Underbar",
+      "text": "\\underbar{X}",
+      "value": "\\underbar{}",
+      "caretPosition": 10
+    },
+    {
+      "name": "Breve",
+      "text": "\\breve{a}",
+      "value": "\\breve{}",
+      "caretPosition": 7
+    },
+    {
+      "name": "Check",
+      "text": "\\check{a}",
+      "value": "\\check{}",
+      "caretPosition": 7
+    },
+    {
+      "name": "Dot",
+      "text": "\\dot{a}",
+      "value": "\\dot{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Double Dot",
+      "text": "\\ddot{a}",
+      "value": "\\ddot{}",
+      "caretPosition": 6
+    },
+    {
+      "name": "Grave",
+      "text": "\\grave{a}",
+      "value": "\\grave{}",
+      "caretPosition": 7
+    },
+    {
+      "name": "Hat",
+      "text": "\\hat{\\theta}",
+      "value": "\\hat{}",
+      "caretPosition": 5
+    },
+    {
+      "name": "Widehat",
+      "text": "\\widehat{ac}",
+      "value": "\\widehat{}",
+      "caretPosition": 9
+    },
+    {
+      "name": "Widecheck",
+      "text": "\\widecheck{ac}",
+      "value": "\\widecheck{}",
+      "caretPosition": 11
+    },
+    {
+      "name": "Bar",
+      "text": "\\bar{y}",
+      "value": "\\bar{}",
+      "caretPosition": 5
+    }
+  ]
+}

@@ -7,38 +7,23 @@
  */
 
 import { ScrollShadow } from "@nextui-org/react";
-import { ALargeSmall, ArrowDownRight, Pi, Type, Variable } from "lucide-react";
+import { ArrowDownRight, Search } from "lucide-react";
 
 import {
-  ams_arrows,
-  ams_binary_operators,
-  ams_binary_relations,
-  ams_delimiters,
-  ams_greek_and_hebrew,
-  ams_miscellaneous,
-  ams_negated_binary_relations_and_arrows,
+  accents,
   arrows,
-  big_operators,
-  binary_operators,
-  binary_relations,
-  colors,
   common_symbols,
   delimiters,
-  inverse_trigonometry,
-  limits,
-  logarithms,
-  lowercase_greek_letters,
-  math_alphabets_1,
-  math_alphabets_2,
-  math_alphabets_3,
-  math_alphabets_4,
-  math_mode_accents,
-  miscellaneous_symbols,
-  non_mathematical_symbols,
+  environments,
+  layout,
+  lettersAndUnicode,
+  logicAndSetTheory,
+  macros,
   operators,
-  sizes,
-  trigonometry,
-  uppercase_greek_letters,
+  relations,
+  specialNotation,
+  styleColorSizeAndFont,
+  symbolsAndPunctuation,
 } from "@/lib/constants/latex";
 import { SymbolsGroup } from "@/types/symbols";
 import { cn } from "@/utils/cn";
@@ -50,116 +35,103 @@ import { UndoRedo } from "./undo-redo";
 
 export function ToolPanel() {
   const symbolsGroups: SymbolsGroup[] = [
-    math_mode_accents,
-    lowercase_greek_letters,
-    uppercase_greek_letters,
-    binary_relations,
-    binary_operators,
-    big_operators,
-    arrows,
-    delimiters,
-    miscellaneous_symbols,
-    non_mathematical_symbols,
-    ams_delimiters,
-    ams_greek_and_hebrew,
-    ams_binary_relations,
-    ams_arrows,
-    ams_negated_binary_relations_and_arrows,
-    ams_binary_operators,
-    ams_miscellaneous,
-    colors,
+    accents.accents,
+    accents.accent_functions,
+    delimiters.delimiters,
+    environments.matrices,
+    lettersAndUnicode.uppercase_greek_letters,
+    lettersAndUnicode.lowercase_greek_letters,
+    lettersAndUnicode.other_letters,
+    logicAndSetTheory.logic_and_set_theory,
+    operators.big_operators,
+    operators.binary_operators,
+    operators.fractions,
+    operators.binomials,
+    operators.math_operators,
+    relations.relations,
+    relations.negated_relations,
+    arrows.arrows,
+    arrows.extensible_arrows,
+    symbolsAndPunctuation.symbols_and_punctuation,
+    specialNotation.bra_ket_notation,
+    layout.annotation,
+    layout.overlap,
+    layout.spacing,
+    layout.vertical_layout,
+    styleColorSizeAndFont.math_alphabets,
+    styleColorSizeAndFont.sizes,
+    styleColorSizeAndFont.colors,
+    styleColorSizeAndFont.background,
+    macros.macros,
   ];
-
-  const functionsGroup: SymbolsGroup[] = [
-    logarithms,
-    trigonometry,
-    inverse_trigonometry,
-    limits,
-    operators,
-  ];
-
-  const alphabetsGroup: SymbolsGroup[] = [
-    math_alphabets_1,
-    math_alphabets_2,
-    math_alphabets_3,
-    math_alphabets_4,
-  ];
-
-  const sizesGroup: SymbolsGroup[] = [sizes];
 
   return (
-    <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 *:dark:border-r-default-100 [&>*:not(:last-child)]:border-r">
+    <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 [overflow-anchor:none] *:border-default-200 [&>div:nth-child(-n+3)]:border-r">
       <UndoRedo />
       <ThemeSwitch />
       <AutocompleteMenu
-        title="Symbol"
-        tooltip="Type or select a symbol"
+        title="Search Symbol"
+        tooltip="Type here to search"
         symbolsGroups={symbolsGroups}
-        icon={<Pi size={30} className="text-foreground-500" />}
+        icon={<Search size={30} className="text-foreground-500" />}
         limit
       />
-      <AutocompleteMenu
-        title="Function"
-        tooltip="Type or select a function"
-        symbolsGroups={functionsGroup}
-        icon={<Variable size={30} className="text-foreground-500" />}
-      />
-      <AutocompleteMenu
-        title="Font"
-        tooltip="Type or select a font"
-        symbolsGroups={alphabetsGroup}
-        icon={<Type size={30} className="text-foreground-500" />}
-        hideValue
-      />
-      <AutocompleteMenu
-        title="Size"
-        tooltip="Type or select a size"
-        symbolsGroups={sizesGroup}
-        icon={<ALargeSmall size={30} className="text-foreground-500" />}
-        hideSection
-        hideValue
-      />
-      {[common_symbols, ...symbolsGroups].map((symbolsGroup) => {
-        const { title, symbols, displayLength } = symbolsGroup;
-        const shouldDisplayOverflow = symbols.length > displayLength!;
-        const pinnedSymbols = symbols.slice(0, displayLength);
+      {([common_symbols, ...symbolsGroups] as SymbolsGroup[]).map(
+        (symbolsGroup) => {
+          const { title, symbols, displayLength, squareButton } = symbolsGroup;
+          const shouldDisplayOverflow = symbols.length > displayLength!;
 
-        return (
-          <div
-            key={title}
-            className={cn(
-              "relative size-fit",
-              shouldDisplayOverflow &&
-                "group hover:rounded-t-lg hover:shadow-small dark:hover:border-r-default-50 dark:hover:bg-default-50",
-            )}
-          >
-            {pinnedSymbols.map((symbol) => (
-              <SymbolButton key={symbol.text} {...symbol} />
-            ))}
-            {shouldDisplayOverflow && (
+          return (
+            <div
+              key={title}
+              className={cn(
+                "group relative size-fit h-auto content-end rounded border-[0.5px] dark:hover:bg-default-50",
+                shouldDisplayOverflow && "hover:shadow-lg",
+              )}
+            >
               <div
-                className="absolute z-10 hidden rounded-b-lg border-b-1 bg-white shadow-lg group-hover:grid dark:border-b-default-50 dark:bg-default-50"
+                className="grid"
                 style={{
-                  gridTemplateColumns: `repeat(${displayLength}, minmax(0, 1fr))`,
+                  gridTemplateColumns: `repeat(${displayLength}, min-content)`,
                 }}
               >
-                {symbols.slice(displayLength).map((symbol) => (
-                  <SymbolButton key={symbol.text} {...symbol} />
+                {symbols.slice(0, displayLength).map((symbol) => (
+                  <SymbolButton
+                    key={symbol.text}
+                    squareButton={squareButton}
+                    {...symbol}
+                  />
                 ))}
               </div>
-            )}
-            <p className="relative flex w-full justify-center [font-size:11px]">
-              {title}
               {shouldDisplayOverflow && (
-                <ArrowDownRight
-                  size={12}
-                  className="absolute bottom-0.5 right-0"
-                />
+                <div
+                  className="absolute z-10 hidden w-full rounded-b border-b border-default-200 bg-white shadow-lg group-hover:grid dark:bg-default-50"
+                  style={{
+                    gridTemplateColumns: `repeat(${displayLength}, min-content)`,
+                  }}
+                >
+                  {symbols.slice(displayLength).map((symbol) => (
+                    <SymbolButton
+                      key={symbol.text}
+                      squareButton={squareButton}
+                      {...symbol}
+                    />
+                  ))}
+                </div>
               )}
-            </p>
-          </div>
-        );
-      })}
+              <p className="relative flex w-full justify-center [font-size:11px]">
+                {title}
+                {shouldDisplayOverflow && (
+                  <ArrowDownRight
+                    size={12}
+                    className="absolute bottom-0.5 right-0"
+                  />
+                )}
+              </p>
+            </div>
+          );
+        },
+      )}
     </ScrollShadow>
   );
 }
