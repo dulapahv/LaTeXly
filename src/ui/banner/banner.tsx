@@ -18,7 +18,7 @@ export function Banner() {
     <div className="isolate flex justify-between border-b-1 bg-yellow-100 p-0.5">
       <span aria-hidden="true"></span>
       <div className="flex items-center gap-x-3">
-        <span className="text-sm">
+        <span className="text-sm text-black">
           <InlineMath>{LATEXLY}</InlineMath> is currently under development
         </span>
         <Button
