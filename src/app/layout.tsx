@@ -3,7 +3,7 @@ import "./globals.css";
 import { ReactNode } from "react";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
 
 import { BASE_URL, NAME } from "@/lib/constants/constants";
 import { cn } from "@/utils/cn";
@@ -72,6 +72,7 @@ export default function RootLayout({
         )}
       >
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
