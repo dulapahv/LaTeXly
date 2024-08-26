@@ -1,111 +1,11 @@
 {
   "title": "Negated Relations",
-  "dispLen": 8,
+  "dispLen": 6,
   "symbols": [
-    {
-      "name": "Gnapprox",
-      "lbl": "\\gnapprox",
-      "val": "\\gnapprox "
-    },
-    {
-      "name": "Ngeqslant",
-      "lbl": "\\ngeqslant",
-      "val": "\\ngeqslant "
-    },
-    {
-      "name": "Nsubseteq",
-      "lbl": "\\nsubseteq",
-      "val": "\\nsubseteq "
-    },
-    {
-      "name": "Precneqq",
-      "lbl": "\\precneqq",
-      "val": "\\precneqq "
-    },
-    {
-      "name": "Gneq",
-      "lbl": "\\gneq",
-      "val": "\\gneq "
-    },
     {
       "name": "Ngtr",
       "lbl": "\\ngtr",
       "val": "\\ngtr "
-    },
-    {
-      "name": "Nsubseteqq",
-      "lbl": "\\nsubseteqq",
-      "val": "\\nsubseteqq "
-    },
-    {
-      "name": "Precnsim",
-      "lbl": "\\precnsim",
-      "val": "\\precnsim "
-    },
-    {
-      "name": "Gneqq",
-      "lbl": "\\gneqq",
-      "val": "\\gneqq "
-    },
-    {
-      "name": "Nleq",
-      "lbl": "\\nleq",
-      "val": "\\nleq "
-    },
-    {
-      "name": "Nsucc",
-      "lbl": "\\nsucc",
-      "val": "\\nsucc "
-    },
-    {
-      "name": "Subsetneq",
-      "lbl": "\\subsetneq",
-      "val": "\\subsetneq "
-    },
-    {
-      "name": "Gnsim",
-      "lbl": "\\gnsim",
-      "val": "\\gnsim "
-    },
-    {
-      "name": "Nleqq",
-      "lbl": "\\nleqq",
-      "val": "\\nleqq "
-    },
-    {
-      "name": "Nsucceq",
-      "lbl": "\\nsucceq",
-      "val": "\\nsucceq "
-    },
-    {
-      "name": "Subsetneqq",
-      "lbl": "\\subsetneqq",
-      "val": "\\subsetneqq "
-    },
-    {
-      "name": "Gvertneqq",
-      "lbl": "\\gvertneqq",
-      "val": "\\gvertneqq "
-    },
-    {
-      "name": "Nleqslant",
-      "lbl": "\\nleqslant",
-      "val": "\\nleqslant "
-    },
-    {
-      "name": "Nsupseteq",
-      "lbl": "\\nsupseteq",
-      "val": "\\nsupseteq "
-    },
-    {
-      "name": "Succnapprox",
-      "lbl": "\\succnapprox",
-      "val": "\\succnapprox "
-    },
-    {
-      "name": "Lnapprox",
-      "lbl": "\\lnapprox",
-      "val": "\\lnapprox "
     },
     {
       "name": "Nless",
@@ -113,99 +13,9 @@
       "val": "\\nless "
     },
     {
-      "name": "Nsupseteqq",
-      "lbl": "\\nsupseteqq",
-      "val": "\\nsupseteqq "
-    },
-    {
-      "name": "Succneqq",
-      "lbl": "\\succneqq",
-      "val": "\\succneqq "
-    },
-    {
-      "name": "Lneq",
-      "lbl": "\\lneq",
-      "val": "\\lneq "
-    },
-    {
-      "name": "Nmid",
-      "lbl": "\\nmid",
-      "val": "\\nmid "
-    },
-    {
-      "name": "Ntriangleleft",
-      "lbl": "\\ntriangleleft",
-      "val": "\\ntriangleleft "
-    },
-    {
-      "name": "Succnsim",
-      "lbl": "\\succnsim",
-      "val": "\\succnsim "
-    },
-    {
-      "name": "Lneqq",
-      "lbl": "\\lneqq",
-      "val": "\\lneqq "
-    },
-    {
-      "name": "Notin",
-      "lbl": "\\notin",
-      "val": "\\notin "
-    },
-    {
-      "name": "Ntrianglelefteq",
-      "lbl": "\\ntrianglelefteq",
-      "val": "\\ntrianglelefteq "
-    },
-    {
-      "name": "Supsetneq",
-      "lbl": "\\supsetneq",
-      "val": "\\supsetneq "
-    },
-    {
-      "name": "Lnsim",
-      "lbl": "\\lnsim",
-      "val": "\\lnsim "
-    },
-    {
-      "name": "Notni",
-      "lbl": "\\notni",
-      "val": "\\notni "
-    },
-    {
-      "name": "Ntriangleright",
-      "lbl": "\\ntriangleright",
-      "val": "\\ntriangleright "
-    },
-    {
-      "name": "Supsetneqq",
-      "lbl": "\\supsetneqq",
-      "val": "\\supsetneqq "
-    },
-    {
-      "name": "Lvertneqq",
-      "lbl": "\\lvertneqq",
-      "val": "\\lvertneqq "
-    },
-    {
-      "name": "Nparallel",
-      "lbl": "\\nparallel",
-      "val": "\\nparallel "
-    },
-    {
-      "name": "Ntrianglerighteq",
-      "lbl": "\\ntrianglerighteq",
-      "val": "\\ntrianglerighteq "
-    },
-    {
-      "name": "Varsubsetneq",
-      "lbl": "\\varsubsetneq",
-      "val": "\\varsubsetneq "
-    },
-    {
-      "name": "Ncong",
-      "lbl": "\\ncong",
-      "val": "\\ncong "
+      "name": "Nsucc",
+      "lbl": "\\nsucc",
+      "val": "\\nsucc "
     },
     {
       "name": "Nprec",
@@ -213,54 +23,44 @@
       "val": "\\nprec "
     },
     {
-      "name": "Nvdash",
-      "lbl": "\\nvdash",
-      "val": "\\nvdash "
+      "name": "Nsubseteq",
+      "lbl": "\\nsubseteq",
+      "val": "\\nsubseteq "
     },
     {
-      "name": "Varsubsetneqq",
-      "lbl": "\\varsubsetneqq",
-      "val": "\\varsubsetneqq "
+      "name": "Nsupseteq",
+      "lbl": "\\nsupseteq",
+      "val": "\\nsupseteq "
     },
     {
-      "name": "Ne",
-      "lbl": "\\ne",
-      "val": "\\ne "
+      "name": "Ngeqslant",
+      "lbl": "\\ngeqslant",
+      "val": "\\ngeqslant "
     },
     {
-      "name": "Npreceq",
-      "lbl": "\\npreceq",
-      "val": "\\npreceq "
+      "name": "Nleqslant",
+      "lbl": "\\nleqslant",
+      "val": "\\nleqslant "
     },
     {
-      "name": "NvDash",
-      "lbl": "\\nvDash",
-      "val": "\\nvDash "
+      "name": "Succneqq",
+      "lbl": "\\succneqq",
+      "val": "\\succneqq "
     },
     {
-      "name": "Varsupsetneq",
-      "lbl": "\\varsupsetneq",
-      "val": "\\varsupsetneq "
+      "name": "Precneqq",
+      "lbl": "\\precneqq",
+      "val": "\\precneqq "
     },
     {
-      "name": "Neq",
-      "lbl": "\\neq",
-      "val": "\\neq "
+      "name": "Nsubseteqq",
+      "lbl": "\\nsubseteqq",
+      "val": "\\nsubseteqq "
     },
     {
-      "name": "Nshortmid",
-      "lbl": "\\nshortmid",
-      "val": "\\nshortmid "
-    },
-    {
-      "name": "NVDash",
-      "lbl": "\\nVDash",
-      "val": "\\nVDash "
-    },
-    {
-      "name": "Varsupsetneqq",
-      "lbl": "\\varsupsetneqq",
-      "val": "\\varsupsetneqq "
+      "name": "Supsetneqq",
+      "lbl": "\\supsetneqq",
+      "val": "\\supsetneqq "
     },
     {
       "name": "Ngeq",
@@ -268,14 +68,59 @@
       "val": "\\ngeq "
     },
     {
-      "name": "Nshortparallel",
-      "lbl": "\\nshortparallel",
-      "val": "\\nshortparallel "
+      "name": "Nleq",
+      "lbl": "\\nleq",
+      "val": "\\nleq "
     },
     {
-      "name": "NVdash",
-      "lbl": "\\nVdash",
-      "val": "\\nVdash "
+      "name": "Nsucceq",
+      "lbl": "\\nsucceq",
+      "val": "\\nsucceq "
+    },
+    {
+      "name": "Npreceq",
+      "lbl": "\\npreceq",
+      "val": "\\npreceq "
+    },
+    {
+      "name": "Subsetneq",
+      "lbl": "\\subsetneq",
+      "val": "\\subsetneq "
+    },
+    {
+      "name": "Supsetneq",
+      "lbl": "\\supsetneq",
+      "val": "\\supsetneq "
+    },
+    {
+      "name": "Gneqq",
+      "lbl": "\\gneqq",
+      "val": "\\gneqq "
+    },
+    {
+      "name": "Lneqq",
+      "lbl": "\\lneqq",
+      "val": "\\lneqq "
+    },
+    {
+      "name": "Succnsim",
+      "lbl": "\\succnsim",
+      "val": "\\succnsim "
+    },
+    {
+      "name": "Precnsim",
+      "lbl": "\\precnsim",
+      "val": "\\precnsim "
+    },
+    {
+      "name": "Subsetneqq",
+      "lbl": "\\subsetneqq",
+      "val": "\\subsetneqq "
+    },
+    {
+      "name": "Varsupsetneqq",
+      "lbl": "\\varsupsetneqq",
+      "val": "\\varsupsetneqq "
     },
     {
       "name": "Ngeqq",
@@ -283,14 +128,169 @@
       "val": "\\ngeqq "
     },
     {
-      "name": "Nsim",
-      "lbl": "\\nsim",
-      "val": "\\nsim "
+      "name": "Nleqq",
+      "lbl": "\\nleqq",
+      "val": "\\nleqq "
+    },
+    {
+      "name": "Succnapprox",
+      "lbl": "\\succnapprox",
+      "val": "\\succnapprox "
     },
     {
       "name": "Precnapprox",
       "lbl": "\\precnapprox",
       "val": "\\precnapprox "
+    },
+    {
+      "name": "Varsubsetneq",
+      "lbl": "\\varsubsetneq",
+      "val": "\\varsubsetneq "
+    },
+    {
+      "name": "Varsupsetneq",
+      "lbl": "\\varsupsetneq",
+      "val": "\\varsupsetneq "
+    },
+    {
+      "name": "Gvertneqq",
+      "lbl": "\\gvertneqq",
+      "val": "\\gvertneqq "
+    },
+    {
+      "name": "Lvertneqq",
+      "lbl": "\\lvertneqq",
+      "val": "\\lvertneqq "
+    },
+    {
+      "name": "Ntriangleright",
+      "lbl": "\\ntriangleright",
+      "val": "\\ntriangleright "
+    },
+    {
+      "name": "Ntriangleleft",
+      "lbl": "\\ntriangleleft",
+      "val": "\\ntriangleleft "
+    },
+    {
+      "name": "Varsubsetneqq",
+      "lbl": "\\varsubsetneqq",
+      "val": "\\varsubsetneqq "
+    },
+    {
+      "name": "Nsupseteqq",
+      "lbl": "\\nsupseteqq",
+      "val": "\\nsupseteqq "
+    },
+    {
+      "name": "Gneq",
+      "lbl": "\\gneq",
+      "val": "\\gneq "
+    },
+    {
+      "name": "Lneq",
+      "lbl": "\\lneq",
+      "val": "\\lneq "
+    },
+    {
+      "name": "Ntrianglerighteq",
+      "lbl": "\\ntrianglerighteq",
+      "val": "\\ntrianglerighteq "
+    },
+    {
+      "name": "Ntrianglelefteq",
+      "lbl": "\\ntrianglelefteq",
+      "val": "\\ntrianglelefteq "
+    },
+    {
+      "name": "Notin",
+      "lbl": "\\notin",
+      "val": "\\notin "
+    },
+    {
+      "name": "Notni",
+      "lbl": "\\notni",
+      "val": "\\notni "
+    },
+    {
+      "name": "Gnsim",
+      "lbl": "\\gnsim",
+      "val": "\\gnsim "
+    },
+    {
+      "name": "Lnsim",
+      "lbl": "\\lnsim",
+      "val": "\\lnsim "
+    },
+    {
+      "name": "Nshortmid",
+      "lbl": "\\nshortmid",
+      "val": "\\nshortmid "
+    },
+    {
+      "name": "Nmid",
+      "lbl": "\\nmid",
+      "val": "\\nmid "
+    },
+    {
+      "name": "Ne",
+      "lbl": "\\ne",
+      "val": "\\ne "
+    },
+    {
+      "name": "Nsim",
+      "lbl": "\\nsim",
+      "val": "\\nsim "
+    },
+    {
+      "name": "Gnapprox",
+      "lbl": "\\gnapprox",
+      "val": "\\gnapprox "
+    },
+    {
+      "name": "Lnapprox",
+      "lbl": "\\lnapprox",
+      "val": "\\lnapprox "
+    },
+    {
+      "name": "Nshortparallel",
+      "lbl": "\\nshortparallel",
+      "val": "\\nshortparallel "
+    },
+    {
+      "name": "Nparallel",
+      "lbl": "\\nparallel",
+      "val": "\\nparallel "
+    },
+    {
+      "name": "Neq",
+      "lbl": "\\neq",
+      "val": "\\neq "
+    },
+    {
+      "name": "Ncong",
+      "lbl": "\\ncong",
+      "val": "\\ncong "
+    },
+    {
+      "name": "Nvdash",
+      "lbl": "\\nvdash",
+      "val": "\\nvdash "
+    },
+    {
+      "name": "NvDash",
+      "lbl": "\\nvDash",
+      "val": "\\nvDash "
+    },
+    {
+      "name": "NVDash",
+      "lbl": "\\nVDash",
+      "val": "\\nVDash "
+    },
+    {
+      "name": "NVdash",
+      "lbl": "\\nVdash",
+      "val": "\\nVdash "
     }
   ]
 }
