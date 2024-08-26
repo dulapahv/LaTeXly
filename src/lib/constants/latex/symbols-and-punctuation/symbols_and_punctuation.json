@@ -4,7 +4,7 @@
   "symbols": [
     {
       "name": "Comment",
-      "lbl": "%",
+      "lbl": "\\%",
       "val": "% "
     },
     {
