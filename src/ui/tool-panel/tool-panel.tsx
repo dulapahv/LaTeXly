@@ -70,7 +70,7 @@ export function ToolPanel() {
       <UndoRedo />
       <ThemeSwitch />
       <AutocompleteMenu
-        title="Search Symbol"
+        title="Search Symbols"
         tooltip="Type here to search"
         symbolsGroups={symbolsGroups}
         icon={<Search size={30} className="text-foreground-500" />}
