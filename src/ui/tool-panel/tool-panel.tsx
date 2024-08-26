@@ -61,7 +61,7 @@ export function ToolPanel() {
     styleColorSizeAndFont.math_alphabets,
     styleColorSizeAndFont.sizes,
     styleColorSizeAndFont.colors,
-    styleColorSizeAndFont.background,
+    styleColorSizeAndFont.colored_boxes,
     macros.macros,
   ];
 
