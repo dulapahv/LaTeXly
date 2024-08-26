@@ -1,14 +1,14 @@
 export type Symbol = {
   name: string;
-  text: string;
-  value: string;
-  caretPosition?: number;
-  isBlockMath?: boolean;
+  lbl: string;
+  val: string;
+  caretPos?: number;
+  isBlkMath?: boolean;
 };
 
 export type SymbolsGroup = {
   title: string;
-  displayLength?: number;
+  dispLen?: number;
   symbols: Symbol[];
-  squareButton?: boolean;
+  sqBtn?: boolean;
 };

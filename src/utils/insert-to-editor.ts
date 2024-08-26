@@ -1,7 +1,7 @@
 export function insertToEditor(
   value: string,
   moveCaret: boolean = true,
-  caretPosition: number = 0,
+  caretPos: number = 0,
 ) {
   const editor = document.getElementById("editor") as HTMLTextAreaElement;
   if (!editor) return;
@@ -14,10 +14,10 @@ export function insertToEditor(
   // const textAfter = editor.value.substring(end, editor.value.length);
   // editor.value = textBefore + value + textAfter;
 
-  if (moveCaret && caretPosition === 0) caretPosition = value.length;
+  if (moveCaret && caretPos === 0) caretPos = value.length;
 
   document.execCommand("insertText", false, value);
 
-  editor.selectionStart = start + caretPosition;
-  editor.selectionEnd = start + caretPosition;
+  editor.selectionStart = start + caretPos;
+  editor.selectionEnd = start + caretPos;
 }

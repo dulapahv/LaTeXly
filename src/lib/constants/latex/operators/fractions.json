@@ -1,54 +1,54 @@
 {
   "title": "Fractions",
-  "displayLength": 3,
-  "squareButton": false,
+  "dispLen": 3,
+  "sqBtn": false,
   "symbols": [
     {
       "name": "Fraction",
-      "text": "\\frac{a}{b}",
-      "value": "\\frac{}{}",
-      "caretPosition": 6
+      "lbl": "\\frac{a}{b}",
+      "val": "\\frac{}{}",
+      "caretPos": 6
     },
     {
       "name": "Text Fraction",
-      "text": "\\tfrac{a}{b}",
-      "value": "\\tfrac{}{}",
-      "caretPosition": 7
+      "lbl": "\\tfrac{a}{b}",
+      "val": "\\tfrac{}{}",
+      "caretPos": 7
     },
     {
       "name": "Genfrac",
-      "text": "\\genfrac(]{2pt}{}{a}{a+1}",
-      "value": "\\genfrac(]{0pt}{}{}{}",
-      "caretPosition": 10
+      "lbl": "\\genfrac(]{2pt}{}{a}{a+1}",
+      "val": "\\genfrac(]{0pt}{}{}{}",
+      "caretPos": 10
     },
     {
       "name": "Over",
-      "text": "{a \\over b}",
-      "value": "{ \\over }",
-      "caretPosition": 1
+      "lbl": "{a \\over b}",
+      "val": "{ \\over }",
+      "caretPos": 1
     },
     {
       "name": "Display Fraction",
-      "text": "\\dfrac{a}{b}",
-      "value": "\\dfrac{}{}",
-      "caretPosition": 7
+      "lbl": "\\dfrac{a}{b}",
+      "val": "\\dfrac{}{}",
+      "caretPos": 7
     },
     {
       "name": "Above",
-      "text": "{a \\above{2pt} b+1}",
-      "value": "{ \\above{0pt} }",
-      "caretPosition": 1
+      "lbl": "{a \\above{2pt} b+1}",
+      "val": "{ \\above{0pt} }",
+      "caretPos": 1
     },
     {
       "name": "A/B",
-      "text": "a/b",
-      "value": "/"
+      "lbl": "a/b",
+      "val": "/"
     },
     {
       "name": "Continued Fraction",
-      "text": "\\cfrac{a}{1 + \\cfrac{1}{b}}",
-      "value": "\\cfrac{}{ \\cfrac{}{}}",
-      "caretPosition": 7
+      "lbl": "\\cfrac{a}{1 + \\cfrac{1}{b}}",
+      "val": "\\cfrac{}{ \\cfrac{}{}}",
+      "caretPos": 7
     }
   ]
 }

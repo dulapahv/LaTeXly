@@ -14,20 +14,20 @@ import { insertToEditor } from "@/utils/insert-to-editor";
 
 interface SymbolButtonProps {
   name: string;
-  text: string;
-  value: string;
-  caretPosition?: number;
-  isBlockMath?: boolean;
-  squareButton?: boolean;
+  lbl: string;
+  val: string;
+  caretPos?: number;
+  isBlkMath?: boolean;
+  sqBtn?: boolean;
 }
 
 export function SymbolButton({
   name,
-  text,
-  value,
-  caretPosition = value.length,
-  isBlockMath = false,
-  squareButton = true,
+  lbl,
+  val,
+  caretPos = val.length,
+  isBlkMath = false,
+  sqBtn = true,
 }: SymbolButtonProps) {
   return (
     <Tooltip
@@ -36,23 +36,23 @@ export function SymbolButton({
       content={
         <>
           <span className="text-xs font-semibold">{name}</span>
-          <span className="text-xs">{value}</span>
+          <span className="text-xs">{val}</span>
         </>
       }
       className="rounded-md"
     >
       <Button
-        onPress={() => insertToEditor(value, true, caretPosition)}
+        onPress={() => insertToEditor(val, true, caretPos)}
         className={cn(
           "rounded text-base",
-          !squareButton && "h-full px-0 py-1 text-sm",
+          !sqBtn && "h-full px-0 py-1 text-sm",
         )}
-        isIconOnly={squareButton}
+        isIconOnly={sqBtn}
         size="sm"
         variant="light"
         aria-label={name}
       >
-        {isBlockMath ? <BlockMath math={text} /> : <InlineMath math={text} />}
+        {isBlkMath ? <BlockMath math={lbl} /> : <InlineMath math={lbl} />}
       </Button>
     </Tooltip>
   );

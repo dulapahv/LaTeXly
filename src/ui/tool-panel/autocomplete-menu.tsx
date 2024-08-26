@@ -18,7 +18,7 @@ interface AutocompleteMenuProps {
   tooltip: ReactNode | string;
   symbolsGroups: SymbolsGroup[];
   icon?: ReactNode;
-  isBlockMath?: boolean;
+  isBlkMath?: boolean;
   hideSection?: boolean;
   hideValue?: boolean;
   limit?: boolean;
@@ -29,7 +29,7 @@ export function AutocompleteMenu({
   tooltip,
   symbolsGroups,
   icon,
-  isBlockMath = false,
+  isBlkMath = false,
   hideSection = false,
   hideValue = false,
   limit = false,
@@ -53,7 +53,7 @@ export function AutocompleteMenu({
     const map = new Map();
     symbolsGroups.forEach((group) => {
       group.symbols.forEach((symbol) => {
-        map.set(symbol.value, symbol);
+        map.set(symbol.val, symbol);
       });
     });
     return map;
@@ -63,7 +63,7 @@ export function AutocompleteMenu({
     (symbol: Key | null) => {
       const selectedSymbol = symbolMap.get(getKeyValue(symbol, ""));
       if (!selectedSymbol) return;
-      insertToEditor(selectedSymbol.value, true, selectedSymbol.caretPosition);
+      insertToEditor(selectedSymbol.val, true, selectedSymbol.caretPos);
     },
     [symbolMap],
   );
@@ -126,19 +126,19 @@ export function AutocompleteMenu({
               >
                 {(symbol) => (
                   <AutocompleteItem
-                    key={symbol.value}
-                    textValue={symbol.name + symbol.value}
-                    value={symbol.value}
+                    key={symbol.val}
+                    textValue={symbol.name + symbol.val}
+                    value={symbol.val}
                     classNames={{
                       title: "text-xs",
                     }}
                   >
-                    {isBlockMath && symbol.isBlockMath ? (
-                      <BlockMath math={symbol.text} />
+                    {isBlkMath && symbol.isBlkMath ? (
+                      <BlockMath math={symbol.lbl} />
                     ) : (
-                      <InlineMath math={symbol.text} />
+                      <InlineMath math={symbol.lbl} />
                     )}
-                    {hideValue ? "" : ` - ${symbol.value}`}
+                    {hideValue ? "" : ` - ${symbol.val}`}
                   </AutocompleteItem>
                 )}
               </AutocompleteSection>

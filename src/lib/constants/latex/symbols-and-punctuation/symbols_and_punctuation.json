@@ -1,512 +1,512 @@
 {
   "title": "Symbols and Punctuation",
-  "displayLength": 6,
+  "dispLen": 6,
   "symbols": [
     {
       "name": "Comment",
-      "text": "%",
-      "value": "% "
+      "lbl": "%",
+      "val": "% "
     },
     {
       "name": "Dots",
-      "text": "\\dots",
-      "value": "\\dots "
+      "lbl": "\\dots",
+      "val": "\\dots "
     },
     {
       "name": "KaTeX",
-      "text": "\\tiny\\KaTeX",
-      "value": "\\KaTeX "
+      "lbl": "\\tiny\\KaTeX",
+      "val": "\\KaTeX "
     },
     {
       "name": "PercentSign",
-      "text": "\\%",
-      "value": "\\% "
+      "lbl": "\\%",
+      "val": "\\% "
     },
     {
       "name": "Cdots",
-      "text": "\\cdots",
-      "value": "\\cdots "
+      "lbl": "\\cdots",
+      "val": "\\cdots "
     },
     {
       "name": "LaTeX",
-      "text": "\\tiny\\LaTeX",
-      "value": "\\LaTeX "
+      "lbl": "\\tiny\\LaTeX",
+      "val": "\\LaTeX "
     },
     {
       "name": "HashSign",
-      "text": "\\#",
-      "value": "\\# "
+      "lbl": "\\#",
+      "val": "\\# "
     },
     {
       "name": "Ddots",
-      "text": "\\ddots",
-      "value": "\\ddots "
+      "lbl": "\\ddots",
+      "val": "\\ddots "
     },
     {
       "name": "TeX",
-      "text": "\\scriptsize\\TeX",
-      "value": "\\TeX "
+      "lbl": "\\scriptsize\\TeX",
+      "val": "\\TeX "
     },
     {
       "name": "Ampersand",
-      "text": "\\&",
-      "value": "\\& "
+      "lbl": "\\&",
+      "val": "\\& "
     },
     {
       "name": "Ldots",
-      "text": "\\ldots",
-      "value": "\\ldots "
+      "lbl": "\\ldots",
+      "val": "\\ldots "
     },
     {
       "name": "Nabla",
-      "text": "\\nabla",
-      "value": "\\nabla "
+      "lbl": "\\nabla",
+      "val": "\\nabla "
     },
     {
       "name": "Underscore",
-      "text": "\\_",
-      "value": "\\_ "
+      "lbl": "\\_",
+      "val": "\\_ "
     },
     {
       "name": "Vdots",
-      "text": "\\vdots",
-      "value": "\\vdots "
+      "lbl": "\\vdots",
+      "val": "\\vdots "
     },
     {
       "name": "Infinity",
-      "text": "\\infty",
-      "value": "\\infty "
+      "lbl": "\\infty",
+      "val": "\\infty "
     },
     {
       "name": "TextUnderscore",
-      "text": "\\text{\\textunderscore}",
-      "value": "\\text{\\textunderscore} "
+      "lbl": "\\text{\\textunderscore}",
+      "val": "\\text{\\textunderscore} "
     },
     {
       "name": "DotsB",
-      "text": "\\dotsb",
-      "value": "\\dotsb "
+      "lbl": "\\dotsb",
+      "val": "\\dotsb "
     },
     {
       "name": "InfinityAlt",
-      "text": "\\infin",
-      "value": "\\infin "
+      "lbl": "\\infin",
+      "val": "\\infin "
     },
     {
       "name": "TextDash",
-      "text": "\\text{--}",
-      "value": "\\text{--} "
+      "lbl": "\\text{--}",
+      "val": "\\text{--} "
     },
     {
       "name": "DotsC",
-      "text": "\\dotsc",
-      "value": "\\dotsc "
+      "lbl": "\\dotsc",
+      "val": "\\dotsc "
     },
     {
       "name": "Checkmark",
-      "text": "\\checkmark",
-      "value": "\\checkmark "
+      "lbl": "\\checkmark",
+      "val": "\\checkmark "
     },
     {
       "name": "TextEndash",
-      "text": "\\text{\\textendash}",
-      "value": "\\text{\\textendash} "
+      "lbl": "\\text{\\textendash}",
+      "val": "\\text{\\textendash} "
     },
     {
       "name": "Dotsi",
-      "text": "\\dotsi",
-      "value": "\\dotsi "
+      "lbl": "\\dotsi",
+      "val": "\\dotsi "
     },
     {
       "name": "Dagger",
-      "text": "\\dag",
-      "value": "\\dag "
+      "lbl": "\\dag",
+      "val": "\\dag "
     },
     {
       "name": "TextEllipsis",
-      "text": "\\text{\\textellipsis}",
-      "value": "\\text{\\textellipsis} "
+      "lbl": "\\text{\\textellipsis}",
+      "val": "\\text{\\textellipsis} "
     },
     {
       "name": "Dotsm",
-      "text": "\\dotsm",
-      "value": "\\dotsm "
+      "lbl": "\\dotsm",
+      "val": "\\dotsm "
     },
     {
       "name": "DaggerAlt",
-      "text": "\\dagger",
-      "value": "\\dagger "
+      "lbl": "\\dagger",
+      "val": "\\dagger "
     },
     {
       "name": "TextDagger",
-      "text": "\\text{\\textdagger}",
-      "value": "\\text{\\textdagger} "
+      "lbl": "\\text{\\textdagger}",
+      "val": "\\text{\\textdagger} "
     },
     {
       "name": "TextAsciitilde",
-      "text": "\\text{\\textasciitilde}",
-      "value": "\\text{\\textasciitilde} "
+      "lbl": "\\text{\\textasciitilde}",
+      "val": "\\text{\\textasciitilde} "
     },
     {
       "name": "Sdot",
-      "text": "\\sdot",
-      "value": "\\sdot "
+      "lbl": "\\sdot",
+      "val": "\\sdot "
     },
     {
       "name": "Ddag",
-      "text": "\\ddag",
-      "value": "\\ddag "
+      "lbl": "\\ddag",
+      "val": "\\ddag "
     },
     {
       "name": "TextAsciicircum",
-      "text": "\\text{\\textasciicircum}",
-      "value": "\\text{\\textasciicircum} "
+      "lbl": "\\text{\\textasciicircum}",
+      "val": "\\text{\\textasciicircum} "
     },
     {
       "name": "Mathellipsis",
-      "text": "\\mathellipsis",
-      "value": "\\mathellipsis "
+      "lbl": "\\mathellipsis",
+      "val": "\\mathellipsis "
     },
     {
       "name": "Ddoublesign",
-      "text": "\\ddagger",
-      "value": "\\ddagger "
+      "lbl": "\\ddagger",
+      "val": "\\ddagger "
     },
     {
       "name": "TextDaggerdbl",
-      "text": "\\text{\\textdaggerdbl}",
-      "value": "\\text{\\textdaggerdbl} "
+      "lbl": "\\text{\\textdaggerdbl}",
+      "val": "\\text{\\textdaggerdbl} "
     },
     {
       "name": "Lq",
-      "text": "\\lq",
-      "value": "\\lq "
+      "lbl": "\\lq",
+      "val": "\\lq "
     },
     {
       "name": "Box",
-      "text": "\\Box",
-      "value": "\\Box "
+      "lbl": "\\Box",
+      "val": "\\Box "
     },
     {
       "name": "DaggerSign",
-      "text": "\\Dagger",
-      "value": "\\Dagger "
+      "lbl": "\\Dagger",
+      "val": "\\Dagger "
     },
     {
       "name": "Square",
-      "text": "\\square",
-      "value": "\\square "
+      "lbl": "\\square",
+      "val": "\\square "
     },
     {
       "name": "MeasuredAngle",
-      "text": "\\measuredangle",
-      "value": "\\measuredangle "
+      "lbl": "\\measuredangle",
+      "val": "\\measuredangle "
     },
     {
       "name": "Triangle",
-      "text": "\\triangle",
-      "value": "\\triangle "
+      "lbl": "\\triangle",
+      "val": "\\triangle "
     },
     {
       "name": "SphericalAngle",
-      "text": "\\sphericalangle",
-      "value": "\\sphericalangle "
+      "lbl": "\\sphericalangle",
+      "val": "\\sphericalangle "
     },
     {
       "name": "Triangledown",
-      "text": "\\triangledown",
-      "value": "\\triangledown "
+      "lbl": "\\triangledown",
+      "val": "\\triangledown "
     },
     {
       "name": "Top",
-      "text": "\\top",
-      "value": "\\top "
+      "lbl": "\\top",
+      "val": "\\top "
     },
     {
       "name": "Triangleleft",
-      "text": "\\triangleleft",
-      "value": "\\triangleleft "
+      "lbl": "\\triangleleft",
+      "val": "\\triangleleft "
     },
     {
       "name": "Bot",
-      "text": "\\bot",
-      "value": "\\bot "
+      "lbl": "\\bot",
+      "val": "\\bot "
     },
     {
       "name": "Triangleright",
-      "text": "\\triangleright",
-      "value": "\\triangleright "
+      "lbl": "\\triangleright",
+      "val": "\\triangleright "
     },
     {
       "name": "TextDollar",
-      "text": "\\text{\\textdollar}",
-      "value": "\\text{\\textdollar} "
+      "lbl": "\\text{\\textdollar}",
+      "val": "\\text{\\textdollar} "
     },
     {
       "name": "Colon",
-      "text": "\\colon",
-      "value": "\\colon "
+      "lbl": "\\colon",
+      "val": "\\colon "
     },
     {
       "name": "Bigtriangledown",
-      "text": "\\bigtriangledown",
-      "value": "\\bigtriangledown "
+      "lbl": "\\bigtriangledown",
+      "val": "\\bigtriangledown "
     },
     {
       "name": "Prime",
-      "text": "\\prime",
-      "value": "\\prime "
+      "lbl": "\\prime",
+      "val": "\\prime "
     },
     {
       "name": "Longequal",
-      "text": "\\xlongequal{abc}",
-      "value": "\\xlongequal{}",
-      "caretPosition": 12
+      "lbl": "\\xlongequal{abc}",
+      "val": "\\xlongequal{}",
+      "caretPos": 12
     },
     {
       "name": "PrimeAlt",
-      "text": "\\backprime",
-      "value": "\\backprime "
+      "lbl": "\\backprime",
+      "val": "\\backprime "
     },
     {
       "name": "Bigtriangleup",
-      "text": "\\bigtriangleup",
-      "value": "\\bigtriangleup "
+      "lbl": "\\bigtriangleup",
+      "val": "\\bigtriangleup "
     },
     {
       "name": "Blacktriangle",
-      "text": "\\blacktriangle",
-      "value": "\\blacktriangle "
+      "lbl": "\\blacktriangle",
+      "val": "\\blacktriangle "
     },
     {
       "name": "Blacktriangledown",
-      "text": "\\blacktriangledown",
-      "value": "\\blacktriangledown "
+      "lbl": "\\blacktriangledown",
+      "val": "\\blacktriangledown "
     },
     {
       "name": "Blacktriangleleft",
-      "text": "\\blacktriangleleft",
-      "value": "\\blacktriangleleft "
+      "lbl": "\\blacktriangleleft",
+      "val": "\\blacktriangleleft "
     },
     {
       "name": "Blacktriangleright",
-      "text": "\\blacktriangleright",
-      "value": "\\blacktriangleright "
+      "lbl": "\\blacktriangleright",
+      "val": "\\blacktriangleright "
     },
     {
       "name": "SdotAlt",
-      "text": "\\surd",
-      "value": "\\surd "
+      "lbl": "\\surd",
+      "val": "\\surd "
     },
     {
       "name": "Degree",
-      "text": "\\degree",
-      "value": "\\degree "
+      "lbl": "\\degree",
+      "val": "\\degree "
     },
     {
       "name": "TextDegree",
-      "text": "\\text{\\textdegree}",
-      "value": "\\text{\\textdegree} "
+      "lbl": "\\text{\\textdegree}",
+      "val": "\\text{\\textdegree} "
     },
     {
       "name": "Mho",
-      "text": "\\mho",
-      "value": "\\mho "
+      "lbl": "\\mho",
+      "val": "\\mho "
     },
     {
       "name": "Diagdown",
-      "text": "\\diagdown",
-      "value": "\\diagdown "
+      "lbl": "\\diagdown",
+      "val": "\\diagdown "
     },
     {
       "name": "Diagup",
-      "text": "\\diagup",
-      "value": "\\diagup "
+      "lbl": "\\diagup",
+      "val": "\\diagup "
     },
     {
       "name": "Flat",
-      "text": "\\flat",
-      "value": "\\flat "
+      "lbl": "\\flat",
+      "val": "\\flat "
     },
     {
       "name": "Natural",
-      "text": "\\natural",
-      "value": "\\natural "
+      "lbl": "\\natural",
+      "val": "\\natural "
     },
     {
       "name": "Sharp",
-      "text": "\\sharp",
-      "value": "\\sharp "
+      "lbl": "\\sharp",
+      "val": "\\sharp "
     },
     {
       "name": "CircledA",
-      "text": "\\text{\\textcircled a}",
-      "value": "\\text{\\textcircled a} "
+      "lbl": "\\text{\\textcircled a}",
+      "val": "\\text{\\textcircled a} "
     },
     {
       "name": "Maltese",
-      "text": "\\maltese",
-      "value": "\\maltese "
+      "lbl": "\\maltese",
+      "val": "\\maltese "
     },
     {
       "name": "CircledR",
-      "text": "\\circledR",
-      "value": "\\circledR "
+      "lbl": "\\circledR",
+      "val": "\\circledR "
     },
     {
       "name": "CircledS",
-      "text": "\\circledS",
-      "value": "\\circledS "
+      "lbl": "\\circledS",
+      "val": "\\circledS "
     },
     {
       "name": "Copyright",
-      "text": "\\copyright",
-      "value": "\\copyright "
+      "lbl": "\\copyright",
+      "val": "\\copyright "
     },
     {
       "name": "TextRegistered",
-      "text": "\\text{\\textregistered}",
-      "value": "\\text{\\textregistered} "
+      "lbl": "\\text{\\textregistered}",
+      "val": "\\text{\\textregistered} "
     },
     {
       "name": "TextSterling",
-      "text": "\\text{\\textsterling}",
-      "value": "\\text{\\textsterling} "
+      "lbl": "\\text{\\textsterling}",
+      "val": "\\text{\\textsterling} "
     },
     {
       "name": "Yen",
-      "text": "\\yen",
-      "value": "\\yen "
+      "lbl": "\\yen",
+      "val": "\\yen "
     },
     {
       "name": "Diamond",
-      "text": "\\diamond",
-      "value": "\\diamond "
+      "lbl": "\\diamond",
+      "val": "\\diamond "
     },
     {
       "name": "Diamondsuit",
-      "text": "\\diamondsuit",
-      "value": "\\diamondsuit "
+      "lbl": "\\diamondsuit",
+      "val": "\\diamondsuit "
     },
     {
       "name": "Lozenge",
-      "text": "\\lozenge",
-      "value": "\\lozenge "
+      "lbl": "\\lozenge",
+      "val": "\\lozenge "
     },
     {
       "name": "Blacklozenge",
-      "text": "\\blacklozenge",
-      "value": "\\blacklozenge "
+      "lbl": "\\blacklozenge",
+      "val": "\\blacklozenge "
     },
     {
       "name": "Spadesuit",
-      "text": "\\spadesuit",
-      "value": "\\spadesuit "
+      "lbl": "\\spadesuit",
+      "val": "\\spadesuit "
     },
     {
       "name": "Spades",
-      "text": "\\spades",
-      "value": "\\spades "
+      "lbl": "\\spades",
+      "val": "\\spades "
     },
     {
       "name": "Heartsuit",
-      "text": "\\heartsuit",
-      "value": "\\heartsuit "
+      "lbl": "\\heartsuit",
+      "val": "\\heartsuit "
     },
     {
       "name": "Hearts",
-      "text": "\\hearts",
-      "value": "\\hearts "
+      "lbl": "\\hearts",
+      "val": "\\hearts "
     },
     {
       "name": "Clubssuit",
-      "text": "\\clubsuit",
-      "value": "\\clubsuit "
+      "lbl": "\\clubsuit",
+      "val": "\\clubsuit "
     },
     {
       "name": "Clubs",
-      "text": "\\clubs",
-      "value": "\\clubs "
+      "lbl": "\\clubs",
+      "val": "\\clubs "
     },
     {
       "name": "Bigstar",
-      "text": "\\bigstar",
-      "value": "\\bigstar "
+      "lbl": "\\bigstar",
+      "val": "\\bigstar "
     },
     {
       "name": "Star",
-      "text": "\\star",
-      "value": "\\star "
+      "lbl": "\\star",
+      "val": "\\star "
     },
     {
       "name": "BoxAlt",
-      "text": "\\Box",
-      "value": "\\Box "
+      "lbl": "\\Box",
+      "val": "\\Box "
     },
     {
       "name": "Blacksquare",
-      "text": "\\blacksquare",
-      "value": "\\blacksquare "
+      "lbl": "\\blacksquare",
+      "val": "\\blacksquare "
     },
     {
       "name": "TextAsciitilde",
-      "text": "\\text{\\textasciitilde}",
-      "value": "\\text{\\textasciitilde} "
+      "lbl": "\\text{\\textasciitilde}",
+      "val": "\\text{\\textasciitilde} "
     },
     {
       "name": "TextQuotdblright",
-      "text": "\\text{\\textquotedblright}",
-      "value": "\\text{\\textquotedblright} "
+      "lbl": "\\text{\\textquotedblright}",
+      "val": "\\text{\\textquotedblright} "
     },
     {
       "name": "TextQuotdblleft",
-      "text": "\\text{\\textquotedblleft}",
-      "value": "\\text{\\textquotedblleft} "
+      "lbl": "\\text{\\textquotedblleft}",
+      "val": "\\text{\\textquotedblleft} "
     },
     {
       "name": "TextQuoteleft",
-      "text": "\\text{\\textquoteleft}",
-      "value": "\\text{\\textquoteleft} "
+      "lbl": "\\text{\\textquoteleft}",
+      "val": "\\text{\\textquoteleft} "
     },
     {
       "name": "TextQuoteright",
-      "text": "\\text{\\textquoteright}",
-      "value": "\\text{\\textquoteright} "
+      "lbl": "\\text{\\textquoteright}",
+      "val": "\\text{\\textquoteright} "
     },
     {
       "name": "TextLess",
-      "text": "\\text{\\textless}",
-      "value": "\\text{\\textless} "
+      "lbl": "\\text{\\textless}",
+      "val": "\\text{\\textless} "
     },
     {
       "name": "TextGreater",
-      "text": "\\text{\\textgreater}",
-      "value": "\\text{\\textgreater} "
+      "lbl": "\\text{\\textgreater}",
+      "val": "\\text{\\textgreater} "
     },
     {
       "name": "TextUnderscore",
-      "text": "\\text{\\textunderscore}",
-      "value": "\\text{\\textunderscore} "
+      "lbl": "\\text{\\textunderscore}",
+      "val": "\\text{\\textunderscore} "
     },
     {
       "name": "TextAsciicircum",
-      "text": "\\text{\\textasciicircum}",
-      "value": "\\text{\\textasciicircum} "
+      "lbl": "\\text{\\textasciicircum}",
+      "val": "\\text{\\textasciicircum} "
     },
     {
       "name": "TextEllipsis",
-      "text": "\\text{\\textellipsis}",
-      "value": "\\text{\\textellipsis} "
+      "lbl": "\\text{\\textellipsis}",
+      "val": "\\text{\\textellipsis} "
     },
     {
       "name": "TextDagger",
-      "text": "\\text{\\textdagger}",
-      "value": "\\text{\\textdagger} "
+      "lbl": "\\text{\\textdagger}",
+      "val": "\\text{\\textdagger} "
     },
     {
       "name": "Minuso",
-      "text": "\\minuso",
-      "value": "\\minuso "
+      "lbl": "\\minuso",
+      "val": "\\minuso "
     }
   ]
 }

@@ -1,156 +1,156 @@
 {
   "title": "Spacing",
-  "displayLength": 4,
-  "squareButton": false,
+  "dispLen": 4,
+  "sqBtn": false,
   "symbols": [
     {
       "name": "-5/18 em Space",
-      "text": "A\\negthickspace B",
-      "value": "\\negthickspace "
+      "lbl": "A\\negthickspace B",
+      "val": "\\negthickspace "
     },
     {
       "name": "-4/18 em Space",
-      "text": "A\\negmedspace B",
-      "value": "\\negmedspace "
+      "lbl": "A\\negmedspace B",
+      "val": "\\negmedspace "
     },
     {
       "name": "-3/18 em Space",
-      "text": "A\\! B",
-      "value": "\\! "
+      "lbl": "A\\! B",
+      "val": "\\! "
     },
     {
       "name": "-3/18 em Space",
-      "text": "A\\negthinspace B",
-      "value": "\\negthinspace "
+      "lbl": "A\\negthinspace B",
+      "val": "\\negthinspace "
     },
     {
       "name": "3/18 em Space",
-      "text": "A\\,B",
-      "value": "\\,"
+      "lbl": "A\\,B",
+      "val": "\\,"
     },
     {
       "name": "3/18 em Space",
-      "text": "A\\thinspace B",
-      "value": "\\thinspace "
+      "lbl": "A\\thinspace B",
+      "val": "\\thinspace "
     },
     {
       "name": "4/18 em Space",
-      "text": "A\\>B",
-      "value": "\\>"
+      "lbl": "A\\>B",
+      "val": "\\>"
     },
     {
       "name": "4/18 em Space",
-      "text": "A\\:B",
-      "value": "\\:"
+      "lbl": "A\\:B",
+      "val": "\\:"
     },
     {
       "name": "4/18 em Space",
-      "text": "A\\medspace B",
-      "value": "\\medspace "
+      "lbl": "A\\medspace B",
+      "val": "\\medspace "
     },
     {
       "name": "5/18 em Space",
-      "text": "A\\;B",
-      "value": "\\;"
+      "lbl": "A\\;B",
+      "val": "\\;"
     },
     {
       "name": "5/18 em Space",
-      "text": "A\\thickspace B",
-      "value": "\\thickspace "
+      "lbl": "A\\thickspace B",
+      "val": "\\thickspace "
     },
     {
       "name": "1/2 em Space",
-      "text": "A\\enspace B",
-      "value": "\\enspace "
+      "lbl": "A\\enspace B",
+      "val": "\\enspace "
     },
     {
       "name": "1 em Space",
-      "text": "A\\quad B",
-      "value": "\\quad "
+      "lbl": "A\\quad B",
+      "val": "\\quad "
     },
     {
       "name": "2 em Space",
-      "text": "A\\qquad B",
-      "value": "\\qquad "
+      "lbl": "A\\qquad B",
+      "val": "\\qquad "
     },
     {
       "name": "Non-Breaking Space",
-      "text": "A~B",
-      "value": "~"
+      "lbl": "A~B",
+      "val": "~"
     },
     {
       "name": "Space",
-      "text": "A\\ B",
-      "value": "\\ "
+      "lbl": "A\\ B",
+      "val": "\\ "
     },
     {
       "name": "Non-Breaking Space",
-      "text": "A\\nobreakspace B",
-      "value": "\\nobreakspace "
+      "lbl": "A\\nobreakspace B",
+      "val": "\\nobreakspace "
     },
     {
       "name": "Space",
-      "text": "A\\space B",
-      "value": "\\space "
+      "lbl": "A\\space B",
+      "val": "\\space "
     },
     {
       "name": "Kern",
-      "text": "A\\kern{2pt} B",
-      "value": "\\kern{} ",
-      "caretPosition": 6
+      "lbl": "A\\kern{2pt} B",
+      "val": "\\kern{} ",
+      "caretPos": 6
     },
     {
       "name": "M Kern",
-      "text": "A\\mkern{2pt} B",
-      "value": "\\mkern{} ",
-      "caretPosition": 7
+      "lbl": "A\\mkern{2pt} B",
+      "val": "\\mkern{} ",
+      "caretPos": 7
     },
     {
       "name": "M Skip",
-      "text": "A\\mskip{2pt} B",
-      "value": "\\mskip{} ",
-      "caretPosition": 7
+      "lbl": "A\\mskip{2pt} B",
+      "val": "\\mskip{} ",
+      "caretPos": 7
     },
     {
       "name": "H Skip",
-      "text": "A\\hskip{2pt} B",
-      "value": "\\hskip{} ",
-      "caretPosition": 7
+      "lbl": "A\\hskip{2pt} B",
+      "val": "\\hskip{} ",
+      "caretPos": 7
     },
     {
       "name": "H Space",
-      "text": "A\\hspace{2pt} B",
-      "value": "\\hspace{} ",
-      "caretPosition": 8
+      "lbl": "A\\hspace{2pt} B",
+      "val": "\\hspace{} ",
+      "caretPos": 8
     },
     {
       "name": "H Space*",
-      "text": "A\\hspace*{2pt} B",
-      "value": "\\hspace*{} ",
-      "caretPosition": 9
+      "lbl": "A\\hspace*{2pt} B",
+      "val": "\\hspace*{} ",
+      "caretPos": 9
     },
     {
       "name": "Phantom",
-      "text": "A\\phantom{2pt} B",
-      "value": "\\phantom{} ",
-      "caretPosition": 9
+      "lbl": "A\\phantom{2pt} B",
+      "val": "\\phantom{} ",
+      "caretPos": 9
     },
     {
       "name": "H Phantom",
-      "text": "A\\hphantom{2pt} B",
-      "value": "\\hphantom{} ",
-      "caretPosition": 10
+      "lbl": "A\\hphantom{2pt} B",
+      "val": "\\hphantom{} ",
+      "caretPos": 10
     },
     {
       "name": "V Phantom",
-      "text": "A\\vphantom{2pt} B",
-      "value": "\\vphantom{} ",
-      "caretPosition": 10
+      "lbl": "A\\vphantom{2pt} B",
+      "val": "\\vphantom{} ",
+      "caretPos": 10
     },
     {
       "name": "Math Strut",
-      "text": "A\\mathstrut B",
-      "value": "\\mathstrut "
+      "lbl": "A\\mathstrut B",
+      "val": "\\mathstrut "
     }
   ]
 }

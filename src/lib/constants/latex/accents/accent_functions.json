@@ -1,72 +1,72 @@
 {
   "title": "Accents in \\text{...}",
-  "displayLength": 4,
+  "dispLen": 4,
   "symbols": [
     {
       "name": "Acute Accent",
-      "text": "\\text{\\'{a}}",
-      "value": "\\text{\\'{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\'{a}}",
+      "val": "\\text{\\'{}}",
+      "caretPos": 9
     },
     {
       "name": "Tilde Accent",
-      "text": "\\text{\\~{a}}",
-      "value": "\\text{\\~{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\~{a}}",
+      "val": "\\text{\\~{}}",
+      "caretPos": 9
     },
     {
       "name": "Dot Accent",
-      "text": "\\text{\\.{a}}",
-      "value": "\\text{\\.{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\.{a}}",
+      "val": "\\text{\\.{}}",
+      "caretPos": 9
     },
     {
       "name": "Double Acute Accent",
-      "text": "\\text{\\H{a}}",
-      "value": "\\text{\\H{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\H{a}}",
+      "val": "\\text{\\H{}}",
+      "caretPos": 9
     },
     {
       "name": "Grave Accent",
-      "text": "\\text{\\`{a}}",
-      "value": "\\text{\\`{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\`{a}}",
+      "val": "\\text{\\`{}}",
+      "caretPos": 9
     },
     {
       "name": "Macron",
-      "text": "\\text{\\={a}}",
-      "value": "\\text{\\={}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\={a}}",
+      "val": "\\text{\\={}}",
+      "caretPos": 9
     },
     {
       "name": "Diaeresis",
-      "text": "\\text{\\\"{a}}",
-      "value": "\\text{\\\"{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\\"{a}}",
+      "val": "\\text{\\\"{}}",
+      "caretPos": 9
     },
     {
       "name": "Caron",
-      "text": "\\text{\\v{a}}",
-      "value": "\\text{\\v{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\v{a}}",
+      "val": "\\text{\\v{}}",
+      "caretPos": 9
     },
     {
       "name": "Circumflex Accent",
-      "text": "\\text{\\^{a}}",
-      "value": "\\text{\\^{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\^{a}}",
+      "val": "\\text{\\^{}}",
+      "caretPos": 9
     },
     {
       "name": "Breve",
-      "text": "\\text{\\u{a}}",
-      "value": "\\text{\\u{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\u{a}}",
+      "val": "\\text{\\u{}}",
+      "caretPos": 9
     },
     {
       "name": "Ring Above",
-      "text": "\\text{\\r{a}}",
-      "value": "\\text{\\r{}}",
-      "caretPosition": 9
+      "lbl": "\\text{\\r{a}}",
+      "val": "\\text{\\r{}}",
+      "caretPos": 9
     }
   ]
 }

@@ -78,8 +78,8 @@ export function ToolPanel() {
       />
       {([common_symbols, ...symbolsGroups] as SymbolsGroup[]).map(
         (symbolsGroup) => {
-          const { title, symbols, displayLength, squareButton } = symbolsGroup;
-          const shouldDisplayOverflow = symbols.length > displayLength!;
+          const { title, symbols, dispLen, sqBtn } = symbolsGroup;
+          const shouldDisplayOverflow = symbols.length > dispLen!;
 
           return (
             <div
@@ -92,30 +92,22 @@ export function ToolPanel() {
               <div
                 className="grid"
                 style={{
-                  gridTemplateColumns: `repeat(${displayLength}, min-content)`,
+                  gridTemplateColumns: `repeat(${dispLen}, min-content)`,
                 }}
               >
-                {symbols.slice(0, displayLength).map((symbol) => (
-                  <SymbolButton
-                    key={symbol.text}
-                    squareButton={squareButton}
-                    {...symbol}
-                  />
+                {symbols.slice(0, dispLen).map((symbol) => (
+                  <SymbolButton key={symbol.lbl} sqBtn={sqBtn} {...symbol} />
                 ))}
               </div>
               {shouldDisplayOverflow && (
                 <div
                   className="absolute z-10 hidden w-full rounded-b border-b border-default-200 bg-white shadow-lg group-hover:grid dark:bg-default-50"
                   style={{
-                    gridTemplateColumns: `repeat(${displayLength}, min-content)`,
+                    gridTemplateColumns: `repeat(${dispLen}, min-content)`,
                   }}
                 >
-                  {symbols.slice(displayLength).map((symbol) => (
-                    <SymbolButton
-                      key={symbol.text}
-                      squareButton={squareButton}
-                      {...symbol}
-                    />
+                  {symbols.slice(dispLen).map((symbol) => (
+                    <SymbolButton key={symbol.lbl} sqBtn={sqBtn} {...symbol} />
                   ))}
                 </div>
               )}

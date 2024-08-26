@@ -1,592 +1,592 @@
 {
   "title": "Relations",
-  "displayLength": 8,
+  "dispLen": 8,
   "symbols": [
     {
       "name": "Equals",
-      "text": "=",
-      "value": "="
+      "lbl": "=",
+      "val": "="
     },
     {
       "name": "Doteqdot",
-      "text": "\\doteqdot",
-      "value": "\\doteqdot  ",
-      "caretPosition": 10
+      "lbl": "\\doteqdot",
+      "val": "\\doteqdot  ",
+      "caretPos": 10
     },
     {
       "name": "Lessapprox",
-      "text": "\\lessapprox",
-      "value": "\\lessapprox "
+      "lbl": "\\lessapprox",
+      "val": "\\lessapprox "
     },
     {
       "name": "Smile",
-      "text": "\\smile",
-      "value": "\\smile "
+      "lbl": "\\smile",
+      "val": "\\smile "
     },
     {
       "name": "Less Than",
-      "text": "<",
-      "value": "<"
+      "lbl": "<",
+      "val": "<"
     },
     {
       "name": "Eqcirc",
-      "text": "\\eqcirc",
-      "value": "\\eqcirc "
+      "lbl": "\\eqcirc",
+      "val": "\\eqcirc "
     },
     {
       "name": "Lesseqgtr",
-      "text": "\\lesseqgtr",
-      "value": "\\lesseqgtr "
+      "lbl": "\\lesseqgtr",
+      "val": "\\lesseqgtr "
     },
     {
       "name": "SqsSubset",
-      "text": "\\sqsubset",
-      "value": "\\sqsubset "
+      "lbl": "\\sqsubset",
+      "val": "\\sqsubset "
     },
     {
       "name": "Greater Than",
-      "text": ">",
-      "value": ">"
+      "lbl": ">",
+      "val": ">"
     },
     {
       "name": "Eqcolon",
-      "text": "\\eqcolon",
-      "value": "\\eqcolon "
+      "lbl": "\\eqcolon",
+      "val": "\\eqcolon "
     },
     {
       "name": "Lesseqqgtr",
-      "text": "\\lesseqqgtr",
-      "value": "\\lesseqqgtr "
+      "lbl": "\\lesseqqgtr",
+      "val": "\\lesseqqgtr "
     },
     {
       "name": "SqsSubsetEq",
-      "text": "\\sqsubseteq",
-      "value": "\\sqsubseteq "
+      "lbl": "\\sqsubseteq",
+      "val": "\\sqsubseteq "
     },
     {
       "name": "Colon",
-      "text": ":",
-      "value": ":"
+      "lbl": ":",
+      "val": ":"
     },
     {
       "name": "EqcolonColon",
-      "text": "\\Eqcolon",
-      "value": "\\Eqcolon "
+      "lbl": "\\Eqcolon",
+      "val": "\\Eqcolon "
     },
     {
       "name": "Lessgtr",
-      "text": "\\lessgtr",
-      "value": "\\lessgtr "
+      "lbl": "\\lessgtr",
+      "val": "\\lessgtr "
     },
     {
       "name": "SqsSupset",
-      "text": "\\sqsupset",
-      "value": "\\sqsupset "
+      "lbl": "\\sqsupset",
+      "val": "\\sqsupset "
     },
     {
       "name": "Approximately Equal",
-      "text": "\\approx",
-      "value": "\\approx "
+      "lbl": "\\approx",
+      "val": "\\approx "
     },
     {
       "name": "EqqColon",
-      "text": "\\eqqcolon",
-      "value": "\\eqqcolon "
+      "lbl": "\\eqqcolon",
+      "val": "\\eqqcolon "
     },
     {
       "name": "Lesssim",
-      "text": "\\lesssim",
-      "value": "\\lesssim "
+      "lbl": "\\lesssim",
+      "val": "\\lesssim "
     },
     {
       "name": "SqsSupsetEq",
-      "text": "\\sqsupseteq",
-      "value": "\\sqsupseteq "
+      "lbl": "\\sqsupseteq",
+      "val": "\\sqsupseteq "
     },
     {
       "name": "ApproxColon",
-      "text": "\\approxcolon",
-      "value": "\\approxcolon "
+      "lbl": "\\approxcolon",
+      "val": "\\approxcolon "
     },
     {
       "name": "EqqColonColon",
-      "text": "\\Eqqcolon",
-      "value": "\\Eqqcolon "
+      "lbl": "\\Eqqcolon",
+      "val": "\\Eqqcolon "
     },
     {
       "name": "Ll",
-      "text": "\\ll",
-      "value": "\\ll "
+      "lbl": "\\ll",
+      "val": "\\ll "
     },
     {
       "name": "Subset",
-      "text": "\\Subset",
-      "value": "\\Subset "
+      "lbl": "\\Subset",
+      "val": "\\Subset "
     },
     {
       "name": "ApproxColonColon",
-      "text": "\\approxcoloncolon",
-      "value": "\\approxcoloncolon "
+      "lbl": "\\approxcoloncolon",
+      "val": "\\approxcoloncolon "
     },
     {
       "name": "Eqsim",
-      "text": "\\eqsim",
-      "value": "\\eqsim "
+      "lbl": "\\eqsim",
+      "val": "\\eqsim "
     },
     {
       "name": "Lll",
-      "text": "\\lll",
-      "value": "\\lll "
+      "lbl": "\\lll",
+      "val": "\\lll "
     },
     {
       "name": "Subset",
-      "text": "\\subset",
-      "value": "\\subset "
+      "lbl": "\\subset",
+      "val": "\\subset "
     },
     {
       "name": "Approxeq",
-      "text": "\\approxeq",
-      "value": "\\approxeq "
+      "lbl": "\\approxeq",
+      "val": "\\approxeq "
     },
     {
       "name": "Eqslantgtr",
-      "text": "\\eqslantgtr",
-      "value": "\\eqslantgtr "
+      "lbl": "\\eqslantgtr",
+      "val": "\\eqslantgtr "
     },
     {
       "name": "Lllless",
-      "text": "\\llless",
-      "value": "\\llless "
+      "lbl": "\\llless",
+      "val": "\\llless "
     },
     {
       "name": "Subseteq",
-      "text": "\\subseteq",
-      "value": "\\subseteq "
+      "lbl": "\\subseteq",
+      "val": "\\subseteq "
     },
     {
       "name": "Asymp",
-      "text": "\\asymp",
-      "value": "\\asymp "
+      "lbl": "\\asymp",
+      "val": "\\asymp "
     },
     {
       "name": "Eqslantless",
-      "text": "\\eqslantless",
-      "value": "\\eqslantless "
+      "lbl": "\\eqslantless",
+      "val": "\\eqslantless "
     },
     {
       "name": "Less Than",
-      "text": "\\lt",
-      "value": "\\lt "
+      "lbl": "\\lt",
+      "val": "\\lt "
     },
     {
       "name": "Subseteqq",
-      "text": "\\subseteqq",
-      "value": "\\subseteqq "
+      "lbl": "\\subseteqq",
+      "val": "\\subseteqq "
     },
     {
       "name": "Backepsilon",
-      "text": "\\backepsilon",
-      "value": "\\backepsilon "
+      "lbl": "\\backepsilon",
+      "val": "\\backepsilon "
     },
     {
       "name": "Equiv",
-      "text": "\\equiv",
-      "value": "\\equiv "
+      "lbl": "\\equiv",
+      "val": "\\equiv "
     },
     {
       "name": "Mid",
-      "text": "\\mid",
-      "value": "\\mid "
+      "lbl": "\\mid",
+      "val": "\\mid "
     },
     {
       "name": "Succ",
-      "text": "\\succ",
-      "value": "\\succ "
+      "lbl": "\\succ",
+      "val": "\\succ "
     },
     {
       "name": "Backsim",
-      "text": "\\backsim",
-      "value": "\\backsim "
+      "lbl": "\\backsim",
+      "val": "\\backsim "
     },
     {
       "name": "Fallingdotseq",
-      "text": "\\fallingdotseq",
-      "value": "\\fallingdotseq "
+      "lbl": "\\fallingdotseq",
+      "val": "\\fallingdotseq "
     },
     {
       "name": "Models",
-      "text": "\\models",
-      "value": "\\models "
+      "lbl": "\\models",
+      "val": "\\models "
     },
     {
       "name": "Succapprox",
-      "text": "\\succapprox",
-      "value": "\\succapprox "
+      "lbl": "\\succapprox",
+      "val": "\\succapprox "
     },
     {
       "name": "Backsimeq",
-      "text": "\\backsimeq",
-      "value": "\\backsimeq "
+      "lbl": "\\backsimeq",
+      "val": "\\backsimeq "
     },
     {
       "name": "Frown",
-      "text": "\\frown",
-      "value": "\\frown "
+      "lbl": "\\frown",
+      "val": "\\frown "
     },
     {
       "name": "Multimap",
-      "text": "\\multimap",
-      "value": "\\multimap "
+      "lbl": "\\multimap",
+      "val": "\\multimap "
     },
     {
       "name": "Succcurlyeq",
-      "text": "\\succcurlyeq",
-      "value": "\\succcurlyeq "
+      "lbl": "\\succcurlyeq",
+      "val": "\\succcurlyeq "
     },
     {
       "name": "Between",
-      "text": "\\between",
-      "value": "\\between "
+      "lbl": "\\between",
+      "val": "\\between "
     },
     {
       "name": "Ge",
-      "text": "\\ge",
-      "value": "\\ge "
+      "lbl": "\\ge",
+      "val": "\\ge "
     },
     {
       "name": "Origof",
-      "text": "\\origof",
-      "value": "\\origof "
+      "lbl": "\\origof",
+      "val": "\\origof "
     },
     {
       "name": "Succeq",
-      "text": "\\succeq",
-      "value": "\\succeq "
+      "lbl": "\\succeq",
+      "val": "\\succeq "
     },
     {
       "name": "Bowtie",
-      "text": "\\bowtie",
-      "value": "\\bowtie "
+      "lbl": "\\bowtie",
+      "val": "\\bowtie "
     },
     {
       "name": "Geq",
-      "text": "\\geq",
-      "value": "\\geq "
+      "lbl": "\\geq",
+      "val": "\\geq "
     },
     {
       "name": "Owns",
-      "text": "\\owns",
-      "value": "\\owns "
+      "lbl": "\\owns",
+      "val": "\\owns "
     },
     {
       "name": "Succsim",
-      "text": "\\succsim",
-      "value": "\\succsim "
+      "lbl": "\\succsim",
+      "val": "\\succsim "
     },
     {
       "name": "Bumpeq",
-      "text": "\\bumpeq",
-      "value": "\\bumpeq "
+      "lbl": "\\bumpeq",
+      "val": "\\bumpeq "
     },
     {
       "name": "Geqq",
-      "text": "\\geqq",
-      "value": "\\geqq "
+      "lbl": "\\geqq",
+      "val": "\\geqq "
     },
     {
       "name": "Parallel",
-      "text": "\\parallel",
-      "value": "\\parallel "
+      "lbl": "\\parallel",
+      "val": "\\parallel "
     },
     {
       "name": "Supset",
-      "text": "\\supset",
-      "value": "\\supset "
+      "lbl": "\\supset",
+      "val": "\\supset "
     },
     {
       "name": "Bumpeq",
-      "text": "\\Bumpeq",
-      "value": "\\Bumpeq "
+      "lbl": "\\Bumpeq",
+      "val": "\\Bumpeq "
     },
     {
       "name": "Geqslant",
-      "text": "\\geqslant",
-      "value": "\\geqslant "
+      "lbl": "\\geqslant",
+      "val": "\\geqslant "
     },
     {
       "name": "Perpendicular",
-      "text": "\\perp",
-      "value": "\\perp "
+      "lbl": "\\perp",
+      "val": "\\perp "
     },
     {
       "name": "Supseteq",
-      "text": "\\supseteq",
-      "value": "\\supseteq "
+      "lbl": "\\supseteq",
+      "val": "\\supseteq "
     },
     {
       "name": "Colonapprox",
-      "text": "\\colonapprox",
-      "value": "\\colonapprox "
+      "lbl": "\\colonapprox",
+      "val": "\\colonapprox "
     },
     {
       "name": "Ggg",
-      "text": "\\ggg",
-      "value": "\\ggg "
+      "lbl": "\\ggg",
+      "val": "\\ggg "
     },
     {
       "name": "Preccurlyeq",
-      "text": "\\preccurlyeq",
-      "value": "\\preccurlyeq "
+      "lbl": "\\preccurlyeq",
+      "val": "\\preccurlyeq "
     },
     {
       "name": "Thickapprox",
-      "text": "\\thickapprox",
-      "value": "\\thickapprox "
+      "lbl": "\\thickapprox",
+      "val": "\\thickapprox "
     },
     {
       "name": "Colonminus",
-      "text": "\\coloneq",
-      "value": "\\coloneq "
+      "lbl": "\\coloneq",
+      "val": "\\coloneq "
     },
     {
       "name": "Greater Than",
-      "text": "\\gt",
-      "value": "\\gt "
+      "lbl": "\\gt",
+      "val": "\\gt "
     },
     {
       "name": "Precsim",
-      "text": "\\precsim",
-      "value": "\\precsim "
+      "lbl": "\\precsim",
+      "val": "\\precsim "
     },
     {
       "name": "Thicksim",
-      "text": "\\thicksim",
-      "value": "\\thicksim "
+      "lbl": "\\thicksim",
+      "val": "\\thicksim "
     },
     {
       "name": "Coloncolonminus",
-      "text": "\\Coloneq",
-      "value": "\\Coloneq "
+      "lbl": "\\Coloneq",
+      "val": "\\Coloneq "
     },
     {
       "name": "Gtrapprox",
-      "text": "\\gtrapprox",
-      "value": "\\gtrapprox "
+      "lbl": "\\gtrapprox",
+      "val": "\\gtrapprox "
     },
     {
       "name": "Preceq",
-      "text": "\\preceq",
-      "value": "\\preceq "
+      "lbl": "\\preceq",
+      "val": "\\preceq "
     },
     {
       "name": "Trianglelefteq",
-      "text": "\\trianglelefteq",
-      "value": "\\trianglelefteq "
+      "lbl": "\\trianglelefteq",
+      "val": "\\trianglelefteq "
     },
     {
       "name": "Coloneqq",
-      "text": "\\coloneqq",
-      "value": "\\coloneqq "
+      "lbl": "\\coloneqq",
+      "val": "\\coloneqq "
     },
     {
       "name": "Gtreqless",
-      "text": "\\gtreqless",
-      "value": "\\gtreqless "
+      "lbl": "\\gtreqless",
+      "val": "\\gtreqless "
     },
     {
       "name": "Propto",
-      "text": "\\propto",
-      "value": "\\propto "
+      "lbl": "\\propto",
+      "val": "\\propto "
     },
     {
       "name": "Trianglerighteq",
-      "text": "\\trianglerighteq",
-      "value": "\\trianglerighteq "
+      "lbl": "\\trianglerighteq",
+      "val": "\\trianglerighteq "
     },
     {
       "name": "Coloncolonapprox",
-      "text": "\\Colonapprox",
-      "value": "\\Colonapprox "
+      "lbl": "\\Colonapprox",
+      "val": "\\Colonapprox "
     },
     {
       "name": "Gtreqqless",
-      "text": "\\gtreqqless",
-      "value": "\\gtreqqless "
+      "lbl": "\\gtreqqless",
+      "val": "\\gtreqqless "
     },
     {
       "name": "Varpropto",
-      "text": "\\varpropto",
-      "value": "\\varpropto "
+      "lbl": "\\varpropto",
+      "val": "\\varpropto "
     },
     {
       "name": "Vartriangle",
-      "text": "\\vartriangle",
-      "value": "\\vartriangle "
+      "lbl": "\\vartriangle",
+      "val": "\\vartriangle "
     },
     {
       "name": "Simcolon",
-      "text": "\\simcolon",
-      "value": "\\simcolon "
+      "lbl": "\\simcolon",
+      "val": "\\simcolon "
     },
     {
       "name": "Gtrless",
-      "text": "\\gtrless",
-      "value": "\\gtrless "
+      "lbl": "\\gtrless",
+      "val": "\\gtrless "
     },
     {
       "name": "Risingdotseq",
-      "text": "\\risingdotseq",
-      "value": "\\risingdotseq "
+      "lbl": "\\risingdotseq",
+      "val": "\\risingdotseq "
     },
     {
       "name": "Vartriangleleft",
-      "text": "\\vartriangleleft",
-      "value": "\\vartriangleleft "
+      "lbl": "\\vartriangleleft",
+      "val": "\\vartriangleleft "
     },
     {
       "name": "Simcoloncolon",
-      "text": "\\Colonsim",
-      "value": "\\Colonsim "
+      "lbl": "\\Colonsim",
+      "val": "\\Colonsim "
     },
     {
       "name": "Gtrsim",
-      "text": "\\gtrsim",
-      "value": "\\gtrsim "
+      "lbl": "\\gtrsim",
+      "val": "\\gtrsim "
     },
     {
       "name": "Shortmid",
-      "text": "\\shortmid",
-      "value": "\\shortmid "
+      "lbl": "\\shortmid",
+      "val": "\\shortmid "
     },
     {
       "name": "Vartriangleright",
-      "text": "\\vartriangleright",
-      "value": "\\vartriangleright "
+      "lbl": "\\vartriangleright",
+      "val": "\\vartriangleright "
     },
     {
       "name": "Congruent",
-      "text": "\\cong",
-      "value": "\\cong "
+      "lbl": "\\cong",
+      "val": "\\cong "
     },
     {
       "name": "Imageof",
-      "text": "\\imageof",
-      "value": "\\imageof "
+      "lbl": "\\imageof",
+      "val": "\\imageof "
     },
     {
       "name": "Shortparallel",
-      "text": "\\shortparallel",
-      "value": "\\shortparallel "
+      "lbl": "\\shortparallel",
+      "val": "\\shortparallel "
     },
     {
       "name": "Vartriangleleft",
-      "text": "\\vartriangleleft",
-      "value": "\\vartriangleleft "
+      "lbl": "\\vartriangleleft",
+      "val": "\\vartriangleleft "
     },
     {
       "name": "Curlyeqprec",
-      "text": "\\curlyeqprec",
-      "value": "\\curlyeqprec "
+      "lbl": "\\curlyeqprec",
+      "val": "\\curlyeqprec "
     },
     {
       "name": "In",
-      "text": "\\in",
-      "value": "\\in "
+      "lbl": "\\in",
+      "val": "\\in "
     },
     {
       "name": "Similar",
-      "text": "\\sim",
-      "value": "\\sim "
+      "lbl": "\\sim",
+      "val": "\\sim "
     },
     {
       "name": "Vartriangleright",
-      "text": "\\vartriangleright",
-      "value": "\\vartriangleright "
+      "lbl": "\\vartriangleright",
+      "val": "\\vartriangleright "
     },
     {
       "name": "Curlyeqsucc",
-      "text": "\\curlyeqsucc",
-      "value": "\\curlyeqsucc "
+      "lbl": "\\curlyeqsucc",
+      "val": "\\curlyeqsucc "
     },
     {
       "name": "Join",
-      "text": "\\Join",
-      "value": "\\Join "
+      "lbl": "\\Join",
+      "val": "\\Join "
     },
     {
       "name": "Simcolon",
-      "text": "\\simcolon",
-      "value": "\\simcolon "
+      "lbl": "\\simcolon",
+      "val": "\\simcolon "
     },
     {
       "name": "Vcentcolon",
-      "text": "\\vcentcolon",
-      "value": "\\vcentcolon "
+      "lbl": "\\vcentcolon",
+      "val": "\\vcentcolon "
     },
     {
       "name": "Dashv",
-      "text": "\\dashv",
-      "value": "\\dashv "
+      "lbl": "\\dashv",
+      "val": "\\dashv "
     },
     {
       "name": "Le",
-      "text": "\\le",
-      "value": "\\le "
+      "lbl": "\\le",
+      "val": "\\le "
     },
     {
       "name": "Simcoloncolon",
-      "text": "\\simcoloncolon",
-      "value": "\\simcoloncolon "
+      "lbl": "\\simcoloncolon",
+      "val": "\\simcoloncolon "
     },
     {
       "name": "Vdash",
-      "text": "\\vdash",
-      "value": "\\vdash "
+      "lbl": "\\vdash",
+      "val": "\\vdash "
     },
     {
       "name": "Dblcolon",
-      "text": "\\dblcolon",
-      "value": "\\dblcolon "
+      "lbl": "\\dblcolon",
+      "val": "\\dblcolon "
     },
     {
       "name": "Less Than Or Equal To",
-      "text": "\\leq",
-      "value": "\\leq "
+      "lbl": "\\leq",
+      "val": "\\leq "
     },
     {
       "name": "Simeq",
-      "text": "\\simeq",
-      "value": "\\simeq "
+      "lbl": "\\simeq",
+      "val": "\\simeq "
     },
     {
       "name": "VDash",
-      "text": "\\vDash",
-      "value": "\\vDash "
+      "lbl": "\\vDash",
+      "val": "\\vDash "
     },
     {
       "name": "Doteq",
-      "text": "\\doteq",
-      "value": "\\doteq "
+      "lbl": "\\doteq",
+      "val": "\\doteq "
     },
     {
       "name": "Leqq",
-      "text": "\\leqq",
-      "value": "\\leqq "
+      "lbl": "\\leqq",
+      "val": "\\leqq "
     },
     {
       "name": "Smallfrown",
-      "text": "\\smallfrown",
-      "value": "\\smallfrown "
+      "lbl": "\\smallfrown",
+      "val": "\\smallfrown "
     },
     {
       "name": "VDash",
-      "text": "\\Vdash",
-      "value": "\\Vdash "
+      "lbl": "\\Vdash",
+      "val": "\\Vdash "
     },
     {
       "name": "Doteq",
-      "text": "\\Doteq",
-      "value": "\\Doteq "
+      "lbl": "\\Doteq",
+      "val": "\\Doteq "
     }
   ]
 }

@@ -1,171 +1,171 @@
 {
   "title": "Lowercase Greek Letters",
-  "displayLength": 5,
+  "dispLen": 5,
   "symbols": [
     {
       "name": "alpha",
-      "text": "\\alpha",
-      "value": "\\alpha "
+      "lbl": "\\alpha",
+      "val": "\\alpha "
     },
     {
       "name": "beta",
-      "text": "\\beta",
-      "value": "\\beta "
+      "lbl": "\\beta",
+      "val": "\\beta "
     },
     {
       "name": "gamma",
-      "text": "\\gamma",
-      "value": "\\gamma "
+      "lbl": "\\gamma",
+      "val": "\\gamma "
     },
     {
       "name": "delta",
-      "text": "\\delta",
-      "value": "\\delta "
+      "lbl": "\\delta",
+      "val": "\\delta "
     },
     {
       "name": "epsilon",
-      "text": "\\epsilon",
-      "value": "\\epsilon "
+      "lbl": "\\epsilon",
+      "val": "\\epsilon "
     },
     {
       "name": "zeta",
-      "text": "\\zeta",
-      "value": "\\zeta "
+      "lbl": "\\zeta",
+      "val": "\\zeta "
     },
     {
       "name": "eta",
-      "text": "\\eta",
-      "value": "\\eta "
+      "lbl": "\\eta",
+      "val": "\\eta "
     },
     {
       "name": "theta",
-      "text": "\\theta",
-      "value": "\\theta "
+      "lbl": "\\theta",
+      "val": "\\theta "
     },
     {
       "name": "iota",
-      "text": "\\iota",
-      "value": "\\iota "
+      "lbl": "\\iota",
+      "val": "\\iota "
     },
     {
       "name": "kappa",
-      "text": "\\kappa",
-      "value": "\\kappa "
+      "lbl": "\\kappa",
+      "val": "\\kappa "
     },
     {
       "name": "lambda",
-      "text": "\\lambda",
-      "value": "\\lambda "
+      "lbl": "\\lambda",
+      "val": "\\lambda "
     },
     {
       "name": "mu",
-      "text": "\\mu",
-      "value": "\\mu "
+      "lbl": "\\mu",
+      "val": "\\mu "
     },
     {
       "name": "nu",
-      "text": "\\nu",
-      "value": "\\nu "
+      "lbl": "\\nu",
+      "val": "\\nu "
     },
     {
       "name": "xi",
-      "text": "\\xi",
-      "value": "\\xi "
+      "lbl": "\\xi",
+      "val": "\\xi "
     },
     {
       "name": "omicron",
-      "text": "\\omicron",
-      "value": "\\omicron "
+      "lbl": "\\omicron",
+      "val": "\\omicron "
     },
     {
       "name": "pi",
-      "text": "\\pi",
-      "value": "\\pi "
+      "lbl": "\\pi",
+      "val": "\\pi "
     },
     {
       "name": "rho",
-      "text": "\\rho",
-      "value": "\\rho "
+      "lbl": "\\rho",
+      "val": "\\rho "
     },
     {
       "name": "sigma",
-      "text": "\\sigma",
-      "value": "\\sigma "
+      "lbl": "\\sigma",
+      "val": "\\sigma "
     },
     {
       "name": "tau",
-      "text": "\\tau",
-      "value": "\\tau "
+      "lbl": "\\tau",
+      "val": "\\tau "
     },
     {
       "name": "upsilon",
-      "text": "\\upsilon",
-      "value": "\\upsilon "
+      "lbl": "\\upsilon",
+      "val": "\\upsilon "
     },
     {
       "name": "phi",
-      "text": "\\phi",
-      "value": "\\phi "
+      "lbl": "\\phi",
+      "val": "\\phi "
     },
     {
       "name": "chi",
-      "text": "\\chi",
-      "value": "\\chi "
+      "lbl": "\\chi",
+      "val": "\\chi "
     },
     {
       "name": "psi",
-      "text": "\\psi",
-      "value": "\\psi "
+      "lbl": "\\psi",
+      "val": "\\psi "
     },
     {
       "name": "omega",
-      "text": "\\omega",
-      "value": "\\omega "
+      "lbl": "\\omega",
+      "val": "\\omega "
     },
     {
       "name": "varepsilon",
-      "text": "\\varepsilon",
-      "value": "\\varepsilon "
+      "lbl": "\\varepsilon",
+      "val": "\\varepsilon "
     },
     {
       "name": "varkappa",
-      "text": "\\varkappa",
-      "value": "\\varkappa "
+      "lbl": "\\varkappa",
+      "val": "\\varkappa "
     },
     {
       "name": "vartheta",
-      "text": "\\vartheta",
-      "value": "\\vartheta "
+      "lbl": "\\vartheta",
+      "val": "\\vartheta "
     },
     {
       "name": "thetasym",
-      "text": "\\thetasym",
-      "value": "\\thetasym "
+      "lbl": "\\thetasym",
+      "val": "\\thetasym "
     },
     {
       "name": "varpi",
-      "text": "\\varpi",
-      "value": "\\varpi "
+      "lbl": "\\varpi",
+      "val": "\\varpi "
     },
     {
       "name": "varrho",
-      "text": "\\varrho",
-      "value": "\\varrho "
+      "lbl": "\\varrho",
+      "val": "\\varrho "
     },
     {
       "name": "varsigma",
-      "text": "\\varsigma",
-      "value": "\\varsigma "
+      "lbl": "\\varsigma",
+      "val": "\\varsigma "
     },
     {
       "name": "varphi",
-      "text": "\\varphi",
-      "value": "\\varphi "
+      "lbl": "\\varphi",
+      "val": "\\varphi "
     },
     {
       "name": "digamma",
-      "text": "\\digamma",
-      "value": "\\digamma "
+      "lbl": "\\digamma",
+      "val": "\\digamma "
     }
   ]
 }

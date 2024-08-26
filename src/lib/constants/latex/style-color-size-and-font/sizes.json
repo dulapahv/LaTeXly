@@ -1,57 +1,57 @@
 {
   "title": "Sizes",
-  "displayLength": 3,
-  "squareButton": false,
+  "dispLen": 3,
+  "sqBtn": false,
   "symbols": [
     {
       "name": "tiny",
-      "text": "\\tiny Ab0",
-      "value": "\\tiny "
+      "lbl": "\\tiny Ab0",
+      "val": "\\tiny "
     },
     {
       "name": "scriptsize",
-      "text": "\\scriptsize Ab0",
-      "value": "\\scriptsize "
+      "lbl": "\\scriptsize Ab0",
+      "val": "\\scriptsize "
     },
     {
       "name": "footnotesize",
-      "text": "\\footnotesize Ab0",
-      "value": "\\footnotesize "
+      "lbl": "\\footnotesize Ab0",
+      "val": "\\footnotesize "
     },
     {
       "name": "small",
-      "text": "\\small Ab0",
-      "value": "\\small "
+      "lbl": "\\small Ab0",
+      "val": "\\small "
     },
     {
       "name": "normalsize",
-      "text": "\\normalsize Ab0",
-      "value": "\\normalsize "
+      "lbl": "\\normalsize Ab0",
+      "val": "\\normalsize "
     },
     {
       "name": "large",
-      "text": "\\large Ab0",
-      "value": "\\large "
+      "lbl": "\\large Ab0",
+      "val": "\\large "
     },
     {
       "name": "Large",
-      "text": "\\Large Ab0",
-      "value": "\\Large "
+      "lbl": "\\Large Ab0",
+      "val": "\\Large "
     },
     {
       "name": "LARGE",
-      "text": "\\LARGE Ab0",
-      "value": "\\LARGE "
+      "lbl": "\\LARGE Ab0",
+      "val": "\\LARGE "
     },
     {
       "name": "huge",
-      "text": "\\huge Ab0",
-      "value": "\\huge "
+      "lbl": "\\huge Ab0",
+      "val": "\\huge "
     },
     {
       "name": "Huge",
-      "text": "\\Huge Ab0",
-      "value": "\\Huge "
+      "lbl": "\\Huge Ab0",
+      "val": "\\Huge "
     }
   ]
 }

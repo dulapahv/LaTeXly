@@ -1,126 +1,126 @@
 {
   "title": "Big Operators",
-  "displayLength": 4,
+  "dispLen": 4,
   "symbols": [
     {
       "name": "Summation",
-      "text": "\\sum",
-      "value": "\\sum_{}^{}",
-      "caretPosition": 6
+      "lbl": "\\sum",
+      "val": "\\sum_{}^{}",
+      "caretPos": 6
     },
     {
       "name": "Product",
-      "text": "\\prod",
-      "value": "\\prod_{}^{}",
-      "caretPosition": 7
+      "lbl": "\\prod",
+      "val": "\\prod_{}^{}",
+      "caretPos": 7
     },
     {
       "name": "Tensor Product (Big)",
-      "text": "\\bigotimes",
-      "value": "\\bigotimes_{}^{}",
-      "caretPosition": 12
+      "lbl": "\\bigotimes",
+      "val": "\\bigotimes_{}^{}",
+      "caretPos": 12
     },
     {
       "name": "Logical Or (Big)",
-      "text": "\\bigvee",
-      "value": "\\bigvee_{}^{}",
-      "caretPosition": 9
+      "lbl": "\\bigvee",
+      "val": "\\bigvee_{}^{}",
+      "caretPos": 9
     },
     {
       "name": "Integral",
-      "text": "\\int",
-      "value": "\\int_{}^{}",
-      "caretPosition": 6
+      "lbl": "\\int",
+      "val": "\\int_{}^{}",
+      "caretPos": 6
     },
     {
       "name": "Coproduct",
-      "text": "\\coprod",
-      "value": "\\coprod_{}^{}",
-      "caretPosition": 8
+      "lbl": "\\coprod",
+      "val": "\\coprod_{}^{}",
+      "caretPos": 8
     },
     {
       "name": "Direct Sum (Big)",
-      "text": "\\bigoplus",
-      "value": "\\bigoplus_{}^{}",
-      "caretPosition": 11
+      "lbl": "\\bigoplus",
+      "val": "\\bigoplus_{}^{}",
+      "caretPos": 11
     },
     {
       "name": "Logical And (Big)",
-      "text": "\\bigwedge",
-      "value": "\\bigwedge_{}^{}",
-      "caretPosition": 10
+      "lbl": "\\bigwedge",
+      "val": "\\bigwedge_{}^{}",
+      "caretPos": 10
     },
     {
       "name": "Double Integral",
-      "text": "\\iint",
-      "value": "\\iint_{}^{}",
-      "caretPosition": 7
+      "lbl": "\\iint",
+      "val": "\\iint_{}^{}",
+      "caretPos": 7
     },
     {
       "name": "Integral Operator",
-      "text": "\\intop",
-      "value": "\\intop_{}^{}",
-      "caretPosition": 8
+      "lbl": "\\intop",
+      "val": "\\intop_{}^{}",
+      "caretPos": 8
     },
     {
       "name": "Circle Dot (Big)",
-      "text": "\\bigodot",
-      "value": "\\bigodot_{}^{}",
-      "caretPosition": 10
+      "lbl": "\\bigodot",
+      "val": "\\bigodot_{}^{}",
+      "caretPos": 10
     },
     {
       "name": "Intersection (Big)",
-      "text": "\\bigcap",
-      "value": "\\bigcap_{}^{}",
-      "caretPosition": 9
+      "lbl": "\\bigcap",
+      "val": "\\bigcap_{}^{}",
+      "caretPos": 9
     },
     {
       "name": "Triple Integral",
-      "text": "\\iiint",
-      "value": "\\iiint_{}^{}",
-      "caretPosition": 8
+      "lbl": "\\iiint",
+      "val": "\\iiint_{}^{}",
+      "caretPos": 8
     },
     {
       "name": "Small Integral",
-      "text": "\\smallint",
-      "value": "\\smallint_{}^{}",
-      "caretPosition": 10
+      "lbl": "\\smallint",
+      "val": "\\smallint_{}^{}",
+      "caretPos": 10
     },
     {
       "name": "Union Plus (Big)",
-      "text": "\\biguplus",
-      "value": "\\biguplus_{}^{}",
-      "caretPosition": 10
+      "lbl": "\\biguplus",
+      "val": "\\biguplus_{}^{}",
+      "caretPos": 10
     },
     {
       "name": "Union (Big)",
-      "text": "\\bigcup",
-      "value": "\\bigcup_{}^{}",
-      "caretPosition": 9
+      "lbl": "\\bigcup",
+      "val": "\\bigcup_{}^{}",
+      "caretPos": 9
     },
     {
       "name": "Contour Integral",
-      "text": "\\oint",
-      "value": "\\oint_{}^{}",
-      "caretPosition": 7
+      "lbl": "\\oint",
+      "val": "\\oint_{}^{}",
+      "caretPos": 7
     },
     {
       "name": "Double Contour Integral",
-      "text": "\\oiint",
-      "value": "\\oiint_{}^{}",
-      "caretPosition": 8
+      "lbl": "\\oiint",
+      "val": "\\oiint_{}^{}",
+      "caretPos": 8
     },
     {
       "name": "Triple Contour Integral",
-      "text": "\\oiiint",
-      "value": "\\oiiint_{}^{}",
-      "caretPosition": 9
+      "lbl": "\\oiiint",
+      "val": "\\oiiint_{}^{}",
+      "caretPos": 9
     },
     {
       "name": "Square Union (Big)",
-      "text": "\\bigsqcup",
-      "value": "\\bigsqcup_{}^{}",
-      "caretPosition": 11
+      "lbl": "\\bigsqcup",
+      "val": "\\bigsqcup_{}^{}",
+      "caretPos": 11
     }
   ]
 }

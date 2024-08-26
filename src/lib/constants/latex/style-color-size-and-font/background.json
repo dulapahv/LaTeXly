@@ -1,24 +1,24 @@
 {
   "title": "Colored Boxes",
-  "displayLength": 3,
+  "dispLen": 3,
   "symbols": [
     {
       "name": "Box",
-      "text": "\\colorbox{aqua}{$A$}",
-      "value": "\\colorbox{}{$$}",
-      "caretPosition": 10
+      "lbl": "\\colorbox{aqua}{$A$}",
+      "val": "\\colorbox{}{$$}",
+      "caretPos": 10
     },
     {
       "name": "Box With Frame",
-      "text": "\\fcolorbox{red}{aqua}{$A$}",
-      "value": "\\fcolorbox{}{}{$$}",
-      "caretPosition": 11
+      "lbl": "\\fcolorbox{red}{aqua}{$A$}",
+      "val": "\\fcolorbox{}{}{$$}",
+      "caretPos": 11
     },
     {
       "name": "Transparent Box With Frame",
-      "text": "\\fcolorbox{red}{none}{$A$}",
-      "value": "\\fcolorbox{}{none}{$$}",
-      "caretPosition": 11
+      "lbl": "\\fcolorbox{red}{none}{$A$}",
+      "val": "\\fcolorbox{}{none}{$$}",
+      "caretPos": 11
     }
   ]
 }

@@ -1,280 +1,280 @@
 {
   "title": "Math Operators",
-  "displayLength": 4,
-  "squareButton": false,
+  "dispLen": 4,
+  "sqBtn": false,
   "symbols": [
     {
       "name": "Arcsin",
-      "text": "\\arcsin",
-      "value": "\\arcsin "
+      "lbl": "\\arcsin",
+      "val": "\\arcsin "
     },
     {
       "name": "Cosec",
-      "text": "\\cosec",
-      "value": "\\cosec "
+      "lbl": "\\cosec",
+      "val": "\\cosec "
     },
     {
       "name": "Deg",
-      "text": "\\deg",
-      "value": "\\deg "
+      "lbl": "\\deg",
+      "val": "\\deg "
     },
     {
       "name": "Sec",
-      "text": "\\sec",
-      "value": "\\sec "
+      "lbl": "\\sec",
+      "val": "\\sec "
     },
     {
       "name": "Arccos",
-      "text": "\\arccos",
-      "value": "\\arccos "
+      "lbl": "\\arccos",
+      "val": "\\arccos "
     },
     {
       "name": "Cosh",
-      "text": "\\cosh",
-      "value": "\\cosh "
+      "lbl": "\\cosh",
+      "val": "\\cosh "
     },
     {
       "name": "Dim",
-      "text": "\\dim",
-      "value": "\\dim "
+      "lbl": "\\dim",
+      "val": "\\dim "
     },
     {
       "name": "Sin",
-      "text": "\\sin",
-      "value": "\\sin "
+      "lbl": "\\sin",
+      "val": "\\sin "
     },
     {
       "name": "Arctan",
-      "text": "\\arctan",
-      "value": "\\arctan "
+      "lbl": "\\arctan",
+      "val": "\\arctan "
     },
     {
       "name": "Cot",
-      "text": "\\cot",
-      "value": "\\cot "
+      "lbl": "\\cot",
+      "val": "\\cot "
     },
     {
       "name": "Exp",
-      "text": "\\exp",
-      "value": "\\exp "
+      "lbl": "\\exp",
+      "val": "\\exp "
     },
     {
       "name": "Sinh",
-      "text": "\\sinh",
-      "value": "\\sinh "
+      "lbl": "\\sinh",
+      "val": "\\sinh "
     },
     {
       "name": "Arctg",
-      "text": "\\arctg",
-      "value": "\\arctg "
+      "lbl": "\\arctg",
+      "val": "\\arctg "
     },
     {
       "name": "Cotg",
-      "text": "\\cotg",
-      "value": "\\cotg "
+      "lbl": "\\cotg",
+      "val": "\\cotg "
     },
     {
       "name": "Hom",
-      "text": "\\hom",
-      "value": "\\hom "
+      "lbl": "\\hom",
+      "val": "\\hom "
     },
     {
       "name": "Sh",
-      "text": "\\sh",
-      "value": "\\sh "
+      "lbl": "\\sh",
+      "val": "\\sh "
     },
     {
       "name": "Arcctg",
-      "text": "\\arcctg",
-      "value": "\\arcctg "
+      "lbl": "\\arcctg",
+      "val": "\\arcctg "
     },
     {
       "name": "Coth",
-      "text": "\\coth",
-      "value": "\\coth "
+      "lbl": "\\coth",
+      "val": "\\coth "
     },
     {
       "name": "Ker",
-      "text": "\\ker",
-      "value": "\\ker "
+      "lbl": "\\ker",
+      "val": "\\ker "
     },
     {
       "name": "Tan",
-      "text": "\\tan",
-      "value": "\\tan "
+      "lbl": "\\tan",
+      "val": "\\tan "
     },
     {
       "name": "Arg",
-      "text": "\\arg",
-      "value": "\\arg "
+      "lbl": "\\arg",
+      "val": "\\arg "
     },
     {
       "name": "Csc",
-      "text": "\\csc",
-      "value": "\\csc "
+      "lbl": "\\csc",
+      "val": "\\csc "
     },
     {
       "name": "Lg",
-      "text": "\\lg",
-      "value": "\\lg "
+      "lbl": "\\lg",
+      "val": "\\lg "
     },
     {
       "name": "Tanh",
-      "text": "\\tanh",
-      "value": "\\tanh "
+      "lbl": "\\tanh",
+      "val": "\\tanh "
     },
     {
       "name": "Ch",
-      "text": "\\ch",
-      "value": "\\ch "
+      "lbl": "\\ch",
+      "val": "\\ch "
     },
     {
       "name": "Ctg",
-      "text": "\\ctg",
-      "value": "\\ctg "
+      "lbl": "\\ctg",
+      "val": "\\ctg "
     },
     {
       "name": "Ln",
-      "text": "\\ln",
-      "value": "\\ln "
+      "lbl": "\\ln",
+      "val": "\\ln "
     },
     {
       "name": "Tg",
-      "text": "\\tg",
-      "value": "\\tg "
+      "lbl": "\\tg",
+      "val": "\\tg "
     },
     {
       "name": "Cos",
-      "text": "\\cos",
-      "value": "\\cos "
+      "lbl": "\\cos",
+      "val": "\\cos "
     },
     {
       "name": "Cth",
-      "text": "\\cth",
-      "value": "\\cth "
+      "lbl": "\\cth",
+      "val": "\\cth "
     },
     {
       "name": "Log",
-      "text": "\\log",
-      "value": "\\log "
+      "lbl": "\\log",
+      "val": "\\log "
     },
     {
       "name": "Th",
-      "text": "\\th",
-      "value": "\\th "
+      "lbl": "\\th",
+      "val": "\\th "
     },
     {
       "name": "Operator",
-      "text": "\\operatorname{f}",
-      "value": "\\operatorname{} ",
-      "caretPosition": 14
+      "lbl": "\\operatorname{f}",
+      "val": "\\operatorname{} ",
+      "caretPos": 14
     },
     {
       "name": "Argmax",
-      "text": "\\argmax",
-      "value": "\\argmax "
+      "lbl": "\\argmax",
+      "val": "\\argmax "
     },
     {
       "name": "Injlim",
-      "text": "\\injlim",
-      "value": "\\injlim "
+      "lbl": "\\injlim",
+      "val": "\\injlim "
     },
     {
       "name": "Min",
-      "text": "\\min",
-      "value": "\\min "
+      "lbl": "\\min",
+      "val": "\\min "
     },
     {
       "name": "Varinjlim",
-      "text": "\\varinjlim",
-      "value": "\\varinjlim "
+      "lbl": "\\varinjlim",
+      "val": "\\varinjlim "
     },
     {
       "name": "Argmin",
-      "text": "\\argmin",
-      "value": "\\argmin "
+      "lbl": "\\argmin",
+      "val": "\\argmin "
     },
     {
       "name": "Lim",
-      "text": "\\lim",
-      "value": "\\lim "
+      "lbl": "\\lim",
+      "val": "\\lim "
     },
     {
       "name": "Plim",
-      "text": "\\plim",
-      "value": "\\plim "
+      "lbl": "\\plim",
+      "val": "\\plim "
     },
     {
       "name": "Varliminf",
-      "text": "\\varliminf",
-      "value": "\\varliminf "
+      "lbl": "\\varliminf",
+      "val": "\\varliminf "
     },
     {
       "name": "Det",
-      "text": "\\det",
-      "value": "\\det "
+      "lbl": "\\det",
+      "val": "\\det "
     },
     {
       "name": "Liminf",
-      "text": "\\liminf",
-      "value": "\\liminf "
+      "lbl": "\\liminf",
+      "val": "\\liminf "
     },
     {
       "name": "Pr",
-      "text": "\\Pr",
-      "value": "\\Pr "
+      "lbl": "\\Pr",
+      "val": "\\Pr "
     },
     {
       "name": "Varlimsup",
-      "text": "\\varlimsup",
-      "value": "\\varlimsup "
+      "lbl": "\\varlimsup",
+      "val": "\\varlimsup "
     },
     {
       "name": "Gcd",
-      "text": "\\gcd",
-      "value": "\\gcd "
+      "lbl": "\\gcd",
+      "val": "\\gcd "
     },
     {
       "name": "Limsup",
-      "text": "\\limsup",
-      "value": "\\limsup "
+      "lbl": "\\limsup",
+      "val": "\\limsup "
     },
     {
       "name": "Projlim",
-      "text": "\\projlim",
-      "value": "\\projlim "
+      "lbl": "\\projlim",
+      "val": "\\projlim "
     },
     {
       "name": "Varprojlim",
-      "text": "\\varprojlim",
-      "value": "\\varprojlim "
+      "lbl": "\\varprojlim",
+      "val": "\\varprojlim "
     },
     {
       "name": "Inf",
-      "text": "\\inf",
-      "value": "\\inf "
+      "lbl": "\\inf",
+      "val": "\\inf "
     },
     {
       "name": "Max",
-      "text": "\\max",
-      "value": "\\max "
+      "lbl": "\\max",
+      "val": "\\max "
     },
     {
       "name": "Sup",
-      "text": "\\sup",
-      "value": "\\sup "
+      "lbl": "\\sup",
+      "val": "\\sup "
     },
     {
       "name": "OperatorWithLimits",
-      "text": "\\operatorname*{f}",
-      "value": "\\operatorname*{} ",
-      "caretPosition": 15
+      "lbl": "\\operatorname*{f}",
+      "val": "\\operatorname*{} ",
+      "caretPos": 15
     },
     {
       "name": "OperatorWithLimitsAlt",
-      "text": "\\operatornamewithlimits{f}",
-      "value": "\\operatornamewithlimits{} ",
-      "caretPosition": 24
+      "lbl": "\\operatornamewithlimits{f}",
+      "val": "\\operatornamewithlimits{} ",
+      "caretPos": 24
     }
   ]
 }

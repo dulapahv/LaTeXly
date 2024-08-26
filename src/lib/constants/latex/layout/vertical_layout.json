@@ -1,65 +1,65 @@
 {
   "title": "Vertical Layout",
-  "displayLength": 4,
-  "squareButton": false,
+  "dispLen": 4,
+  "sqBtn": false,
   "symbols": [
     {
       "name": "Subscript",
-      "text": "x_n",
-      "value": "_{}",
-      "caretPosition": 2
+      "lbl": "x_n",
+      "val": "_{}",
+      "caretPos": 2
     },
     {
       "name": "StackrelEquals",
-      "text": "\\stackrel{!}{=}",
-      "value": "\\stackrel{}{}",
-      "caretPosition": 10
+      "lbl": "\\stackrel{!}{=}",
+      "val": "\\stackrel{}{}",
+      "caretPos": 10
     },
     {
       "name": "Atop",
-      "text": "a \\atop b",
-      "value": "\\atop "
+      "lbl": "a \\atop b",
+      "val": "\\atop "
     },
     {
       "name": "Superscript (Exponent)",
-      "text": "e^x",
-      "value": "^{}",
-      "caretPosition": 2
+      "lbl": "e^x",
+      "val": "^{}",
+      "caretPos": 2
     },
     {
       "name": "OversetEquals",
-      "text": "\\overset{!}{=}",
-      "value": "\\overset{}{}",
-      "caretPosition": 9
+      "lbl": "\\overset{!}{=}",
+      "val": "\\overset{}{}",
+      "caretPos": 9
     },
     {
       "name": "Raisebox",
-      "text": "a\\raisebox{0.25em}{$b$}c",
-      "value": "\\raisebox{0em}{$$}",
-      "caretPosition": 11
+      "lbl": "a\\raisebox{0.25em}{$b$}c",
+      "val": "\\raisebox{0em}{$$}",
+      "caretPos": 11
     },
     {
       "name": "UnderscoreSuperscript",
-      "text": "_u^o",
-      "value": "_u^o",
-      "caretPosition": 2
+      "lbl": "_u^o",
+      "val": "_u^o",
+      "caretPos": 2
     },
     {
       "name": "UndersetEquals",
-      "text": "\\underset{!}{=}",
-      "value": "\\underset{}{}",
-      "caretPosition": 10
+      "lbl": "\\underset{!}{=}",
+      "val": "\\underset{}{}",
+      "caretPos": 10
     },
     {
       "name": "ComplexAtop",
-      "text": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)",
-      "value": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)"
+      "lbl": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)",
+      "val": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)"
     },
     {
       "name": "SumSubstack",
-      "text": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
-      "value": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
-      "isBlockMath": true
+      "lbl": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "val": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "isBlkMath": true
     }
   ]
 }

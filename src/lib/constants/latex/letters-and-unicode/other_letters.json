@@ -1,216 +1,216 @@
 {
   "title": "Other Letters",
-  "displayLength": 5,
+  "dispLen": 5,
   "symbols": [
     {
       "name": "imath",
-      "text": "\\imath",
-      "value": "\\imath "
+      "lbl": "\\imath",
+      "val": "\\imath "
     },
     {
       "name": "nabla",
-      "text": "\\nabla",
-      "value": "\\nabla "
+      "lbl": "\\nabla",
+      "val": "\\nabla "
     },
     {
       "name": "Im",
-      "text": "\\Im",
-      "value": "\\Im "
+      "lbl": "\\Im",
+      "val": "\\Im "
     },
     {
       "name": "Reals",
-      "text": "\\Reals",
-      "value": "\\Reals "
+      "lbl": "\\Reals",
+      "val": "\\Reals "
     },
     {
       "name": "OE",
-      "text": "\\text{\\OE}",
-      "value": "\\text{\\OE} "
+      "lbl": "\\text{\\OE}",
+      "val": "\\text{\\OE} "
     },
     {
       "name": "jmath",
-      "text": "\\jmath",
-      "value": "\\jmath "
+      "lbl": "\\jmath",
+      "val": "\\jmath "
     },
     {
       "name": "partial",
-      "text": "\\partial",
-      "value": "\\partial "
+      "lbl": "\\partial",
+      "val": "\\partial "
     },
     {
       "name": "image",
-      "text": "\\image",
-      "value": "\\image "
+      "lbl": "\\image",
+      "val": "\\image "
     },
     {
       "name": "wp",
-      "text": "\\wp",
-      "value": "\\wp "
+      "lbl": "\\wp",
+      "val": "\\wp "
     },
     {
       "name": "o",
-      "text": "\\text{\\o}",
-      "value": "\\text{\\o} "
+      "lbl": "\\text{\\o}",
+      "val": "\\text{\\o} "
     },
     {
       "name": "aleph",
-      "text": "\\aleph",
-      "value": "\\aleph "
+      "lbl": "\\aleph",
+      "val": "\\aleph "
     },
     {
       "name": "Game",
-      "text": "\\Game",
-      "value": "\\Game "
+      "lbl": "\\Game",
+      "val": "\\Game "
     },
     {
       "name": "Bbbk",
-      "text": "\\Bbbk",
-      "value": "\\Bbbk "
+      "lbl": "\\Bbbk",
+      "val": "\\Bbbk "
     },
     {
       "name": "weierp",
-      "text": "\\weierp",
-      "value": "\\weierp "
+      "lbl": "\\weierp",
+      "val": "\\weierp "
     },
     {
       "name": "O",
-      "text": "\\text{\\O}",
-      "value": "\\text{\\O} "
+      "lbl": "\\text{\\O}",
+      "val": "\\text{\\O} "
     },
     {
       "name": "alef",
-      "text": "\\alef",
-      "value": "\\alef "
+      "lbl": "\\alef",
+      "val": "\\alef "
     },
     {
       "name": "Finv",
-      "text": "\\Finv",
-      "value": "\\Finv "
+      "lbl": "\\Finv",
+      "val": "\\Finv "
     },
     {
       "name": "N",
-      "text": "\\N",
-      "value": "\\N "
+      "lbl": "\\N",
+      "val": "\\N "
     },
     {
       "name": "Z",
-      "text": "\\Z",
-      "value": "\\Z "
+      "lbl": "\\Z",
+      "val": "\\Z "
     },
     {
       "name": "ss",
-      "text": "\\text{\\ss}",
-      "value": "\\text{\\ss} "
+      "lbl": "\\text{\\ss}",
+      "val": "\\text{\\ss} "
     },
     {
       "name": "alefsym",
-      "text": "\\alefsym",
-      "value": "\\alefsym "
+      "lbl": "\\alefsym",
+      "val": "\\alefsym "
     },
     {
       "name": "cnums",
-      "text": "\\cnums",
-      "value": "\\cnums "
+      "lbl": "\\cnums",
+      "val": "\\cnums "
     },
     {
       "name": "natnums",
-      "text": "\\natnums",
-      "value": "\\natnums "
+      "lbl": "\\natnums",
+      "val": "\\natnums "
     },
     {
       "name": "aa",
-      "text": "\\text{\\aa}",
-      "value": "\\text{\\aa} "
+      "lbl": "\\text{\\aa}",
+      "val": "\\text{\\aa} "
     },
     {
       "name": "i",
-      "text": "\\text{\\i}",
-      "value": "\\text{\\i} "
+      "lbl": "\\text{\\i}",
+      "val": "\\text{\\i} "
     },
     {
       "name": "beth",
-      "text": "\\beth",
-      "value": "\\beth "
+      "lbl": "\\beth",
+      "val": "\\beth "
     },
     {
       "name": "Complex",
-      "text": "\\Complex",
-      "value": "\\Complex "
+      "lbl": "\\Complex",
+      "val": "\\Complex "
     },
     {
       "name": "R",
-      "text": "\\R",
-      "value": "\\R "
+      "lbl": "\\R",
+      "val": "\\R "
     },
     {
       "name": "AA",
-      "text": "\\text{\\AA}",
-      "value": "\\text{\\AA} "
+      "lbl": "\\text{\\AA}",
+      "val": "\\text{\\AA} "
     },
     {
       "name": "j",
-      "text": "\\text{\\j}",
-      "value": "\\text{\\j} "
+      "lbl": "\\text{\\j}",
+      "val": "\\text{\\j} "
     },
     {
       "name": "gimel",
-      "text": "\\gimel",
-      "value": "\\gimel "
+      "lbl": "\\gimel",
+      "val": "\\gimel "
     },
     {
       "name": "ell",
-      "text": "\\ell",
-      "value": "\\ell "
+      "lbl": "\\ell",
+      "val": "\\ell "
     },
     {
       "name": "Re",
-      "text": "\\Re",
-      "value": "\\Re "
+      "lbl": "\\Re",
+      "val": "\\Re "
     },
     {
       "name": "ae",
-      "text": "\\text{\\ae}",
-      "value": "\\text{\\ae} "
+      "lbl": "\\text{\\ae}",
+      "val": "\\text{\\ae} "
     },
     {
       "name": "daleth",
-      "text": "\\daleth",
-      "value": "\\daleth "
+      "lbl": "\\daleth",
+      "val": "\\daleth "
     },
     {
       "name": "hbar",
-      "text": "\\hbar",
-      "value": "\\hbar "
+      "lbl": "\\hbar",
+      "val": "\\hbar "
     },
     {
       "name": "real",
-      "text": "\\real",
-      "value": "\\real "
+      "lbl": "\\real",
+      "val": "\\real "
     },
     {
       "name": "AE",
-      "text": "\\text{\\AE}",
-      "value": "\\text{\\AE} "
+      "lbl": "\\text{\\AE}",
+      "val": "\\text{\\AE} "
     },
     {
       "name": "eth",
-      "text": "\\eth",
-      "value": "\\eth "
+      "lbl": "\\eth",
+      "val": "\\eth "
     },
     {
       "name": "hslash",
-      "text": "\\hslash",
-      "value": "\\hslash "
+      "lbl": "\\hslash",
+      "val": "\\hslash "
     },
     {
       "name": "reals",
-      "text": "\\reals",
-      "value": "\\reals "
+      "lbl": "\\reals",
+      "val": "\\reals "
     },
     {
       "name": "oe",
-      "text": "\\text{\\oe}",
-      "value": "\\text{\\oe} "
+      "lbl": "\\text{\\oe}",
+      "val": "\\text{\\oe} "
     }
   ]
 }

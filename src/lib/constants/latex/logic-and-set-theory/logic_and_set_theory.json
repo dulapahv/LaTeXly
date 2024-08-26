@@ -1,146 +1,146 @@
 {
   "title": "Logic and Set Theory",
-  "displayLength": 6,
+  "dispLen": 6,
   "symbols": [
     {
       "name": "For All",
-      "text": "\\forall",
-      "value": "\\forall "
+      "lbl": "\\forall",
+      "val": "\\forall "
     },
     {
       "name": "Complement",
-      "text": "\\complement",
-      "value": "\\complement "
+      "lbl": "\\complement",
+      "val": "\\complement "
     },
     {
       "name": "Therefore",
-      "text": "\\therefore",
-      "value": "\\therefore "
+      "lbl": "\\therefore",
+      "val": "\\therefore "
     },
     {
       "name": "Empty Set",
-      "text": "\\emptyset",
-      "value": "\\emptyset "
+      "lbl": "\\emptyset",
+      "val": "\\emptyset "
     },
     {
       "name": "Exists",
-      "text": "\\exists",
-      "value": "\\exists "
+      "lbl": "\\exists",
+      "val": "\\exists "
     },
     {
       "name": "Subset",
-      "text": "\\subset",
-      "value": "\\subset "
+      "lbl": "\\subset",
+      "val": "\\subset "
     },
     {
       "name": "Because",
-      "text": "\\because",
-      "value": "\\because "
+      "lbl": "\\because",
+      "val": "\\because "
     },
     {
       "name": "Empty",
-      "text": "\\empty",
-      "value": "\\empty "
+      "lbl": "\\empty",
+      "val": "\\empty "
     },
     {
       "name": "Exist",
-      "text": "\\exist",
-      "value": "\\exist "
+      "lbl": "\\exist",
+      "val": "\\exist "
     },
     {
       "name": "Superset",
-      "text": "\\supset",
-      "value": "\\supset "
+      "lbl": "\\supset",
+      "val": "\\supset "
     },
     {
       "name": "Mapsto",
-      "text": "\\mapsto",
-      "value": "\\mapsto "
+      "lbl": "\\mapsto",
+      "val": "\\mapsto "
     },
     {
       "name": "Var Nothing",
-      "text": "\\varnothing",
-      "value": "\\varnothing "
+      "lbl": "\\varnothing",
+      "val": "\\varnothing "
     },
     {
       "name": "Nexists",
-      "text": "\\nexists",
-      "value": "\\nexists "
+      "lbl": "\\nexists",
+      "val": "\\nexists "
     },
     {
       "name": "Mid",
-      "text": "\\mid",
-      "value": "\\mid "
+      "lbl": "\\mid",
+      "val": "\\mid "
     },
     {
       "name": "To",
-      "text": "\\to",
-      "value": "\\to "
+      "lbl": "\\to",
+      "val": "\\to "
     },
     {
       "name": "Implies",
-      "text": "\\implies",
-      "value": "\\implies "
+      "lbl": "\\implies",
+      "val": "\\implies "
     },
     {
       "name": "In",
-      "text": "\\in",
-      "value": "\\in "
+      "lbl": "\\in",
+      "val": "\\in "
     },
     {
       "name": "Land",
-      "text": "\\land",
-      "value": "\\land "
+      "lbl": "\\land",
+      "val": "\\land "
     },
     {
       "name": "Gets",
-      "text": "\\gets",
-      "value": "\\gets "
+      "lbl": "\\gets",
+      "val": "\\gets "
     },
     {
       "name": "Implied By",
-      "text": "\\impliedby",
-      "value": "\\impliedby "
+      "lbl": "\\impliedby",
+      "val": "\\impliedby "
     },
     {
       "name": "Is In",
-      "text": "\\isin",
-      "value": "\\isin "
+      "lbl": "\\isin",
+      "val": "\\isin "
     },
     {
       "name": "Lor",
-      "text": "\\lor",
-      "value": "\\lor "
+      "lbl": "\\lor",
+      "val": "\\lor "
     },
     {
       "name": "Leftrightarrow",
-      "text": "\\leftrightarrow",
-      "value": "\\leftrightarrow "
+      "lbl": "\\leftrightarrow",
+      "val": "\\leftrightarrow "
     },
     {
       "name": "Iff",
-      "text": "\\iff",
-      "value": "\\iff "
+      "lbl": "\\iff",
+      "val": "\\iff "
     },
     {
       "name": "Not In",
-      "text": "\\notin",
-      "value": "\\notin "
+      "lbl": "\\notin",
+      "val": "\\notin "
     },
     {
       "name": "Contains",
-      "text": "\\ni",
-      "value": "\\ni "
+      "lbl": "\\ni",
+      "val": "\\ni "
     },
     {
       "name": "Not Contains",
-      "text": "\\notni",
-      "value": "\\notni "
+      "lbl": "\\notni",
+      "val": "\\notni "
     },
     {
       "name": "Negation",
-      "text": "\\neg",
-      "value": "\\neg "
+      "lbl": "\\neg",
+      "val": "\\neg "
     }
   ]
 }

@@ -1,193 +1,193 @@
 {
   "title": "Math Alphabets",
-  "displayLength": 4,
-  "squareButton": false,
+  "dispLen": 4,
+  "sqBtn": false,
   "symbols": [
     {
-      "name": "text",
-      "text": "\\text{Ab0}",
-      "value": "\\text{}",
-      "caretPosition": 6
+      "name": "lbl",
+      "lbl": "\\text{Ab0}",
+      "val": "\\text{}",
+      "caretPos": 6
     },
     {
       "name": "textbf",
-      "text": "\\textbf{Ab0}",
-      "value": "\\textbf{}",
-      "caretPosition": 8
+      "lbl": "\\textbf{Ab0}",
+      "val": "\\textbf{}",
+      "caretPos": 8
     },
     {
       "name": "textit",
-      "text": "\\textit{Ab0}",
-      "value": "\\textit{}",
-      "caretPosition": 8
+      "lbl": "\\textit{Ab0}",
+      "val": "\\textit{}",
+      "caretPos": 8
     },
     {
       "name": "texttt",
-      "text": "\\texttt{Ab0}",
-      "value": "\\texttt{}",
-      "caretPosition": 8
+      "lbl": "\\texttt{Ab0}",
+      "val": "\\texttt{}",
+      "caretPos": 8
     },
     {
       "name": "mathbf",
-      "text": "\\mathbf{Ab0}",
-      "value": "\\mathbf{}",
-      "caretPosition": 8
+      "lbl": "\\mathbf{Ab0}",
+      "val": "\\mathbf{}",
+      "caretPos": 8
     },
     {
       "name": "mathbb",
-      "text": "\\mathbb{Ab0}",
-      "value": "\\mathbb{}",
-      "caretPosition": 8
+      "lbl": "\\mathbb{Ab0}",
+      "val": "\\mathbb{}",
+      "caretPos": 8
     },
     {
       "name": "mathrm",
-      "text": "\\mathrm{Ab0}",
-      "value": "\\mathrm{}",
-      "caretPosition": 8
+      "lbl": "\\mathrm{Ab0}",
+      "val": "\\mathrm{}",
+      "caretPos": 8
     },
     {
       "name": "textsf",
-      "text": "\\textsf{Ab0}",
-      "value": "\\textsf{}",
-      "caretPosition": 8
+      "lbl": "\\textsf{Ab0}",
+      "val": "\\textsf{}",
+      "caretPos": 8
     },
     {
       "name": "mathsf",
-      "text": "\\mathsf{Ab0}",
-      "value": "\\mathsf{}",
-      "caretPosition": 8
+      "lbl": "\\mathsf{Ab0}",
+      "val": "\\mathsf{}",
+      "caretPos": 8
     },
     {
       "name": "textrm",
-      "text": "\\textrm{Ab0}",
-      "value": "\\textrm{}",
-      "caretPosition": 8
+      "lbl": "\\textrm{Ab0}",
+      "val": "\\textrm{}",
+      "caretPos": 8
     },
     {
       "name": "mathnormal",
-      "text": "\\mathnormal{Ab0}",
-      "value": "\\mathnormal{}",
-      "caretPosition": 12
+      "lbl": "\\mathnormal{Ab0}",
+      "val": "\\mathnormal{}",
+      "caretPos": 12
     },
     {
       "name": "textnormal",
-      "text": "\\textnormal{Ab0}",
-      "value": "\\textnormal{}",
-      "caretPosition": 12
+      "lbl": "\\textnormal{Ab0}",
+      "val": "\\textnormal{}",
+      "caretPos": 12
     },
     {
       "name": "textup",
-      "text": "\\textup{Ab0}",
-      "value": "\\textup{}",
-      "caretPosition": 8
+      "lbl": "\\textup{Ab0}",
+      "val": "\\textup{}",
+      "caretPos": 8
     },
     {
       "name": "textmd",
-      "text": "\\textmd{Ab0}",
-      "value": "\\textmd{}",
-      "caretPosition": 8
+      "lbl": "\\textmd{Ab0}",
+      "val": "\\textmd{}",
+      "caretPos": 8
     },
     {
       "name": "mathtt",
-      "text": "\\mathtt{Ab0}",
-      "value": "\\mathtt{}",
-      "caretPosition": 8
+      "lbl": "\\mathtt{Ab0}",
+      "val": "\\mathtt{}",
+      "caretPos": 8
     },
     {
       "name": "bm",
-      "text": "\\bm{Ab0}",
-      "value": "\\bm{}",
-      "caretPosition": 4
+      "lbl": "\\bm{Ab0}",
+      "val": "\\bm{}",
+      "caretPos": 4
     },
     {
       "name": "boldsymbol",
-      "text": "\\boldsymbol{Ab0}",
-      "value": "\\boldsymbol{}",
-      "caretPosition": 12
+      "lbl": "\\boldsymbol{Ab0}",
+      "val": "\\boldsymbol{}",
+      "caretPos": 12
     },
     {
       "name": "mathfrak",
-      "text": "\\mathfrak{Ab0}",
-      "value": "\\mathfrak{}",
-      "caretPosition": 10
+      "lbl": "\\mathfrak{Ab0}",
+      "val": "\\mathfrak{}",
+      "caretPos": 10
     },
     {
       "name": "mathcal",
-      "text": "\\mathcal{Ab0}",
-      "value": "\\mathcal{}",
-      "caretPosition": 9
+      "lbl": "\\mathcal{Ab0}",
+      "val": "\\mathcal{}",
+      "caretPos": 9
     },
     {
       "name": "mathscr",
-      "text": "\\mathscr{Ab0}",
-      "value": "\\mathscr{}",
-      "caretPosition": 9
+      "lbl": "\\mathscr{Ab0}",
+      "val": "\\mathscr{}",
+      "caretPos": 9
     },
     {
       "name": "mathit",
-      "text": "\\mathit{Ab0}",
-      "value": "\\mathit{}",
-      "caretPosition": 8
+      "lbl": "\\mathit{Ab0}",
+      "val": "\\mathit{}",
+      "caretPos": 8
     },
     {
       "name": "emph",
-      "text": "\\emph{Ab0}",
-      "value": "\\emph{}",
-      "caretPosition": 6
+      "lbl": "\\emph{Ab0}",
+      "val": "\\emph{}",
+      "caretPos": 6
     },
     {
       "name": "Bbb (Legacy)",
-      "text": "\\Bbb{Ab0}",
-      "value": "\\Bbb{}",
-      "caretPosition": 5
+      "lbl": "\\Bbb{Ab0}",
+      "val": "\\Bbb{}",
+      "caretPos": 5
     },
     {
       "name": "frak (Legacy)",
-      "text": "\\frak{Ab0}",
-      "value": "\\frak{}",
-      "caretPosition": 6
+      "lbl": "\\frak{Ab0}",
+      "val": "\\frak{}",
+      "caretPos": 6
     },
     {
       "name": "bf (Legacy)",
-      "text": "\\bf{Ab0}",
-      "value": "\\bf{}",
-      "caretPosition": 4
+      "lbl": "\\bf{Ab0}",
+      "val": "\\bf{}",
+      "caretPos": 4
     },
     {
       "name": "sf (Legacy)",
-      "text": "\\sf{Ab0}",
-      "value": "\\sf{}",
-      "caretPosition": 4
+      "lbl": "\\sf{Ab0}",
+      "val": "\\sf{}",
+      "caretPos": 4
     },
     {
       "name": "rm (Legacy)",
-      "text": "\\rm{Ab0}",
-      "value": "\\rm{}",
-      "caretPosition": 4
+      "lbl": "\\rm{Ab0}",
+      "val": "\\rm{}",
+      "caretPos": 4
     },
     {
       "name": "bold (Legacy)",
-      "text": "\\bold{Ab0}",
-      "value": "\\bold{}",
-      "caretPosition": 6
+      "lbl": "\\bold{Ab0}",
+      "val": "\\bold{}",
+      "caretPos": 6
     },
     {
       "name": "cal (Legacy)",
-      "text": "\\cal{Ab0}",
-      "value": "\\cal{}",
-      "caretPosition": 5
+      "lbl": "\\cal{Ab0}",
+      "val": "\\cal{}",
+      "caretPos": 5
     },
     {
       "name": "it (Legacy)",
-      "text": "\\it{Ab0}",
-      "value": "\\it{}",
-      "caretPosition": 4
+      "lbl": "\\it{Ab0}",
+      "val": "\\it{}",
+      "caretPos": 4
     },
     {
       "name": "tt (Legacy)",
-      "text": "\\tt{Ab0}",
-      "value": "\\tt{}",
-      "caretPosition": 4
+      "lbl": "\\tt{Ab0}",
+      "val": "\\tt{}",
+      "caretPos": 4
     }
   ]
 }

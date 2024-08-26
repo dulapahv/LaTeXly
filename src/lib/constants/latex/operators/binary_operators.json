@@ -1,349 +1,349 @@
 {
   "title": "Binary Operators",
-  "displayLength": 8,
+  "dispLen": 8,
   "symbols": [
     {
       "name": "Plus",
-      "text": "+",
-      "value": "+"
+      "lbl": "+",
+      "val": "+"
     },
     {
       "name": "Center Dot",
-      "text": "\\cdot",
-      "value": "\\cdot "
+      "lbl": "\\cdot",
+      "val": "\\cdot "
     },
     {
       "name": "Greater Dot",
-      "text": "\\gtrdot",
-      "value": "\\gtrdot "
+      "lbl": "\\gtrdot",
+      "val": "\\gtrdot "
     },
     {
       "name": "P Mod",
-      "text": "\\scriptsize\\text{(\\!mod\\!)}",
-      "value": " \\pmod{}",
-      "caretPosition": 7
+      "lbl": "\\scriptsize\\text{(\\!mod\\!)}",
+      "val": " \\pmod{}",
+      "caretPos": 7
     },
     {
       "name": "Minus",
-      "text": "-",
-      "value": "-"
+      "lbl": "-",
+      "val": "-"
     },
     {
       "name": "Center Dot P",
-      "text": "\\cdotp",
-      "value": "\\cdotp "
+      "lbl": "\\cdotp",
+      "val": "\\cdotp "
     },
     {
       "name": "Intercal",
-      "text": "\\intercal",
-      "value": "\\intercal "
+      "lbl": "\\intercal",
+      "val": "\\intercal "
     },
     {
       "name": "Pod",
-      "text": "\\scriptsize x \\pod{a}",
-      "value": " \\pod{}",
-      "caretPosition": 6
+      "lbl": "\\scriptsize x \\pod{a}",
+      "val": " \\pod{}",
+      "caretPos": 6
     },
     {
       "name": "Slash",
-      "text": "/",
-      "value": "/"
+      "lbl": "/",
+      "val": "/"
     },
     {
       "name": "Center Dot Alt",
-      "text": "\\centerdot",
-      "value": "\\centerdot "
+      "lbl": "\\centerdot",
+      "val": "\\centerdot "
     },
     {
       "name": "Logical And",
-      "text": "\\land",
-      "value": "\\land "
+      "lbl": "\\land",
+      "val": "\\land "
     },
     {
       "name": "RHD",
-      "text": "\\rhd",
-      "value": "\\rhd "
+      "lbl": "\\rhd",
+      "val": "\\rhd "
     },
     {
       "name": "Asterisk",
-      "text": "*",
-      "value": "*"
+      "lbl": "*",
+      "val": "*"
     },
     {
       "name": "Circle",
-      "text": "\\circ",
-      "value": "\\circ "
+      "lbl": "\\circ",
+      "val": "\\circ "
     },
     {
       "name": "Left Three Times",
-      "text": "\\leftthreetimes",
-      "value": "\\leftthreetimes "
+      "lbl": "\\leftthreetimes",
+      "val": "\\leftthreetimes "
     },
     {
       "name": "Right Three Times",
-      "text": "\\rightthreetimes",
-      "value": "\\rightthreetimes "
+      "lbl": "\\rightthreetimes",
+      "val": "\\rightthreetimes "
     },
     {
       "name": "Amalgam",
-      "text": "\\amalg",
-      "value": "\\amalg "
+      "lbl": "\\amalg",
+      "val": "\\amalg "
     },
     {
       "name": "Circled Asterisk",
-      "text": "\\circledast",
-      "value": "\\circledast "
+      "lbl": "\\circledast",
+      "val": "\\circledast "
     },
     {
       "name": "LDOTP",
-      "text": "\\ldotp",
-      "value": "\\ldotp "
+      "lbl": "\\ldotp",
+      "val": "\\ldotp "
     },
     {
       "name": "Right Times",
-      "text": "\\rtimes",
-      "value": "\\rtimes "
+      "lbl": "\\rtimes",
+      "val": "\\rtimes "
     },
     {
       "name": "And",
-      "text": "\\And",
-      "value": "\\And "
+      "lbl": "\\And",
+      "val": "\\And "
     },
     {
       "name": "Circled Circle",
-      "text": "\\circledcirc",
-      "value": "\\circledcirc "
+      "lbl": "\\circledcirc",
+      "val": "\\circledcirc "
     },
     {
       "name": "Logical Or",
-      "text": "\\lor",
-      "value": "\\lor "
+      "lbl": "\\lor",
+      "val": "\\lor "
     },
     {
       "name": "Set Minus",
-      "text": "\\setminus",
-      "value": "\\setminus "
+      "lbl": "\\setminus",
+      "val": "\\setminus "
     },
     {
       "name": "Asterisk Alt",
-      "text": "\\ast",
-      "value": "\\ast "
+      "lbl": "\\ast",
+      "val": "\\ast "
     },
     {
       "name": "Circled Dash",
-      "text": "\\circleddash",
-      "value": "\\circleddash "
+      "lbl": "\\circleddash",
+      "val": "\\circleddash "
     },
     {
       "name": "Less Dot",
-      "text": "\\lessdot",
-      "value": "\\lessdot "
+      "lbl": "\\lessdot",
+      "val": "\\lessdot "
     },
     {
       "name": "Small Set Minus",
-      "text": "\\smallsetminus",
-      "value": "\\smallsetminus "
+      "lbl": "\\smallsetminus",
+      "val": "\\smallsetminus "
     },
     {
       "name": "Bar Wedge",
-      "text": "\\barwedge",
-      "value": "\\barwedge "
+      "lbl": "\\barwedge",
+      "val": "\\barwedge "
     },
     {
       "name": "Cup",
-      "text": "\\Cup",
-      "value": "\\Cup "
+      "lbl": "\\Cup",
+      "val": "\\Cup "
     },
     {
       "name": "LHD",
-      "text": "\\lhd",
-      "value": "\\lhd "
+      "lbl": "\\lhd",
+      "val": "\\lhd "
     },
     {
       "name": "Square Cap",
-      "text": "\\sqcap",
-      "value": "\\sqcap "
+      "lbl": "\\sqcap",
+      "val": "\\sqcap "
     },
     {
       "name": "Big Circle",
-      "text": "\\bigcirc",
-      "value": "\\bigcirc "
+      "lbl": "\\bigcirc",
+      "val": "\\bigcirc "
     },
     {
       "name": "Union",
-      "text": "\\cup",
-      "value": "\\cup "
+      "lbl": "\\cup",
+      "val": "\\cup "
     },
     {
       "name": "Left Times",
-      "text": "\\ltimes",
-      "value": "\\ltimes "
+      "lbl": "\\ltimes",
+      "val": "\\ltimes "
     },
     {
       "name": "Square Cup",
-      "text": "\\sqcup",
-      "value": "\\sqcup "
+      "lbl": "\\sqcup",
+      "val": "\\sqcup "
     },
     {
       "name": "B Mod",
-      "text": "\\scriptsize\\text{mod}",
-      "value": " \\bmod "
+      "lbl": "\\scriptsize\\text{mod}",
+      "val": " \\bmod "
     },
     {
       "name": "Curly Vee",
-      "text": "\\curlyvee",
-      "value": "\\curlyvee "
+      "lbl": "\\curlyvee",
+      "val": "\\curlyvee "
     },
     {
       "name": "X Mod A",
-      "text": "\\scriptsize\\text{mod}",
-      "value": " \\mod{}",
-      "caretPosition": 6
+      "lbl": "\\scriptsize\\text{mod}",
+      "val": " \\mod{}",
+      "caretPos": 6
     },
     {
       "name": "Times",
-      "text": "\\times",
-      "value": "\\times "
+      "lbl": "\\times",
+      "val": "\\times "
     },
     {
       "name": "Box Dot",
-      "text": "\\boxdot",
-      "value": "\\boxdot "
+      "lbl": "\\boxdot",
+      "val": "\\boxdot "
     },
     {
       "name": "Curly Wedge",
-      "text": "\\curlywedge",
-      "value": "\\curlywedge "
+      "lbl": "\\curlywedge",
+      "val": "\\curlywedge "
     },
     {
       "name": "Minus Plus",
-      "text": "\\mp",
-      "value": "\\mp "
+      "lbl": "\\mp",
+      "val": "\\mp "
     },
     {
       "name": "UNLHD",
-      "text": "\\unlhd",
-      "value": "\\unlhd "
+      "lbl": "\\unlhd",
+      "val": "\\unlhd "
     },
     {
       "name": "Box Minus",
-      "text": "\\boxminus",
-      "value": "\\boxminus "
+      "lbl": "\\boxminus",
+      "val": "\\boxminus "
     },
     {
       "name": "Divide",
-      "text": "\\div",
-      "value": "\\div "
+      "lbl": "\\div",
+      "val": "\\div "
     },
     {
       "name": "ODOT",
-      "text": "\\odot",
-      "value": "\\odot "
+      "lbl": "\\odot",
+      "val": "\\odot "
     },
     {
       "name": "UNRHD",
-      "text": "\\unrhd",
-      "value": "\\unrhd "
+      "lbl": "\\unrhd",
+      "val": "\\unrhd "
     },
     {
       "name": "Box Plus",
-      "text": "\\boxplus",
-      "value": "\\boxplus "
+      "lbl": "\\boxplus",
+      "val": "\\boxplus "
     },
     {
       "name": "Divide on Times",
-      "text": "\\divideontimes",
-      "value": "\\divideontimes "
+      "lbl": "\\divideontimes",
+      "val": "\\divideontimes "
     },
     {
       "name": "OMINUS",
-      "text": "\\ominus",
-      "value": "\\ominus "
+      "lbl": "\\ominus",
+      "val": "\\ominus "
     },
     {
       "name": "U Plus",
-      "text": "\\uplus",
-      "value": "\\uplus "
+      "lbl": "\\uplus",
+      "val": "\\uplus "
     },
     {
       "name": "Box Times",
-      "text": "\\boxtimes",
-      "value": "\\boxtimes "
+      "lbl": "\\boxtimes",
+      "val": "\\boxtimes "
     },
     {
       "name": "Dot Plus",
-      "text": "\\dotplus",
-      "value": "\\dotplus "
+      "lbl": "\\dotplus",
+      "val": "\\dotplus "
     },
     {
       "name": "OPLUS",
-      "text": "\\oplus",
-      "value": "\\oplus "
+      "lbl": "\\oplus",
+      "val": "\\oplus "
     },
     {
       "name": "Logical Or Alt",
-      "text": "\\vee",
-      "value": "\\vee "
+      "lbl": "\\vee",
+      "val": "\\vee "
     },
     {
       "name": "Bullet",
-      "text": "\\bullet",
-      "value": "\\bullet "
+      "lbl": "\\bullet",
+      "val": "\\bullet "
     },
     {
       "name": "Double Bar Wedge",
-      "text": "\\doublebarwedge",
-      "value": "\\doublebarwedge "
+      "lbl": "\\doublebarwedge",
+      "val": "\\doublebarwedge "
     },
     {
       "name": "OTIMES",
-      "text": "\\otimes",
-      "value": "\\otimes "
+      "lbl": "\\otimes",
+      "val": "\\otimes "
     },
     {
       "name": "Vee Bar",
-      "text": "\\veebar",
-      "value": "\\veebar "
+      "lbl": "\\veebar",
+      "val": "\\veebar "
     },
     {
       "name": "Cap",
-      "text": "\\Cap",
-      "value": "\\Cap "
+      "lbl": "\\Cap",
+      "val": "\\Cap "
     },
     {
       "name": "Double Cap",
-      "text": "\\doublecap",
-      "value": "\\doublecap "
+      "lbl": "\\doublecap",
+      "val": "\\doublecap "
     },
     {
       "name": "OSLASH",
-      "text": "\\oslash",
-      "value": "\\oslash "
+      "lbl": "\\oslash",
+      "val": "\\oslash "
     },
     {
       "name": "Wedge",
-      "text": "\\wedge",
-      "value": "\\wedge "
+      "lbl": "\\wedge",
+      "val": "\\wedge "
     },
     {
       "name": "Cap Alt",
-      "text": "\\cap",
-      "value": "\\cap "
+      "lbl": "\\cap",
+      "val": "\\cap "
     },
     {
       "name": "Double Cup",
-      "text": "\\doublecup",
-      "value": "\\doublecup "
+      "lbl": "\\doublecup",
+      "val": "\\doublecup "
     },
     {
       "name": "Plus Minus",
-      "text": "\\pm",
-      "value": "\\pm "
+      "lbl": "\\pm",
+      "val": "\\pm "
     },
     {
       "name": "WR",
-      "text": "\\wr",
-      "value": "\\wr "
+      "lbl": "\\wr",
+      "val": "\\wr "
     }
   ]
 }

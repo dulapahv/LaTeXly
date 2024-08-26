@@ -1,72 +1,72 @@
 {
   "title": "Annotation",
-  "displayLength": 4,
-  "squareButton": false,
+  "dispLen": 4,
+  "sqBtn": false,
   "symbols": [
     {
       "name": "Overbrace",
-      "text": "\\overbrace{a+b+c}^{\\text{note}}",
-      "value": "\\overbrace{}^{\\text{}}",
-      "caretPosition": 11
+      "lbl": "\\overbrace{a+b+c}^{\\text{note}}",
+      "val": "\\overbrace{}^{\\text{}}",
+      "caretPos": 11
     },
     {
       "name": "Cancel",
-      "text": "\\cancel{5}",
-      "value": "\\cancel{}",
-      "caretPosition": 8
+      "lbl": "\\cancel{5}",
+      "val": "\\cancel{}",
+      "caretPos": 8
     },
     {
       "name": "Phase",
-      "text": "\\phase{-78^\\circ}",
-      "value": "\\phase{^\\circ} ",
-      "caretPosition": 7
+      "lbl": "\\phase{-78^\\circ}",
+      "val": "\\phase{^\\circ} ",
+      "caretPos": 7
     },
     {
       "name": "Sout",
-      "text": "\\sout{abc}",
-      "value": "\\sout{}",
-      "caretPosition": 6
+      "lbl": "\\sout{abc}",
+      "val": "\\sout{}",
+      "caretPos": 6
     },
     {
       "name": "Underbrace",
-      "text": "\\underbrace{a+b+c}_{\\text{note}}",
-      "value": "\\underbrace{}_{\\text{}}",
-      "caretPosition": 12
+      "lbl": "\\underbrace{a+b+c}_{\\text{note}}",
+      "val": "\\underbrace{}_{\\text{}}",
+      "caretPos": 12
     },
     {
       "name": "B Cancel",
-      "text": "\\bcancel{5}",
-      "value": "\\bcancel{}",
-      "caretPosition": 9
+      "lbl": "\\bcancel{5}",
+      "val": "\\bcancel{}",
+      "caretPos": 9
     },
     {
       "name": "X Cancel",
-      "text": "\\xcancel{ABC}",
-      "value": "\\xcancel{}",
-      "caretPosition": 9
+      "lbl": "\\xcancel{ABC}",
+      "val": "\\xcancel{}",
+      "caretPos": 9
     },
     {
       "name": "Not Equal",
-      "text": "\\not =",
-      "value": "\\not = "
+      "lbl": "\\not =",
+      "val": "\\not = "
     },
     {
       "name": "Boxed",
-      "text": "\\boxed{\\pi=\\frac c d}",
-      "value": "\\boxed{}",
-      "caretPosition": 7
+      "lbl": "\\boxed{\\pi=\\frac c d}",
+      "val": "\\boxed{}",
+      "caretPos": 7
     },
     {
       "name": "Subscript Angle",
-      "text": "a_{\\angl n}",
-      "value": "_{\\angl }",
-      "caretPosition": 8
+      "lbl": "a_{\\angl n}",
+      "val": "_{\\angl }",
+      "caretPos": 8
     },
     {
       "name": "Subscript Angln",
-      "text": "a_\\angln",
-      "value": "_\\angln ",
-      "caretPosition": 8
+      "lbl": "a_\\angln",
+      "val": "_\\angln ",
+      "caretPos": 8
     }
   ]
 }
