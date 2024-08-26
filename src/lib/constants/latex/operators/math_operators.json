@@ -4,154 +4,9 @@
   "sqBtn": false,
   "symbols": [
     {
-      "name": "Arcsin",
-      "lbl": "\\arcsin",
-      "val": "\\arcsin "
-    },
-    {
-      "name": "Cosec",
-      "lbl": "\\cosec",
-      "val": "\\cosec "
-    },
-    {
-      "name": "Deg",
-      "lbl": "\\deg",
-      "val": "\\deg "
-    },
-    {
-      "name": "Sec",
-      "lbl": "\\sec",
-      "val": "\\sec "
-    },
-    {
-      "name": "Arccos",
-      "lbl": "\\arccos",
-      "val": "\\arccos "
-    },
-    {
-      "name": "Cosh",
-      "lbl": "\\cosh",
-      "val": "\\cosh "
-    },
-    {
-      "name": "Dim",
-      "lbl": "\\dim",
-      "val": "\\dim "
-    },
-    {
       "name": "Sin",
       "lbl": "\\sin",
       "val": "\\sin "
-    },
-    {
-      "name": "Arctan",
-      "lbl": "\\arctan",
-      "val": "\\arctan "
-    },
-    {
-      "name": "Cot",
-      "lbl": "\\cot",
-      "val": "\\cot "
-    },
-    {
-      "name": "Exp",
-      "lbl": "\\exp",
-      "val": "\\exp "
-    },
-    {
-      "name": "Sinh",
-      "lbl": "\\sinh",
-      "val": "\\sinh "
-    },
-    {
-      "name": "Arctg",
-      "lbl": "\\arctg",
-      "val": "\\arctg "
-    },
-    {
-      "name": "Cotg",
-      "lbl": "\\cotg",
-      "val": "\\cotg "
-    },
-    {
-      "name": "Hom",
-      "lbl": "\\hom",
-      "val": "\\hom "
-    },
-    {
-      "name": "Sh",
-      "lbl": "\\sh",
-      "val": "\\sh "
-    },
-    {
-      "name": "Arcctg",
-      "lbl": "\\arcctg",
-      "val": "\\arcctg "
-    },
-    {
-      "name": "Coth",
-      "lbl": "\\coth",
-      "val": "\\coth "
-    },
-    {
-      "name": "Ker",
-      "lbl": "\\ker",
-      "val": "\\ker "
-    },
-    {
-      "name": "Tan",
-      "lbl": "\\tan",
-      "val": "\\tan "
-    },
-    {
-      "name": "Arg",
-      "lbl": "\\arg",
-      "val": "\\arg "
-    },
-    {
-      "name": "Csc",
-      "lbl": "\\csc",
-      "val": "\\csc "
-    },
-    {
-      "name": "Lg",
-      "lbl": "\\lg",
-      "val": "\\lg "
-    },
-    {
-      "name": "Tanh",
-      "lbl": "\\tanh",
-      "val": "\\tanh "
-    },
-    {
-      "name": "Ch",
-      "lbl": "\\ch",
-      "val": "\\ch "
-    },
-    {
-      "name": "Ctg",
-      "lbl": "\\ctg",
-      "val": "\\ctg "
-    },
-    {
-      "name": "Ln",
-      "lbl": "\\ln",
-      "val": "\\ln "
-    },
-    {
-      "name": "Tg",
-      "lbl": "\\tg",
-      "val": "\\tg "
-    },
-    {
-      "name": "Cos",
-      "lbl": "\\cos",
-      "val": "\\cos "
-    },
-    {
-      "name": "Cth",
-      "lbl": "\\cth",
-      "val": "\\cth "
     },
     {
       "name": "Log",
@@ -159,55 +14,9 @@
       "val": "\\log "
     },
     {
-      "name": "Th",
-      "lbl": "\\th",
-      "val": "\\th "
-    },
-    {
-      "name": "Operator",
-      "lbl": "\\operatorname{f}",
-      "val": "\\operatorname{} ",
-      "caretPos": 14
-    },
-    {
-      "name": "Argmax",
-      "lbl": "\\argmax",
-      "val": "\\argmax "
-    },
-    {
-      "name": "Injlim",
-      "lbl": "\\injlim",
-      "val": "\\injlim "
-    },
-    {
-      "name": "Min",
-      "lbl": "\\min",
-      "val": "\\min "
-    },
-    {
-      "name": "Varinjlim",
-      "lbl": "\\varinjlim",
-      "val": "\\varinjlim "
-    },
-    {
-      "name": "Argmin",
-      "lbl": "\\argmin",
-      "val": "\\argmin "
-    },
-    {
       "name": "Lim",
       "lbl": "\\lim",
       "val": "\\lim "
-    },
-    {
-      "name": "Plim",
-      "lbl": "\\plim",
-      "val": "\\plim "
-    },
-    {
-      "name": "Varliminf",
-      "lbl": "\\varliminf",
-      "val": "\\varliminf "
     },
     {
       "name": "Det",
@@ -215,24 +24,34 @@
       "val": "\\det "
     },
     {
+      "name": "Cos",
+      "lbl": "\\cos",
+      "val": "\\cos "
+    },
+    {
+      "name": "Sinh",
+      "lbl": "\\sinh",
+      "val": "\\sinh "
+    },
+    {
       "name": "Liminf",
       "lbl": "\\liminf",
       "val": "\\liminf "
     },
     {
-      "name": "Pr",
-      "lbl": "\\Pr",
-      "val": "\\Pr "
+      "name": "Ln",
+      "lbl": "\\ln",
+      "val": "\\ln "
     },
     {
-      "name": "Varlimsup",
-      "lbl": "\\varlimsup",
-      "val": "\\varlimsup "
+      "name": "Tan",
+      "lbl": "\\tan",
+      "val": "\\tan "
     },
     {
-      "name": "Gcd",
-      "lbl": "\\gcd",
-      "val": "\\gcd "
+      "name": "Cosh",
+      "lbl": "\\cosh",
+      "val": "\\cosh "
     },
     {
       "name": "Limsup",
@@ -240,14 +59,44 @@
       "val": "\\limsup "
     },
     {
-      "name": "Projlim",
-      "lbl": "\\projlim",
-      "val": "\\projlim "
+      "name": "Gcd",
+      "lbl": "\\gcd",
+      "val": "\\gcd "
     },
     {
-      "name": "Varprojlim",
-      "lbl": "\\varprojlim",
-      "val": "\\varprojlim "
+      "name": "Cosec",
+      "lbl": "\\cosec",
+      "val": "\\cosec "
+    },
+    {
+      "name": "Tanh",
+      "lbl": "\\tanh",
+      "val": "\\tanh "
+    },
+    {
+      "name": "Injlim",
+      "lbl": "\\injlim",
+      "val": "\\injlim "
+    },
+    {
+      "name": "Deg",
+      "lbl": "\\deg",
+      "val": "\\deg "
+    },
+    {
+      "name": "Csc",
+      "lbl": "\\csc",
+      "val": "\\csc "
+    },
+    {
+      "name": "Coth",
+      "lbl": "\\coth",
+      "val": "\\coth "
+    },
+    {
+      "name": "Varinjlim",
+      "lbl": "\\varinjlim",
+      "val": "\\varinjlim "
     },
     {
       "name": "Inf",
@@ -255,14 +104,165 @@
       "val": "\\inf "
     },
     {
+      "name": "Sec",
+      "lbl": "\\sec",
+      "val": "\\sec "
+    },
+    {
+      "name": "Cotg",
+      "lbl": "\\cotg",
+      "val": "\\cotg "
+    },
+    {
+      "name": "Varliminf",
+      "lbl": "\\varliminf",
+      "val": "\\varliminf "
+    },
+    {
+      "name": "Min",
+      "lbl": "\\min",
+      "val": "\\min "
+    },
+    {
+      "name": "Cot",
+      "lbl": "\\cot",
+      "val": "\\cot "
+    },
+    {
+      "name": "Sh",
+      "lbl": "\\sh",
+      "val": "\\sh "
+    },
+    {
+      "name": "Varlimsup",
+      "lbl": "\\varlimsup",
+      "val": "\\varlimsup "
+    },
+    {
       "name": "Max",
       "lbl": "\\max",
       "val": "\\max "
     },
     {
+      "name": "Arcsin",
+      "lbl": "\\arcsin",
+      "val": "\\arcsin "
+    },
+    {
+      "name": "Lg",
+      "lbl": "\\lg",
+      "val": "\\lg "
+    },
+    {
+      "name": "Varprojlim",
+      "lbl": "\\varprojlim",
+      "val": "\\varprojlim "
+    },
+    {
+      "name": "Argmin",
+      "lbl": "\\argmin",
+      "val": "\\argmin "
+    },
+    {
+      "name": "Arccos",
+      "lbl": "\\arccos",
+      "val": "\\arccos "
+    },
+    {
+      "name": "Ch",
+      "lbl": "\\ch",
+      "val": "\\ch "
+    },
+    {
+      "name": "Projlim",
+      "lbl": "\\projlim",
+      "val": "\\projlim "
+    },
+    {
+      "name": "Argmax",
+      "lbl": "\\argmax",
+      "val": "\\argmax "
+    },
+    {
+      "name": "Arctan",
+      "lbl": "\\arctan",
+      "val": "\\arctan "
+    },
+    {
+      "name": "Ctg",
+      "lbl": "\\ctg",
+      "val": "\\ctg "
+    },
+    {
+      "name": "Plim",
+      "lbl": "\\plim",
+      "val": "\\plim "
+    },
+    {
       "name": "Sup",
       "lbl": "\\sup",
       "val": "\\sup "
+    },
+    {
+      "name": "Arctg",
+      "lbl": "\\arctg",
+      "val": "\\arctg "
+    },
+    {
+      "name": "Cth",
+      "lbl": "\\cth",
+      "val": "\\cth "
+    },
+    {
+      "name": "Dim",
+      "lbl": "\\dim",
+      "val": "\\dim "
+    },
+    {
+      "name": "Pr",
+      "lbl": "\\Pr",
+      "val": "\\Pr "
+    },
+    {
+      "name": "Arcctg",
+      "lbl": "\\arcctg",
+      "val": "\\arcctg "
+    },
+    {
+      "name": "Tg",
+      "lbl": "\\tg",
+      "val": "\\tg "
+    },
+    {
+      "name": "Hom",
+      "lbl": "\\hom",
+      "val": "\\hom "
+    },
+    {
+      "name": "Exp",
+      "lbl": "\\exp",
+      "val": "\\exp "
+    },
+    {
+      "name": "Arg",
+      "lbl": "\\arg",
+      "val": "\\arg "
+    },
+    {
+      "name": "Th",
+      "lbl": "\\th",
+      "val": "\\th "
+    },
+    {
+      "name": "Ker",
+      "lbl": "\\ker",
+      "val": "\\ker "
+    },
+    {
+      "name": "Operator",
+      "lbl": "\\operatorname{f}",
+      "val": "\\operatorname{} ",
+      "caretPos": 14
     },
     {
       "name": "OperatorWithLimits",

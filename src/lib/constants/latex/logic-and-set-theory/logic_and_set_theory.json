@@ -1,11 +1,16 @@
 {
   "title": "Logic and Set Theory",
-  "dispLen": 6,
+  "dispLen": 5,
   "symbols": [
     {
       "name": "For All",
       "lbl": "\\forall",
       "val": "\\forall "
+    },
+    {
+      "name": "Subset",
+      "lbl": "\\subset",
+      "val": "\\subset "
     },
     {
       "name": "Complement",
@@ -28,9 +33,14 @@
       "val": "\\exists "
     },
     {
-      "name": "Subset",
-      "lbl": "\\subset",
-      "val": "\\subset "
+      "name": "Superset",
+      "lbl": "\\supset",
+      "val": "\\supset "
+    },
+    {
+      "name": "Mid",
+      "lbl": "\\mid",
+      "val": "\\mid "
     },
     {
       "name": "Because",
@@ -48,9 +58,14 @@
       "val": "\\exist "
     },
     {
-      "name": "Superset",
-      "lbl": "\\supset",
-      "val": "\\supset "
+      "name": "In",
+      "lbl": "\\in",
+      "val": "\\in "
+    },
+    {
+      "name": "Land",
+      "lbl": "\\land",
+      "val": "\\land "
     },
     {
       "name": "Mapsto",
@@ -68,41 +83,6 @@
       "val": "\\nexists "
     },
     {
-      "name": "Mid",
-      "lbl": "\\mid",
-      "val": "\\mid "
-    },
-    {
-      "name": "To",
-      "lbl": "\\to",
-      "val": "\\to "
-    },
-    {
-      "name": "Implies",
-      "lbl": "\\implies",
-      "val": "\\implies "
-    },
-    {
-      "name": "In",
-      "lbl": "\\in",
-      "val": "\\in "
-    },
-    {
-      "name": "Land",
-      "lbl": "\\land",
-      "val": "\\land "
-    },
-    {
-      "name": "Gets",
-      "lbl": "\\gets",
-      "val": "\\gets "
-    },
-    {
-      "name": "Implied By",
-      "lbl": "\\impliedby",
-      "val": "\\impliedby "
-    },
-    {
       "name": "Is In",
       "lbl": "\\isin",
       "val": "\\isin "
@@ -113,14 +93,14 @@
       "val": "\\lor "
     },
     {
-      "name": "Leftrightarrow",
-      "lbl": "\\leftrightarrow",
-      "val": "\\leftrightarrow "
+      "name": "To",
+      "lbl": "\\to",
+      "val": "\\to "
     },
     {
-      "name": "Iff",
-      "lbl": "\\iff",
-      "val": "\\iff "
+      "name": "Implies",
+      "lbl": "\\implies",
+      "val": "\\implies "
     },
     {
       "name": "Not In",
@@ -136,6 +116,26 @@
       "name": "Not Contains",
       "lbl": "\\notni",
       "val": "\\notni "
+    },
+    {
+      "name": "Gets",
+      "lbl": "\\gets",
+      "val": "\\gets "
+    },
+    {
+      "name": "Implied By",
+      "lbl": "\\impliedby",
+      "val": "\\impliedby "
+    },
+    {
+      "name": "Leftrightarrow",
+      "lbl": "\\leftrightarrow",
+      "val": "\\leftrightarrow "
+    },
+    {
+      "name": "Iff",
+      "lbl": "\\iff",
+      "val": "\\iff "
     },
     {
       "name": "Negation",
