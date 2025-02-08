@@ -353,11 +353,6 @@
       "val": "\\hArr "
     },
     {
-      "name": "Nleftrightarrow",
-      "lbl": "\\Nleftrightarrow",
-      "val": "\\Nleftrightarrow "
-    },
-    {
       "name": "Rightsquigarrow",
       "lbl": "\\rightsquigarrow",
       "val": "\\rightsquigarrow "
