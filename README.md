@@ -1,6 +1,6 @@
 # LaTeXly
 
-> Currently under development
+> Currently under development. I am currently near final exams, so I will not be able to work on this project until the end of May. I will try to finish it as soon as possible. Thank you for your understanding and trying out LaTeXly!
 
 **Try it out at [latexly.dulapahv.dev](https://latexly.dulapahv.dev)**
 
