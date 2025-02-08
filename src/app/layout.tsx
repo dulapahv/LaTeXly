@@ -18,6 +18,8 @@ import { cn } from '@/utils/cn';
 
 import { Providers } from './providers';
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: SITE_NAME,
   description: SITE_DESCRIPTION,
