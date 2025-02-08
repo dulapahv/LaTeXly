@@ -1,1 +1,1 @@
-export * from "./latex-panel";
+export * from './latex-panel';

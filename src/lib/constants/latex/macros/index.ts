@@ -1,1 +1,1 @@
-export { default as macros } from "./marcos.json";
+export { default as macros } from './marcos.json';

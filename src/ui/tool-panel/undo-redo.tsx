@@ -1,5 +1,5 @@
-import { Button, Tooltip } from "@nextui-org/react";
-import { Redo2, Undo2 } from "lucide-react";
+import { Button, Tooltip } from '@heroui/react';
+import { Redo2, Undo2 } from 'lucide-react';
 
 export function UndoRedo() {
   return (
@@ -13,12 +13,12 @@ export function UndoRedo() {
         <Button
           onPress={() => {
             const editor = document.getElementById(
-              "editor",
+              'editor',
             ) as HTMLTextAreaElement;
             if (!editor) return;
 
             editor.focus();
-            document.execCommand("undo");
+            document.execCommand('undo');
           }}
           className="text-base"
           isIconOnly
@@ -38,12 +38,12 @@ export function UndoRedo() {
         <Button
           onPress={() => {
             const editor = document.getElementById(
-              "editor",
+              'editor',
             ) as HTMLTextAreaElement;
             if (!editor) return;
 
             editor.focus();
-            document.execCommand("redo");
+            document.execCommand('redo');
           }}
           className="text-base"
           isIconOnly

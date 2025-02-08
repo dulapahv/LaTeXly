@@ -3,7 +3,7 @@ export function insertToEditor(
   moveCaret: boolean = true,
   caretPos: number = 0,
 ) {
-  const editor = document.getElementById("editor") as HTMLTextAreaElement;
+  const editor = document.getElementById('editor') as HTMLTextAreaElement;
   if (!editor) return;
 
   editor.focus();
@@ -16,7 +16,7 @@ export function insertToEditor(
 
   if (moveCaret && caretPos === 0) caretPos = value.length;
 
-  document.execCommand("insertText", false, value);
+  document.execCommand('insertText', false, value);
 
   editor.selectionStart = start + caretPos;
   editor.selectionEnd = start + caretPos;

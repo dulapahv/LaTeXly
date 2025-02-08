@@ -2,21 +2,22 @@
  * Main page of the application
  */
 
-"use client";
+'use client';
 
-import { useEffect, useRef, useState } from "react";
-import { Button, Tooltip } from "@nextui-org/react";
-import { Copy, Download } from "lucide-react";
+import { useEffect, useRef, useState } from 'react';
 
-import { Banner } from "@/ui/banner";
-import { EditorPanel } from "@/ui/editor-panel";
-import { Footer } from "@/ui/footer";
-import { LaTeXPanel, latexPanelRef } from "@/ui/latex-panel";
-import { ToolPanel } from "@/ui/tool-panel";
+import { Button, Tooltip } from '@heroui/react';
+import { Copy, Download } from 'lucide-react';
 
-import "katex/dist/katex.min.css";
-import "katex/dist/contrib/mhchem";
-import "katex/dist/contrib/render-a11y-string";
+import { Banner } from '@/ui/banner';
+import { EditorPanel } from '@/ui/editor-panel';
+import { Footer } from '@/ui/footer';
+import { LaTeXPanel, latexPanelRef } from '@/ui/latex-panel';
+import { ToolPanel } from '@/ui/tool-panel';
+
+import 'katex/dist/katex.min.css';
+import 'katex/dist/contrib/mhchem';
+import 'katex/dist/contrib/render-a11y-string';
 
 export default function Home() {
   const latexPanelRef = useRef<latexPanelRef>(null);
@@ -26,7 +27,7 @@ export default function Home() {
 
   // Conditionally import the copy-tex module on the client side
   useEffect(() => {
-    require("katex/contrib/copy-tex");
+    require('katex/contrib/copy-tex');
   }, []);
 
   async function handleCopy() {

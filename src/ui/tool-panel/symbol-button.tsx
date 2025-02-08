@@ -6,11 +6,11 @@
  * https://stackoverflow.com/a/34968263/17302377
  */
 
-import { Button, Tooltip } from "@nextui-org/react";
-import { BlockMath, InlineMath } from "react-katex";
+import { Button, Tooltip } from '@heroui/react';
+import { BlockMath, InlineMath } from 'react-katex';
 
-import { cn } from "@/utils/cn";
-import { insertToEditor } from "@/utils/insert-to-editor";
+import { cn } from '@/utils/cn';
+import { insertToEditor } from '@/utils/insert-to-editor';
 
 interface SymbolButtonProps {
   name: string;
@@ -44,8 +44,8 @@ export function SymbolButton({
       <Button
         onPress={() => insertToEditor(val, true, caretPos)}
         className={cn(
-          "rounded text-base",
-          !sqBtn && "h-full px-0 py-1 text-sm",
+          'rounded text-base',
+          !sqBtn && 'h-full px-0 py-1 text-sm',
         )}
         isIconOnly={sqBtn}
         size="sm"

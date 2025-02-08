@@ -2,12 +2,13 @@
  * Announcement banner (likely be removed in the future)
  */
 
-import { useState } from "react";
-import { Button, Link } from "@nextui-org/react";
-import { X } from "lucide-react";
-import { InlineMath } from "react-katex";
+import { useState } from 'react';
 
-import { GITHUB_REPO, LATEXLY } from "@/lib/constants/constants";
+import { Button, Link } from '@heroui/react';
+import { X } from 'lucide-react';
+import { InlineMath } from 'react-katex';
+
+import { GITHUB_REPO, LATEXLY } from '@/lib/constants/constants';
 
 export function Banner() {
   const [isVisible, setIsVisible] = useState(true);

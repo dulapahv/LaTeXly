@@ -6,9 +6,10 @@
  * https://stackoverflow.com/a/74445912/17302377
  */
 
-import { ScrollShadow } from "@nextui-org/react";
-import { ArrowDownRight, Search } from "lucide-react";
+import { ScrollShadow } from '@heroui/react';
+import { ArrowDownRight, Search } from 'lucide-react';
 
+import { SymbolsGroup } from '@/types/symbols';
 import {
   accents,
   arrows,
@@ -24,14 +25,13 @@ import {
   specialNotation,
   styleColorSizeAndFont,
   symbolsAndPunctuation,
-} from "@/lib/constants/latex";
-import { SymbolsGroup } from "@/types/symbols";
-import { cn } from "@/utils/cn";
+} from '@/lib/constants/latex';
+import { cn } from '@/utils/cn';
 
-import { AutocompleteMenu } from "./autocomplete-menu";
-import { SymbolButton } from "./symbol-button";
-import { ThemeSwitch } from "./theme-switch";
-import { UndoRedo } from "./undo-redo";
+import { AutocompleteMenu } from './autocomplete-menu';
+import { SymbolButton } from './symbol-button';
+import { ThemeSwitch } from './theme-switch';
+import { UndoRedo } from './undo-redo';
 
 export function ToolPanel() {
   const symbolsGroups: SymbolsGroup[] = [
@@ -66,7 +66,10 @@ export function ToolPanel() {
   ];
 
   return (
-    <ScrollShadow className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2 [overflow-anchor:none] *:border-default-200 [&>div:nth-child(-n+3)]:border-r">
+    <ScrollShadow
+      className="flex h-full flex-row flex-wrap content-start gap-1 overflow-y-scroll p-2
+        [overflow-anchor:none] *:border-default-200 [&>div:nth-child(-n+3)]:border-r"
+    >
       <UndoRedo />
       <ThemeSwitch />
       <AutocompleteMenu
@@ -85,8 +88,9 @@ export function ToolPanel() {
             <div
               key={title}
               className={cn(
-                "group relative size-fit h-auto content-end rounded border-[0.5px] dark:hover:bg-default-50",
-                shouldDisplayOverflow && "hover:shadow-lg",
+                `group relative size-fit h-auto content-end rounded border-[0.5px]
+                dark:hover:bg-default-50`,
+                shouldDisplayOverflow && 'hover:shadow-lg',
               )}
             >
               <div
@@ -101,7 +105,8 @@ export function ToolPanel() {
               </div>
               {shouldDisplayOverflow && (
                 <div
-                  className="absolute z-10 hidden w-full rounded-b border-b border-default-200 bg-white shadow-lg group-hover:grid dark:bg-default-50"
+                  className="absolute z-10 hidden w-full rounded-b border-b border-default-200 bg-white
+                    shadow-lg group-hover:grid dark:bg-default-50"
                   style={{
                     gridTemplateColumns: `repeat(${dispLen}, min-content)`,
                   }}

@@ -1,1 +1,1 @@
-export { default as matrices } from "./matrices.json";
+export { default as matrices } from './matrices.json';

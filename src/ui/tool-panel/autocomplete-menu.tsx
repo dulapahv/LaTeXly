@@ -1,17 +1,18 @@
-import { Key, ReactNode, useCallback, useMemo, useState } from "react";
+import { Key, ReactNode, useCallback, useMemo, useState } from 'react';
+
 import {
   Autocomplete,
   AutocompleteItem,
   AutocompleteSection,
   getKeyValue,
   Tooltip,
-} from "@nextui-org/react";
-import { ChevronsUpDown } from "lucide-react";
-import { BlockMath, InlineMath } from "react-katex";
+} from '@heroui/react';
+import { ChevronsUpDown } from 'lucide-react';
+import { BlockMath, InlineMath } from 'react-katex';
 
-import { SymbolsGroup } from "@/types/symbols";
-import { cn } from "@/utils/cn";
-import { insertToEditor } from "@/utils/insert-to-editor";
+import { SymbolsGroup } from '@/types/symbols';
+import { cn } from '@/utils/cn';
+import { insertToEditor } from '@/utils/insert-to-editor';
 
 interface AutocompleteMenuProps {
   title: string;
@@ -34,7 +35,7 @@ export function AutocompleteMenu({
   hideValue = false,
   limit = false,
 }: AutocompleteMenuProps) {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
 
   const filteredSymbolsGroups = useMemo(() => {
     return symbolsGroups
@@ -61,7 +62,7 @@ export function AutocompleteMenu({
 
   const handleSelectionChange = useCallback(
     (symbol: Key | null) => {
-      const selectedSymbol = symbolMap.get(getKeyValue(symbol, ""));
+      const selectedSymbol = symbolMap.get(getKeyValue(symbol, ''));
       if (!selectedSymbol) return;
       insertToEditor(selectedSymbol.val, true, selectedSymbol.caretPos);
     },
@@ -71,8 +72,8 @@ export function AutocompleteMenu({
   const headingClassNames = useMemo(
     () => ({
       heading: cn(
-        "sticky top-1 z-20 w-full rounded-md bg-default-100 px-2 py-1.5 shadow-small",
-        hideSection ? "hidden" : "flex",
+        'sticky top-1 z-20 w-full rounded-md bg-default-100 px-2 py-1.5 shadow-small',
+        hideSection ? 'hidden' : 'flex',
       ),
     }),
     [hideSection],
@@ -104,13 +105,13 @@ export function AutocompleteMenu({
           }}
           popoverProps={{
             classNames: {
-              content: "rounded-lg",
+              content: 'rounded-lg',
             },
           }}
           listboxProps={{
             isVirtualized: true,
             itemClasses: {
-              base: "text-sm rounded-md",
+              base: 'text-sm rounded-md',
             },
           }}
         >
@@ -130,7 +131,7 @@ export function AutocompleteMenu({
                     textValue={symbol.name + symbol.val}
                     value={symbol.val}
                     classNames={{
-                      title: "text-xs",
+                      title: 'text-xs',
                     }}
                   >
                     {isBlkMath && symbol.isBlkMath ? (
@@ -138,7 +139,7 @@ export function AutocompleteMenu({
                     ) : (
                       <InlineMath math={symbol.lbl} />
                     )}
-                    {hideValue ? "" : ` - ${symbol.val}`}
+                    {hideValue ? '' : ` - ${symbol.val}`}
                   </AutocompleteItem>
                 )}
               </AutocompleteSection>

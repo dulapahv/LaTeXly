@@ -1,1 +1,1 @@
-export * from "./tool-panel";
+export * from './tool-panel';

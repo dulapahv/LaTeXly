@@ -1,12 +1,12 @@
-import { Link } from "@nextui-org/react";
-import { InlineMath } from "react-katex";
+import { Link } from '@heroui/react';
+import { InlineMath } from 'react-katex';
 
 import {
   GITHUB_REPO,
   LATEXLY,
   USERNAME,
   VERSION,
-} from "@/lib/constants/constants";
+} from '@/lib/constants/constants';
 
 export function Footer() {
   return (

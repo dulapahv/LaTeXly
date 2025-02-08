@@ -1,1 +1,1 @@
-export { default as delimiters } from "./delimiters.json";
+export { default as delimiters } from './delimiters.json';
