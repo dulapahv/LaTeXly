@@ -444,7 +444,7 @@
       "val": "\\vartriangleleft "
     },
     {
-      "name": "Simcoloncolon",
+      "name": "Colonsim",
       "lbl": "\\Colonsim",
       "val": "\\Colonsim "
     },
@@ -479,11 +479,6 @@
       "val": "\\shortparallel "
     },
     {
-      "name": "Vartriangleleft",
-      "lbl": "\\vartriangleleft",
-      "val": "\\vartriangleleft "
-    },
-    {
       "name": "Curlyeqprec",
       "lbl": "\\curlyeqprec",
       "val": "\\curlyeqprec "
@@ -499,11 +494,6 @@
       "val": "\\sim "
     },
     {
-      "name": "Vartriangleright",
-      "lbl": "\\vartriangleright",
-      "val": "\\vartriangleright "
-    },
-    {
       "name": "Curlyeqsucc",
       "lbl": "\\curlyeqsucc",
       "val": "\\curlyeqsucc "
@@ -512,11 +502,6 @@
       "name": "Join",
       "lbl": "\\Join",
       "val": "\\Join "
-    },
-    {
-      "name": "Simcolon",
-      "lbl": "\\simcolon",
-      "val": "\\simcolon "
     },
     {
       "name": "Vcentcolon",

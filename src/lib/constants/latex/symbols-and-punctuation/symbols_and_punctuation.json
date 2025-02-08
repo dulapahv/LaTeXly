@@ -4,7 +4,7 @@
   "symbols": [
     {
       "name": "Comment",
-      "lbl": "\\%",
+      "lbl": "\\% (Comment)",
       "val": "% "
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "PercentSign",
-      "lbl": "\\%",
+      "lbl": "\\% (Percent Sign)",
       "val": "\\% "
     },
     {
@@ -439,19 +439,9 @@
       "val": "\\star "
     },
     {
-      "name": "BoxAlt",
-      "lbl": "\\Box",
-      "val": "\\Box "
-    },
-    {
       "name": "Blacksquare",
       "lbl": "\\blacksquare",
       "val": "\\blacksquare "
-    },
-    {
-      "name": "TextAsciitilde",
-      "lbl": "\\text{\\textasciitilde}",
-      "val": "\\text{\\textasciitilde} "
     },
     {
       "name": "TextQuotdblright",
@@ -482,26 +472,6 @@
       "name": "TextGreater",
       "lbl": "\\text{\\textgreater}",
       "val": "\\text{\\textgreater} "
-    },
-    {
-      "name": "TextUnderscore",
-      "lbl": "\\text{\\textunderscore}",
-      "val": "\\text{\\textunderscore} "
-    },
-    {
-      "name": "TextAsciicircum",
-      "lbl": "\\text{\\textasciicircum}",
-      "val": "\\text{\\textasciicircum} "
-    },
-    {
-      "name": "TextEllipsis",
-      "lbl": "\\text{\\textellipsis}",
-      "val": "\\text{\\textellipsis} "
-    },
-    {
-      "name": "TextDagger",
-      "lbl": "\\text{\\textdagger}",
-      "val": "\\text{\\textdagger} "
     },
     {
       "name": "Minuso",

@@ -186,7 +186,7 @@
     },
     {
       "name": "B Mod",
-      "lbl": "\\scriptsize\\text{mod}",
+      "lbl": "\\scriptsize\\text{bmod}",
       "val": " \\bmod "
     },
     {

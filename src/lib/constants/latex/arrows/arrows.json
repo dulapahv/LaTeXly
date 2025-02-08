@@ -354,8 +354,8 @@
     },
     {
       "name": "Nleftrightarrow",
-      "lbl": "\\Rrightarrow",
-      "val": "\\Rrightarrow "
+      "lbl": "\\Nleftrightarrow",
+      "val": "\\Nleftrightarrow "
     },
     {
       "name": "Rightsquigarrow",
