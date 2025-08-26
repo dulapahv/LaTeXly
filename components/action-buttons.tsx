@@ -1,6 +1,7 @@
+// components/action-buttons.tsx
 "use client";
 
-import { Copy, Download, Loader } from "lucide-react";
+import { Copy, Download, Loader, Share2, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,
@@ -9,10 +10,14 @@ import {
 } from "@/components/ui/tooltip";
 import { useEquationStore } from "@/store/equation-store";
 import { copyEquationAsImage, downloadEquationAsImage } from "./latex-panel";
+import { useUrlEquation } from "@/hooks/use-url-equation";
+import { useState } from "react";
 
 export function ActionButtons() {
   const { isDownloading, isCopying, setIsDownloading, setIsCopying } =
     useEquationStore();
+  const { shareEquation } = useUrlEquation();
+  const [shared, setShared] = useState(false);
 
   const handleCopy = async () => {
     setIsCopying(true);
@@ -32,8 +37,34 @@ export function ActionButtons() {
     }
   };
 
+  const handleShare = async () => {
+    await shareEquation();
+    setShared(true);
+    setTimeout(() => setShared(false), 2000);
+  };
+
   return (
-    <div className="absolute bottom-4 right-4 flex gap-2">
+    <div className="flex gap-2">
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Button
+            onClick={handleShare}
+            size="icon"
+            variant="outline"
+            aria-label="Share equation"
+          >
+            {shared ? (
+              <Check className="h-4 w-4 text-green-500" />
+            ) : (
+              <Share2 className="h-4 w-4" />
+            )}
+          </Button>
+        </TooltipTrigger>
+        <TooltipContent>
+          {shared ? 'Link copied!' : 'Share equation'}
+        </TooltipContent>
+      </Tooltip>
+
       <Tooltip>
         <TooltipTrigger asChild>
           <Button

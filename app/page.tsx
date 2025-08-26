@@ -1,7 +1,7 @@
+// app/page.tsx
 "use client";
 
 import { useEffect, Suspense } from "react";
-// import { Banner } from "@/components/banner";
 import { EditorPanel } from "@/components/editor-panel";
 import { Footer } from "@/components/footer";
 import { LaTeXPanel } from "@/components/latex-panel";
@@ -13,7 +13,7 @@ import { useUrlEquation } from "@/hooks/use-url-equation";
 
 function HomeContent() {
   useKeyboardShortcuts();
-  useUrlEquation(); // Enable URL persistence
+  useUrlEquation();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -34,8 +34,8 @@ function HomeContent() {
         </div>
         <div className="relative flex-1">
           <LaTeXPanel />
-          <div className="absolute bottom-4 right-4 flex gap-2">
-            <ShareButton />
+          {/* Fixed: All buttons now in same container with proper alignment */}
+          <div className="absolute bottom-4 right-4">
             <ActionButtons />
           </div>
         </div>
@@ -45,7 +45,6 @@ function HomeContent() {
   );
 }
 
-// Wrap in Suspense for useSearchParams
 export default function Home() {
   return (
     <Suspense
