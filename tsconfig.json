@@ -19,11 +19,7 @@
       }
     ],
     "paths": {
-<<<<<<< Updated upstream
-      "@/*": ["./src/*"]
-=======
       "@/*": ["./*"]
->>>>>>> Stashed changes
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

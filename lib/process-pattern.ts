@@ -40,11 +40,7 @@ export function processPattern({
       // (), [], {}
       insertToEditor(
         e.key === "(" ? ")" : e.key === "[" ? "]" : e.key === "{" ? "}" : "",
-<<<<<<< Updated upstream:src/ui/editor-panel/process-pattern.ts
-        false,
-=======
         false
->>>>>>> Stashed changes:lib/process-pattern.ts
       );
     }
   }
