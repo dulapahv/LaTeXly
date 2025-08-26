@@ -1,58 +1,36 @@
-# LaTeXly
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> Currently under development
+## Getting Started
 
-**Try it out at [latexly.dulapahv.dev](https://latexly.dulapahv.dev)**
-
-Open-source LaTeX equation editor/scratch pad for the web with live preview and syntax highlighting.
-
-## Features
-
-- [x] Equation editor
-- [x] Syntax highlighting
-- [x] Live preview
-- [x] All LaTeX symbols (based on [here](https://katex.org/docs/supported.html))
-- [x] Symbol search
-- [x] Export to image or PDF
-- [x] Undo/Redo support
-- [ ] Matrices builder
-- [ ] Prettify equation
-- [ ] Minify equation
-- [ ] Example equations (including Chemistry and Physics)
-- [x] Light/Dark/System theme
-- [ ] More LaTeX customization
-
-## Development
-
-### Prerequisites
-
-- Node.js
-- A package manager (bun, pnpm, yarn, or npm)
-
-### Getting started
-
-#### 1. Clone the repository
-
-```bash
-git clone https://github.com/dulapahv/LaTeXly.git
-```
-
-#### 2. Install dependencies
-
-Using npm:
-
-```bash
-npm install
-```
-
-#### 3. Start the development server
-
-Using npm:
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## License
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-LaTeXly is licensed under the [MIT License](LICENSE).
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,7 +1,7 @@
+// src/lib/process-pattern.ts
 import { KeyboardEvent } from "react";
-
 import { BRACKET_PAIRS } from "@/lib/constants/pattern";
-import { insertToEditor } from "@/utils/insert-to-editor";
+import { insertToEditor } from "@/lib/utils";
 
 interface ProcessPatternProps {
   keyboardEvent: KeyboardEvent<HTMLElement>;
@@ -21,13 +21,13 @@ export function processPattern({
     // \begin{ -> \begin{} \end{} - the last 'else' will handle the closing bracket for the first bracket
     const pattern1 = textBeforeCaret.endsWith("\\begin");
     if (pattern1) {
-      insertToEditor(` \\end{}`, false);
+      insertToEditor(" \\end{}", false);
     }
 
     // \frac{ -> \frac{}{} - the last 'else' will handle the closing bracket for the first bracket
     const pattern2 = textBeforeCaret.endsWith("\\frac");
     if (pattern2) {
-      insertToEditor(`{}`, false);
+      insertToEditor("{}", false);
     }
   }
 
@@ -40,7 +40,11 @@ export function processPattern({
       // (), [], {}
       insertToEditor(
         e.key === "(" ? ")" : e.key === "[" ? "]" : e.key === "{" ? "}" : "",
+<<<<<<< Updated upstream:src/ui/editor-panel/process-pattern.ts
         false,
+=======
+        false
+>>>>>>> Stashed changes:lib/process-pattern.ts
       );
     }
   }
