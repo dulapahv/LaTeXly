@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { EditorPanel } from "@/components/editor-panel";
 import { LaTeXPanel } from "@/components/latex-panel";
 import { ToolPanel } from "@/components/tool-panel";
@@ -7,7 +8,7 @@ import { ActionButtons } from "@/components/action-buttons";
 import { useKeyboardShortcuts } from "@/hooks/use-keyboard-shortcuts";
 import { useUrlEquation } from "@/hooks/use-url-equation";
 
-export default function Home() {
+function HomeContent() {
   useKeyboardShortcuts();
   useUrlEquation();
 
@@ -30,5 +31,19 @@ export default function Home() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex h-screen items-center justify-center">
+          <div className="animate-pulse">Loading...</div>
+        </div>
+      }
+    >
+      <HomeContent />
+    </Suspense>
   );
 }
