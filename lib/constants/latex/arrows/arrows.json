@@ -1,0 +1,366 @@
+{
+  "title": "Arrows",
+  "dispLen": 6,
+  "symbols": [
+    {
+      "name": "Leftarrow",
+      "lbl": "\\leftarrow",
+      "val": "\\leftarrow "
+    },
+    {
+      "name": "Rightarrow",
+      "lbl": "\\rightarrow",
+      "val": "\\rightarrow "
+    },
+    {
+      "name": "Leftrightarrow",
+      "lbl": "\\leftrightarrow",
+      "val": "\\leftrightarrow "
+    },
+    {
+      "name": "Uparrow",
+      "lbl": "\\uparrow",
+      "val": "\\uparrow "
+    },
+    {
+      "name": "Downarrow",
+      "lbl": "\\downarrow",
+      "val": "\\downarrow "
+    },
+    {
+      "name": "Nearrow",
+      "lbl": "\\nearrow",
+      "val": "\\nearrow "
+    },
+    {
+      "name": "Iff",
+      "lbl": "\\iff",
+      "val": "\\iff "
+    },
+    {
+      "name": "Swarrow",
+      "lbl": "\\swarrow",
+      "val": "\\swarrow "
+    },
+    {
+      "name": "Leftrightarrows",
+      "lbl": "\\leftrightarrows",
+      "val": "\\leftrightarrows "
+    },
+    {
+      "name": "Double Leftarrow",
+      "lbl": "\\Leftarrow",
+      "val": "\\Leftarrow "
+    },
+    {
+      "name": "Double Rightarrow",
+      "lbl": "\\Rightarrow",
+      "val": "\\Rightarrow "
+    },
+    {
+      "name": "Double Leftrightarrow",
+      "lbl": "\\Leftrightarrow",
+      "val": "\\Leftrightarrow "
+    },
+    {
+      "name": "Double Uparrow",
+      "lbl": "\\Uparrow",
+      "val": "\\Uparrow "
+    },
+    {
+      "name": "Double Downarrow",
+      "lbl": "\\Downarrow",
+      "val": "\\Downarrow "
+    },
+    {
+      "name": "Searrow",
+      "lbl": "\\searrow",
+      "val": "\\searrow "
+    },
+    {
+      "name": "Rightleftarrows",
+      "lbl": "\\rightleftarrows",
+      "val": "\\rightleftarrows "
+    },
+    {
+      "name": "Nwarrow",
+      "lbl": "\\nwarrow",
+      "val": "\\nwarrow "
+    },
+    {
+      "name": "Curvearrowleft",
+      "lbl": "\\curvearrowleft",
+      "val": "\\curvearrowleft "
+    },
+    {
+      "name": "Longleftarrow",
+      "lbl": "\\longleftarrow",
+      "val": "\\longleftarrow "
+    },
+    {
+      "name": "Longrightarrow",
+      "lbl": "\\longrightarrow",
+      "val": "\\longrightarrow "
+    },
+    {
+      "name": "Longleftrightarrow",
+      "lbl": "\\longleftrightarrow",
+      "val": "\\longleftrightarrow "
+    },
+    {
+      "name": "Upharpoonleft",
+      "lbl": "\\upharpoonleft",
+      "val": "\\upharpoonleft "
+    },
+    {
+      "name": "Downharpoonleft",
+      "lbl": "\\downharpoonleft",
+      "val": "\\downharpoonleft "
+    },
+    {
+      "name": "Curvearrowright",
+      "lbl": "\\curvearrowright",
+      "val": "\\curvearrowright "
+    },
+    {
+      "name": "Double Longleftarrow",
+      "lbl": "\\Longleftarrow",
+      "val": "\\Longleftarrow "
+    },
+    {
+      "name": "Double Longrightarrow",
+      "lbl": "\\Longrightarrow",
+      "val": "\\Longrightarrow "
+    },
+    {
+      "name": "Double Longleftrightarrow",
+      "lbl": "\\Longleftrightarrow",
+      "val": "\\Longleftrightarrow "
+    },
+    {
+      "name": "Upharpoonright",
+      "lbl": "\\upharpoonright",
+      "val": "\\upharpoonright "
+    },
+    {
+      "name": "Downharpoonright",
+      "lbl": "\\downharpoonright",
+      "val": "\\downharpoonright "
+    },
+    {
+      "name": "Circlearrowleft",
+      "lbl": "\\circlearrowleft",
+      "val": "\\circlearrowleft "
+    },
+    {
+      "name": "Leftarrowtail",
+      "lbl": "\\leftarrowtail",
+      "val": "\\leftarrowtail "
+    },
+    {
+      "name": "Rightarrowtail",
+      "lbl": "\\rightarrowtail",
+      "val": "\\rightarrowtail "
+    },
+    {
+      "name": "Nleftrightarrow",
+      "lbl": "\\nleftrightarrow",
+      "val": "\\nleftrightarrow "
+    },
+    {
+      "name": "Upuparrows",
+      "lbl": "\\upuparrows",
+      "val": "\\upuparrows "
+    },
+    {
+      "name": "Downdownarrows",
+      "lbl": "\\downdownarrows",
+      "val": "\\downdownarrows "
+    },
+    {
+      "name": "Circlearrowright",
+      "lbl": "\\circlearrowright",
+      "val": "\\circlearrowright "
+    },
+    {
+      "name": "Leftharpoonup",
+      "lbl": "\\leftharpoonup",
+      "val": "\\leftharpoonup "
+    },
+    {
+      "name": "Rightharpoonup",
+      "lbl": "\\rightharpoonup",
+      "val": "\\rightharpoonup "
+    },
+    {
+      "name": "Leftrightharpoons",
+      "lbl": "\\leftrightharpoons",
+      "val": "\\leftrightharpoons "
+    },
+    {
+      "name": "Restriction",
+      "lbl": "\\restriction",
+      "val": "\\restriction "
+    },
+    {
+      "name": "Updownarrow",
+      "lbl": "\\updownarrow",
+      "val": "\\updownarrow "
+    },
+    {
+      "name": "Longmapsto",
+      "lbl": "\\longmapsto",
+      "val": "\\longmapsto "
+    },
+    {
+      "name": "Leftharpoondown",
+      "lbl": "\\leftharpoondown",
+      "val": "\\leftharpoondown "
+    },
+    {
+      "name": "Rightharpoondown",
+      "lbl": "\\rightharpoondown",
+      "val": "\\rightharpoondown "
+    },
+    {
+      "name": "Rightleftharpoons",
+      "lbl": "\\rightleftharpoons",
+      "val": "\\rightleftharpoons "
+    },
+    {
+      "name": "Double Updownarrow",
+      "lbl": "\\Updownarrow",
+      "val": "\\Updownarrow "
+    },
+    {
+      "name": "Mapsto",
+      "lbl": "\\mapsto",
+      "val": "\\mapsto "
+    },
+    {
+      "name": "Leftleftarrows",
+      "lbl": "\\leftleftarrows",
+      "val": "\\leftleftarrows "
+    },
+    {
+      "name": "Rightrightarrows",
+      "lbl": "\\rightrightarrows",
+      "val": "\\rightrightarrows "
+    },
+    {
+      "name": "Leadsto",
+      "lbl": "\\leadsto",
+      "val": "\\leadsto "
+    },
+    {
+      "name": "Dashleftarrow",
+      "lbl": "\\dashleftarrow",
+      "val": "\\dashleftarrow "
+    },
+    {
+      "name": "Dashrightarrow",
+      "lbl": "\\dashrightarrow",
+      "val": "\\dashrightarrow "
+    },
+    {
+      "name": "Rrightarrow",
+      "lbl": "\\Rrightarrow",
+      "val": "\\Rrightarrow "
+    },
+    {
+      "name": "Rightsquigarrow",
+      "lbl": "\\rightsquigarrow",
+      "val": "\\rightsquigarrow "
+    },
+    {
+      "name": "Lleftarrow",
+      "lbl": "\\Lleftarrow",
+      "val": "\\Lleftarrow "
+    },
+    {
+      "name": "Twoheadleftarrow",
+      "lbl": "\\twoheadleftarrow",
+      "val": "\\twoheadleftarrow "
+    },
+    {
+      "name": "Twoheadrightarrow",
+      "lbl": "\\twoheadrightarrow",
+      "val": "\\twoheadrightarrow "
+    },
+    {
+      "name": "Hookleftarrow",
+      "lbl": "\\hookleftarrow",
+      "val": "\\hookleftarrow "
+    },
+    {
+      "name": "Hookrightarrow",
+      "lbl": "\\hookrightarrow",
+      "val": "\\hookrightarrow "
+    },
+    {
+      "name": "Rsh",
+      "lbl": "\\Rsh",
+      "val": "\\Rsh "
+    },
+    {
+      "name": "Lsh",
+      "lbl": "\\Lsh",
+      "val": "\\Lsh "
+    },
+    {
+      "name": "Gets",
+      "lbl": "\\gets",
+      "val": "\\gets "
+    },
+    {
+      "name": "To",
+      "lbl": "\\to",
+      "val": "\\to "
+    },
+    {
+      "name": "Nleftarrow",
+      "lbl": "\\nleftarrow",
+      "val": "\\nleftarrow "
+    },
+    {
+      "name": "Nrightarrow",
+      "lbl": "\\nrightarrow",
+      "val": "\\nrightarrow "
+    },
+    {
+      "name": "Double Nleftarrow",
+      "lbl": "\\nLeftarrow",
+      "val": "\\nLeftarrow "
+    },
+    {
+      "name": "Double Nrightarrow",
+      "lbl": "\\nRightarrow",
+      "val": "\\nRightarrow "
+    },
+    {
+      "name": "Implied By",
+      "lbl": "\\impliedby",
+      "val": "\\impliedby "
+    },
+    {
+      "name": "Implies",
+      "lbl": "\\implies",
+      "val": "\\implies "
+    },
+    {
+      "name": "Looparrowleft",
+      "lbl": "\\looparrowleft",
+      "val": "\\looparrowleft "
+    },
+    {
+      "name": "Looparrowright",
+      "lbl": "\\looparrowright",
+      "val": "\\looparrowright "
+    },
+    {
+      "name": "Leftrightsquigarrow",
+      "lbl": "\\leftrightsquigarrow",
+      "val": "\\leftrightsquigarrow "
+    }
+  ]
+}

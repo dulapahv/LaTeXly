@@ -1,0 +1,342 @@
+{
+  "title": "Symbols and Punctuation",
+  "dispLen": 6,
+  "symbols": [
+    {
+      "name": "Comment",
+      "lbl": "\\%",
+      "val": "% "
+    },
+    {
+      "name": "Dots",
+      "lbl": "\\dots",
+      "val": "\\dots "
+    },
+    {
+      "name": "PercentSign",
+      "lbl": "\\%",
+      "val": "\\% "
+    },
+    {
+      "name": "Cdots",
+      "lbl": "\\cdots",
+      "val": "\\cdots "
+    },
+    {
+      "name": "LaTeX",
+      "lbl": "\\tiny\\LaTeX",
+      "val": "\\LaTeX "
+    },
+    {
+      "name": "HashSign",
+      "lbl": "\\#",
+      "val": "\\# "
+    },
+    {
+      "name": "Ddots",
+      "lbl": "\\ddots",
+      "val": "\\ddots "
+    },
+    {
+      "name": "TeX",
+      "lbl": "\\scriptsize\\TeX",
+      "val": "\\TeX "
+    },
+    {
+      "name": "Ampersand",
+      "lbl": "\\&",
+      "val": "\\& "
+    },
+    {
+      "name": "Ldots",
+      "lbl": "\\ldots",
+      "val": "\\ldots "
+    },
+    {
+      "name": "Nabla",
+      "lbl": "\\nabla",
+      "val": "\\nabla "
+    },
+    {
+      "name": "Underscore",
+      "lbl": "\\_",
+      "val": "\\_ "
+    },
+    {
+      "name": "Vdots",
+      "lbl": "\\vdots",
+      "val": "\\vdots "
+    },
+    {
+      "name": "Infinity",
+      "lbl": "\\infty",
+      "val": "\\infty "
+    },
+    {
+      "name": "DotsB",
+      "lbl": "\\dotsb",
+      "val": "\\dotsb "
+    },
+    {
+      "name": "TextDash",
+      "lbl": "\\text{--}",
+      "val": "\\text{--} "
+    },
+    {
+      "name": "DotsC",
+      "lbl": "\\dotsc",
+      "val": "\\dotsc "
+    },
+    {
+      "name": "Checkmark",
+      "lbl": "\\checkmark",
+      "val": "\\checkmark "
+    },
+    {
+      "name": "Dotsi",
+      "lbl": "\\dotsi",
+      "val": "\\dotsi "
+    },
+    {
+      "name": "Dagger",
+      "lbl": "\\dagger",
+      "val": "\\dag "
+    },
+    {
+      "name": "Dotsm",
+      "lbl": "\\dotsm",
+      "val": "\\dotsm "
+    },
+    {
+      "name": "DaggerAlt",
+      "lbl": "\\dagger",
+      "val": "\\dagger "
+    },
+    {
+      "name": "Ddag",
+      "lbl": "\\ddagger",
+      "val": "\\ddag "
+    },
+    {
+      "name": "Ddoublesign",
+      "lbl": "\\ddagger",
+      "val": "\\ddagger "
+    },
+    {
+      "name": "Box",
+      "lbl": "\\Box",
+      "val": "\\Box "
+    },
+    {
+      "name": "Square",
+      "lbl": "\\square",
+      "val": "\\square "
+    },
+    {
+      "name": "MeasuredAngle",
+      "lbl": "\\measuredangle",
+      "val": "\\measuredangle "
+    },
+    {
+      "name": "Triangle",
+      "lbl": "\\triangle",
+      "val": "\\triangle "
+    },
+    {
+      "name": "SphericalAngle",
+      "lbl": "\\sphericalangle",
+      "val": "\\sphericalangle "
+    },
+    {
+      "name": "Triangledown",
+      "lbl": "\\triangledown",
+      "val": "\\triangledown "
+    },
+    {
+      "name": "Top",
+      "lbl": "\\top",
+      "val": "\\top "
+    },
+    {
+      "name": "Triangleleft",
+      "lbl": "\\triangleleft",
+      "val": "\\triangleleft "
+    },
+    {
+      "name": "Bot",
+      "lbl": "\\bot",
+      "val": "\\bot "
+    },
+    {
+      "name": "Triangleright",
+      "lbl": "\\triangleright",
+      "val": "\\triangleright "
+    },
+    {
+      "name": "Dollar",
+      "lbl": "\\$",
+      "val": "\\$ "
+    },
+    {
+      "name": "Colon",
+      "lbl": "\\colon",
+      "val": "\\colon "
+    },
+    {
+      "name": "Bigtriangledown",
+      "lbl": "\\bigtriangledown",
+      "val": "\\bigtriangledown "
+    },
+    {
+      "name": "Prime",
+      "lbl": "\\prime",
+      "val": "\\prime "
+    },
+    {
+      "name": "Longequal",
+      "lbl": "\\xlongequal{abc}",
+      "val": "\\xlongequal{}",
+      "caretPos": 12
+    },
+    {
+      "name": "PrimeAlt",
+      "lbl": "\\backprime",
+      "val": "\\backprime "
+    },
+    {
+      "name": "Bigtriangleup",
+      "lbl": "\\bigtriangleup",
+      "val": "\\bigtriangleup "
+    },
+    {
+      "name": "Blacktriangle",
+      "lbl": "\\blacktriangle",
+      "val": "\\blacktriangle "
+    },
+    {
+      "name": "Blacktriangledown",
+      "lbl": "\\blacktriangledown",
+      "val": "\\blacktriangledown "
+    },
+    {
+      "name": "Blacktriangleleft",
+      "lbl": "\\blacktriangleleft",
+      "val": "\\blacktriangleleft "
+    },
+    {
+      "name": "Blacktriangleright",
+      "lbl": "\\blacktriangleright",
+      "val": "\\blacktriangleright "
+    },
+    {
+      "name": "Surd",
+      "lbl": "\\surd",
+      "val": "\\surd "
+    },
+    {
+      "name": "Mho",
+      "lbl": "\\mho",
+      "val": "\\mho "
+    },
+    {
+      "name": "Diagdown",
+      "lbl": "\\diagdown",
+      "val": "\\diagdown "
+    },
+    {
+      "name": "Diagup",
+      "lbl": "\\diagup",
+      "val": "\\diagup "
+    },
+    {
+      "name": "Flat",
+      "lbl": "\\flat",
+      "val": "\\flat "
+    },
+    {
+      "name": "Natural",
+      "lbl": "\\natural",
+      "val": "\\natural "
+    },
+    {
+      "name": "Sharp",
+      "lbl": "\\sharp",
+      "val": "\\sharp "
+    },
+    {
+      "name": "Maltese",
+      "lbl": "\\maltese",
+      "val": "\\maltese "
+    },
+    {
+      "name": "CircledR",
+      "lbl": "\\circledR",
+      "val": "\\circledR "
+    },
+    {
+      "name": "CircledS",
+      "lbl": "\\circledS",
+      "val": "\\circledS "
+    },
+    {
+      "name": "Copyright",
+      "lbl": "\\text{©}",
+      "val": "\\text{©} "
+    },
+    {
+      "name": "Yen",
+      "lbl": "\\yen",
+      "val": "\\yen "
+    },
+    {
+      "name": "Diamond",
+      "lbl": "\\diamond",
+      "val": "\\diamond "
+    },
+    {
+      "name": "Diamondsuit",
+      "lbl": "\\diamondsuit",
+      "val": "\\diamondsuit "
+    },
+    {
+      "name": "Lozenge",
+      "lbl": "\\lozenge",
+      "val": "\\lozenge "
+    },
+    {
+      "name": "Blacklozenge",
+      "lbl": "\\blacklozenge",
+      "val": "\\blacklozenge "
+    },
+    {
+      "name": "Spadesuit",
+      "lbl": "\\spadesuit",
+      "val": "\\spadesuit "
+    },
+    {
+      "name": "Heartsuit",
+      "lbl": "\\heartsuit",
+      "val": "\\heartsuit "
+    },
+    {
+      "name": "Clubsuit",
+      "lbl": "\\clubsuit",
+      "val": "\\clubsuit "
+    },
+    {
+      "name": "Bigstar",
+      "lbl": "\\bigstar",
+      "val": "\\bigstar "
+    },
+    {
+      "name": "Star",
+      "lbl": "\\star",
+      "val": "\\star "
+    },
+    {
+      "name": "Blacksquare",
+      "lbl": "\\blacksquare",
+      "val": "\\blacksquare "
+    }
+  ]
+}

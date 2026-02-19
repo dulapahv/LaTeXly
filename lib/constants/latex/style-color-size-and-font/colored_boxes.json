@@ -1,0 +1,24 @@
+{
+  "title": "Colored Boxes",
+  "dispLen": 3,
+  "symbols": [
+    {
+      "name": "Box",
+      "lbl": "\\colorbox{aqua}{$A$}",
+      "val": "\\colorbox{}{$$}",
+      "caretPos": 10
+    },
+    {
+      "name": "Box With Frame",
+      "lbl": "\\fcolorbox{red}{aqua}{$A$}",
+      "val": "\\fcolorbox{}{}{$$}",
+      "caretPos": 11
+    },
+    {
+      "name": "Box With Frame (White)",
+      "lbl": "\\fcolorbox{red}{white}{$A$}",
+      "val": "\\fcolorbox{}{white}{$$}",
+      "caretPos": 11
+    }
+  ]
+}

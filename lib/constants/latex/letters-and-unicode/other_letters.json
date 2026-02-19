@@ -1,0 +1,121 @@
+{
+  "title": "Other Letters",
+  "dispLen": 5,
+  "symbols": [
+    {
+      "name": "imath",
+      "lbl": "\\imath",
+      "val": "\\imath "
+    },
+    {
+      "name": "nabla",
+      "lbl": "\\nabla",
+      "val": "\\nabla "
+    },
+    {
+      "name": "Im",
+      "lbl": "\\Im",
+      "val": "\\Im "
+    },
+    {
+      "name": "Reals",
+      "lbl": "\\mathbb{R}",
+      "val": "\\mathbb{R} "
+    },
+    {
+      "name": "Naturals",
+      "lbl": "\\mathbb{N}",
+      "val": "\\mathbb{N} "
+    },
+    {
+      "name": "jmath",
+      "lbl": "\\jmath",
+      "val": "\\jmath "
+    },
+    {
+      "name": "partial",
+      "lbl": "\\partial",
+      "val": "\\partial "
+    },
+    {
+      "name": "Re",
+      "lbl": "\\Re",
+      "val": "\\Re "
+    },
+    {
+      "name": "Integers",
+      "lbl": "\\mathbb{Z}",
+      "val": "\\mathbb{Z} "
+    },
+    {
+      "name": "Complex Numbers",
+      "lbl": "\\mathbb{C}",
+      "val": "\\mathbb{C} "
+    },
+    {
+      "name": "wp",
+      "lbl": "\\wp",
+      "val": "\\wp "
+    },
+    {
+      "name": "aleph",
+      "lbl": "\\aleph",
+      "val": "\\aleph "
+    },
+    {
+      "name": "Game",
+      "lbl": "\\Game",
+      "val": "\\Game "
+    },
+    {
+      "name": "Bbbk",
+      "lbl": "\\Bbbk",
+      "val": "\\Bbbk "
+    },
+    {
+      "name": "real",
+      "lbl": "\\real",
+      "val": "\\real "
+    },
+    {
+      "name": "beth",
+      "lbl": "\\beth",
+      "val": "\\beth "
+    },
+    {
+      "name": "Finv",
+      "lbl": "\\Finv",
+      "val": "\\Finv "
+    },
+    {
+      "name": "ell",
+      "lbl": "\\ell",
+      "val": "\\ell "
+    },
+    {
+      "name": "gimel",
+      "lbl": "\\gimel",
+      "val": "\\gimel "
+    },
+    {
+      "name": "daleth",
+      "lbl": "\\daleth",
+      "val": "\\daleth "
+    },
+    {
+      "name": "hbar",
+      "lbl": "\\hbar",
+      "val": "\\hbar "
+    },
+    {
+      "name": "eth",
+      "lbl": "\\eth",
+      "val": "\\eth "
+    },
+    {
+      "name": "hslash",
+      "lbl": "\\hslash",
+      "val": "\\hslash "
+    }
+  ]
+}

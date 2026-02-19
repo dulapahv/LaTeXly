@@ -1,0 +1,60 @@
+{
+  "title": "Accents in \\text{...}",
+  "dispLen": 4,
+  "symbols": [
+    {
+      "name": "Acute Accent",
+      "lbl": "\\text{\\'{a}}",
+      "val": "\\text{\\'{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Tilde Accent",
+      "lbl": "\\text{\\~{a}}",
+      "val": "\\text{\\~{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Dot Accent",
+      "lbl": "\\text{\\.{a}}",
+      "val": "\\text{\\.{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Grave Accent",
+      "lbl": "\\text{\\`{a}}",
+      "val": "\\text{\\`{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Macron",
+      "lbl": "\\text{\\={a}}",
+      "val": "\\text{\\={}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Diaeresis",
+      "lbl": "\\text{\\\"{a}}",
+      "val": "\\text{\\\"{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Caron",
+      "lbl": "\\text{\\v{a}}",
+      "val": "\\text{\\v{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Circumflex Accent",
+      "lbl": "\\text{\\^{a}}",
+      "val": "\\text{\\^{}}",
+      "caretPos": 9
+    },
+    {
+      "name": "Breve",
+      "lbl": "\\text{\\u{a}}",
+      "val": "\\text{\\u{}}",
+      "caretPos": 9
+    }
+  ]
+}

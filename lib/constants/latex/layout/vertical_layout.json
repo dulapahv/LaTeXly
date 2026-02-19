@@ -1,0 +1,59 @@
+{
+  "title": "Vertical Layout",
+  "dispLen": 4,
+  "sqBtn": false,
+  "symbols": [
+    {
+      "name": "Subscript",
+      "lbl": "x_n",
+      "val": "_{}",
+      "caretPos": 2
+    },
+    {
+      "name": "StackrelEquals",
+      "lbl": "\\stackrel{!}{=}",
+      "val": "\\stackrel{}{}",
+      "caretPos": 10
+    },
+    {
+      "name": "Atop",
+      "lbl": "a \\atop b",
+      "val": "\\atop "
+    },
+    {
+      "name": "Superscript (Exponent)",
+      "lbl": "e^x",
+      "val": "^{}",
+      "caretPos": 2
+    },
+    {
+      "name": "OversetEquals",
+      "lbl": "\\overset{!}{=}",
+      "val": "\\overset{}{}",
+      "caretPos": 9
+    },
+    {
+      "name": "UnderscoreSuperscript",
+      "lbl": "_u^o",
+      "val": "_u^o",
+      "caretPos": 2
+    },
+    {
+      "name": "UndersetEquals",
+      "lbl": "\\underset{!}{=}",
+      "val": "\\underset{}{}",
+      "caretPos": 10
+    },
+    {
+      "name": "ComplexAtop",
+      "lbl": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)",
+      "val": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)"
+    },
+    {
+      "name": "SumSubstack",
+      "lbl": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "val": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "isBlkMath": true
+    }
+  ]
+}

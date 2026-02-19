@@ -1,0 +1,52 @@
+{
+  "title": "Sizes",
+  "dispLen": 3,
+  "sqBtn": false,
+  "symbols": [
+    {
+      "name": "tiny",
+      "lbl": "\\tiny Ab0",
+      "val": "\\tiny "
+    },
+    {
+      "name": "scriptsize",
+      "lbl": "\\scriptsize Ab0",
+      "val": "\\scriptsize "
+    },
+    {
+      "name": "small",
+      "lbl": "\\small Ab0",
+      "val": "\\small "
+    },
+    {
+      "name": "normalsize",
+      "lbl": "\\normalsize Ab0",
+      "val": "\\normalsize "
+    },
+    {
+      "name": "large",
+      "lbl": "\\large Ab0",
+      "val": "\\large "
+    },
+    {
+      "name": "Large",
+      "lbl": "\\Large Ab0",
+      "val": "\\Large "
+    },
+    {
+      "name": "LARGE",
+      "lbl": "\\LARGE Ab0",
+      "val": "\\LARGE "
+    },
+    {
+      "name": "huge",
+      "lbl": "\\huge Ab0",
+      "val": "\\huge "
+    },
+    {
+      "name": "Huge",
+      "lbl": "\\Huge Ab0",
+      "val": "\\Huge "
+    }
+  ]
+}

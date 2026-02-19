@@ -1,0 +1,131 @@
+{
+  "title": "Logic and Set Theory",
+  "dispLen": 5,
+  "symbols": [
+    {
+      "name": "For All",
+      "lbl": "\\forall",
+      "val": "\\forall "
+    },
+    {
+      "name": "Subset",
+      "lbl": "\\subset",
+      "val": "\\subset "
+    },
+    {
+      "name": "Complement",
+      "lbl": "\\complement",
+      "val": "\\complement "
+    },
+    {
+      "name": "Therefore",
+      "lbl": "\\therefore",
+      "val": "\\therefore "
+    },
+    {
+      "name": "Empty Set",
+      "lbl": "\\emptyset",
+      "val": "\\emptyset "
+    },
+    {
+      "name": "Exists",
+      "lbl": "\\exists",
+      "val": "\\exists "
+    },
+    {
+      "name": "Superset",
+      "lbl": "\\supset",
+      "val": "\\supset "
+    },
+    {
+      "name": "Mid",
+      "lbl": "\\mid",
+      "val": "\\mid "
+    },
+    {
+      "name": "Because",
+      "lbl": "\\because",
+      "val": "\\because "
+    },
+    {
+      "name": "In",
+      "lbl": "\\in",
+      "val": "\\in "
+    },
+    {
+      "name": "Land",
+      "lbl": "\\land",
+      "val": "\\land "
+    },
+    {
+      "name": "Mapsto",
+      "lbl": "\\mapsto",
+      "val": "\\mapsto "
+    },
+    {
+      "name": "Var Nothing",
+      "lbl": "\\varnothing",
+      "val": "\\varnothing "
+    },
+    {
+      "name": "Nexists",
+      "lbl": "\\nexists",
+      "val": "\\nexists "
+    },
+    {
+      "name": "Lor",
+      "lbl": "\\lor",
+      "val": "\\lor "
+    },
+    {
+      "name": "To",
+      "lbl": "\\to",
+      "val": "\\to "
+    },
+    {
+      "name": "Implies",
+      "lbl": "\\implies",
+      "val": "\\implies "
+    },
+    {
+      "name": "Not In",
+      "lbl": "\\notin",
+      "val": "\\notin "
+    },
+    {
+      "name": "Contains",
+      "lbl": "\\ni",
+      "val": "\\ni "
+    },
+    {
+      "name": "Not Contains",
+      "lbl": "\\not\\ni",
+      "val": "\\not\\ni "
+    },
+    {
+      "name": "Gets",
+      "lbl": "\\gets",
+      "val": "\\gets "
+    },
+    {
+      "name": "Implied By",
+      "lbl": "\\impliedby",
+      "val": "\\impliedby "
+    },
+    {
+      "name": "Leftrightarrow",
+      "lbl": "\\leftrightarrow",
+      "val": "\\leftrightarrow "
+    },
+    {
+      "name": "Iff",
+      "lbl": "\\iff",
+      "val": "\\iff "
+    },
+    {
+      "name": "Negation",
+      "lbl": "\\neg",
+      "val": "\\neg "
+    }
+  ]
+}

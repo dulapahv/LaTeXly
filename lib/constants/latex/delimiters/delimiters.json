@@ -1,0 +1,141 @@
+{
+  "title": "Delimiters",
+  "dispLen": 5,
+  "symbols": [
+    {
+      "name": "Parentheses",
+      "lbl": "\\lparen \\rparen",
+      "val": "\\lparen  \\rparen",
+      "caretPos": 8
+    },
+    {
+      "name": "Ceiling",
+      "lbl": "\\lceil \\rceil",
+      "val": "\\lceil  \\rceil",
+      "caretPos": 7
+    },
+    {
+      "name": "Floor",
+      "lbl": "\\lfloor \\rfloor",
+      "val": "\\lfloor  \\rfloor",
+      "caretPos": 8
+    },
+    {
+      "name": "Square Brackets",
+      "lbl": "\\lbrack \\rbrack",
+      "val": "\\lbrack  \\rbrack",
+      "caretPos": 8
+    },
+    {
+      "name": "Curly Braces",
+      "lbl": "\\lbrace \\rbrace",
+      "val": "\\lbrace  \\rbrace",
+      "caretPos": 8
+    },
+    {
+      "name": "Angle Brackets",
+      "lbl": "\\langle \\rangle",
+      "val": "\\langle  \\rangle",
+      "caretPos": 8
+    },
+    {
+      "name": "Double Angle Brackets",
+      "lbl": "\\lgroup \\rgroup",
+      "val": "\\lgroup  \\rgroup",
+      "caretPos": 8
+    },
+    {
+      "name": "Moustache Brackets",
+      "lbl": "\\lmoustache \\rmoustache",
+      "val": "\\lmoustache  \\rmoustache",
+      "caretPos": 12
+    },
+    {
+      "name": "Vertical Line",
+      "lbl": "\\vert",
+      "val": "\\vert "
+    },
+    {
+      "name": "Double Vertical Line",
+      "lbl": "\\Vert",
+      "val": "\\Vert "
+    },
+    {
+      "name": "Left Vertical Line",
+      "lbl": "\\lvert \\rvert",
+      "val": "\\lvert  \\rvert",
+      "caretPos": 7
+    },
+    {
+      "name": "Left Double Vertical Line",
+      "lbl": "\\lVert \\rVert",
+      "val": "\\lVert  \\rVert",
+      "caretPos": 7
+    },
+    {
+      "name": "Up Arrow",
+      "lbl": "\\uparrow",
+      "val": "\\uparrow "
+    },
+    {
+      "name": "Down Arrow",
+      "lbl": "\\downarrow",
+      "val": "\\downarrow "
+    },
+    {
+      "name": "Up-Down Arrow",
+      "lbl": "\\updownarrow",
+      "val": "\\updownarrow "
+    },
+    {
+      "name": "Double Up Arrow",
+      "lbl": "\\Uparrow",
+      "val": "\\Uparrow "
+    },
+    {
+      "name": "Double Down Arrow",
+      "lbl": "\\Downarrow",
+      "val": "\\Downarrow "
+    },
+    {
+      "name": "Double Up-Down Arrow",
+      "lbl": "\\Updownarrow",
+      "val": "\\Updownarrow "
+    },
+    {
+      "name": "Backslash",
+      "lbl": "\\backslash",
+      "val": "\\backslash "
+    },
+    {
+      "name": "Less Than, Greater Than",
+      "lbl": "\\lt \\gt",
+      "val": "\\lt  \\gt",
+      "caretPos": 4
+    },
+    {
+      "name": "Double Brackets",
+      "lbl": "\\unicode{x27E6}\\unicode{x27E7}",
+      "val": "\\unicode{x27E6}  \\unicode{x27E7}",
+      "caretPos": 16
+    },
+    {
+      "name": "Brace Brackets",
+      "lbl": "\\unicode{x2983}\\unicode{x2984}",
+      "val": "\\unicode{x2983}  \\unicode{x2984}",
+      "caretPos": 16
+    },
+    {
+      "name": "Upper Left Corner",
+      "lbl": "\\ulcorner \\urcorner",
+      "val": "\\ulcorner  \\urcorner",
+      "caretPos": 10
+    },
+    {
+      "name": "Lower Left Corner",
+      "lbl": "\\llcorner \\lrcorner",
+      "val": "\\llcorner  \\lrcorner",
+      "caretPos": 10
+    }
+  ]
+}

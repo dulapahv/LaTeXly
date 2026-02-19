@@ -1,0 +1,159 @@
+{
+  "title": "Accents",
+  "dispLen": 5,
+  "symbols": [
+    {
+      "name": "Prime (Single)",
+      "lbl": "a'",
+      "val": "'"
+    },
+    {
+      "name": "Prime (Double)",
+      "lbl": "a''",
+      "val": "''"
+    },
+    {
+      "name": "Prime (Single, LaTeX)",
+      "lbl": "a^{}",
+      "val": "^{\\prime}"
+    },
+    {
+      "name": "Tilde",
+      "lbl": "\\tilde{a}",
+      "val": "\\tilde{}",
+      "caretPos": 7
+    },
+    {
+      "name": "Wide Tilde",
+      "lbl": "\\widetilde{ac}",
+      "val": "\\widetilde{}",
+      "caretPos": 11
+    },
+    {
+      "name": "Math Ring",
+      "lbl": "\\mathring{g}",
+      "val": "\\mathring{}",
+      "caretPos": 10
+    },
+    {
+      "name": "Acute",
+      "lbl": "\\acute{a}",
+      "val": "\\acute{}",
+      "caretPos": 7
+    },
+    {
+      "name": "Vector",
+      "lbl": "\\vec{F}",
+      "val": "\\vec{}",
+      "caretPos": 5
+    },
+    {
+      "name": "Overrightarrow",
+      "lbl": "\\overrightarrow{AB}",
+      "val": "\\overrightarrow{}",
+      "caretPos": 16
+    },
+    {
+      "name": "Overleftarrow",
+      "lbl": "\\overleftarrow{AB}",
+      "val": "\\overleftarrow{}",
+      "caretPos": 15
+    },
+    {
+      "name": "Overline",
+      "lbl": "\\overline{AB}",
+      "val": "\\overline{}",
+      "caretPos": 10
+    },
+    {
+      "name": "Overleftrightarrow",
+      "lbl": "\\overleftrightarrow{AB}",
+      "val": "\\overleftrightarrow{}",
+      "caretPos": 20
+    },
+    {
+      "name": "Overbrace",
+      "lbl": "\\overbrace{AB}",
+      "val": "\\overbrace{}",
+      "caretPos": 11
+    },
+    {
+      "name": "Underrightarrow",
+      "lbl": "\\underrightarrow{AB}",
+      "val": "\\underrightarrow{}",
+      "caretPos": 17
+    },
+    {
+      "name": "Underleftarrow",
+      "lbl": "\\underleftarrow{AB}",
+      "val": "\\underleftarrow{}",
+      "caretPos": 16
+    },
+    {
+      "name": "Underleftrightarrow",
+      "lbl": "\\underleftrightarrow{AB}",
+      "val": "\\underleftrightarrow{}",
+      "caretPos": 21
+    },
+    {
+      "name": "Underbrace",
+      "lbl": "\\underbrace{AB}",
+      "val": "\\underbrace{}",
+      "caretPos": 12
+    },
+    {
+      "name": "Underline",
+      "lbl": "\\underline{AB}",
+      "val": "\\underline{}",
+      "caretPos": 11
+    },
+    {
+      "name": "Breve",
+      "lbl": "\\breve{a}",
+      "val": "\\breve{}",
+      "caretPos": 7
+    },
+    {
+      "name": "Check",
+      "lbl": "\\check{a}",
+      "val": "\\check{}",
+      "caretPos": 7
+    },
+    {
+      "name": "Dot",
+      "lbl": "\\dot{a}",
+      "val": "\\dot{}",
+      "caretPos": 5
+    },
+    {
+      "name": "Double Dot",
+      "lbl": "\\ddot{a}",
+      "val": "\\ddot{}",
+      "caretPos": 6
+    },
+    {
+      "name": "Grave",
+      "lbl": "\\grave{a}",
+      "val": "\\grave{}",
+      "caretPos": 7
+    },
+    {
+      "name": "Hat",
+      "lbl": "\\hat{\\theta}",
+      "val": "\\hat{}",
+      "caretPos": 5
+    },
+    {
+      "name": "Widehat",
+      "lbl": "\\widehat{ac}",
+      "val": "\\widehat{}",
+      "caretPos": 9
+    },
+    {
+      "name": "Bar",
+      "lbl": "\\bar{y}",
+      "val": "\\bar{}",
+      "caretPos": 5
+    }
+  ]
+}

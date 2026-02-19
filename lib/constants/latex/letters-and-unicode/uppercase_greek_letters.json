@@ -1,0 +1,116 @@
+{
+  "title": "Uppercase Greek Letters",
+  "dispLen": 5,
+  "symbols": [
+    {
+      "name": "Gamma",
+      "lbl": "\\Gamma",
+      "val": "\\Gamma "
+    },
+    {
+      "name": "Delta",
+      "lbl": "\\Delta",
+      "val": "\\Delta "
+    },
+    {
+      "name": "Theta",
+      "lbl": "\\Theta",
+      "val": "\\Theta "
+    },
+    {
+      "name": "Lambda",
+      "lbl": "\\Lambda",
+      "val": "\\Lambda "
+    },
+    {
+      "name": "Xi",
+      "lbl": "\\Xi",
+      "val": "\\Xi "
+    },
+    {
+      "name": "Pi",
+      "lbl": "\\Pi",
+      "val": "\\Pi "
+    },
+    {
+      "name": "Sigma",
+      "lbl": "\\Sigma",
+      "val": "\\Sigma "
+    },
+    {
+      "name": "Upsilon",
+      "lbl": "\\Upsilon",
+      "val": "\\Upsilon "
+    },
+    {
+      "name": "Phi",
+      "lbl": "\\Phi",
+      "val": "\\Phi "
+    },
+    {
+      "name": "Psi",
+      "lbl": "\\Psi",
+      "val": "\\Psi "
+    },
+    {
+      "name": "Omega",
+      "lbl": "\\Omega",
+      "val": "\\Omega "
+    },
+    {
+      "name": "Variant Gamma",
+      "lbl": "\\varGamma",
+      "val": "\\varGamma "
+    },
+    {
+      "name": "Variant Delta",
+      "lbl": "\\varDelta",
+      "val": "\\varDelta "
+    },
+    {
+      "name": "Variant Theta",
+      "lbl": "\\varTheta",
+      "val": "\\varTheta "
+    },
+    {
+      "name": "Variant Lambda",
+      "lbl": "\\varLambda",
+      "val": "\\varLambda "
+    },
+    {
+      "name": "Variant Xi",
+      "lbl": "\\varXi",
+      "val": "\\varXi "
+    },
+    {
+      "name": "Variant Pi",
+      "lbl": "\\varPi",
+      "val": "\\varPi "
+    },
+    {
+      "name": "Variant Sigma",
+      "lbl": "\\varSigma",
+      "val": "\\varSigma "
+    },
+    {
+      "name": "Variant Upsilon",
+      "lbl": "\\varUpsilon",
+      "val": "\\varUpsilon "
+    },
+    {
+      "name": "Variant Phi",
+      "lbl": "\\varPhi",
+      "val": "\\varPhi "
+    },
+    {
+      "name": "Variant Psi",
+      "lbl": "\\varPsi",
+      "val": "\\varPsi "
+    },
+    {
+      "name": "Variant Omega",
+      "lbl": "\\varOmega",
+      "val": "\\varOmega "
+    }
+  ]
+}
