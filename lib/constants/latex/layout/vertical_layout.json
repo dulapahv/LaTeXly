@@ -33,12 +33,6 @@
       "caretPos": 9
     },
     {
-      "name": "Raisebox",
-      "lbl": "a\\raisebox{0.25em}{$b$}c",
-      "val": "\\raisebox{0em}{$$}",
-      "caretPos": 11
-    },
-    {
       "name": "UnderscoreSuperscript",
       "lbl": "_u^o",
       "val": "_u^o",

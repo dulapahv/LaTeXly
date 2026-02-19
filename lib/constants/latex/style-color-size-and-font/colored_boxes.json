@@ -15,9 +15,9 @@
       "caretPos": 11
     },
     {
-      "name": "Transparent Box With Frame",
-      "lbl": "\\fcolorbox{red}{none}{$A$}",
-      "val": "\\fcolorbox{}{none}{$$}",
+      "name": "Box With Frame (White)",
+      "lbl": "\\fcolorbox{red}{white}{$A$}",
+      "val": "\\fcolorbox{}{white}{$$}",
       "caretPos": 11
     }
   ]

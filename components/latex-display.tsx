@@ -1,5 +1,3 @@
-// src/components/latex-display.tsx
-// This component is for the MAIN PANEL ONLY - reads from global store
 'use client';
 
 import { useRef, useMemo } from 'react';

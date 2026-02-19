@@ -1,4 +1,3 @@
-// src/components/footer.tsx - CORRECTED
 'use client';
 
 import { MathJax } from 'better-react-mathjax';

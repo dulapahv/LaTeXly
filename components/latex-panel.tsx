@@ -1,15 +1,13 @@
-// src/components/latex-panel.tsx - Fixed image export
-'use client';
+"use client";
 
-import { useRef } from 'react';
-import html2canvas from 'html2canvas';
-import { LaTeXDisplay } from './latex-display';
+import { useRef } from "react";
+import { LaTeXDisplay } from "./latex-display";
 
 export function LaTeXPanel() {
   const panelRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div 
+    <div
       ref={panelRef}
       className="flex h-full w-full items-center justify-center overflow-auto"
     >
@@ -18,140 +16,131 @@ export function LaTeXPanel() {
   );
 }
 
-// Helper function to convert CSS variables to RGB for html2canvas
-function getComputedColor(element: HTMLElement): string {
-  const styles = window.getComputedStyle(element);
-  const bgColor = styles.backgroundColor;
-  
-  // If it's already rgb/rgba, return it
-  if (bgColor.startsWith('rgb')) {
-    return bgColor;
-  }
-  
-  // Default to white for light mode, dark for dark mode
-  const isDark = document.documentElement.classList.contains('dark');
-  return isDark ? '#0a0a0a' : '#ffffff';
+const SCALE = 2;
+const PADDING = 40;
+
+function extractSvg(): { svgElement: SVGSVGElement; svgString: string } {
+  const container = document.getElementById("equation-render-element");
+  if (!container) throw new Error("Element not found");
+
+  const svgElement = container.querySelector("svg");
+  if (!svgElement) throw new Error("No SVG found");
+
+  const clone = svgElement.cloneNode(true) as SVGSVGElement;
+  const bbox = svgElement.getBoundingClientRect();
+  clone.setAttribute("width", `${bbox.width}px`);
+  clone.setAttribute("height", `${bbox.height}px`);
+  clone.removeAttribute("style");
+
+  return { svgElement, svgString: new XMLSerializer().serializeToString(clone) };
 }
 
-export async function copyEquationAsImage() {
-  const element = document.getElementById('equation-render-element');
-  if (!element) {
-    throw new Error('Element not found');
-  }
-
-  try {
-    // Create a clone to avoid modifying the original
-    const clone = element.cloneNode(true) as HTMLElement;
-    
-    // Apply inline styles to bypass CSS variable issues
-    clone.style.backgroundColor = getComputedColor(element);
-    clone.style.color = window.getComputedStyle(element).color;
-    clone.style.padding = '20px';
-    clone.style.borderRadius = '8px';
-    
-    // Temporarily append to body for rendering
-    clone.style.position = 'absolute';
-    clone.style.left = '-9999px';
-    document.body.appendChild(clone);
-
-    const canvas = await html2canvas(clone, {
-      backgroundColor: null,
-      scale: 2,
-      logging: false,
-      useCORS: true,
-      allowTaint: true,
-    });
-    
-    // Clean up
-    document.body.removeChild(clone);
-
-    const blob = await new Promise<Blob | null>((resolve) =>
-      canvas.toBlob((blob) => resolve(blob), 'image/png'),
-    );
-
-    if (blob) {
-      await navigator.clipboard.write([
-        new ClipboardItem({
-          'image/png': blob,
-        }),
-      ]);
-    } else {
-      throw new Error('Blob conversion failed');
+function svgToCanvas(
+  svgString: string,
+  svgWidth: number,
+  svgHeight: number,
+  bgColor: string,
+): Promise<HTMLCanvasElement> {
+  return new Promise((resolve, reject) => {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    if (!ctx) {
+      reject(new Error("Canvas context unavailable"));
+      return;
     }
-  } catch (error) {
-    console.error('Copy as image failed:', error);
-    throw error;
-  }
+
+    const width = svgWidth * SCALE + PADDING * 2;
+    const height = svgHeight * SCALE + PADDING * 2;
+    canvas.width = width;
+    canvas.height = height;
+
+    ctx.fillStyle = bgColor;
+    ctx.fillRect(0, 0, width, height);
+
+    const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const img = new Image();
+
+    img.onload = () => {
+      ctx.drawImage(img, PADDING, PADDING, svgWidth * SCALE, svgHeight * SCALE);
+      URL.revokeObjectURL(url);
+      resolve(canvas);
+    };
+
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new Error("Failed to load SVG image"));
+    };
+
+    img.src = url;
+  });
 }
 
-export async function downloadEquationAsImage() {
-  const element = document.getElementById('equation-render-element');
-  if (!element) {
-    throw new Error('Element not found');
-  }
-
-  try {
-    // Create a clone for rendering
-    const clone = element.cloneNode(true) as HTMLElement;
-    
-    // Apply white background for download
-    clone.style.backgroundColor = '#ffffff';
-    clone.style.color = '#000000';
-    clone.style.padding = '40px';
-    clone.style.borderRadius = '0';
-    
-    // Temporarily append to body
-    clone.style.position = 'absolute';
-    clone.style.left = '-9999px';
-    document.body.appendChild(clone);
-
-    const canvas = await html2canvas(clone, {
-      backgroundColor: '#ffffff',
-      scale: 2,
-      logging: false,
-      useCORS: true,
-      allowTaint: true,
-    });
-    
-    // Clean up
-    document.body.removeChild(clone);
-
-    const link = document.createElement('a');
-    link.href = canvas.toDataURL('image/png');
-    link.download = `latex-equation-${Date.now()}.png`;
-    link.click();
-    link.remove();
-  } catch (error) {
-    console.error('Download as image failed:', error);
-    throw error;
-  }
+function getColors() {
+  const isDark = document.documentElement.classList.contains("dark");
+  return {
+    bg: isDark ? "#0a0a0a" : "#ffffff",
+    fg: isDark ? "#e6edf3" : "#1f2328",
+  };
 }
 
-// Alternative: Use dom-to-image-more instead of html2canvas (better CSS support)
-// npm install dom-to-image-more
-// import domtoimage from 'dom-to-image-more';
+function styledSvgString(svgString: string, fgColor: string): string {
+  return svgString.replace(/currentColor/g, fgColor);
+}
 
-// export async function copyEquationAsImageAlternative() {
-//   const domtoimage = await import('dom-to-image-more');
-//   const element = document.getElementById('equation-render-element');
-//   if (!element) throw new Error('Element not found');
+function getDimensions(svgElement: SVGSVGElement) {
+  const bbox = svgElement.getBoundingClientRect();
+  return { width: bbox.width, height: bbox.height };
+}
 
-//   try {
-//     const blob = await domtoimage.default.toBlob(element, {
-//       quality: 1,
-//       scale: 2,
-//       bgcolor: '#ffffff',
-//       style: {
-//         backgroundColor: '#ffffff',
-//         padding: '20px',
-//       }
-//     });
+function downloadBlob(blob: Blob, filename: string) {
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = filename;
+  link.click();
+  URL.revokeObjectURL(link.href);
+  link.remove();
+}
 
-//     await navigator.clipboard.write([
-//       new ClipboardItem({ 'image/png': blob }),
-//     ]);
-//   } catch (error) {
-//     console.error('Copy failed:', error);
-//     throw error;
-//   }
-// }
+export async function copyAsPng() {
+  const { svgElement, svgString } = extractSvg();
+  const { width, height } = getDimensions(svgElement);
+  const { bg, fg } = getColors();
+  const styled = styledSvgString(svgString, fg);
+
+  const canvas = await svgToCanvas(styled, width, height, bg);
+  const blob = await new Promise<Blob | null>((resolve) =>
+    canvas.toBlob((b) => resolve(b), "image/png"),
+  );
+  if (!blob) throw new Error("Blob conversion failed");
+
+  await navigator.clipboard.write([
+    new ClipboardItem({ "image/png": blob }),
+  ]);
+}
+
+export async function copyAsSvg() {
+  const { svgString } = extractSvg();
+  const { fg } = getColors();
+  const styled = styledSvgString(svgString, fg);
+  await navigator.clipboard.writeText(styled);
+}
+
+export async function downloadAsPng() {
+  const { svgElement, svgString } = extractSvg();
+  const { width, height } = getDimensions(svgElement);
+  const styled = styledSvgString(svgString, "#1f2328");
+
+  const canvas = await svgToCanvas(styled, width, height, "#ffffff");
+  const dataUrl = canvas.toDataURL("image/png");
+  const res = await fetch(dataUrl);
+  const blob = await res.blob();
+  downloadBlob(blob, `latex-equation-${Date.now()}.png`);
+}
+
+export async function downloadAsSvg() {
+  const { svgString } = extractSvg();
+  const styled = styledSvgString(svgString, "#1f2328");
+  const blob = new Blob([styled], { type: "image/svg+xml;charset=utf-8" });
+  downloadBlob(blob, `latex-equation-${Date.now()}.svg`);
+}

@@ -5,37 +5,37 @@
   "symbols": [
     {
       "name": "Matrix",
-      "lbl": "\\footnotesize \\begin{matrix} a & b \\\\ c & d \\end{matrix}",
+      "lbl": "{\\scriptstyle \\begin{matrix} a & b \\\\ c & d \\end{matrix}}",
       "val": "\\begin{matrix}  &  \\\\  &  \\end{matrix}",
       "caretPos": 15
     },
     {
       "name": "Parentheses Matrix",
-      "lbl": "\\footnotesize \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}",
+      "lbl": "{\\scriptstyle \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}}",
       "val": "\\begin{pmatrix}  &  \\\\  &  \\end{pmatrix}",
       "caretPos": 16
     },
     {
       "name": "Bracket Matrix",
-      "lbl": "\\footnotesize \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
+      "lbl": "{\\scriptstyle \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}}",
       "val": "\\begin{bmatrix}  &  \\\\  &  \\end{bmatrix}",
       "caretPos": 16
     },
     {
       "name": "Determinant",
-      "lbl": "\\footnotesize \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
+      "lbl": "{\\scriptstyle \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}}",
       "val": "\\begin{vmatrix}  &  \\\\  &  \\end{vmatrix}",
       "caretPos": 16
     },
     {
       "name": "Double Vertical Bars Matrix",
-      "lbl": "\\footnotesize \\begin{Vmatrix} a & b \\\\ c & d \\end{Vmatrix}",
+      "lbl": "{\\scriptstyle \\begin{Vmatrix} a & b \\\\ c & d \\end{Vmatrix}}",
       "val": "\\begin{Vmatrix}  &  \\\\  &  \\end{Vmatrix}",
       "caretPos": 16
     },
     {
       "name": "Curly Braces Matrix",
-      "lbl": "\\footnotesize \\begin{Bmatrix} a & b \\\\ c & d \\end{Bmatrix}",
+      "lbl": "{\\scriptstyle \\begin{Bmatrix} a & b \\\\ c & d \\end{Bmatrix}}",
       "val": "\\begin{Bmatrix}  &  \\\\  &  \\end{Bmatrix}",
       "caretPos": 16
     }

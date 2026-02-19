@@ -16,18 +16,6 @@
       "caretPos": 8
     },
     {
-      "name": "Phase",
-      "lbl": "\\phase{-78^\\circ}",
-      "val": "\\phase{^\\circ} ",
-      "caretPos": 7
-    },
-    {
-      "name": "Sout",
-      "lbl": "\\sout{abc}",
-      "val": "\\sout{}",
-      "caretPos": 6
-    },
-    {
       "name": "Underbrace",
       "lbl": "\\underbrace{a+b+c}_{\\text{note}}",
       "val": "\\underbrace{}_{\\text{}}",
@@ -55,18 +43,6 @@
       "lbl": "\\boxed{\\pi=\\frac c d}",
       "val": "\\boxed{}",
       "caretPos": 7
-    },
-    {
-      "name": "Subscript Angle",
-      "lbl": "a_{\\angl n}",
-      "val": "_{\\angl }",
-      "caretPos": 8
-    },
-    {
-      "name": "Subscript Angln",
-      "lbl": "a_\\angln",
-      "val": "_\\angln ",
-      "caretPos": 8
     }
   ]
 }

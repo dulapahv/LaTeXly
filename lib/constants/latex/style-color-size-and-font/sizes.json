@@ -14,11 +14,6 @@
       "val": "\\scriptsize "
     },
     {
-      "name": "footnotesize",
-      "lbl": "\\footnotesize Ab0",
-      "val": "\\footnotesize "
-    },
-    {
       "name": "small",
       "lbl": "\\small Ab0",
       "val": "\\small "

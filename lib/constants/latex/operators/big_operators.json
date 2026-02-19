@@ -106,15 +106,15 @@
     },
     {
       "name": "Double Contour Integral",
-      "lbl": "\\oiint",
-      "val": "\\oiint_{}^{}",
-      "caretPos": 8
+      "lbl": "\\unicode{x222F}",
+      "val": "\\unicode{x222F}_{}^{}",
+      "caretPos": 17
     },
     {
       "name": "Triple Contour Integral",
-      "lbl": "\\oiiint",
-      "val": "\\oiiint_{}^{}",
-      "caretPos": 9
+      "lbl": "\\unicode{x2230}",
+      "val": "\\unicode{x2230}_{}^{}",
+      "caretPos": 17
     },
     {
       "name": "Square Union (Big)",

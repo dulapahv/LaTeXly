@@ -1,85 +1,178 @@
-// components/editor-panel.tsx
 "use client";
 
-import { useCallback, useMemo, useRef, useState } from "react";
-import Editor from "react-simple-code-editor";
-import { highlight, languages } from "prismjs";
+import { useEffect, useMemo, useRef } from "react";
+import dynamic from "next/dynamic";
+import { useTheme } from "next-themes";
 import { useEquationStore } from "@/store/equation-store";
-import { processPattern } from "@/lib/process-pattern";
-import debounce from "lodash/debounce";
+import { debounce } from "@/lib/utils";
+import type { editor } from "monaco-editor";
 
-import "prismjs/themes/prism-tomorrow.css";
-import "prismjs/components/prism-latex";
+const MonacoEditor = dynamic(() => import("@monaco-editor/react"), {
+  ssr: false,
+});
 
-const EDITOR_PLACEHOLDER = "Enter a LaTeX equation... e.g. e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)";
+let monacoEditorRef: editor.IStandaloneCodeEditor | undefined;
+
+export function getMonacoEditor() {
+  return monacoEditorRef;
+}
+
+const EDITOR_PLACEHOLDER =
+  "Enter a LaTeX equation... e.g. e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)";
 
 export function EditorPanel() {
   const { equation, setEquation } = useEquationStore();
-  const [localEquation, setLocalEquation] = useState(equation);
-  const highlightCache = useRef<Map<string, string>>(new Map());
+  const { resolvedTheme } = useTheme();
+  const editorRef = useRef<editor.IStandaloneCodeEditor | undefined>(undefined);
+  const isExternalUpdate = useRef(false);
 
-  // Debounced store update to reduce re-renders
   const debouncedSetEquation = useMemo(
-    () => debounce((value: string) => {
-      setEquation(value);
-    }, 100),
-    [setEquation]
+    () =>
+      debounce((value: string) => {
+        setEquation(value);
+      }, 100),
+    [setEquation],
   );
 
-  // Memoized highlight function with caching
-  const highlightWithLineNumbers = useCallback((code: string) => {
-    // Check cache first
-    if (highlightCache.current.has(code)) {
-      return highlightCache.current.get(code)!;
+  useEffect(() => {
+    const editorInstance = editorRef.current;
+    if (!editorInstance) return;
+
+    const currentValue = editorInstance.getValue();
+    if (currentValue !== equation) {
+      isExternalUpdate.current = true;
+      editorInstance.setValue(equation);
+      isExternalUpdate.current = false;
+    }
+  }, [equation]);
+
+  function handleEditorDidMount(editorInstance: editor.IStandaloneCodeEditor) {
+    editorRef.current = editorInstance;
+    monacoEditorRef = editorInstance;
+
+    if (equation) {
+      editorInstance.setValue(equation);
     }
 
-    // Simple line numbers without heavy processing
-    const highlighted = highlight(code, languages.latex!, "latex");
-    const lines = highlighted.split("\n");
-    const result = lines
-      .map((line, i) => {
-        const lineNum = `<span style='position:absolute;left:0;color:#999;text-align:right;width:40px;user-select:none'>${i + 1}</span>`;
-        return lineNum + line;
-      })
-      .join("\n");
+    editorInstance.focus();
 
-    // Cache the result (limit cache size)
-    if (highlightCache.current.size > 100) {
-      const firstKey = highlightCache.current.keys().next().value;
-      highlightCache.current.delete(firstKey);
+    updatePlaceholder(editorInstance);
+    editorInstance.onDidChangeModelContent(() => {
+      updatePlaceholder(editorInstance);
+    });
+  }
+
+  function handleChange(value: string | undefined) {
+    if (isExternalUpdate.current) return;
+    debouncedSetEquation(value ?? "");
+  }
+
+  function handleEditorWillMount(monaco: typeof import("monaco-editor")) {
+    const { LATEX_LANGUAGE_ID, languageConfiguration, monarchTokensProvider } =
+      require("@/lib/monaco/latex-language") as typeof import("@/lib/monaco/latex-language");
+    const { createCompletionProvider } =
+      require("@/lib/monaco/latex-completions") as typeof import("@/lib/monaco/latex-completions");
+    const { LIGHT_THEME, DARK_THEME, lightTheme, darkTheme } =
+      require("@/lib/monaco/latex-theme") as typeof import("@/lib/monaco/latex-theme");
+
+    const registeredLanguages = monaco.languages.getLanguages();
+    if (!registeredLanguages.some((lang) => lang.id === LATEX_LANGUAGE_ID)) {
+      monaco.languages.register({ id: LATEX_LANGUAGE_ID });
+      monaco.languages.setMonarchTokensProvider(
+        LATEX_LANGUAGE_ID,
+        monarchTokensProvider,
+      );
+      monaco.languages.setLanguageConfiguration(
+        LATEX_LANGUAGE_ID,
+        languageConfiguration,
+      );
+      monaco.languages.registerCompletionItemProvider(
+        LATEX_LANGUAGE_ID,
+        createCompletionProvider(),
+      );
     }
-    highlightCache.current.set(code, result);
 
-    return result;
-  }, []);
+    monaco.editor.defineTheme(LIGHT_THEME, lightTheme);
+    monaco.editor.defineTheme(DARK_THEME, darkTheme);
+  }
 
-  const handleValueChange = useCallback((value: string) => {
-    setLocalEquation(value);
-    debouncedSetEquation(value);
-  }, [debouncedSetEquation]);
-
-  const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    processPattern({ keyboardEvent: e, equation: localEquation });
-  }, [localEquation]);
+  const themeName =
+    resolvedTheme === "dark" ? "latex-dark" : "latex-light";
 
   return (
-    <div className="h-full overflow-y-auto border-r border-border">
-      <Editor
-        value={localEquation}
-        onValueChange={handleValueChange}
-        onKeyDown={handleKeyDown}
-        highlight={highlightWithLineNumbers}
-        padding={10}
-        className="min-h-full font-mono text-sm sm:text-base"
-        textareaClassName="!pl-12 !outline-none"
-        preClassName="!pl-12 !outline-none"
-        placeholder={EDITOR_PLACEHOLDER}
-        autoFocus
-        textareaId="editor"
-        style={{
-          fontFamily: '"Fira Code", "Fira Mono", monospace',
+    <div className="h-full overflow-hidden border-r border-border">
+      <MonacoEditor
+        language="latex"
+        theme={themeName}
+        value={equation}
+        onChange={handleChange}
+        beforeMount={handleEditorWillMount}
+        onMount={handleEditorDidMount}
+        loading={
+          <div className="flex h-full items-center justify-center text-muted-foreground text-sm">
+            Loading editor...
+          </div>
+        }
+        options={{
+          minimap: { enabled: false },
+          lineNumbers: "on",
+          wordWrap: "on",
+          fontSize: 14,
+          fontFamily: "'Geist Mono', 'Fira Code', 'Fira Mono', monospace",
+          scrollBeyondLastLine: false,
+          automaticLayout: true,
+          padding: { top: 8, bottom: 8 },
+          suggestOnTriggerCharacters: true,
+          quickSuggestions: true,
+          tabSize: 2,
+          renderLineHighlight: "line",
+          overviewRulerBorder: false,
+          hideCursorInOverviewRuler: true,
+          scrollbar: {
+            verticalScrollbarSize: 8,
+            horizontalScrollbarSize: 8,
+          },
+          bracketPairColorization: { enabled: true },
+          autoClosingBrackets: "always",
+          autoClosingQuotes: "always",
+          matchBrackets: "always",
+          cursorSmoothCaretAnimation: "on",
         }}
       />
     </div>
   );
+}
+
+function updatePlaceholder(editorInstance: editor.IStandaloneCodeEditor) {
+  const model = editorInstance.getModel();
+  if (!model) return;
+
+  const container = editorInstance.getDomNode();
+  if (!container) return;
+
+  let placeholder = container.querySelector(
+    ".monaco-placeholder",
+  ) as HTMLElement | null;
+
+  if (model.getValue() === "") {
+    if (!placeholder) {
+      placeholder = document.createElement("div");
+      placeholder.className = "monaco-placeholder";
+      placeholder.textContent = EDITOR_PLACEHOLDER;
+      Object.assign(placeholder.style, {
+        position: "absolute",
+        top: "8px",
+        left: "68px",
+        color: "var(--muted-foreground)",
+        pointerEvents: "none",
+        fontFamily: "'Geist Mono', 'Fira Code', monospace",
+        fontSize: "14px",
+        opacity: "0.5",
+      });
+      container.appendChild(placeholder);
+    }
+    placeholder.style.display = "block";
+  } else if (placeholder) {
+    placeholder.style.display = "none";
+  }
 }

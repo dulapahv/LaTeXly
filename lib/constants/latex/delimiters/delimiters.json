@@ -108,12 +108,6 @@
       "val": "\\backslash "
     },
     {
-      "name": "Left Angle Bracket",
-      "lbl": "\\lang \\rang",
-      "val": "\\lang  \\rang",
-      "caretPos": 6
-    },
-    {
       "name": "Less Than, Greater Than",
       "lbl": "\\lt \\gt",
       "val": "\\lt  \\gt",
@@ -121,15 +115,15 @@
     },
     {
       "name": "Double Brackets",
-      "lbl": "\\llbracket \\rrbracket",
-      "val": "\\llbracket  \\rrbracket",
-      "caretPos": 11
+      "lbl": "\\unicode{x27E6}\\unicode{x27E7}",
+      "val": "\\unicode{x27E6}  \\unicode{x27E7}",
+      "caretPos": 16
     },
     {
       "name": "Brace Brackets",
-      "lbl": "\\lBrace \\rBrace",
-      "val": "\\lBrace  \\rBrace",
-      "caretPos": 8
+      "lbl": "\\unicode{x2983}\\unicode{x2984}",
+      "val": "\\unicode{x2983}  \\unicode{x2984}",
+      "caretPos": 16
     },
     {
       "name": "Upper Left Corner",

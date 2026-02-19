@@ -19,13 +19,13 @@
     },
     {
       "name": "Reals",
-      "lbl": "\\Reals",
-      "val": "\\Reals "
+      "lbl": "\\mathbb{R}",
+      "val": "\\mathbb{R} "
     },
     {
-      "name": "OE",
-      "lbl": "\\text{\\OE}",
-      "val": "\\text{\\OE} "
+      "name": "Naturals",
+      "lbl": "\\mathbb{N}",
+      "val": "\\mathbb{N} "
     },
     {
       "name": "jmath",
@@ -38,19 +38,24 @@
       "val": "\\partial "
     },
     {
-      "name": "image",
-      "lbl": "\\image",
-      "val": "\\image "
+      "name": "Re",
+      "lbl": "\\Re",
+      "val": "\\Re "
+    },
+    {
+      "name": "Integers",
+      "lbl": "\\mathbb{Z}",
+      "val": "\\mathbb{Z} "
+    },
+    {
+      "name": "Complex Numbers",
+      "lbl": "\\mathbb{C}",
+      "val": "\\mathbb{C} "
     },
     {
       "name": "wp",
       "lbl": "\\wp",
       "val": "\\wp "
-    },
-    {
-      "name": "o",
-      "lbl": "\\text{\\o}",
-      "val": "\\text{\\o} "
     },
     {
       "name": "aleph",
@@ -68,64 +73,9 @@
       "val": "\\Bbbk "
     },
     {
-      "name": "weierp",
-      "lbl": "\\weierp",
-      "val": "\\weierp "
-    },
-    {
-      "name": "O",
-      "lbl": "\\text{\\O}",
-      "val": "\\text{\\O} "
-    },
-    {
-      "name": "alef",
-      "lbl": "\\alef",
-      "val": "\\alef "
-    },
-    {
-      "name": "Finv",
-      "lbl": "\\Finv",
-      "val": "\\Finv "
-    },
-    {
-      "name": "N",
-      "lbl": "\\N",
-      "val": "\\N "
-    },
-    {
-      "name": "Z",
-      "lbl": "\\Z",
-      "val": "\\Z "
-    },
-    {
-      "name": "ss",
-      "lbl": "\\text{\\ss}",
-      "val": "\\text{\\ss} "
-    },
-    {
-      "name": "alefsym",
-      "lbl": "\\alefsym",
-      "val": "\\alefsym "
-    },
-    {
-      "name": "cnums",
-      "lbl": "\\cnums",
-      "val": "\\cnums "
-    },
-    {
-      "name": "natnums",
-      "lbl": "\\natnums",
-      "val": "\\natnums "
-    },
-    {
-      "name": "aa",
-      "lbl": "\\text{\\aa}",
-      "val": "\\text{\\aa} "
-    },
-    {
-      "name": "i",
-      "lbl": "\\text{\\i}",
-      "val": "\\text{\\i} "
+      "name": "real",
+      "lbl": "\\real",
+      "val": "\\real "
     },
     {
       "name": "beth",
@@ -133,29 +83,9 @@
       "val": "\\beth "
     },
     {
-      "name": "Complex",
-      "lbl": "\\Complex",
-      "val": "\\Complex "
-    },
-    {
-      "name": "R",
-      "lbl": "\\R",
-      "val": "\\R "
-    },
-    {
-      "name": "AA",
-      "lbl": "\\text{\\AA}",
-      "val": "\\text{\\AA} "
-    },
-    {
-      "name": "j",
-      "lbl": "\\text{\\j}",
-      "val": "\\text{\\j} "
-    },
-    {
-      "name": "gimel",
-      "lbl": "\\gimel",
-      "val": "\\gimel "
+      "name": "Finv",
+      "lbl": "\\Finv",
+      "val": "\\Finv "
     },
     {
       "name": "ell",
@@ -163,14 +93,9 @@
       "val": "\\ell "
     },
     {
-      "name": "Re",
-      "lbl": "\\Re",
-      "val": "\\Re "
-    },
-    {
-      "name": "ae",
-      "lbl": "\\text{\\ae}",
-      "val": "\\text{\\ae} "
+      "name": "gimel",
+      "lbl": "\\gimel",
+      "val": "\\gimel "
     },
     {
       "name": "daleth",
@@ -183,16 +108,6 @@
       "val": "\\hbar "
     },
     {
-      "name": "real",
-      "lbl": "\\real",
-      "val": "\\real "
-    },
-    {
-      "name": "AE",
-      "lbl": "\\text{\\AE}",
-      "val": "\\text{\\AE} "
-    },
-    {
       "name": "eth",
       "lbl": "\\eth",
       "val": "\\eth "
@@ -201,16 +116,6 @@
       "name": "hslash",
       "lbl": "\\hslash",
       "val": "\\hslash "
-    },
-    {
-      "name": "reals",
-      "lbl": "\\reals",
-      "val": "\\reals "
-    },
-    {
-      "name": "oe",
-      "lbl": "\\text{\\oe}",
-      "val": "\\text{\\oe} "
     }
   ]
 }

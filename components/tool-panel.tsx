@@ -1,23 +1,18 @@
-// src/components/tool-panel.tsx - FIXED
 'use client';
 
-import { memo, useState, useCallback, useMemo, lazy, Suspense } from 'react';
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Button } from '@/components/ui/button';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { ArrowDownRight } from 'lucide-react';
 import { MathJax } from 'better-react-mathjax';
-import { cn } from '@/lib/utils';
-import { insertToEditor } from '@/lib/utils';
+import { cn, insertToEditor } from '@/lib/utils';
 import { SymbolsGroup } from '@/types/symbols';
 import { ThemeToggle } from './theme-toggle';
 import { UndoRedo } from './undo-redo';
+import { SymbolSearch } from './symbol-search';
 import * as allSymbols from '@/lib/constants/latex';
 
-// Lazy load the search component
-const SymbolSearch = lazy(() => import('./symbol-search').then(m => ({ default: m.SymbolSearch })));
-
-// Memoized Symbol Button with MathJax
 const SymbolButton = memo(function SymbolButton({
   name,
   lbl,
@@ -37,8 +32,6 @@ const SymbolButton = memo(function SymbolButton({
     insertToEditor(val, true, caretPos);
   }, [val, caretPos]);
 
-  // Format the math expression for MathJax
-  // Use the lbl prop to display the symbol, not the global equation
   const mathContent = isBlkMath ? `\\[${lbl}\\]` : `\\(${lbl}\\)`;
 
   return (
@@ -47,21 +40,21 @@ const SymbolButton = memo(function SymbolButton({
         <Button
           onClick={handleClick}
           className={cn(
-            'rounded text-base transition-none overflow-hidden',
-            sqBtn ? 'h-9 w-9 p-0' : 'h-auto px-2 py-1 text-sm',
+            'symbol-btn rounded transition-none overflow-hidden',
+            sqBtn ? 'size-9 p-0' : 'h-auto px-2 py-1 text-sm',
           )}
           size={sqBtn ? 'icon' : 'sm'}
           variant="ghost"
           aria-label={name}
         >
-          <MathJax 
-            inline={!isBlkMath} 
-            dynamic 
-            hideUntilTypeset="first"
-            style={{ fontSize: sqBtn ? '0.875rem' : '0.75rem' }}
-          >
-            {mathContent}
-          </MathJax>
+          <div className="scale-125">
+            <MathJax
+              inline={!isBlkMath}
+              hideUntilTypeset="first"
+            >
+              {mathContent}
+            </MathJax>
+          </div>
         </Button>
       </TooltipTrigger>
       <TooltipContent side="bottom" className="z-50">
@@ -74,13 +67,12 @@ const SymbolButton = memo(function SymbolButton({
   );
 });
 
-// Optimized Symbol Group with better hover handling
-const SymbolGroup = memo(function SymbolGroup({ 
-  title, 
-  symbols, 
-  dispLen, 
-  sqBtn, 
-  shouldDisplayOverflow 
+const SymbolGroup = memo(function SymbolGroup({
+  title,
+  symbols,
+  dispLen,
+  sqBtn,
+  shouldDisplayOverflow
 }: {
   title: string;
   symbols: any[];
@@ -88,67 +80,82 @@ const SymbolGroup = memo(function SymbolGroup({
   sqBtn: boolean;
   shouldDisplayOverflow: boolean;
 }) {
-  const [isExpanded, setIsExpanded] = useState(false);
-  
-  // Use pointer events for better performance
-  const handleMouseEnter = useCallback(() => {
-    if (shouldDisplayOverflow) {
-      setIsExpanded(true);
-    }
-  }, [shouldDisplayOverflow]);
-  
-  const handleMouseLeave = useCallback(() => {
-    setIsExpanded(false);
+  const [overflowOpen, setOverflowOpen] = useState(false);
+  const groupRef = useRef<HTMLDivElement>(null);
+
+  const toggleOverflow = useCallback(() => {
+    setOverflowOpen(prev => !prev);
   }, []);
 
-  // Pre-calculate grid styles
-  const gridStyle = useMemo(() => ({
-    gridTemplateColumns: `repeat(${dispLen}, minmax(0, 1fr))`,
-  }), [dispLen]);
+  useEffect(() => {
+    if (!overflowOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (groupRef.current && !groupRef.current.contains(e.target as Node)) {
+        setOverflowOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [overflowOpen]);
 
-  // Split symbols for better rendering
+  const gridStyle = useMemo(() => ({
+    gridTemplateColumns: sqBtn
+      ? `repeat(${dispLen}, 2.25rem)`
+      : `repeat(${dispLen}, 2rem)`,
+  }), [dispLen, sqBtn]);
+
   const visibleSymbols = useMemo(() => symbols.slice(0, dispLen), [symbols, dispLen]);
   const overflowSymbols = useMemo(() => symbols.slice(dispLen), [symbols, dispLen]);
 
   return (
     <div
+      ref={groupRef}
       className={cn(
-        'group relative size-fit rounded border border-border bg-card',
-        shouldDisplayOverflow && 'hover:shadow-lg hover:z-10',
-        isExpanded && 'shadow-lg z-10'
+        'relative size-fit rounded border border-border bg-card',
+        overflowOpen && 'shadow-lg z-10',
       )}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
     >
       <div className="grid" style={gridStyle}>
         {visibleSymbols.map((symbol, index) => (
-          <SymbolButton 
-            key={`${symbol.val}-${index}`} 
-            sqBtn={sqBtn} 
-            {...symbol} 
+          <SymbolButton
+            key={`${symbol.val}-${index}`}
+            sqBtn={sqBtn}
+            {...symbol}
           />
         ))}
       </div>
-      
-      {shouldDisplayOverflow && isExpanded && (
+
+      {shouldDisplayOverflow && (
         <div
-          className="absolute left-0 right-0 top-full z-20 grid rounded-b border-b border-x border-border bg-card shadow-lg"
+          className={cn(
+            'absolute -left-px -right-px z-20 rounded-b border-b border-x border-border bg-card shadow-lg',
+            overflowOpen ? 'grid' : 'hidden',
+          )}
           style={gridStyle}
         >
           {overflowSymbols.map((symbol, index) => (
-            <SymbolButton 
-              key={`${symbol.val}-overflow-${index}`} 
-              sqBtn={sqBtn} 
-              {...symbol} 
+            <SymbolButton
+              key={`${symbol.val}-overflow-${index}`}
+              sqBtn={sqBtn}
+              {...symbol}
             />
           ))}
         </div>
       )}
-      
-      <p className="relative flex w-full justify-center text-[11px] text-muted-foreground p-1">
+
+      <p
+        className={cn(
+          'relative flex w-full justify-center text-[11px] text-muted-foreground p-1',
+          shouldDisplayOverflow && 'cursor-pointer select-none hover:text-foreground',
+        )}
+        onClick={shouldDisplayOverflow ? toggleOverflow : undefined}
+      >
         {title}
         {shouldDisplayOverflow && (
-          <ArrowDownRight size={12} className="absolute bottom-0.5 right-0.5" />
+          <ArrowDownRight
+            size={12}
+            className={cn('absolute bottom-0.5 right-0.5 transition-transform', overflowOpen && 'rotate-90')}
+          />
         )}
       </p>
     </div>
@@ -156,7 +163,6 @@ const SymbolGroup = memo(function SymbolGroup({
 });
 
 export function ToolPanel() {
-  // Memoize symbol groups to prevent re-creation
   const symbolsGroups = useMemo(() => {
     const { 
       accents, arrows, common_symbols, delimiters, environments,
@@ -210,13 +216,7 @@ export function ToolPanel() {
             <UndoRedo />
             <ThemeToggle />
           </div>
-          <Suspense fallback={
-            <Button variant="outline" className="w-52" disabled>
-              Loading search...
-            </Button>
-          }>
-            <SymbolSearch symbolsGroups={symbolsGroups} />
-          </Suspense>
+          <SymbolSearch symbolsGroups={symbolsGroups} />
         </div>
         
         {allSymbolsGroups.map((symbolsGroup) => {

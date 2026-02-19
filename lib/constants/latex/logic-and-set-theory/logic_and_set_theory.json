@@ -48,16 +48,6 @@
       "val": "\\because "
     },
     {
-      "name": "Empty",
-      "lbl": "\\empty",
-      "val": "\\empty "
-    },
-    {
-      "name": "Exist",
-      "lbl": "\\exist",
-      "val": "\\exist "
-    },
-    {
       "name": "In",
       "lbl": "\\in",
       "val": "\\in "
@@ -81,11 +71,6 @@
       "name": "Nexists",
       "lbl": "\\nexists",
       "val": "\\nexists "
-    },
-    {
-      "name": "Is In",
-      "lbl": "\\isin",
-      "val": "\\isin "
     },
     {
       "name": "Lor",
@@ -114,8 +99,8 @@
     },
     {
       "name": "Not Contains",
-      "lbl": "\\notni",
-      "val": "\\notni "
+      "lbl": "\\not\\ni",
+      "val": "\\not\\ni "
     },
     {
       "name": "Gets",

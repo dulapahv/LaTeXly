@@ -1,5 +1,3 @@
-// src/app/layout.tsx
-import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
@@ -15,6 +13,8 @@ import {
 } from "@/lib/constants/constants";
 import { cn } from "@/lib/utils";
 import { MathJaxProvider } from "@/components/mathjax-provider";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: SITE_NAME,

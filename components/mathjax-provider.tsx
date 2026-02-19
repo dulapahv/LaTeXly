@@ -1,34 +1,63 @@
-'use client';
+"use client";
 
-import { MathJaxContext } from 'better-react-mathjax';
+import { MathJaxContext } from "better-react-mathjax";
+
+const EXTENSIONS = [
+  "ams",
+  "amscd",
+  "bbox",
+  "boldsymbol",
+  "braket",
+  "cancel",
+  "color",
+  "colortbl",
+  "enclose",
+  "extpfeil",
+  "html",
+  "mathtools",
+  "mhchem",
+  "newcommand",
+  "noerrors",
+  "noundefined",
+  "physics",
+  "textmacros",
+  "unicode",
+];
 
 const config = {
-  loader: { load: ['[tex]/html'] },
+  loader: {
+    load: EXTENSIONS.map((ext) => `[tex]/${ext}`),
+  },
   tex: {
-    packages: { '[+]': ['html'] },
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    packages: { "[+]": EXTENSIONS },
+    inlineMath: [
+      ["$", "$"],
+      ["\\(", "\\)"],
+    ],
+    displayMath: [
+      ["$$", "$$"],
+      ["\\[", "\\]"],
+    ],
     processEscapes: true,
     processEnvironments: true,
   },
   options: {
-    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
   },
   startup: {
-    typeset: false, // We'll control when to typeset
-  },
-  chtml: {
-    scale: 1,
-    displayAlign: 'center',
-    displayIndent: '0',
+    typeset: false,
   },
   svg: {
     scale: 1,
-    displayAlign: 'center',
-    displayIndent: '0',
+    displayAlign: "center",
+    displayIndent: "0",
   },
 };
 
 export function MathJaxProvider({ children }: { children: React.ReactNode }) {
-  return <MathJaxContext config={config}>{children}</MathJaxContext>;
+  return (
+    <MathJaxContext config={config} version={3} src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+      {children}
+    </MathJaxContext>
+  );
 }

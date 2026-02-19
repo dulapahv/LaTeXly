@@ -36,24 +36,6 @@
       "caretPos": 10
     },
     {
-      "name": "Overgroup",
-      "lbl": "\\overgroup{AB}",
-      "val": "\\overgroup{}",
-      "caretPos": 11
-    },
-    {
-      "name": "Undergroup",
-      "lbl": "\\undergroup{AB}",
-      "val": "\\undergroup{}",
-      "caretPos": 12
-    },
-    {
-      "name": "Utilde",
-      "lbl": "\\utilde{AB}",
-      "val": "\\utilde{}",
-      "caretPos": 8
-    },
-    {
       "name": "Acute",
       "lbl": "\\acute{a}",
       "val": "\\acute{}",
@@ -78,28 +60,10 @@
       "caretPos": 15
     },
     {
-      "name": "Overleftharpoon",
-      "lbl": "\\overleftharpoon{ac}",
-      "val": "\\overleftharpoon{}",
-      "caretPos": 17
-    },
-    {
-      "name": "Overrightharpoon",
-      "lbl": "\\overrightharpoon{ac}",
-      "val": "\\overrightharpoon{}",
-      "caretPos": 18
-    },
-    {
       "name": "Overline",
       "lbl": "\\overline{AB}",
       "val": "\\overline{}",
       "caretPos": 10
-    },
-    {
-      "name": "Overlinesegment",
-      "lbl": "\\overlinesegment{AB}",
-      "val": "\\overlinesegment{}",
-      "caretPos": 17
     },
     {
       "name": "Overleftrightarrow",
@@ -126,12 +90,6 @@
       "caretPos": 16
     },
     {
-      "name": "Underlinesegment",
-      "lbl": "\\underlinesegment{AB}",
-      "val": "\\underlinesegment{}",
-      "caretPos": 18
-    },
-    {
       "name": "Underleftrightarrow",
       "lbl": "\\underleftrightarrow{AB}",
       "val": "\\underleftrightarrow{}",
@@ -148,12 +106,6 @@
       "lbl": "\\underline{AB}",
       "val": "\\underline{}",
       "caretPos": 11
-    },
-    {
-      "name": "Underbar",
-      "lbl": "\\underbar{X}",
-      "val": "\\underbar{}",
-      "caretPos": 10
     },
     {
       "name": "Breve",
@@ -196,12 +148,6 @@
       "lbl": "\\widehat{ac}",
       "val": "\\widehat{}",
       "caretPos": 9
-    },
-    {
-      "name": "Widecheck",
-      "lbl": "\\widecheck{ac}",
-      "val": "\\widecheck{}",
-      "caretPos": 11
     },
     {
       "name": "Bar",

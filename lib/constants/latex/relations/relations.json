@@ -104,11 +104,6 @@
       "val": "\\sqsupseteq "
     },
     {
-      "name": "ApproxColon",
-      "lbl": "\\approxcolon",
-      "val": "\\approxcolon "
-    },
-    {
       "name": "EqqColonColon",
       "lbl": "\\Eqqcolon",
       "val": "\\Eqqcolon "
@@ -122,11 +117,6 @@
       "name": "Subset",
       "lbl": "\\Subset",
       "val": "\\Subset "
-    },
-    {
-      "name": "ApproxColonColon",
-      "lbl": "\\approxcoloncolon",
-      "val": "\\approxcoloncolon "
     },
     {
       "name": "Eqsim",
@@ -255,8 +245,8 @@
     },
     {
       "name": "Origof",
-      "lbl": "\\origof",
-      "val": "\\origof "
+      "lbl": "\\unicode{x22B6}",
+      "val": "\\unicode{x22B6} "
     },
     {
       "name": "Succeq",
@@ -424,11 +414,6 @@
       "val": "\\vartriangle "
     },
     {
-      "name": "Simcolon",
-      "lbl": "\\simcolon",
-      "val": "\\simcolon "
-    },
-    {
       "name": "Gtrless",
       "lbl": "\\gtrless",
       "val": "\\gtrless "
@@ -442,11 +427,6 @@
       "name": "Vartriangleleft",
       "lbl": "\\vartriangleleft",
       "val": "\\vartriangleleft "
-    },
-    {
-      "name": "Simcoloncolon",
-      "lbl": "\\Colonsim",
-      "val": "\\Colonsim "
     },
     {
       "name": "Gtrsim",
@@ -470,18 +450,13 @@
     },
     {
       "name": "Imageof",
-      "lbl": "\\imageof",
-      "val": "\\imageof "
+      "lbl": "\\unicode{x22B7}",
+      "val": "\\unicode{x22B7} "
     },
     {
       "name": "Shortparallel",
       "lbl": "\\shortparallel",
       "val": "\\shortparallel "
-    },
-    {
-      "name": "Vartriangleleft",
-      "lbl": "\\vartriangleleft",
-      "val": "\\vartriangleleft "
     },
     {
       "name": "Curlyeqprec",
@@ -499,11 +474,6 @@
       "val": "\\sim "
     },
     {
-      "name": "Vartriangleright",
-      "lbl": "\\vartriangleright",
-      "val": "\\vartriangleright "
-    },
-    {
       "name": "Curlyeqsucc",
       "lbl": "\\curlyeqsucc",
       "val": "\\curlyeqsucc "
@@ -514,16 +484,6 @@
       "val": "\\Join "
     },
     {
-      "name": "Simcolon",
-      "lbl": "\\simcolon",
-      "val": "\\simcolon "
-    },
-    {
-      "name": "Vcentcolon",
-      "lbl": "\\vcentcolon",
-      "val": "\\vcentcolon "
-    },
-    {
       "name": "Dashv",
       "lbl": "\\dashv",
       "val": "\\dashv "
@@ -532,11 +492,6 @@
       "name": "Le",
       "lbl": "\\le",
       "val": "\\le "
-    },
-    {
-      "name": "Simcoloncolon",
-      "lbl": "\\simcoloncolon",
-      "val": "\\simcoloncolon "
     },
     {
       "name": "Vdash",

@@ -26,14 +26,14 @@ export function ShareButton() {
           aria-label="Share equation"
         >
           {copied ? (
-            <Check className="h-4 w-4 text-green-500" />
+            <Check className="size-4 text-green-500" />
           ) : (
-            <Share2 className="h-4 w-4" />
+            <Share2 className="size-4" />
           )}
         </Button>
       </TooltipTrigger>
       <TooltipContent>
-        {copied ? 'Link copied!' : 'Share equation'}
+        {copied ? 'URL copied!' : 'Copy URL to this equation'}
       </TooltipContent>
     </Tooltip>
   );

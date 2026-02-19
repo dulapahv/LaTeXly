@@ -44,19 +44,9 @@
       "val": "\\:"
     },
     {
-      "name": "4/18 em Space",
-      "lbl": "A\\medspace B",
-      "val": "\\medspace "
-    },
-    {
       "name": "5/18 em Space",
       "lbl": "A\\;B",
       "val": "\\;"
-    },
-    {
-      "name": "5/18 em Space",
-      "lbl": "A\\thickspace B",
-      "val": "\\thickspace "
     },
     {
       "name": "1/2 em Space",
@@ -122,12 +112,6 @@
       "lbl": "A\\hspace{2pt} B",
       "val": "\\hspace{} ",
       "caretPos": 8
-    },
-    {
-      "name": "HSpace*",
-      "lbl": "A\\hspace*{2pt} B",
-      "val": "\\hspace*{} ",
-      "caretPos": 9
     },
     {
       "name": "Phantom",

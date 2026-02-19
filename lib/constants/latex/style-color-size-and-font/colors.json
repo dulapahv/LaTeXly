@@ -609,12 +609,6 @@
       "caretPos": 17
     },
     {
-      "name": "PapayaWhip",
-      "lbl": "{\\color{PapayaWhip}\\blacksquare}",
-      "val": "{\\color{PapayaWhip} }",
-      "caretPos": 20
-    },
-    {
       "name": "SeaShell",
       "lbl": "{\\color{SeaShell}\\blacksquare}",
       "val": "{\\color{SeaShell} }",
@@ -643,12 +637,6 @@
       "lbl": "{\\color{LightSteelGray}\\blacksquare}",
       "val": "{\\color{LightSteelGray} }",
       "caretPos": 24
-    },
-    {
-      "name": "Lavender",
-      "lbl": "{\\color{Lavender}\\blacksquare}",
-      "val": "{\\color{Lavender} }",
-      "caretPos": 18
     },
     {
       "name": "FloralWhite",

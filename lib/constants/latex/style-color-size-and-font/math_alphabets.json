@@ -82,22 +82,10 @@
       "caretPos": 8
     },
     {
-      "name": "textmd",
-      "lbl": "\\textmd{Ab0}",
-      "val": "\\textmd{}",
-      "caretPos": 8
-    },
-    {
       "name": "mathtt",
       "lbl": "\\mathtt{Ab0}",
       "val": "\\mathtt{}",
       "caretPos": 8
-    },
-    {
-      "name": "bm",
-      "lbl": "\\bm{Ab0}",
-      "val": "\\bm{}",
-      "caretPos": 4
     },
     {
       "name": "boldsymbol",
@@ -131,7 +119,7 @@
     },
     {
       "name": "emph",
-      "lbl": "\\emph{Ab0}",
+      "lbl": "\\textit{Ab0}",
       "val": "\\emph{}",
       "caretPos": 6
     },
@@ -164,12 +152,6 @@
       "lbl": "\\rm{Ab0}",
       "val": "\\rm{}",
       "caretPos": 4
-    },
-    {
-      "name": "bold (Legacy)",
-      "lbl": "\\bold{Ab0}",
-      "val": "\\bold{}",
-      "caretPos": 6
     },
     {
       "name": "cal (Legacy)",

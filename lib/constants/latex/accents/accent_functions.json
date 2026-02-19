@@ -21,12 +21,6 @@
       "caretPos": 9
     },
     {
-      "name": "Double Acute Accent",
-      "lbl": "\\text{\\H{a}}",
-      "val": "\\text{\\H{}}",
-      "caretPos": 9
-    },
-    {
       "name": "Grave Accent",
       "lbl": "\\text{\\`{a}}",
       "val": "\\text{\\`{}}",
@@ -60,12 +54,6 @@
       "name": "Breve",
       "lbl": "\\text{\\u{a}}",
       "val": "\\text{\\u{}}",
-      "caretPos": 9
-    },
-    {
-      "name": "Ring Above",
-      "lbl": "\\text{\\r{a}}",
-      "val": "\\text{\\r{}}",
       "caretPos": 9
     }
   ]

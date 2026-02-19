@@ -13,11 +13,6 @@
       "val": "\\dots "
     },
     {
-      "name": "KaTeX",
-      "lbl": "\\tiny\\KaTeX",
-      "val": "\\KaTeX "
-    },
-    {
       "name": "PercentSign",
       "lbl": "\\%",
       "val": "\\% "
@@ -78,19 +73,9 @@
       "val": "\\infty "
     },
     {
-      "name": "TextUnderscore",
-      "lbl": "\\text{\\textunderscore}",
-      "val": "\\text{\\textunderscore} "
-    },
-    {
       "name": "DotsB",
       "lbl": "\\dotsb",
       "val": "\\dotsb "
-    },
-    {
-      "name": "InfinityAlt",
-      "lbl": "\\infin",
-      "val": "\\infin "
     },
     {
       "name": "TextDash",
@@ -108,24 +93,14 @@
       "val": "\\checkmark "
     },
     {
-      "name": "TextEndash",
-      "lbl": "\\text{\\textendash}",
-      "val": "\\text{\\textendash} "
-    },
-    {
       "name": "Dotsi",
       "lbl": "\\dotsi",
       "val": "\\dotsi "
     },
     {
       "name": "Dagger",
-      "lbl": "\\dag",
+      "lbl": "\\dagger",
       "val": "\\dag "
-    },
-    {
-      "name": "TextEllipsis",
-      "lbl": "\\text{\\textellipsis}",
-      "val": "\\text{\\textellipsis} "
     },
     {
       "name": "Dotsm",
@@ -138,34 +113,9 @@
       "val": "\\dagger "
     },
     {
-      "name": "TextDagger",
-      "lbl": "\\text{\\textdagger}",
-      "val": "\\text{\\textdagger} "
-    },
-    {
-      "name": "TextAsciitilde",
-      "lbl": "\\text{\\textasciitilde}",
-      "val": "\\text{\\textasciitilde} "
-    },
-    {
-      "name": "Sdot",
-      "lbl": "\\sdot",
-      "val": "\\sdot "
-    },
-    {
       "name": "Ddag",
-      "lbl": "\\ddag",
+      "lbl": "\\ddagger",
       "val": "\\ddag "
-    },
-    {
-      "name": "TextAsciicircum",
-      "lbl": "\\text{\\textasciicircum}",
-      "val": "\\text{\\textasciicircum} "
-    },
-    {
-      "name": "Mathellipsis",
-      "lbl": "\\mathellipsis",
-      "val": "\\mathellipsis "
     },
     {
       "name": "Ddoublesign",
@@ -173,24 +123,9 @@
       "val": "\\ddagger "
     },
     {
-      "name": "TextDaggerdbl",
-      "lbl": "\\text{\\textdaggerdbl}",
-      "val": "\\text{\\textdaggerdbl} "
-    },
-    {
-      "name": "Lq",
-      "lbl": "\\lq",
-      "val": "\\lq "
-    },
-    {
       "name": "Box",
       "lbl": "\\Box",
       "val": "\\Box "
-    },
-    {
-      "name": "DaggerSign",
-      "lbl": "\\Dagger",
-      "val": "\\Dagger "
     },
     {
       "name": "Square",
@@ -238,9 +173,9 @@
       "val": "\\triangleright "
     },
     {
-      "name": "TextDollar",
-      "lbl": "\\text{\\textdollar}",
-      "val": "\\text{\\textdollar} "
+      "name": "Dollar",
+      "lbl": "\\$",
+      "val": "\\$ "
     },
     {
       "name": "Colon",
@@ -294,19 +229,9 @@
       "val": "\\blacktriangleright "
     },
     {
-      "name": "SdotAlt",
+      "name": "Surd",
       "lbl": "\\surd",
       "val": "\\surd "
-    },
-    {
-      "name": "Degree",
-      "lbl": "\\degree",
-      "val": "\\degree "
-    },
-    {
-      "name": "TextDegree",
-      "lbl": "\\text{\\textdegree}",
-      "val": "\\text{\\textdegree} "
     },
     {
       "name": "Mho",
@@ -339,11 +264,6 @@
       "val": "\\sharp "
     },
     {
-      "name": "CircledA",
-      "lbl": "\\text{\\textcircled a}",
-      "val": "\\text{\\textcircled a} "
-    },
-    {
       "name": "Maltese",
       "lbl": "\\maltese",
       "val": "\\maltese "
@@ -360,18 +280,8 @@
     },
     {
       "name": "Copyright",
-      "lbl": "\\copyright",
-      "val": "\\copyright "
-    },
-    {
-      "name": "TextRegistered",
-      "lbl": "\\text{\\textregistered}",
-      "val": "\\text{\\textregistered} "
-    },
-    {
-      "name": "TextSterling",
-      "lbl": "\\text{\\textsterling}",
-      "val": "\\text{\\textsterling} "
+      "lbl": "\\text{©}",
+      "val": "\\text{©} "
     },
     {
       "name": "Yen",
@@ -404,29 +314,14 @@
       "val": "\\spadesuit "
     },
     {
-      "name": "Spades",
-      "lbl": "\\spades",
-      "val": "\\spades "
-    },
-    {
       "name": "Heartsuit",
       "lbl": "\\heartsuit",
       "val": "\\heartsuit "
     },
     {
-      "name": "Hearts",
-      "lbl": "\\hearts",
-      "val": "\\hearts "
-    },
-    {
-      "name": "Clubssuit",
+      "name": "Clubsuit",
       "lbl": "\\clubsuit",
       "val": "\\clubsuit "
-    },
-    {
-      "name": "Clubs",
-      "lbl": "\\clubs",
-      "val": "\\clubs "
     },
     {
       "name": "Bigstar",
@@ -439,74 +334,9 @@
       "val": "\\star "
     },
     {
-      "name": "BoxAlt",
-      "lbl": "\\Box",
-      "val": "\\Box "
-    },
-    {
       "name": "Blacksquare",
       "lbl": "\\blacksquare",
       "val": "\\blacksquare "
-    },
-    {
-      "name": "TextAsciitilde",
-      "lbl": "\\text{\\textasciitilde}",
-      "val": "\\text{\\textasciitilde} "
-    },
-    {
-      "name": "TextQuotdblright",
-      "lbl": "\\text{\\textquotedblright}",
-      "val": "\\text{\\textquotedblright} "
-    },
-    {
-      "name": "TextQuotdblleft",
-      "lbl": "\\text{\\textquotedblleft}",
-      "val": "\\text{\\textquotedblleft} "
-    },
-    {
-      "name": "TextQuoteleft",
-      "lbl": "\\text{\\textquoteleft}",
-      "val": "\\text{\\textquoteleft} "
-    },
-    {
-      "name": "TextQuoteright",
-      "lbl": "\\text{\\textquoteright}",
-      "val": "\\text{\\textquoteright} "
-    },
-    {
-      "name": "TextLess",
-      "lbl": "\\text{\\textless}",
-      "val": "\\text{\\textless} "
-    },
-    {
-      "name": "TextGreater",
-      "lbl": "\\text{\\textgreater}",
-      "val": "\\text{\\textgreater} "
-    },
-    {
-      "name": "TextUnderscore",
-      "lbl": "\\text{\\textunderscore}",
-      "val": "\\text{\\textunderscore} "
-    },
-    {
-      "name": "TextAsciicircum",
-      "lbl": "\\text{\\textasciicircum}",
-      "val": "\\text{\\textasciicircum} "
-    },
-    {
-      "name": "TextEllipsis",
-      "lbl": "\\text{\\textellipsis}",
-      "val": "\\text{\\textellipsis} "
-    },
-    {
-      "name": "TextDagger",
-      "lbl": "\\text{\\textdagger}",
-      "val": "\\text{\\textdagger} "
-    },
-    {
-      "name": "Minuso",
-      "lbl": "\\minuso",
-      "val": "\\minuso "
     }
   ]
 }

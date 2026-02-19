@@ -64,11 +64,6 @@
       "val": "\\gcd "
     },
     {
-      "name": "Cosec",
-      "lbl": "\\cosec",
-      "val": "\\cosec "
-    },
-    {
       "name": "Tanh",
       "lbl": "\\tanh",
       "val": "\\tanh "
@@ -109,11 +104,6 @@
       "val": "\\sec "
     },
     {
-      "name": "Cotg",
-      "lbl": "\\cotg",
-      "val": "\\cotg "
-    },
-    {
       "name": "Varliminf",
       "lbl": "\\varliminf",
       "val": "\\varliminf "
@@ -127,11 +117,6 @@
       "name": "Cot",
       "lbl": "\\cot",
       "val": "\\cot "
-    },
-    {
-      "name": "Sh",
-      "lbl": "\\sh",
-      "val": "\\sh "
     },
     {
       "name": "Varlimsup",
@@ -160,18 +145,13 @@
     },
     {
       "name": "Argmin",
-      "lbl": "\\argmin",
-      "val": "\\argmin "
+      "lbl": "\\operatorname*{arg\\,min}",
+      "val": "\\operatorname*{arg\\,min} "
     },
     {
       "name": "Arccos",
       "lbl": "\\arccos",
       "val": "\\arccos "
-    },
-    {
-      "name": "Ch",
-      "lbl": "\\ch",
-      "val": "\\ch "
     },
     {
       "name": "Projlim",
@@ -180,8 +160,8 @@
     },
     {
       "name": "Argmax",
-      "lbl": "\\argmax",
-      "val": "\\argmax "
+      "lbl": "\\operatorname*{arg\\,max}",
+      "val": "\\operatorname*{arg\\,max} "
     },
     {
       "name": "Arctan",
@@ -189,29 +169,14 @@
       "val": "\\arctan "
     },
     {
-      "name": "Ctg",
-      "lbl": "\\ctg",
-      "val": "\\ctg "
-    },
-    {
       "name": "Plim",
-      "lbl": "\\plim",
-      "val": "\\plim "
+      "lbl": "\\operatorname{plim}",
+      "val": "\\operatorname{plim} "
     },
     {
       "name": "Sup",
       "lbl": "\\sup",
       "val": "\\sup "
-    },
-    {
-      "name": "Arctg",
-      "lbl": "\\arctg",
-      "val": "\\arctg "
-    },
-    {
-      "name": "Cth",
-      "lbl": "\\cth",
-      "val": "\\cth "
     },
     {
       "name": "Dim",
@@ -222,16 +187,6 @@
       "name": "Pr",
       "lbl": "\\Pr",
       "val": "\\Pr "
-    },
-    {
-      "name": "Arcctg",
-      "lbl": "\\arcctg",
-      "val": "\\arcctg "
-    },
-    {
-      "name": "Tg",
-      "lbl": "\\tg",
-      "val": "\\tg "
     },
     {
       "name": "Hom",
@@ -249,11 +204,6 @@
       "val": "\\arg "
     },
     {
-      "name": "Th",
-      "lbl": "\\th",
-      "val": "\\th "
-    },
-    {
       "name": "Ker",
       "lbl": "\\ker",
       "val": "\\ker "
@@ -269,12 +219,6 @@
       "lbl": "\\operatorname*{f}",
       "val": "\\operatorname*{} ",
       "caretPos": 15
-    },
-    {
-      "name": "OperatorWithLimitsAlt",
-      "lbl": "\\operatornamewithlimits{f}",
-      "val": "\\operatornamewithlimits{} ",
-      "caretPos": 24
     }
   ]
 }
