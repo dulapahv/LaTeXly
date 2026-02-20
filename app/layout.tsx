@@ -84,7 +84,7 @@ export default function RootLayout({
       className={cn(GeistSans.variable, GeistMono.variable)}
       suppressHydrationWarning
     >
-      <body className="min-h-screen min-w-[768px] overflow-y-hidden antialiased">
+      <body className="min-h-screen overflow-hidden antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

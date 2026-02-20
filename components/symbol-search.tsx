@@ -47,7 +47,7 @@ export function SymbolSearch({ symbolsGroups }: SymbolSearchProps) {
         id="symbol-search-trigger"
         onClick={() => setOpen(true)}
         variant="outline"
-        className="w-52 justify-start text-muted-foreground"
+        className="flex-1 justify-start text-muted-foreground sm:flex-none sm:w-52"
       >
         <Search className="mr-2 size-4" />
         Search symbols...

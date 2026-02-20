@@ -100,7 +100,7 @@ export function EditorPanel() {
     resolvedTheme === "dark" ? "latex-dark" : "latex-light";
 
   return (
-    <div className="h-full overflow-hidden border-r border-border">
+    <div className="h-full overflow-hidden">
       <MonacoEditor
         language="latex"
         theme={themeName}
