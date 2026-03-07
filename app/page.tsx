@@ -7,6 +7,7 @@ import { EditorPanel } from "@/components/editor-panel";
 import { LaTeXPanel } from "@/components/latex-panel";
 import { ToolPanel } from "@/components/tool-panel";
 import { ActionButtons } from "@/components/action-buttons";
+import { ZoomButtons } from "@/components/zoom-buttons";
 import { useKeyboardShortcuts } from "@/hooks/use-keyboard-shortcuts";
 import { useUrlEquation } from "@/hooks/use-url-equation";
 import { cn } from "@/lib/utils";
@@ -38,6 +39,9 @@ function HomeContent() {
         </div>
         <div className="relative flex-1 min-h-0">
           <LaTeXPanel />
+          <div className="absolute bottom-4 left-4">
+            <ZoomButtons />
+          </div>
           <div className="absolute bottom-4 right-4">
             <ActionButtons />
           </div>
@@ -54,6 +58,9 @@ function HomeContent() {
             </div>
             <div className="relative shrink-0 h-48 border-t border-border">
               <LaTeXPanel />
+              <div className="absolute bottom-2 left-2">
+                <ZoomButtons />
+              </div>
               <div className="absolute bottom-2 right-2">
                 <ActionButtons />
               </div>
