@@ -7,7 +7,15 @@ const nextConfig: NextConfig = {
   experimental: {
     typedEnv: true,
     viewTransition: true,
-    turbopackFileSystemCacheForDev: true,
+    inlineCss: true,
+    turbopackFileSystemCacheForBuild: true,
+    browserDebugInfoInTerminal: true,
+    optimizePackageImports: [
+      '@monaco-editor/react',
+      'monaco-editor',
+      'mathjax',
+      'better-react-mathjax',
+    ],
   },
 };
 
