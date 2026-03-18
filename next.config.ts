@@ -4,12 +4,14 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   poweredByHeader: false,
   typedRoutes: true,
+  logging: {
+    browserToTerminal: true,
+  },
   experimental: {
     typedEnv: true,
     viewTransition: true,
     inlineCss: true,
     turbopackFileSystemCacheForBuild: true,
-    browserDebugInfoInTerminal: true,
     optimizePackageImports: [
       '@monaco-editor/react',
       'monaco-editor',
