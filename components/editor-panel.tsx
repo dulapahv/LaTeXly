@@ -55,7 +55,7 @@ export function EditorPanel() {
     }
   }, [equation]);
 
-  function handleEditorDidMount(editorInstance: editor.IStandaloneCodeEditor) {
+  function handleEditorDidMount(editorInstance: editor.IStandaloneCodeEditor, monaco: typeof import("monaco-editor")) {
     editorRef.current = editorInstance;
     monacoEditorRef = editorInstance;
 
@@ -68,6 +68,11 @@ export function EditorPanel() {
     updatePlaceholder(editorInstance);
     editorInstance.onDidChangeModelContent(() => {
       updatePlaceholder(editorInstance);
+    });
+
+    // Remeasure fonts once variable fonts finish loading to fix caret alignment
+    document.fonts.ready.then(() => {
+      monaco.editor.remeasureFonts();
     });
   }
 
