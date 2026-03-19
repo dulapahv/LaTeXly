@@ -1,5 +1,3 @@
-"use client";
-
 import { useRef, useMemo } from "react";
 import { MathJax } from "better-react-mathjax";
 import { useEquationStore } from "@/store/equation-store";

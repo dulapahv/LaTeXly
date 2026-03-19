@@ -1,18 +1,15 @@
-"use client";
-
 import { useEffect, useCallback, useRef } from "react";
-import { useSearchParams } from "next/navigation";
 import { useEquationStore } from "@/store/equation-store";
 
 export function useUrlEquation() {
-  const searchParams = useSearchParams();
   const { equation, setEquation } = useEquationStore();
   const isInitialized = useRef(false);
-  const updateTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const updateTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (!isInitialized.current) {
-      const urlEquation = searchParams.get("eq");
+      const params = new URLSearchParams(window.location.search);
+      const urlEquation = params.get("eq");
       if (urlEquation) {
         try {
           const decoded = decodeBase64Url(urlEquation);
@@ -23,7 +20,7 @@ export function useUrlEquation() {
       }
       isInitialized.current = true;
     }
-  }, [searchParams, setEquation]);
+  }, [setEquation]);
 
   useEffect(() => {
     if (updateTimeoutRef.current) {
@@ -31,7 +28,7 @@ export function useUrlEquation() {
     }
 
     updateTimeoutRef.current = setTimeout(() => {
-      const params = new URLSearchParams(searchParams.toString());
+      const params = new URLSearchParams(window.location.search);
 
       if (equation) {
         params.set("eq", encodeBase64Url(equation));
@@ -39,7 +36,7 @@ export function useUrlEquation() {
         params.delete("eq");
       }
 
-      const newUrl = params.toString() ? `?${params.toString()}` : "/";
+      const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname;
       window.history.replaceState(null, "", newUrl);
     }, 500);
 
@@ -48,7 +45,7 @@ export function useUrlEquation() {
         clearTimeout(updateTimeoutRef.current);
       }
     };
-  }, [equation, searchParams]);
+  }, [equation]);
 
   const shareEquation = useCallback(async () => {
     const params = new URLSearchParams();

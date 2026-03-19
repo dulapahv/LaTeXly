@@ -1,5 +1,3 @@
-'use client';
-
 import { useState, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import { MathJax } from 'better-react-mathjax';

@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { Check, ClipboardCopy, Download, FileImage, FileCode, Link, Loader } from "lucide-react";
 import { Button } from "@/components/ui/button";

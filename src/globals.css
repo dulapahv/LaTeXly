@@ -45,6 +45,8 @@
 
 :root {
   --radius: 0.625rem;
+  --font-geist-sans: "Geist Variable", system-ui, sans-serif;
+  --font-geist-mono: "Geist Mono Variable", monospace;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);

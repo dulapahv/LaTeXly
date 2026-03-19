@@ -1,5 +1,3 @@
-"use client";
-
 import { MathJaxContext } from "better-react-mathjax";
 
 const EXTENSIONS = [

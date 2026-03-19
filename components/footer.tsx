@@ -1,5 +1,3 @@
-'use client';
-
 import { MathJax } from 'better-react-mathjax';
 import { GITHUB_REPO, LATEXLY, USERNAME, VERSION } from '@/lib/constants/constants';
 

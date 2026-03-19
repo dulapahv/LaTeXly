@@ -1,8 +1,8 @@
-"use client";
-
-import { useState } from "react";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import { Code2, LayoutGrid } from "lucide-react";
+import { ThemeProvider } from "@/components/theme-provider";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { MathJaxProvider } from "@/components/mathjax-provider";
 import { EditorPanel } from "@/components/editor-panel";
 import { LaTeXPanel } from "@/components/latex-panel";
 import { ToolPanel } from "@/components/tool-panel";
@@ -98,16 +98,27 @@ function HomeContent() {
   );
 }
 
-export default function Home() {
+export function App() {
   return (
-    <Suspense
-      fallback={
-        <div className="flex h-dvh items-center justify-center">
-          <div className="animate-pulse">Loading...</div>
-        </div>
-      }
+    <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange
     >
-      <HomeContent />
-    </Suspense>
+      <TooltipProvider delayDuration={200}>
+        <MathJaxProvider>
+          <Suspense
+            fallback={
+              <div className="flex h-dvh items-center justify-center">
+                <div className="animate-pulse">Loading...</div>
+              </div>
+            }
+          >
+            <HomeContent />
+          </Suspense>
+        </MathJaxProvider>
+      </TooltipProvider>
+    </ThemeProvider>
   );
 }

@@ -1,5 +1,3 @@
-'use client';
-
 import { MathJax } from 'better-react-mathjax';
 
 interface SymbolDisplayProps {
