@@ -38,16 +38,14 @@ const SymbolButton = memo(function SymbolButton({
         <Button
           onClick={handleClick}
           className={cn(
-            'symbol-btn rounded transition-none',
-            sqBtn
-              ? 'size-9 p-0 overflow-hidden'
-              : 'h-auto px-2 py-1.5 text-base',
+            'symbol-btn rounded transition-none overflow-hidden',
+            sqBtn ? 'size-9 p-0' : 'h-auto px-2 py-1 text-sm',
           )}
           size={sqBtn ? 'icon' : 'sm'}
           variant="ghost"
           aria-label={name}
         >
-          <div className={sqBtn ? 'scale-125' : ''}>
+          <div className="scale-125">
             <MathJax
               inline={!isBlkMath}
               hideUntilTypeset="first"
@@ -101,7 +99,7 @@ const SymbolGroup = memo(function SymbolGroup({
   const gridStyle = useMemo(() => ({
     gridTemplateColumns: sqBtn
       ? `repeat(${dispLen}, 2.25rem)`
-      : `repeat(${dispLen}, auto)`,
+      : `repeat(${dispLen}, 2rem)`,
   }), [dispLen, sqBtn]);
 
   const visibleSymbols = useMemo(() => symbols.slice(0, dispLen), [symbols, dispLen]);
