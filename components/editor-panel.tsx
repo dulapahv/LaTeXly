@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect, useMemo, useRef } from "react";
 import { useTheme } from "next-themes";
 import { useEquationStore } from "@/store/equation-store";
-import { debounce } from "@/lib/utils";
+import { debounce, registerMonacoEditorGetter } from "@/lib/utils";
 import {
   LATEX_LANGUAGE_ID,
   languageConfiguration,
@@ -23,6 +23,8 @@ let monacoEditorRef: editor.IStandaloneCodeEditor | undefined;
 export function getMonacoEditor() {
   return monacoEditorRef;
 }
+
+registerMonacoEditorGetter(getMonacoEditor);
 
 const EDITOR_PLACEHOLDER =
   "Enter a LaTeX equation... e.g. e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)";

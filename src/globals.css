@@ -140,4 +140,9 @@
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-muted-foreground/50;
   }
+
+  /* Allow MathJax SVGs in symbol buttons to render at their natural size */
+  .symbol-btn svg {
+    @apply size-auto!;
+  }
 }

@@ -20,47 +20,46 @@ export function debounce<T extends (...args: never[]) => void>(
   return debounced as T & { cancel: () => void };
 }
 
+type MonacoEditor = import("monaco-editor").editor.IStandaloneCodeEditor;
+
+let monacoEditorGetter: (() => MonacoEditor | undefined) | undefined;
+
+export function registerMonacoEditorGetter(getter: () => MonacoEditor | undefined) {
+  monacoEditorGetter = getter;
+}
+
 export function insertToEditor(
   value: string,
   moveCaret: boolean = true,
   caretPos: number = 0,
 ) {
-  try {
-    const { getMonacoEditor } = require("@/components/editor-panel") as {
-      getMonacoEditor: () =>
-        | import("monaco-editor").editor.IStandaloneCodeEditor
-        | undefined;
-    };
-    const monacoEditor = getMonacoEditor();
-    if (monacoEditor) {
-      monacoEditor.focus();
-      const selection = monacoEditor.getSelection();
-      if (selection) {
-        const id = { major: 1, minor: 1 };
-        const op = {
-          identifier: id,
-          range: selection,
-          text: value,
-          forceMoveMarkers: true,
-        };
-        monacoEditor.executeEdits("insertToEditor", [op]);
+  const monacoEditor = monacoEditorGetter?.();
+  if (monacoEditor) {
+    monacoEditor.focus();
+    const selection = monacoEditor.getSelection();
+    if (selection) {
+      const id = { major: 1, minor: 1 };
+      const op = {
+        identifier: id,
+        range: selection,
+        text: value,
+        forceMoveMarkers: true,
+      };
+      monacoEditor.executeEdits("insertToEditor", [op]);
 
-        if (moveCaret) {
-          const model = monacoEditor.getModel();
-          if (model) {
-            const insertedText = value.substring(0, caretPos || value.length);
-            const newPos = model.getPositionAt(
-              model.getOffsetAt(selection.getStartPosition()) +
-                insertedText.length,
-            );
-            monacoEditor.setPosition(newPos);
-          }
+      if (moveCaret) {
+        const model = monacoEditor.getModel();
+        if (model) {
+          const insertedText = value.substring(0, caretPos || value.length);
+          const newPos = model.getPositionAt(
+            model.getOffsetAt(selection.getStartPosition()) +
+              insertedText.length,
+          );
+          monacoEditor.setPosition(newPos);
         }
       }
-      return;
     }
-  } catch {
-    // Monaco not available, fall through to textarea
+    return;
   }
 
   const editor = document.getElementById("editor") as HTMLTextAreaElement;
