@@ -111,7 +111,7 @@ export function App() {
           <Suspense
             fallback={
               <div className="flex h-dvh items-center justify-center">
-                <div className="animate-pulse">Loading...</div>
+                Loading LaTeXly...
               </div>
             }
           >
