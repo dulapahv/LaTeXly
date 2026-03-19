@@ -19,7 +19,7 @@ export function ThemeToggle() {
   if (!mounted) {
     return (
       <Button size="icon" variant="ghost" disabled aria-label="Loading theme">
-        <div className="size-4 rounded-full bg-muted" />
+        <div className="size-4 animate-pulse rounded-full bg-muted" />
       </Button>
     );
   }
