@@ -134,6 +134,7 @@ export function EditorPanel() {
               verticalScrollbarSize: 8,
               horizontalScrollbarSize: 8,
             },
+            suggest: { snippetsPreventQuickSuggestions: true },
             bracketPairColorization: { enabled: true },
             autoClosingBrackets: "always",
             autoClosingQuotes: "always",

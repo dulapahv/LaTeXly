@@ -36,10 +36,24 @@ function getActiveEditor(): MonacoEditor | undefined {
 }
 
 function toSnippet(value: string): string | null {
-  if (!value.includes("{}")) return null;
+  const hasBraces = value.includes("{}");
+  const hasDoubleSpace = !hasBraces && value.includes("  ");
+  if (!hasBraces && !hasDoubleSpace) return null;
+
   let tabStop = 1;
-  // Escape $ signs for snippet syntax, then convert empty {} to tab stops
-  return value.replace(/\$/g, "\\$").replace(/\{\}/g, () => `{\${${tabStop++}}}`);
+
+  // Escape snippet special characters
+  let snippet = value
+    .replace(/\\/g, "\\\\")
+    .replace(/\$/g, "\\$");
+
+  if (hasBraces) {
+    snippet = snippet.replace(/\{\}/g, () => `{\${${tabStop++}}}`);
+  } else {
+    snippet = snippet.replace(/  /g, () => ` \${${tabStop++}} `);
+  }
+
+  return snippet;
 }
 
 export function insertToEditor(

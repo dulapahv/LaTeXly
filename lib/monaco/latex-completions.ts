@@ -80,12 +80,22 @@ function buildCompletions(
       if (!val || seen.has(val)) continue;
       seen.add(val);
 
-      // Convert empty {} pairs to snippet tab stops for cursor positioning
+      // Convert empty {} pairs or double-space placeholders to snippet tab stops
       let insertText = val;
       let insertTextRules: number | undefined;
       if (val.includes("{}")) {
         let tabStop = 1;
-        insertText = val.replace(/\{\}/g, () => `{\${${tabStop++}}}`);
+        insertText = val
+          .replace(/\\/g, "\\\\")
+          .replace(/\$/g, "\\$")
+          .replace(/\{\}/g, () => `{\${${tabStop++}}}`);
+        insertTextRules = 4; // InsertAsSnippet
+      } else if (val.includes("  ")) {
+        let tabStop = 1;
+        insertText = val
+          .replace(/\\/g, "\\\\")
+          .replace(/\$/g, "\\$")
+          .replace(/  /g, () => ` \${${tabStop++}} `);
         insertTextRules = 4; // InsertAsSnippet
       }
 
@@ -318,7 +328,7 @@ function buildCompletions(
 
 export function createCompletionProvider(): languages.CompletionItemProvider {
   return {
-    triggerCharacters: ["\\"],
+    triggerCharacters: ["\\", "{"],
     provideCompletionItems(
       model: editor.ITextModel,
       position: Position,
@@ -335,11 +345,19 @@ export function createCompletionProvider(): languages.CompletionItemProvider {
         startColumn = backslashIndex + 1;
       }
 
+      // Extend past auto-closed brackets so completions don't leave stray }
+      let endColumn = position.column;
+      const afterCursor = lineContent.substring(position.column - 1);
+      const trailingBraces = afterCursor.match(/^\}+/);
+      if (trailingBraces) {
+        endColumn += trailingBraces[0].length;
+      }
+
       const range: IRange = {
         startLineNumber: position.lineNumber,
         endLineNumber: position.lineNumber,
         startColumn,
-        endColumn: position.column,
+        endColumn,
       };
 
       return {
