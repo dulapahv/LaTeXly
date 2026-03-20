@@ -1,5 +1,6 @@
 import { useEffect, useCallback, useRef } from "react";
 import { useEquationStore } from "@/store/equation-store";
+import LZString from "lz-string";
 
 export function useUrlEquation() {
   const { equation, setEquation } = useEquationStore();
@@ -12,7 +13,7 @@ export function useUrlEquation() {
       const urlEquation = params.get("eq");
       if (urlEquation) {
         try {
-          const decoded = decodeBase64Url(urlEquation);
+          const decoded = decodeEquationFromUrl(urlEquation);
           setEquation(decoded);
         } catch (error) {
           console.error("Failed to decode equation from URL:", error);
@@ -31,7 +32,7 @@ export function useUrlEquation() {
       const params = new URLSearchParams(window.location.search);
 
       if (equation) {
-        params.set("eq", encodeBase64Url(equation));
+        params.set("eq", encodeEquationForUrl(equation));
       } else {
         params.delete("eq");
       }
@@ -50,7 +51,7 @@ export function useUrlEquation() {
   const shareEquation = useCallback(async () => {
     const params = new URLSearchParams();
     if (equation) {
-      params.set("eq", encodeBase64Url(equation));
+      params.set("eq", encodeEquationForUrl(equation));
     }
 
     const shareUrl = `${window.location.origin}${
@@ -64,18 +65,10 @@ export function useUrlEquation() {
   return { shareEquation };
 }
 
-function encodeBase64Url(str: string): string {
-  return btoa(encodeURIComponent(str))
-    .replace(/\+/g, "-")
-    .replace(/\//g, "_")
-    .replace(/=+$/, "");
+function encodeEquationForUrl(str: string): string {
+  return LZString.compressToEncodedURIComponent(str);
 }
 
-function decodeBase64Url(str: string): string {
-  const base64 = str
-    .replace(/-/g, "+")
-    .replace(/_/g, "/")
-    .padEnd(str.length + ((4 - (str.length % 4)) % 4), "=");
-
-  return decodeURIComponent(atob(base64));
+function decodeEquationFromUrl(str: string): string {
+  return LZString.decompressFromEncodedURIComponent(str) ?? "";
 }
