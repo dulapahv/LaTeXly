@@ -21,11 +21,25 @@ export function debounce<T extends (...args: never[]) => void>(
 }
 
 type MonacoEditor = import("monaco-editor").editor.IStandaloneCodeEditor;
+type Monaco = typeof import("monaco-editor");
 
-let monacoEditorGetter: (() => MonacoEditor | undefined) | undefined;
+let monacoRef: Monaco | undefined;
 
-export function registerMonacoEditorGetter(getter: () => MonacoEditor | undefined) {
-  monacoEditorGetter = getter;
+export function registerMonaco(monaco: Monaco) {
+  monacoRef = monaco;
+}
+
+function getActiveEditor(): MonacoEditor | undefined {
+  if (!monacoRef) return undefined;
+  const editors = monacoRef.editor.getEditors();
+  return editors.find((e) => e.hasWidgetFocus()) ?? editors[0];
+}
+
+function toSnippet(value: string): string | null {
+  if (!value.includes("{}")) return null;
+  let tabStop = 1;
+  // Escape $ signs for snippet syntax, then convert empty {} to tab stops
+  return value.replace(/\$/g, "\\$").replace(/\{\}/g, () => `{\${${tabStop++}}}`);
 }
 
 export function insertToEditor(
@@ -33,11 +47,24 @@ export function insertToEditor(
   moveCaret: boolean = true,
   caretPos: number = 0,
 ) {
-  const monacoEditor = monacoEditorGetter?.();
+  const monacoEditor = getActiveEditor();
   if (monacoEditor) {
     monacoEditor.focus();
+
+    // Use snippet insertion for values with empty {} pairs
+    const snippet = moveCaret ? toSnippet(value) : null;
+    if (snippet) {
+      const snippetController = monacoEditor.getContribution("snippetController2") as
+        { insert(snippet: string): void } | null;
+      if (snippetController) {
+        snippetController.insert(snippet);
+        return;
+      }
+    }
+
     const selection = monacoEditor.getSelection();
     if (selection) {
+      const model = monacoEditor.getModel();
       const id = { major: 1, minor: 1 };
       const op = {
         identifier: id,
@@ -45,18 +72,15 @@ export function insertToEditor(
         text: value,
         forceMoveMarkers: true,
       };
-      monacoEditor.executeEdits("insertToEditor", [op]);
 
-      if (moveCaret) {
-        const model = monacoEditor.getModel();
-        if (model) {
-          const insertedText = value.substring(0, caretPos || value.length);
-          const newPos = model.getPositionAt(
-            model.getOffsetAt(selection.getStartPosition()) +
-              insertedText.length,
-          );
-          monacoEditor.setPosition(newPos);
-        }
+      if (moveCaret && model) {
+        const startOffset = model.getOffsetAt(selection.getStartPosition());
+        const targetOffset = startOffset + (caretPos || value.length);
+        monacoEditor.executeEdits("insertToEditor", [op]);
+        const newPos = model.getPositionAt(targetOffset);
+        monacoEditor.setPosition(newPos);
+      } else {
+        monacoEditor.executeEdits("insertToEditor", [op]);
       }
     }
     return;

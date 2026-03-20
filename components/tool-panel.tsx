@@ -30,12 +30,17 @@ const SymbolButton = memo(function SymbolButton({
     insertToEditor(val, true, caretPos);
   }, [val, caretPos]);
 
+  const preventFocusSteal = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+  }, []);
+
   const mathContent = isBlkMath ? `\\[${lbl}\\]` : `\\(${lbl}\\)`;
 
   return (
     <Tooltip delayDuration={300}>
       <TooltipTrigger asChild>
         <Button
+          onMouseDown={preventFocusSteal}
           onClick={handleClick}
           className={cn(
             'symbol-btn rounded transition-none overflow-hidden',

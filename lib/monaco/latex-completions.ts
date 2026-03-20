@@ -80,12 +80,21 @@ function buildCompletions(
       if (!val || seen.has(val)) continue;
       seen.add(val);
 
-      // Use Monaco CompletionItemKind.Function = 1
+      // Convert empty {} pairs to snippet tab stops for cursor positioning
+      let insertText = val;
+      let insertTextRules: number | undefined;
+      if (val.includes("{}")) {
+        let tabStop = 1;
+        insertText = val.replace(/\{\}/g, () => `{\${${tabStop++}}}`);
+        insertTextRules = 4; // InsertAsSnippet
+      }
+
       items.push({
         label: val,
         kind: 1,
         detail: `${symbol.name} (${group.title})`,
-        insertText: val,
+        insertText,
+        insertTextRules,
         range,
       });
     }
@@ -295,6 +304,7 @@ function buildCompletions(
   ];
 
   for (const snippet of snippets) {
+    if (seen.has(snippet.label)) continue;
     items.push({
       ...snippet,
       kind: 27, // CompletionItemKind.Snippet
