@@ -95,7 +95,7 @@ function buildCompletions(
         insertText = val
           .replace(/\\/g, "\\\\")
           .replace(/\$/g, "\\$")
-          .replace(/  /g, () => ` \${${tabStop++}} `);
+          .replace(/ {2}/g, () => ` \${${tabStop++}} `);
         insertTextRules = 4; // InsertAsSnippet
       }
 

@@ -20,7 +20,7 @@ export function debounce<T extends (...args: never[]) => void>(
   return debounced as T & { cancel: () => void };
 }
 
-type MonacoEditor = import("monaco-editor").editor.IStandaloneCodeEditor;
+type MonacoEditor = import("monaco-editor").editor.ICodeEditor;
 type Monaco = typeof import("monaco-editor");
 
 let monacoRef: Monaco | undefined;
@@ -50,7 +50,7 @@ function toSnippet(value: string): string | null {
   if (hasBraces) {
     snippet = snippet.replace(/\{\}/g, () => `{\${${tabStop++}}}`);
   } else {
-    snippet = snippet.replace(/  /g, () => ` \${${tabStop++}} `);
+    snippet = snippet.replace(/ {2}/g, () => ` \${${tabStop++}} `);
   }
 
   return snippet;
